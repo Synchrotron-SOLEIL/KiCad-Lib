@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0  Date: 20/12/2011 16:44:52
 #
 $CMP CPCI-J1
-D CPCI TYPE A connector
+D CPCI TYPE A connector ; press-fit
 K CPCI connector
 $ENDCMP
 #

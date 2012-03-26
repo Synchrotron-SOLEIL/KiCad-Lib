@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0  Date: 20/12/2011 16:51:30
 #
 $CMP 74ABT541BDW
-D 8bits Buffer/Line Driver 3 state Out
+D 8bits Buffer/Line Driver 3 state Out ; SOIC20MS
 K TTL BUFFER 3State BUS
 $ENDCMP
 #
@@ -11,7 +11,7 @@ K HCTMOS not inv
 $ENDCMP
 #
 $CMP 74LVC1G17DBVR
-D Single schmitt trigger buffer
+D Single schmitt trigger buffer ; SOIC14MS
 K buffer schmitt
 $ENDCMP
 #

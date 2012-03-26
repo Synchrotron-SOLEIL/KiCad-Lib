@@ -1,17 +1,17 @@
 EESchema-DOCLIB  Version 2.0  Date: 18/03/2012 01:30:44
 #
 $CMP 742792116
-D Ferrite ; SMT 1206 ; 500 Ohm at 100 MHz ; 2.5 A
+D Ferrite ; SMT 1206 ; 500 Ohm at 100 MHz ; 2.5 A ; 1206
 K ferrite
 $ENDCMP
 #
 $CMP 74792093
-D Ferrite ; SMT 0805 ; 2k2 Ohm at 100 MHz ; 200 mA
+D Ferrite ; SMT 0805 ; 2k2 Ohm at 100 MHz ; 200 mA ; 0805
 K ferrite
 $ENDCMP
 #
 $CMP NFM55PC155F1H4L
-D Capacitor filter ; SMT 2220 ; 6A ; 50 Vdc ; -80dB at 10MHz
+D Capacitor filter ; SMT 2220 ; 6A ; 50 Vdc ; -80dB at 10MHz ; SMD NFM55P
 K filter
 $ENDCMP
 #

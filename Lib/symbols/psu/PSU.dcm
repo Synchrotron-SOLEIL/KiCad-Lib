@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0  Date: 26/03/2012 14:10:54
+#
+$CMP LP3883ES-1.2
+D Ultra low dropout linear regulator 3A ; IN = 5V ; OUT = 1V2
+K ldo regulator
+$ENDCMP
+#
+$CMP LTC2908CTS8-A1
+D Six inputs supply monitor
+K monitor reset
+$ENDCMP
+#
+#End Doc Library

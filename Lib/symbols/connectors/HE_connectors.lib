@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3  Date: 20/12/2011 16:33:50
+#encoding utf-8
+#
+# HE-13-6
+#
+DEF HE-13-6 J 0 40 Y N 1 F N
+F0 "J" -450 350 60 H V C CNN
+F1 "HE-13-6" -300 250 60 H V C CNN
+F2 "SOLEIL-HE-13-6" -900 50 60 H I C CNN
+F4 "-" -1250 -50 60 H I C CNN "Manufacturer"
+F5 "-" -1250 -150 60 H I C CNN "Manufacturer ref"
+F6 "-" -1250 -250 60 H I C CNN "Supplier"
+F7 "-" -1250 -350 60 H I C CNN "Supplier ref"
+F8 "1" -500 150 60 H V C CNN "Qty"
+F9 "-" -1250 -450 60 H I C CNN "Desc1"
+F10 "-" -1250 -550 60 H I C CNN "Desc2"
+F11 "-" -1250 -650 60 H I C CNN "Desc3"
+F12 "HE-13-6" -1050 -750 60 H I C CNN "Case"
+DRAW
+S -300 100 -500 -600 0 1 0 N
+X 1 1 0 0 300 L 50 50 1 1 P
+X 2 2 0 -100 300 L 50 50 1 1 P
+X 3 3 0 -200 300 L 50 50 1 1 P
+X 4 4 0 -300 300 L 50 50 1 1 P
+X 5 5 0 -400 300 L 50 50 1 1 P
+X 6 6 0 -500 300 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0  Date: 18/03/2012 01:30:09
+#
+$CMP FXO-HC736R-25MHZ
+D Oscillator ; HCMOS ; 3V3 ; 25MHz ; SMD 
+K oscillator
+$ENDCMP
+#
+$CMP FXO-HC736R-50MHZ
+D Oscillator ; HCMOS ; 3V3 ; 25MHz ; SMD 
+K oscillator
+$ENDCMP
+#
+#End Doc Library

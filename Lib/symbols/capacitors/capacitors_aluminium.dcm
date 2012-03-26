@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0  Date: 15/03/2012 14:24:40
+#
+$CMP 100uF-16V-20p-Al-TypeE
+D Capacitor ; Al electolytic ; 16 V ; 100 uF ; 20% ; type E
+K Capacitor 100uF 16V
+$ENDCMP
+#
+$CMP 10uF-16V-20p-Al-TypeB
+D Capacitor ; Al electolytic ; 16 V ; 10 uF ; 20% ; type B
+K Capacitor 10uF 16V
+$ENDCMP
+#
+#End Doc Library

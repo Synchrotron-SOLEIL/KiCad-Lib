@@ -1,0 +1,73 @@
+EESchema-DOCLIB  Version 2.0  Date: 23/03/2012 16:45:00
+#
+$CMP 0R-0.125W-1P-0805
+D Resistor ; 0 Ohm ; 0.125W ; 1% ; 0805
+K Resistor 0R
+$ENDCMP
+#
+$CMP 100K-0.125W-1P-0805
+D Resistor ; 100 kOhm ; 0.125W ; 1% ; 0805
+K Resistor 100K
+$ENDCMP
+#
+$CMP 100R-0.125W-1P-0805
+D Resistor ; 100 Ohm ; 0.125W ; 1% ; 0805
+K Resistor 100R
+$ENDCMP
+#
+$CMP 10K-0.125W-1P-0805
+D Resistor ; 10 kOhm ; 0.125W ; 1% ; 0805
+K Resistor 10K
+$ENDCMP
+#
+$CMP 124K-0.125W-1P-0805
+D Resistor ; 124 kOhm ; 0.125W ; 1% ; 0805
+K Resistor 124K
+$ENDCMP
+#
+$CMP 180R-0.125W-1P-0805
+D Resistor ; 180 Ohm ; 0.125W ; 1% ; 0805
+K Resistor 180R
+$ENDCMP
+#
+$CMP 1K-0.125W-1P-0805
+D Resistor ; 1 kOhm ; 0.125W ; 1% ; 0805
+K Resistor 1K
+$ENDCMP
+#
+$CMP 1K5-0.125W-1P-0805
+D Resistor ; 1.5 kOhm ; 0.125W ; 1% ; 0805
+K Resistor 1K5
+$ENDCMP
+#
+$CMP 220R-0.125W-1P-0805
+D Resistor ; 220 Ohm ; 0.125W ; 1% ; 0805
+K Resistor 220R
+$ENDCMP
+#
+$CMP 330R-0.125W-1P-0805
+D Resistor ; 330 Ohm ; 0.125W ; 1% ; 0805
+K Resistor 330R
+$ENDCMP
+#
+$CMP 4K7-0.125W-1P-0805
+D Resistor ; 4.7 kOhm ; 0.125W ; 1% ; 0805
+K Resistor 4K7
+$ENDCMP
+#
+$CMP 511K-0.125W-1P-0805
+D Resistor ; 511 kOhm ; 0.125W ; 1% ; 0805
+K Resistor 511K
+$ENDCMP
+#
+$CMP 560R-0.125W-1P-0805
+D Resistor ; 560 Ohm ; 0.125W ; 1% ; 0805
+K Resistor 560R
+$ENDCMP
+#
+$CMP 5K62-0.125W-1P-0805
+D Resistor ; 5.62 kOhm ; 0.125W ; 1% ; 0805
+K Resistor 5K62
+$ENDCMP
+#
+#End Doc Library

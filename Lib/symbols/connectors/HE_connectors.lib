@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: 20/12/2011 16:33:50
+EESchema-LIBRARY Version 2.3  Date: 11/05/2012 11:49:23
 #encoding utf-8
 #
 # HE-13-6
@@ -15,7 +15,9 @@ F8 "1" -500 150 60 H V C CNN "Qty"
 F9 "-" -1250 -450 60 H I C CNN "Desc1"
 F10 "-" -1250 -550 60 H I C CNN "Desc2"
 F11 "-" -1250 -650 60 H I C CNN "Desc3"
-F12 "HE-13-6" -1050 -750 60 H I C CNN "Case"
+F12 "-" -1150 -650 60 H I C CNN "Desc4"
+F13 "HE-13-6" -1050 -750 60 H I C CNN "Case"
+F14 "0.36" -1200 -850 60 H I C CNN "Price"
 DRAW
 S -300 100 -500 -600 0 1 0 N
 X 1 1 0 0 300 L 50 50 1 1 P

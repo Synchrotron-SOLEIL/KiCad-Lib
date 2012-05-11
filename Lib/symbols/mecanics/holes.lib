@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: 09/04/2012 22:02:41
+EESchema-LIBRARY Version 2.3  Date: 11/05/2012 12:30:23
 #encoding utf-8
 #
 # D_2mm8
@@ -15,7 +15,9 @@ F8 "1" -150 375 60 H V C CNN "Qty"
 F9 "-" -975 -450 60 H I C CNN "Desc1"
 F10 "-" -975 -550 60 H I C CNN "Desc2"
 F11 "-" -975 -650 60 H I C CNN "Desc3"
-F12 "D_2mm8" -775 -750 60 H I C CNN "Case"
+F12 "-" -850 -650 60 H I C CNN "Desc4"
+F13 "D_2mm8" -825 -750 60 H I C CNN "Case"
+F14 "0" -950 -900 60 H I C CNN "Price"
 DRAW
 C 0 215 100 0 1 39 N
 X 1 1 0 0 100 U 50 50 1 1 P

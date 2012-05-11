@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: 18/03/2012 01:21:56
+EESchema-LIBRARY Version 2.3  Date: 11/05/2012 15:49:45
 #encoding utf-8
 #
 # MC100EPT22D
@@ -15,7 +15,9 @@ F8 "1" -100 150 60 H V C CNN "Qty"
 F9 "-" -100 50 60 H I C CNN "Desc1"
 F10 "-" -100 -50 60 H I C CNN "Desc2"
 F11 "-" -100 -150 60 H I C CNN "Desc3"
-F12 "SOIC8" 0 -250 60 H I C CNN "Case"
+F12 "-" 0 -150 60 H I C CNN "Desc4"
+F13 "SOIC8" 0 -250 60 H I C CNN "Case"
+F14 "9.19" -50 -350 60 H I C CNN "Price"
 DRAW
 S 300 100 800 -400 0 1 0 N
 X Q0 1 1100 0 300 L 50 50 1 1 O

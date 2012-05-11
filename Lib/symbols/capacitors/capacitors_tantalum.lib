@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: 15/03/2012 14:24:40
+EESchema-LIBRARY Version 2.3  Date: 11/05/2012 11:38:33
 #encoding utf-8
 #
 # 10uF-20V-10p-Tantalum-1210
@@ -15,7 +15,9 @@ F8 "1" 150 -350 60 H V C CNN "Qty"
 F9 "10uF" 250 -150 60 H V C CNN "Desc1"
 F10 "20V" 200 -250 60 H V C CNN "Desc2"
 F11 "10%" 400 -250 60 H V C CNN "Desc3"
-F12 "1210" 250 -1050 60 H I C CNN "Case"
+F12 "Tantalum" 750 -250 60 H I C CNN "Desc4"
+F13 "1210" 250 -1050 60 H I C CNN "Case"
+F14 "0.57" 250 -1150 60 H I C CNN "Price"
 DRAW
 T 0 -50 -50 80 0 0 0 +  Normal 0 C C
 A 0 -350 180 563 1236 0 1 15 N 100 -200 -100 -200
@@ -39,7 +41,9 @@ F8 "1" 150 -350 60 H V C CNN "Qty"
 F9 "2.2uF" 250 -150 60 H V C CNN "Desc1"
 F10 "20V" 200 -250 60 H V C CNN "Desc2"
 F11 "10%" 400 -250 60 H V C CNN "Desc3"
-F12 "1210" 250 -1050 60 H I C CNN "Case"
+F12 "Tantalum" 750 -250 60 H I C CNN "Desc4"
+F13 "1210" 250 -1050 60 H I C CNN "Case"
+F14 "0.22" 250 -1150 60 H I C CNN "Price"
 DRAW
 T 0 -50 -50 80 0 0 0 +  Normal 0 C C
 A 0 -350 180 563 1236 0 1 15 N 100 -200 -100 -200
@@ -63,7 +67,9 @@ F8 "1" 150 -350 60 H V C CNN "Qty"
 F9 "4.7uF" 250 -150 60 H V C CNN "Desc1"
 F10 "20V" 200 -250 60 H V C CNN "Desc2"
 F11 "10%" 400 -250 60 H V C CNN "Desc3"
-F12 "1206" 250 -1050 60 H I C CNN "Case"
+F12 "Tantalum" 750 -250 60 H I C CNN "Desc4"
+F13 "1206" 250 -1050 60 H I C CNN "Case"
+F14 "0.60" 250 -1150 60 H I C CNN "Price"
 DRAW
 T 0 -50 -50 80 0 0 0 +  Normal 0 C C
 A 0 -350 180 563 1236 0 1 15 N 100 -200 -100 -200

@@ -7,6 +7,8 @@ Most components were created from scratch, some have been modified from KiCad's 
 
 More information on the TimEX3 project at http://www.ohwr.org/projects/timex3
 
+Take a look at the [wiki](https://github.com/Synchrotron-SOLEIL/KiCad-Lib/wiki) for design rules used to create these components and the contents of the libraries
+
 Released under GNU GPL license (see KiCad License at http://www.kicad-pcb.org)
 
 ----------

@@ -6,12 +6,12 @@ K TTL BUFFER 3State BUS
 $ENDCMP
 #
 $CMP 74LVC14AD
-D Hex Inverseur
+D Hex inverting Schmitt trigger with 5 V tolerant input ; SOIC14MS
 K HCTMOS not inv
 $ENDCMP
 #
 $CMP 74LVC1G17DBVR
-D Single schmitt trigger buffer ; SOIC14MS
+D Single schmitt trigger buffer ; SOT23-5
 K buffer schmitt
 $ENDCMP
 #

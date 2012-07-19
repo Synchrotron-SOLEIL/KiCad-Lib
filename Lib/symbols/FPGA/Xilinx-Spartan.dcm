@@ -1,13 +1,13 @@
 EESchema-DOCLIB  Version 2.0  Date: 16/07/2012 17:07:45
 #
 $CMP XC3S50AN-4TQG144C
-D Spartan3AN ; 50 KGates ; 704 Slices ;  108 IOs ; 144 TQFP
-K FPGA Spartan3 xilinx
+D Spartan-3AN ; 50 KGates ; 704 Slices ;  108 IOs ; 144 TQFP
+K FPGA Spartan-3 xilinx
 $ENDCMP
 #
 $CMP XC6SLX9-2FTG256C
-D Spartan6 ; 1430 Slices ;  186 IOs ; 256 BGA 1mm
-K FPGA Spartan6 xilinx
+D Spartan-6 ; 1430 Slices ;  186 IOs ; 256 BGA 1mm
+K FPGA Spartan-6 xilinx
 $ENDCMP
 #
 #End Doc Library

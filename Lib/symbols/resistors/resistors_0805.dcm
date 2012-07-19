@@ -70,4 +70,9 @@ D Resistor ; 5.62 kOhm ; 0.125W ; 1% ; 0805
 K Resistor 5K62
 $ENDCMP
 #
+$CMP 22R-0.125W-1P-0805
+D Resistor ; 22 Ohm ; 0.125W ; 1% ; 0805
+K Resistor 22R
+$ENDCMP
+#
 #End Doc Library

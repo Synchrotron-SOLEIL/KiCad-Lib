@@ -1,4 +1,9 @@
-EESchema-DOCLIB  Version 2.0  Date: 11/05/2012 11:49:23
+EESchema-DOCLIB  Version 2.0  Date: 24/07/2012 13:55:54
+#
+$CMP JTAG-87832-1420
+D XILINX JTAG platform cable connector ; 2x7 points ; straight ; 2mm pitch ; SMD
+K JTAG connector
+$ENDCMP
 #
 $CMP HE-13-6
 D HE13 ; 1x6 points ; straight ; 2.54mm pitch ; trough hole

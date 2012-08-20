@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 11/05/2012 15:18:09
+EESchema-DOCLIB  Version 2.0  Date: 20/08/2012 12:25:41
 #
 $CMP 0R-0.125W-1P-0805
 D Resistor ; 0 Ohm ; 0.125W ; 1% ; 0805
@@ -45,6 +45,16 @@ D Resistor ; 220 Ohm ; 0.125W ; 1% ; 0805
 K Resistor 220R
 $ENDCMP
 #
+$CMP 22R-0.125W-1P-0805
+D Resistor ; 22 Ohm ; 0.125W ; 1% ; 0805
+K Resistor 22R
+$ENDCMP
+#
+$CMP 2K2-0.125W-1P-0805
+D Resistor ; 2.2 kOhm ; 0.125W ; 1% ; 0805
+K Resistor 2K2
+$ENDCMP
+#
 $CMP 330R-0.125W-1P-0805
 D Resistor ; 330 Ohm ; 0.125W ; 1% ; 0805
 K Resistor 330R
@@ -68,11 +78,6 @@ $ENDCMP
 $CMP 5K62-0.125W-1P-0805
 D Resistor ; 5.62 kOhm ; 0.125W ; 1% ; 0805
 K Resistor 5K62
-$ENDCMP
-#
-$CMP 22R-0.125W-1P-0805
-D Resistor ; 22 Ohm ; 0.125W ; 1% ; 0805
-K Resistor 22R
 $ENDCMP
 #
 #End Doc Library

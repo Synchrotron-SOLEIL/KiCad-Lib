@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 31/07/2012 11:58:21
+EESchema-DOCLIB  Version 2.0  Date: 24/08/2012 15:28:21
 #
 $CMP HE-13-6
 D HE13 ; 1x6 points ; straight ; 2.54mm pitch ; trough hole
@@ -12,6 +12,11 @@ $ENDCMP
 #
 $CMP TSM-102-02-S-DV
 D Header ; 2x2 points ; straight ; 2.54mm pitch ; 8.13mm height  ; SMD
+K header connector
+$ENDCMP
+#
+$CMP TSM-108-02-S-DV
+D Header ; 2x8 points ; straight ; 2.54mm pitch ; 8.13mm height  ; SMD
 K header connector
 $ENDCMP
 #

@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: 21/09/2012 17:42:19
+#
+$CMP 0603FA1.5-R
+D Fuse ; 1.5 A ; 32 V ; 0603
+K Fuse 1.5A
+$ENDCMP
+#
+#End Doc Library

@@ -1,4 +1,9 @@
-EESchema-DOCLIB  Version 2.0  Date: 24/08/2012 17:09:22
+EESchema-DOCLIB  Version 2.0  Date: 26/09/2012 16:36:50
+#
+$CMP 20021121-00010C4LF
+D Header ; 2x5 points ; straight ; 1.27mm pitch ; 3mm height  ; SMD
+K header connector
+$ENDCMP
 #
 $CMP HE-13-6
 D HE13 ; 1x6 points ; straight ; 2.54mm pitch ; trough hole

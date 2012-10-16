@@ -8,7 +8,7 @@ F0 "J" -450 350 60 H V C CNN
 F1 "26481046" -300 250 60 H V C CNN
 F2 "SOLEIL-26481046" -850 50 60 H I C CNN
 F4 "Molex" -950 -50 60 H I C CNN "Manufacturer"
-F5 "026481046" -800 -150 60 H I C CNN "Manufacturer ref"
+F5 "26-48-1046" -800 -150 60 H I C CNN "Manufacturer ref"
 F6 "RS" -1000 -250 60 H I C CNN "Supplier"
 F7 "2508872285" -800 -350 60 H I C CNN "Supplier ref"
 F8 "1" -500 150 60 H V C CNN "Qty"

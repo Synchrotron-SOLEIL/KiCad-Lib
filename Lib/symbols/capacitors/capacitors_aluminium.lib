@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: 15/03/2012 14:24:40
+EESchema-LIBRARY Version 2.3  Date: 10/05/2012 18:15:12
 #encoding utf-8
 #
 # 100uF-16V-20p-Al-TypeE
@@ -15,7 +15,9 @@ F8 "1" 200 -350 60 H V C CNN "Qty"
 F9 "100uF" 300 -150 60 H V C CNN "Desc1"
 F10 "16V" 250 -250 60 H V C CNN "Desc2"
 F11 "20%" 450 -250 60 H V C CNN "Desc3"
-F12 "Type E" 300 -1050 60 H I C CNN "Case"
+F12 "Aluminium" 800 -250 60 H I C CNN "Desc4"
+F13 "Type E" 300 -1050 60 H I C CNN "Case"
+F14 "0.70" 250 -1150 60 H I C CNN "Price"
 DRAW
 T 0 -50 -50 80 0 0 0 +  Normal 0 C C
 A 0 -350 180 563 1236 0 1 15 N 100 -200 -100 -200
@@ -39,7 +41,9 @@ F8 "1" 150 -350 60 H V C CNN "Qty"
 F9 "10uF" 250 -150 60 H V C CNN "Desc1"
 F10 "16V" 200 -250 60 H V C CNN "Desc2"
 F11 "20%" 400 -250 60 H V C CNN "Desc3"
-F12 "Type B" 300 -1050 60 H I C CNN "Case"
+F12 "Aluminium" 800 -250 60 H I C CNN "Desc4"
+F13 "Type B" 300 -1050 60 H I C CNN "Case"
+F14 "0.31" 250 -1150 60 H I C CNN "Price"
 DRAW
 T 0 -50 -50 80 0 0 0 +  Normal 0 C C
 A 0 -350 180 563 1236 0 1 15 N 100 -200 -100 -200

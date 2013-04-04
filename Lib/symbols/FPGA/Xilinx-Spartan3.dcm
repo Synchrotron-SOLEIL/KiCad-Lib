@@ -1,8 +1,0 @@
-EESchema-DOCLIB  Version 2.0  Date: 20/12/2011 16:42:26
-#
-$CMP XC3S50AN-4TQG144C
-D Spartan3AN ; 50 KGates ; 704 Slices ;  108 IOs ; 144 TQFP
-K FPGA Spartan3 xilinx
-$ENDCMP
-#
-#End Doc Library

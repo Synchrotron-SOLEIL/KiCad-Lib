@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: 17/03/2012 22:44:12
+EESchema-LIBRARY Version 2.3  Date: 11/05/2012 15:04:06
 #encoding utf-8
 #
 # A6S-6104-H
@@ -12,10 +12,12 @@ F5 "A6S-6104-H" 450 -800 60 H I C CNN "Manufacturer ref"
 F6 "RS" 200 -900 60 H I C CNN "Supplier"
 F7 "534-774" 350 -1000 60 H I C CNN "Supplier ref"
 F8 "1" 200 100 60 H V C CNN "Qty"
-F9 "-" 400 100 60 H I C CNN "Desc1"
+F9 "-" 400 -1200 60 H I C CNN "Desc1"
 F10 "-" 200 -1100 60 H I C CNN "Desc2"
 F11 "-" 200 -1200 60 H I C CNN "Desc3"
-F12 "A6S-6104" 400 -1300 60 H I C CNN "Case"
+F12 "-" 300 -1200 60 H I C CNN "Desc4"
+F13 "A6S-6104" 400 -1300 60 H I C CNN "Case"
+F14 "1.53" 250 -1400 60 H I C CNN "Price"
 DRAW
 S 150 50 450 -550 0 1 0 N
 S 200 -475 400 -525 0 1 0 N
@@ -59,7 +61,9 @@ F8 "1" -100 250 60 H V C CNN "Qty"
 F9 "Test point" 250 -500 60 H I C CNN "Desc1"
 F10 "-" 100 -600 60 H I C CNN "Desc2"
 F11 "-" 100 -700 60 H I C CNN "Desc3"
-F12 "TEST-22" 250 -800 60 H I C CNN "Case"
+F12 "-" 250 -700 60 H I C CNN "Desc4"
+F13 "TEST-22" 250 -800 60 H I C CNN "Case"
+F14 "0.18" 150 -900 60 H I C CNN "Price"
 DRAW
 P 6 0 1 0  0 100  50 100  50 150  -50 150  -50 100  0 100 N
 X TP 1 0 0 100 U 50 50 1 1 P
@@ -80,7 +84,9 @@ F8 "1" 135 155 60 H V C CNN "Qty"
 F9 "-" 250 -640 60 H I C CNN "Desc1"
 F10 "-" 250 -740 60 H I C CNN "Desc2"
 F11 "-" 250 -840 60 H I C CNN "Desc3"
-F12 "-" 250 -940 60 H I C CNN "Case"
+F12 "-" 400 -950 60 H I C CNN "Desc4"
+F13 "-" 250 -940 60 H I C CNN "Case"
+F14 "4.33" 300 -1050 60 H I C CNN "Price"
 DRAW
 S -170 50 170 60 0 1 0 F
 S -50 150 50 50 0 1 0 F

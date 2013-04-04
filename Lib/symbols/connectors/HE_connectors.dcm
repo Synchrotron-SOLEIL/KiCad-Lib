@@ -1,8 +1,43 @@
-EESchema-DOCLIB  Version 2.0  Date: 20/12/2011 16:33:50
+EESchema-DOCLIB  Version 2.0  Date: 26/09/2012 16:36:50
+#
+$CMP 20021121-00010C4LF
+D Header ; 2x5 points ; straight ; 1.27mm pitch ; 3mm height  ; SMD
+K header connector
+$ENDCMP
 #
 $CMP HE-13-6
-D HE13 ; through hole ; 1x6 points ; straight ; 2.54mm pitch
+D HE13 ; 1x6 points ; straight ; 2.54mm pitch ; trough hole
 K HE13 connector
+$ENDCMP
+#
+$CMP JTAG-87832-1420
+D XILINX JTAG platform cable connector ; 2x7 points ; straight ; 2mm pitch ; SMD
+K JTAG connector
+$ENDCMP
+#
+$CMP TSM-102-02-S-DV
+D Header ; 2x2 points ; straight ; 2.54mm pitch ; 8.13mm height  ; SMD
+K header connector
+$ENDCMP
+#
+$CMP TSM-104-02-S-DV
+D Header ; 2x4 points ; straight ; 2.54mm pitch ; 8.13mm height  ; SMD
+K header connector
+$ENDCMP
+#
+$CMP TSM-108-02-S-DV
+D Header ; 2x8 points ; straight ; 2.54mm pitch ; 8.13mm height  ; SMD
+K header connector
+$ENDCMP
+#
+$CMP TSM-111-02-S-DV
+D Header ; 2x11 points ; straight ; 2.54mm pitch ; 8.13mm height  ; SMD
+K header connector
+$ENDCMP
+#
+$CMP TSM-123-02-S-DV
+D Header ; 2x23 points ; straight ; 2.54mm pitch ; 8.13mm height  ; SMD
+K header connector
 $ENDCMP
 #
 #End Doc Library

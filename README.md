@@ -5,7 +5,7 @@ This repository contains the components (schematic symbols and footprints) libra
 There are meant to be used with KiCad EDA.   
 Most components were created from scratch, few have been modified from KiCad's librariries.
 
-More information on the TimEX3 project at http://www.ohwr.org/projects/timex3
+More information on the TimEX3 project at http://www.ohwr.org/projects/timex3/wiki
 
 Take a look at the [wiki](https://github.com/Synchrotron-SOLEIL/KiCad-Lib/wiki) for design rules used to create these components and the contents of the libraries
 

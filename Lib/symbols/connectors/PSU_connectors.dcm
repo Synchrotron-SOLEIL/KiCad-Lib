@@ -1,4 +1,19 @@
-EESchema-DOCLIB  Version 2.0  Date: 11/05/2012 12:15:39
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 24.243.1
+D Multicomp connector ; through hole ; 2 points ; right angle trough hole ; red
+K Multicomp connector ; banana
+$ENDCMP
+#
+$CMP 24.243.2
+D Multicomp connector ; through hole ; 2 points ; right angle trough hole ; black
+K Multicomp connector ; banana
+$ENDCMP
+#
+$CMP 24.243.5
+D Multicomp connector ; through hole ; 2 points ; right angle trough hole ; blue
+K Multicomp connector ; banana
+$ENDCMP
 #
 $CMP 26481046
 D Molex connector ; through hole ; 4 points ; right angle trough hole

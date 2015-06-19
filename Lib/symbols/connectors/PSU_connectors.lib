@@ -1,12 +1,91 @@
-EESchema-LIBRARY Version 2.3  Date: 11/05/2012 12:15:39
+EESchema-LIBRARY Version 2.3
 #encoding utf-8
+#
+# 24.243.1
+#
+DEF 24.243.1 J 0 40 Y N 1 F N
+F0 "J" -450 350 60 H V C CNN
+F1 "24.243.1" -300 250 60 H V C CNN
+F2 "PSU_connectors:SOLEIL-24_243" -850 50 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Multicomp" -950 -50 60 H I C CNN "Manufacturer"
+F5 "24.243.1" -950 -150 60 H I C CNN "Manufacturer ref"
+F6 "Farnell" -1000 -250 60 H I C CNN "Supplier"
+F7 "1698982" -950 -350 60 H I C CNN "Supplier ref"
+F8 "1" -500 150 60 H V C CNN "Qty"
+F9 "Red" -1050 -450 60 H I C CNN "Desc1"
+F10 "-" -1050 -550 60 H I C CNN "Desc2"
+F11 "-" -1050 -650 60 H I C CNN "Desc3"
+F12 "-" -900 -650 60 H I C CNN "Desc4"
+F13 "Multicomp 24.243" -700 -750 60 H I C CNN "Case"
+F14 "1.76" -1000 -850 60 H I C CNN "Price"
+DRAW
+S -300 100 -500 -200 0 1 0 N
+P 4 0 1 0  -300 0  -350 0  -350 -100  -300 -100 N
+X 1 1 0 0 300 L 50 50 1 1 P
+X 2 2 0 -100 300 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 24.243.2
+#
+DEF 24.243.2 J 0 40 Y N 1 F N
+F0 "J" -450 350 60 H V C CNN
+F1 "24.243.2" -300 250 60 H V C CNN
+F2 "PSU_connectors:SOLEIL-24_243" -850 50 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Multicomp" -950 -50 60 H I C CNN "Manufacturer"
+F5 "24.243.2" -950 -150 60 H I C CNN "Manufacturer ref"
+F6 "Farnell" -1000 -250 60 H I C CNN "Supplier"
+F7 "1698983" -950 -350 60 H I C CNN "Supplier ref"
+F8 "1" -500 150 60 H V C CNN "Qty"
+F9 "Black" -1050 -450 60 H I C CNN "Desc1"
+F10 "-" -1050 -550 60 H I C CNN "Desc2"
+F11 "-" -1050 -650 60 H I C CNN "Desc3"
+F12 "-" -900 -650 60 H I C CNN "Desc4"
+F13 "Multicomp 24.243" -700 -750 60 H I C CNN "Case"
+F14 "1.83" -1000 -850 60 H I C CNN "Price"
+DRAW
+S -300 100 -500 -200 0 1 0 N
+P 4 0 1 0  -300 0  -350 0  -350 -100  -300 -100 N
+X 1 1 0 0 300 L 50 50 1 1 P
+X 2 2 0 -100 300 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 24.243.5
+#
+DEF 24.243.5 J 0 40 Y N 1 F N
+F0 "J" -450 350 60 H V C CNN
+F1 "24.243.5" -300 250 60 H V C CNN
+F2 "PSU_connectors:SOLEIL-24_243" -850 50 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Multicomp" -950 -50 60 H I C CNN "Manufacturer"
+F5 "24.243.5" -950 -150 60 H I C CNN "Manufacturer ref"
+F6 "Farnell" -1000 -250 60 H I C CNN "Supplier"
+F7 "1698984" -950 -350 60 H I C CNN "Supplier ref"
+F8 "1" -500 150 60 H V C CNN "Qty"
+F9 "Blue" -1050 -450 60 H I C CNN "Desc1"
+F10 "-" -1050 -550 60 H I C CNN "Desc2"
+F11 "-" -1050 -650 60 H I C CNN "Desc3"
+F12 "-" -900 -650 60 H I C CNN "Desc4"
+F13 "Multicomp 24.243" -700 -750 60 H I C CNN "Case"
+F14 "0.81" -1000 -850 60 H I C CNN "Price"
+DRAW
+S -300 100 -500 -200 0 1 0 N
+P 4 0 1 0  -300 0  -350 0  -350 -100  -300 -100 N
+X 1 1 0 0 300 L 50 50 1 1 P
+X 2 2 0 -100 300 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
 #
 # 26481046
 #
 DEF 26481046 J 0 40 Y N 1 F N
 F0 "J" -450 350 60 H V C CNN
 F1 "26481046" -300 250 60 H V C CNN
-F2 "SOLEIL-26481046" -850 50 60 H I C CNN
+F2 "PSU_connectors:SOLEIL-26481046" -850 50 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Molex" -950 -50 60 H I C CNN "Manufacturer"
 F5 "26-48-1046" -800 -150 60 H I C CNN "Manufacturer ref"
 F6 "RS" -1000 -250 60 H I C CNN "Supplier"

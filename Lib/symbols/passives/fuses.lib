@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: 24/09/2012 14:59:23
+EESchema-LIBRARY Version 2.3  Date: 19/06/2015 14:59:23
 #encoding utf-8
 #
 # 0603FA1.5-R
@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.3  Date: 24/09/2012 14:59:23
 DEF 0603FA1.5-R F 0 10 Y Y 1 F N
 F0 "F" -150 350 50 H V C CNN
 F1 "0603FA1.5-R" 50 250 50 H V C CNN
-F2 "SOLEIL-0603" 50 -175 50 H I C CNN
+F2 "RLC_SMT:SOLEIL-0603" 50 -175 50 H I C CNN
 F4 "Cooper Bussmann" 150 -250 50 H I C CNN "Manufacturer"
 F5 "0603FA1.5-R" 50 -350 50 H I C CNN "Manufacturer ref"
 F6 "Farnell" -100 -450 50 H I C CNN "Supplier"
@@ -31,7 +31,7 @@ ENDDEF
 DEF MC12CF-1.50 F 0 10 Y Y 1 F N
 F0 "F" -150 350 50 H V C CNN
 F1 "MC12CF-1.50" 50 250 50 H V C CNN
-F2 "SOLEIL-1206" 50 -175 50 H I C CNN
+F2 "RLC_SMT:SOLEIL-1206" 50 -175 50 H I C CNN
 F4 "Multicomp" 0 -250 50 H I C CNN "Manufacturer"
 F5 "MC12CF-1.50" 50 -350 50 H I C CNN "Manufacturer ref"
 F6 "Farnell" -100 -450 50 H I C CNN "Supplier"

@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LT6600CS8-2.5
+D Very Low Noise, Differential Ampliﬁer and 2.5MHz Lowpass Filter
+K differential ampliﬁer, opa
+$ENDCMP
+#
+$CMP LTC6241HVCS8
+D Dual low noise, low offset, rail-to-rail output, unity gain stable CMOS op amps that feature 1pA of input bias current
+K opa
+$ENDCMP
+#
+#End Doc Library

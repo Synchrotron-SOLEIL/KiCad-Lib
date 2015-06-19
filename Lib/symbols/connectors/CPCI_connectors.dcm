@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: 17/06/2015 17:15:58
+#
+$CMP CPCI-J1
+D CPCI TYPE A connector ; press-fit
+K CPCI connector
+$ENDCMP
+#
+#End Doc Library

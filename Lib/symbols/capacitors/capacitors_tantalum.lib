@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: 11/05/2012 11:38:33
+EESchema-LIBRARY Version 2.3  Date: 17/06/2015 11:38:33
 #encoding utf-8
 #
 # 10uF-20V-10p-Tantalum-1210
@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.3  Date: 11/05/2012 11:38:33
 DEF ~10uF-20V-10p-Tantalum-1210 C 0 10 N N 1 F N
 F0 "C" 150 -50 60 H V L CNN
 F1 "10uF-20V-10p-Tantalum-1210" 150 -450 60 H I L CNN
-F2 "SOLEIL-PC-B" 500 -550 60 H I C CNN
+F2 "RCL_SMT:SOLEIL-PC-B" 500 -550 60 H I C CNN
 F4 "AVX" 250 -650 60 H I C CNN "Manufacturer"
 F5 "TAJB106K020RNJ" 550 -750 60 H I C CNN "Manufacturer ref"
 F6 "Farnell" 300 -850 60 H I C CNN "Supplier"
@@ -32,7 +32,7 @@ ENDDEF
 DEF ~2u2F-20V-10p-Tantalum-1210 C 0 10 N N 1 F N
 F0 "C" 150 -50 60 H V L CNN
 F1 "2u2F-20V-10p-Tantalum-1210" 150 -450 60 H I L CNN
-F2 "SOLEIL-PC-B" 500 -550 60 H I C CNN
+F2 "RCL_SMT:SOLEIL-PC-B" 500 -550 60 H I C CNN
 F4 "AVX" 250 -650 60 H I C CNN "Manufacturer"
 F5 "TAJB225K020RNJ" 550 -750 60 H I C CNN "Manufacturer ref"
 F6 "Farnell" 300 -850 60 H I C CNN "Supplier"
@@ -58,7 +58,7 @@ ENDDEF
 DEF ~4u7F-20V-10p-Tantalum-1206 C 0 10 N N 1 F N
 F0 "C" 150 -50 60 H V L CNN
 F1 "4u7F-20V-10p-Tantalum-1206" 150 -450 60 H I L CNN
-F2 "SOLEIL-PC-A" 500 -550 60 H I C CNN
+F2 "RCL_SMT:SOLEIL-PC-A" 500 -550 60 H I C CNN
 F4 "AVX" 250 -650 60 H I C CNN "Manufacturer"
 F5 "TAJA475K020RNJ" 550 -750 60 H I C CNN "Manufacturer ref"
 F6 "Farnell" 300 -850 60 H I C CNN "Supplier"

@@ -40,6 +40,11 @@ D Capacitor ; ceramic X7R ; 50 V ; 1 nF ; 10% ; 0805
 K Capacitor 1nF 50V
 $ENDCMP
 #
+$CMP 2200pF-50V-5p-Ceramic-0805
+D Capacitor ; ceramic C0G ; 50 V ; 100 pF ; 10% ; 0805
+K Capacitor 100pF 50V
+$ENDCMP
+#
 $CMP 5pF-50V-10p-Ceramic-0805
 D Capacitor ; ceramic C0G ; 50 V ; 5 pF ; 10% ; 0805
 K Capacitor 5pF 50V

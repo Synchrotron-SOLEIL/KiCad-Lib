@@ -11,7 +11,7 @@ F3 "" 0 0 60 H V C CNN
 F4 "Panasonic" 300 -750 60 H I C CNN "Manufacturer"
 F5 "ELJFA100JF" 350 -850 60 H I C CNN "Manufacturer ref"
 F6 "Farnell" 250 -950 60 H I C CNN "Supplier"
-F7 "	1198456" 250 -1050 60 H I C CNN "Supplier ref"
+F7 "1198456" 250 -1050 60 H I C CNN "Supplier ref"
 F8 "1" 150 -450 60 H V C CNN "Qty"
 F9 "10uH" 200 -350 60 H V C CNN "Desc1"
 F10 "140mA" 550 -1200 60 H I C CNN "Desc2"

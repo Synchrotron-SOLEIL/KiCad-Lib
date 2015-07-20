@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC2758ACLX
+D Dual serial 18 bits DAC
+K DAC
+$ENDCMP
+#
+#End Doc Library

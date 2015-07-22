@@ -1,8 +1,18 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LT1012ACS8
+D Picoamp Input Current, Microvolt Offset, Low Noise Op Amp
+K opa
+$ENDCMP
+#
 $CMP LT6600CS8-2.5
 D Very Low Noise, Differential Ampliﬁer and 2.5MHz Lowpass Filter
 K differential ampliﬁer, opa
+$ENDCMP
+#
+$CMP LTC2054HVCS5
+D Single Micropower Zero-Drift Operational Amplifiers
+K opa
 $ENDCMP
 #
 $CMP LTC6241HVCS8

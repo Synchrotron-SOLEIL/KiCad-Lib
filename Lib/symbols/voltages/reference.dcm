@@ -1,7 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LT1761ES5-BYP
+D Vout = 1.22V to 20V, 100mA, Low Noise, LDO Micropower Regulators
+K Voltage Reference, Adjustable
+$ENDCMP
+#
+$CMP LT6655CHMS8-5
+D Vout = 5V,  Vin = 3V to 13.2V , 20 mA, 0.25ppm Noise, Low Drift Precision Voltage Reference
+K Voltage Reference
+$ENDCMP
+#
 $CMP LT6656ACS6-1.25
-D Voltage Reference 1.25V
+D Vout = 1.25V, Vin = 2.51V to 18V, 5mA, 1µA Precision Series Voltage Reference
 K Voltage Reference
 $ENDCMP
 #

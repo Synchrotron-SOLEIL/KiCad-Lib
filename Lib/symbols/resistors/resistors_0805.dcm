@@ -125,4 +125,14 @@ D Resistor ; 1.58 kOhm ; 0.125W ; 1% ; 0805
 K Resistor 1K58
 $ENDCMP
 #
+$CMP 88K7-0.125W-1P-0805
+D Resistor ; 88.7 kOhm ; 0.125W ; 1% ; 0805
+K Resistor 88K7
+$ENDCMP
+#
+$CMP 4K02-0.125W-1P-0805
+D Resistor ; 4.02 kOhm ; 0.125W ; 1% ; 0805
+K Resistor 4K02
+$ENDCMP
+#
 #End Doc Library

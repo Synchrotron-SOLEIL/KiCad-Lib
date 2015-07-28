@@ -5,6 +5,11 @@ D Picoamp Input Current, Microvolt Offset, Low Noise Op Amp
 K opa
 $ENDCMP
 #
+$CMP LT1360CS8
+D Picoamp Input Current, Microvolt Offset, Low Noise Op Amp
+K opa
+$ENDCMP
+#
 $CMP LT6600CS8-2.5
 D Very Low Noise, Differential Ampliﬁer and 2.5MHz Lowpass Filter
 K differential ampliﬁer, opa

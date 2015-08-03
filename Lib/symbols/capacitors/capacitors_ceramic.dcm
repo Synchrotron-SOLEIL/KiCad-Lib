@@ -60,4 +60,29 @@ D Capacitor ; ceramic X7R ; 25 V ; 10 uF ; 10% ; 1210
 K Capacitor 10uF 25V
 $ENDCMP
 #
+$CMP 5pF-50V-5p-Ceramic-0603
+D Capacitor ; ceramic C0G ; 50 V ; 5 pF ; 5% ; 0603
+K Capacitor 5pF 50V
+$ENDCMP
+#
+$CMP 1nF-50V-5p-Ceramic-0603
+D Capacitor ; ceramic C0G ; 50 V ; 1 nF ; 5% ; 0603
+K Capacitor 1nF 50V
+$ENDCMP
+#
+$CMP 2200pF-50V-5p-Ceramic-0603
+D Capacitor ; ceramic C0G ; 50 V ; 2200 pF ; 5% ; 0603
+K Capacitor 2200pF 50V
+$ENDCMP
+#
+$CMP 22nF-50V-10p-Ceramic-0603
+D Capacitor ; ceramic X7R ; 50 V ; 22 nF ; 10% ; 0603
+K Capacitor 22nF 50V
+$ENDCMP
+#
+$CMP 4.7uF-6.3V-10p-Ceramic-0603
+D Capacitor ; ceramic X5R ; 6.3 V ; 4.7 uF ; 10% ; 0603
+K Capacitor 4.7uF 6.3V
+$ENDCMP
+#
 #End Doc Library

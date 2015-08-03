@@ -90,4 +90,9 @@ D Resistor ; 0 Ohm ; 0.100W ; 1% ; 0603
 K Resistor 0R
 $ENDCMP
 #
+$CMP 50R5-0.150W-0.1P-0603
+D Resistor ; 50.5 Ohm ; 0.150W ; 0.1% ; 0603
+K Resistor 50R5
+$ENDCMP
+#
 #End Doc Library

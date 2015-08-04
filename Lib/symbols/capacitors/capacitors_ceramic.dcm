@@ -85,4 +85,9 @@ D Capacitor ; ceramic X5R ; 6.3 V ; 4.7 uF ; 10% ; 0603
 K Capacitor 4.7uF 6.3V
 $ENDCMP
 #
+$CMP 10uF-6.3V-10p-Ceramic-0603
+D Capacitor ; ceramic X5R ; 6.3 V ; 10 uF ; 10% ; 0603
+K Capacitor 10uF 6.3V
+$ENDCMP
+#
 #End Doc Library

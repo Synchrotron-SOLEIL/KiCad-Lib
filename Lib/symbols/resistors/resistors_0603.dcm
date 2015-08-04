@@ -95,4 +95,24 @@ D Resistor ; 50.5 Ohm ; 0.150W ; 0.1% ; 0603
 K Resistor 50R5
 $ENDCMP
 #
+$CMP 4R7-0.100W-1P-0603
+D Resistor ; 4.7 Ohm ; 0.100W ; 1% ; 0603
+K Resistor 4R7
+$ENDCMP
+#
+$CMP 180R-0.100W-0.1P-0603
+D Resistor ; 180 Ohm ; 0.100W ; 0.1% ; 0603
+K Resistor 180R
+$ENDCMP
+#
+$CMP 15K-0.150W-0.1P-0603
+D Resistor ; 15 KOhm ; 0.150W ; 0.1% ; 0603
+K Resistor 15K
+$ENDCMP
+#
+$CMP 27K-0.100W-0.1P-0603
+D Resistor ; 27 KOhm ; 0.100W ; 0.1% ; 0603
+K Resistor 27K
+$ENDCMP
+#
 #End Doc Library

@@ -10,6 +10,11 @@ D Ferrite ; SMT 0805 ; 2k2 Ohm at 100 MHz ; 200 mA ; 0805
 K ferrite
 $ENDCMP
 #
+$CMP BLM18AG102SN1D
+D Ferrite ; SMT 0603 ; 1 KOhm at 100 MHz ; 400 mA ; 0603
+K ferrite
+$ENDCMP
+#
 $CMP NFM55PC155F1H4L
 D Capacitor filter ; SMT 2220 ; 6A ; 50 Vdc ; -80dB at 10MHz ; SMD NFM55P
 K filter

@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GP2Y+
+D RF splitter ; 1.6 GHz to 3.3 GHz ; 50 Ohm ; 2 way - 0 degree ; 3.65 dB loss at 3 GHz
+K splitter
+$ENDCMP
+#
+#End Doc Library

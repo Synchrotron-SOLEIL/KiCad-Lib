@@ -1,4 +1,9 @@
-EESchema-DOCLIB  Version 2.0  Date: 19/06/2015 14:53:33
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CVHD-950M-108.3681
+D Oscillator ; HCMOS ; 3V3 ; 108.3681MHz ; SMD
+K VCXO
+$ENDCMP
 #
 $CMP FXO-HC736R-25MHZ
 D Oscillator ; HCMOS ; 3V3 ; 25MHz ; SMD
@@ -13,11 +18,6 @@ $ENDCMP
 $CMP FXO-HC736R-60MHZ
 D Oscillator ; HCMOS ; 3V3 ; 60MHz ; SMD
 K oscillator
-$ENDCMP
-#
-$CMP CVHD-950M-108.3681
-D Oscillator ; HCMOS ; 3V3 ; 108.3681MHz ; SMD
-K VCXO
 $ENDCMP
 #
 #End Doc Library

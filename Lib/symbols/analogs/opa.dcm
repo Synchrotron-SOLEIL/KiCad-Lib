@@ -11,8 +11,8 @@ K opa
 $ENDCMP
 #
 $CMP LT6600CS8-2.5
-D Very Low Noise, Differential Ampliﬁer and 2.5MHz Lowpass Filter
-K differential ampliﬁer, opa
+D Very Low Noise, Differential Amplifier and 2.5MHz Lowpass Filter
+K differential amplifier, opa
 $ENDCMP
 #
 $CMP LTC2054HVCS5
@@ -23,6 +23,11 @@ $ENDCMP
 $CMP LTC6241HVCS8
 D Dual low noise, low offset, rail-to-rail output, unity gain stable CMOS op amps that feature 1pA of input bias current
 K opa
+$ENDCMP
+#
+$CMP PMA2-43LN+
+D low noise, high IP3, 1.1 GHz to 4 GHz, 17.6 dB gain at 2.5 GHz
+K opa RF
 $ENDCMP
 #
 #End Doc Library

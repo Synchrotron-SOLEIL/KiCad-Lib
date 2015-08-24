@@ -115,4 +115,14 @@ D Resistor ; 27 KOhm ; 0.100W ; 0.1% ; 0603
 K Resistor 27K
 $ENDCMP
 #
+$CMP 49R9-0.166W-0.1P-0603
+D Resistor ; 49.9 Ohm ; 0.166W ; 0.1% ; 0603
+K Resistor 49R9
+$ENDCMP
+#
+$CMP 5K11-0.166W-0.1P-0603
+D Resistor ; 5.11 KOhm ; 0.166W ; 0.1% ; 0603
+K Resistor 5K11
+$ENDCMP
+#
 #End Doc Library

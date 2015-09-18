@@ -12,9 +12,9 @@
   (fp_line (start 4.699 -1.651) (end 4.699 1.651) (layer F.SilkS) (width 0.254))
   (pad 1 smd rect (at 0 0) (size 1.524 2.032) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 3.302 0) (size 1.524 2.032) (layers F.Cu F.Paste F.Mask))
-  (model smd/chip_cms.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 0.17 0.16 0.16))
+  (model D:/jpr/projets/KiCad/Lib/packages3d/RCL_SMD.3dshapes/R_1206.wrl
+    (at (xyz 0.065 0 0))
+    (scale (xyz 1.82 1.82 1))
     (rotate (xyz 0 0 0))
   )
 )

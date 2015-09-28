@@ -150,4 +150,29 @@ D Resistor ; 33.2 Ohm ; 0.166W ; 0.1% ; 0603
 K Resistor 33R2
 $ENDCMP
 #
+$CMP 71R5-0.166W-0.1P-0603
+D Resistor ; 71.5 Ohm ; 0.166W ; 0.1% ; 0603
+K Resistor 70R5
+$ENDCMP
+#
+$CMP 62R-0.100W-0.1P-0603
+D Resistor ; 62 Ohm ; 0.100W ; 0.1% ; 0603
+K Resistor 62R
+$ENDCMP
+#
+$CMP 1K2-0.100W-0.1P-0603
+D Resistor ; 1.2 KOhm ; 0.100W ; 0.1% ; 0603
+K Resistor 1K2
+$ENDCMP
+#
+$CMP 1K5-0.166W-0.1P-0603
+D Resistor ; 1.5 KOhm ; 0.166W ; 0.1% ; 0603
+K Resistor 1K5
+$ENDCMP
+#
+$CMP 62R-0.200W-1P-0603
+D Resistor ; 62 Ohm ; 0.200W ; 1% ; 0603
+K Resistor 62R
+$ENDCMP
+#
 #End Doc Library

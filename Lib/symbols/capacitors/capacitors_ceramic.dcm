@@ -95,4 +95,14 @@ D Capacitor ; ceramic C0G ; 50 V ; 33 pF ; 5% ; 0603
 K Capacitor 33pF 50V
 $ENDCMP
 #
+$CMP 330pF-50V-5p-Ceramic-0603
+D Capacitor ; ceramic C0G ; 50 V ; 330 pF ; 5% ; 0603
+K Capacitor 330pF 50V
+$ENDCMP
+#
+$CMP 1.5nF-50V-5p-Ceramic-0603
+D Capacitor ; ceramic C0G ; 50 V ; 1.5 nF ; 5% ; 0603
+K Capacitor 1.5nF 50V
+$ENDCMP
+#
 #End Doc Library

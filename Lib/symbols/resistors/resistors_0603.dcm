@@ -5,9 +5,9 @@ D Resistor ; 22 Ohm ; 0.125W ; 1% ; 0603
 K Resistor 22R
 $ENDCMP
 #
-$CMP 10k-0.125W-1P-0603
+$CMP 10K-0.125W-1P-0603
 D Resistor ; 10 kOhm ; 0.125W ; 1% ; 0603
-K Resistor 10k
+K Resistor 10K
 $ENDCMP
 #
 $CMP 10R-0.125W-1P-0603
@@ -173,6 +173,31 @@ $ENDCMP
 $CMP 62R-0.200W-1P-0603
 D Resistor ; 62 Ohm ; 0.200W ; 1% ; 0603
 K Resistor 62R
+$ENDCMP
+#
+$CMP 10M-0.100W-1P-0603
+D Resistor ; 10 MOhm ; 0.100W ; 1% ; 0603
+K Resistor 10M
+$ENDCMP
+#
+$CMP 10K-0.166W-0.1P-0603
+D Resistor ; 10 KOhm ; 0.166W ; 0.1% ; 0603
+K Resistor 10K
+$ENDCMP
+#
+$CMP 75K-0.166W-0.1P-0603
+D Resistor ; 75 KOhm ; 0.166W ; 0.1% ; 0603
+K Resistor 75K
+$ENDCMP
+#
+$CMP 14K-0.166W-0.1P-0603
+D Resistor ; 14 KOhm ; 0.166W ; 0.1% ; 0603
+K Resistor 14K
+$ENDCMP
+#
+$CMP 7K5-0.166W-0.1P-0603
+D Resistor ; 7.5 KOhm ; 0.166W ; 0.1% ; 0603
+K Resistor 7K5
 $ENDCMP
 #
 #End Doc Library

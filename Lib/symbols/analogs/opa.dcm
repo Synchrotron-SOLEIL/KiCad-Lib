@@ -25,6 +25,11 @@ D Dual low noise, low offset, rail-to-rail output, unity gain stable CMOS op amp
 K opa
 $ENDCMP
 #
+$CMP OPA2209AIDGKR
+D Dual low noise, low offset, 18 MHz GB, +/-2.5V to +/-18V supply voltage
+K opa
+$ENDCMP
+#
 $CMP PMA2-43LN+
 D low noise, high IP3, 1.1 GHz to 4 GHz, 17.6 dB gain at 2.5 GHz
 K opa RF

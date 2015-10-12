@@ -1,6 +1,6 @@
-(module SOLEIL-TSSOP20 (layer F.Cu) (tedit 5059D993)
+(module SOLEIL-TSSOP20-0.65 (layer F.Cu) (tedit 5059D993)
   (attr smd)
-  (fp_text reference SOLEIL-TSSOP20 (at 2.5908 2.286) (layer F.SilkS)
+  (fp_text reference SOLEIL-TSSOP20-0.65 (at 2.5908 2.286) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )
   (fp_text value Val** (at 3.0226 -7.7978) (layer F.SilkS) hide

@@ -5,23 +5,18 @@ D Vout = 1.22V to 20V, 100mA, Low Noise, LDO Micropower Regulators
 K Voltage Reference, Adjustable
 $ENDCMP
 #
-$CMP LT6655CHMS8-5
-D Vout = 5V,  Vin = 3V to 13.2V , 20mA, 0.25ppm Noise, Low Drift Precision Voltage Reference
-K Voltage Reference
-$ENDCMP
-#
-$CMP LT6656ACS6-1.25
-D Vout = 1.25V, Vin = 2.51V to 18V, 5mA, 10ppm/°C, +/- 0.05%, 30ppm-pp noise, Voltage Reference
+$CMP LT6655BHMS8-5
+D Vout = 5V,  Vin = 5.5V to 13.2V , 5mA, 5ppm/°C, +/- 0.05%, 0.25ppm Noise, Voltage Reference
 K Voltage Reference
 $ENDCMP
 #
 $CMP LTC6655BHMS8-1.25
-D Vout = 1.25V, Vin = 3V to 13V, 5mA, 2ppm/°C, +/- 0.025%, 0.67ppm-pp noise, Voltage Reference
+D Vout = 1.25V, Vin = 3V to 13.2V, 5mA, 2ppm/°C, +/- 0.025%, 0.67ppm-pp noise, Voltage Reference
 K Voltage Reference
 $ENDCMP
 #
 $CMP LTC6655BHMS8-4.096
-D Vout = 1.25V, Vin = 5V to 13V, 5mA, 2ppm/°C, +/- 0.025%, 0.67ppm-pp noise, Voltage Reference
+D Vout = 1.25V, Vin = 5V to 13.2V, 5mA, 2ppm/°C, +/- 0.025%, 0.67ppm-pp noise, Voltage Reference
 K Voltage Reference
 $ENDCMP
 #

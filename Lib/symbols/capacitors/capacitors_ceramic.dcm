@@ -105,4 +105,9 @@ D Capacitor ; ceramic C0G ; 50 V ; 1.5 nF ; 5% ; 0603
 K Capacitor 1.5nF 50V
 $ENDCMP
 #
+$CMP 22uF-10V-20p-Ceramic-0603
+D Capacitor ; ceramic X5R ; 10 V ; 22 uF ; 20% ; 0603
+K Capacitor 22uF 10V
+$ENDCMP
+#
 #End Doc Library

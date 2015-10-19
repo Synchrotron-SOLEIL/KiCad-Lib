@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 10uF-10V-10p-Ceramic-1210
+D Capacitor ; ceramic X5R ; 10 V ; 10 uF ; 10% ; 1210
+K Capacitor 10uF 10V
+$ENDCMP
+#
+$CMP 10uF-25V-10p-Ceramic-1210
+D Capacitor ; ceramic X7R ; 25 V ; 10 uF ; 10% ; 1210
+K Capacitor 10uF 25V
+$ENDCMP
+#
+#End Doc Library

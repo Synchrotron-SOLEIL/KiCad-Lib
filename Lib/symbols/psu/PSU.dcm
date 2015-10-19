@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 19/06/2015 15:11:35
+EESchema-DOCLIB  Version 2.0
 #
 $CMP LP3883ES-1.2
 D Ultra low dropout linear regulator ; 3A ; Vin = 5V ; Vout = 1V2 ; TO263-5
@@ -11,7 +11,7 @@ K monitor reset
 $ENDCMP
 #
 $CMP TPS7A4700
-D Low noise ldo ; 1A ; Vin = 3V to 36V; Vout = 1.4V to 34V ; 4µVrms noise ; 55dB PSRR
+D Low noise ldo ; 1A ; Vin = 3V to 36V; Vout = 1.4V to 34V ; 4ÂµVrms noise ; 55dB PSRR
 K ldo regulator
 $ENDCMP
 #

@@ -5,6 +5,11 @@ D Ultra low dropout linear regulator ; 3A ; Vin = 5V ; Vout = 1V2 ; TO263-5
 K ldo regulator
 $ENDCMP
 #
+$CMP LP3966ES-3.3
+D Ultra low dropout linear regulator ; 3A ; Vin = 5V ; Vout = 3V3 ; TO263-5
+K ldo regulator
+$ENDCMP
+#
 $CMP LTC2908CTS8-A1
 D Six inputs supply monitor ; TSOT23-8
 K monitor reset

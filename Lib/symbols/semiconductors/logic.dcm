@@ -1,18 +1,23 @@
-EESchema-DOCLIB  Version 2.0  Date: 19/06/2015 15:47:31
+EESchema-DOCLIB  Version 2.0
 #
 $CMP 74ABT541BDW
 D 8bits Buffer/Line Driver 3 state Out ; SOIC20MS
-K TTL BUFFER 3State BUS
+K buffer 3State BUS
 $ENDCMP
 #
 $CMP 74LVC14AD
 D Hex inverting Schmitt trigger with 5 V tolerant input ; SOIC14MS
-K HCTMOS not inv
+K buffer schmitt inverting
 $ENDCMP
 #
 $CMP 74LVC1G17DBVR
 D Single schmitt trigger buffer ; SOT23-5
 K buffer schmitt
+$ENDCMP
+#
+$CMP SN74LV4T125PWR
+D ingle Power Supply Quadruple Buffer GATE w/ 3-State Output CMOS Logic Level Shifter ; TSSOP14
+K buffer
 $ENDCMP
 #
 #End Doc Library

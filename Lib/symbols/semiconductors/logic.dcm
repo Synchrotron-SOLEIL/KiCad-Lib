@@ -20,4 +20,14 @@ D ingle Power Supply Quadruple Buffer GATE w/ 3-State Output CMOS Logic Level Sh
 K buffer
 $ENDCMP
 #
+$CMP SN75LVDS389DBT
+D Octal LVDS Transmitter ; TSSOP38
+K buffer LVDS
+$ENDCMP
+#
+$CMP SN75LVDT388ADBT
+D Octal LVDS Receiver with integrated 110R terminations ; TSSOP38
+K buffer LVDS
+$ENDCMP
+#
 #End Doc Library

@@ -15,6 +15,11 @@ D Six inputs supply monitor ; TSOT23-8
 K monitor reset
 $ENDCMP
 #
+$CMP TPS7A3301
+D Low noise ldo ; 1A ; Vin = -3V to -36V; Vout = -2V to -33V ; 16µVrms noise ; 72dB PSRR
+K ldo regulator
+$ENDCMP
+#
 $CMP TPS7A4700
 D Low noise ldo ; 1A ; Vin = 3V to 36V; Vout = 1.4V to 34V ; 4µVrms noise ; 55dB PSRR
 K ldo regulator

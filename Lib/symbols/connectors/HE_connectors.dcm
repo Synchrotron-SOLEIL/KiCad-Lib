@@ -45,4 +45,9 @@ D Header ; 2x23 points ; straight ; 2.54mm pitch ; 8.13mm height  ; SMD
 K header connector
 $ENDCMP
 #
+$CMP TSW-123-14-G-D
+D Header ; 2x23 points ; straight ; 2.54mm pitch ; 8.13mm height  ; trough hole
+K header connector
+$ENDCMP
+#
 #End Doc Library

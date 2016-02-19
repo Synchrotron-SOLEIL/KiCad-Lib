@@ -30,4 +30,9 @@ D Capacitor ; ceramic C0G ; 50 V ; 5 pF ; 10% ; 0805
 K Capacitor 5pF 50V
 $ENDCMP
 #
+$CMP 10uF-16V-10p-Ceramic-0805
+D Capacitor ; ceramic X5R ; 16 V ; 10 uF ; 10% ; 0805
+K Capacitor 5pF 50V
+$ENDCMP
+#
 #End Doc Library

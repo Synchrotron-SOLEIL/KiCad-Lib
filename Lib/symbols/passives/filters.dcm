@@ -16,7 +16,12 @@ K ferrite
 $ENDCMP
 #
 $CMP NFM55PC155F1H4L
-D Capacitor filter ; SMT 2220 ; 6A ; 50 Vdc ; -80dB at 10MHz ; SMD NFM55P
+D Capacitor filter ; SMT 2220 ; 6A ; 50 Vdc ; -80dB at 10MHz ; SMD NFM55P ; DISCONTINUED
+K filter
+$ENDCMP
+#
+$CMP NFM41PC155B1H3L
+D Capacitor filter ; SMT 1806 ; 6A ; 50 Vdc ; -80dB at 10MHz ; SMD NFM41P
 K filter
 $ENDCMP
 #

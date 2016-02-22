@@ -20,4 +20,9 @@ D Molex connector ; through hole ; 4 points ; right angle trough hole
 K molex connector
 $ENDCMP
 #
+$CMP 39-30-1061
+D Molex Mini-Fit connector ; through hole ; 6 points ; right angle trough hole ; mates with 39-01-2060
+K molex Mini-Fit connector
+$ENDCMP
+#
 #End Doc Library

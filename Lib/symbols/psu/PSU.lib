@@ -8,7 +8,7 @@ F0 "U" 350 350 60 H V C CNN
 F1 "LP3883ES-1.2" 650 250 60 H V C CNN
 F2 "TO263:SOLEIL-TO263-5" 950 -550 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
-F4 "National Semiconductor" 1100 -650 60 H I C CNN "Maufacturer"
+F4 "National Semiconductor" 1100 -650 60 H I C CNN "Manufacturer"
 F5 "LP3883ES-1.2" 900 -750 60 H I C CNN "Manufacturer ref"
 F6 "Avnet" 700 -850 60 H I C CNN "Supplier"
 F7 "LP3883ES-1.2" 900 -950 60 H I C CNN "Supplier ref"
@@ -36,7 +36,7 @@ F0 "U" 350 350 60 H V C CNN
 F1 "LP3966ES-3.3" 650 250 60 H V C CNN
 F2 "TO263:SOLEIL-TO263-5" 1150 -550 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
-F4 "National Semiconductor" 1150 -650 60 H I C CNN "Maufacturer"
+F4 "National Semiconductor" 1150 -650 60 H I C CNN "Manufacturer"
 F5 "LP3966ES-3.3" 950 -750 60 H I C CNN "Manufacturer ref"
 F6 "Digi-Key" 800 -850 60 H I C CNN "Supplier"
 F7 "LP3966ES-3.3/NOPB-ND" 1150 -950 60 H I C CNN "Supplier ref"
@@ -95,7 +95,7 @@ F0 "U" 700 -250 60 H V C CNN
 F1 "TPS7A3301" 700 -350 60 H V C CNN
 F2 "QFP:SOLEIL-VQFN20" 1300 -1100 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
-F4 "Texas Instruments" 1250 -1000 60 H I C CNN "Maufacturer"
+F4 "Texas Instruments" 1250 -1000 60 H I C CNN "Manufacturer"
 F5 "TPS7A3301RGWT" 1200 -1200 60 H I C CNN "Manufacturer ref"
 F6 "Farnell" 1000 -1300 60 H I C CNN "Supplier"
 F7 "2214998" 1050 -1400 60 H I C CNN "Supplier ref"
@@ -139,7 +139,7 @@ F0 "U" 700 -250 60 H V C CNN
 F1 "TPS7A4700" 700 -350 60 H V C CNN
 F2 "QFP:SOLEIL-VQFN20" 1300 -1100 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
-F4 "Texas Instruments" 1250 -1000 60 H I C CNN "Maufacturer"
+F4 "Texas Instruments" 1250 -1000 60 H I C CNN "Manufacturer"
 F5 "TPS7A4700RGWT" 1200 -1200 60 H I C CNN "Manufacturer ref"
 F6 "Farnell" 1000 -1300 60 H I C CNN "Supplier"
 F7 "2211360" 1050 -1400 60 H I C CNN "Supplier ref"

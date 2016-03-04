@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP 10uH-140mA-5p-36MHz-1210
-D Ferrite ; SMT 1206 ; 500 Ohm at 100 MHz ; 2.5 A ; 1206
+D Ferrite ; SMD 1206 ; 500 Ohm at 100 MHz ; 2.5 A ; 1206
 K ferrite
 $ENDCMP
 #

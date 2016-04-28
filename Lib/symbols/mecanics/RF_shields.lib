@@ -1,6 +1,32 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
+# 1590Q
+#
+DEF 1590Q BOX 0 40 Y N 1 F N
+F0 "BOX" 200 400 60 H V C CNN
+F1 "1590Q" 200 300 60 H V C CNN
+F2 "passives:SOLEIL-1590Q" 500 -150 60 H I C CNN
+F3 "" -200 650 60 H V C CNN
+F4 "Hammond" 200 -250 60 H I C CNN "Manufacturer"
+F5 "1590Q" 100 -350 60 H I C CNN "Manufacturer ref"
+F6 "Farnell" 100 -450 60 H I C CNN "Supplier"
+F7 "1009519" 150 -550 60 H I C CNN "Supplier ref"
+F8 "1" 200 200 60 H V C CNN "Qty"
+F9 "-" 0 -650 60 H I C CNN "Desc2"
+F10 "-" 100 -650 60 H I C CNN "Desc3"
+F11 "-" 200 -650 60 H I C CNN "Desc4"
+F12 "1590Q" 100 -750 60 H I C CNN "Case"
+F13 "10.34" 50 -850 60 H I C CNN "Price"
+DRAW
+S -100 600 550 100 0 1 0 N
+X 1 1 0 0 100 U 50 50 1 1 W
+X 3 3 150 0 100 U 50 50 1 1 W
+X 5 5 300 0 100 U 50 50 1 1 W
+X 7 7 450 0 100 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 # BMI-S-204-F
 #
 DEF BMI-S-204-F J 0 40 Y N 1 F N

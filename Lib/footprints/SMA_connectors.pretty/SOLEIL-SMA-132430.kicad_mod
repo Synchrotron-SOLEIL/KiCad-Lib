@@ -1,10 +1,10 @@
 (module SOLEIL-SMA-132430 (layer F.Cu) (tedit 572CBFB8)
   (tags "SMA End Launch Jack for 0.047 inch PCB, 50 Ohm, Flat Tab Contact")
   (fp_text reference SOLEIL-SMA-132430 (at 0 -8.49884) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
+    (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value VAL** (at -0.025 -6.625) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.1)))
+    (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -9.686 -4.191) (end -9.686 4.191) (layer F.SilkS) (width 0.1))
   (fp_line (start -1.816 -4.191) (end -9.686 -4.191) (layer F.SilkS) (width 0.1))

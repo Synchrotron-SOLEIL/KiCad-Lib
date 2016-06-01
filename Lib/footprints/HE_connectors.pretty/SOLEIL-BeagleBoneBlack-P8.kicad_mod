@@ -1,9 +1,9 @@
 (module SOLEIL-BeagleBoneBlack-P8 (layer F.Cu) (tedit 56BB2E8E)
   (fp_text reference SOLEIL-BeagleBoneBlack-P8 (at -43.053 -5.334) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
+    (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value VAL** (at -9.017 -4.953) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
+    (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 1.27 0.635) (end 1.27 -3.81) (layer F.SilkS) (width 0.254))
   (fp_line (start -57.15 -3.81) (end -57.15 1.27) (layer F.SilkS) (width 0.254))

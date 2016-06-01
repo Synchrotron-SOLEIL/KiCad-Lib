@@ -145,4 +145,9 @@ D Resistor ; 1.8 kOhm ; 0.125W ; 1% ; 0805
 K Resistor 1K8
 $ENDCMP
 #
+$CMP 10R-0.125W-1P-0805
+D Resistor ; 10 Ohm ; 0.125W ; 1% ; 0805
+K Resistor 10R
+$ENDCMP
+#
 #End Doc Library

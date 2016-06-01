@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 1725669
+D Phoenix Contact connector ; through hole ; 3 points ; right angle trough hole ; 6 A ; 160 V ; screw connection
+K Phoenix srew connection connector
+$ENDCMP
+#
 $CMP 24.243.1
 D Multicomp connector ; through hole ; 2 points ; right angle trough hole ; red
 K Multicomp connector ; banana

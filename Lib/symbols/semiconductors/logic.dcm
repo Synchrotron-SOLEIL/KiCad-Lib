@@ -15,8 +15,13 @@ D Single schmitt trigger buffer ; SOT23-5
 K buffer schmitt
 $ENDCMP
 #
+$CMP SN65HVD78D
+D RS-485 driver and receiver with IEC ESD Protection ; SOIC8
+K RS-485
+$ENDCMP
+#
 $CMP SN74LV4T125PWR
-D ingle Power Supply Quadruple Buffer GATE w/ 3-State Output CMOS Logic Level Shifter ; TSSOP14
+D Single Power Supply Quadruple Buffer GATE w/ 3-State Output CMOS Logic Level Shifter ; TSSOP14
 K buffer
 $ENDCMP
 #

@@ -1,6 +1,32 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
+# 1725669
+#
+DEF 1725669 J 0 40 Y N 1 F N
+F0 "J" -450 350 60 H V C CNN
+F1 "1725669" -300 250 60 H V C CNN
+F2 "PSU_connectors:SOLEIL-1725669" -850 50 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Phoenix Contact" -950 -50 60 H I C CNN "Manufacturer"
+F5 "1725669" -800 -150 60 H I C CNN "Manufacturer ref"
+F6 "Farnell" -1000 -250 60 H I C CNN "Supplier"
+F7 "3041360" -800 -350 60 H I C CNN "Supplier ref"
+F8 "1" -500 150 60 H V C CNN "Qty"
+F9 "-" -1050 -450 60 H I C CNN "Desc1"
+F10 "-" -1050 -550 60 H I C CNN "Desc2"
+F11 "-" -1050 -650 60 H I C CNN "Desc3"
+F12 "-" -900 -650 60 H I C CNN "Desc4"
+F13 "Phoenix Contact 1725669" -700 -750 60 H I C CNN "Case"
+F14 "1.02" -1000 -850 60 H I C CNN "Price"
+DRAW
+S -300 100 -500 -300 0 1 0 N
+X 1 1 0 0 300 L 50 50 1 1 P
+X 2 2 0 -100 300 L 50 50 1 1 P
+X 3 3 0 -200 300 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 24.243.1
 #
 DEF 24.243.1 J 0 40 Y N 1 F N

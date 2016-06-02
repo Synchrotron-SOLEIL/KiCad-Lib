@@ -15,4 +15,9 @@ D Capacitor ; tantalum ; 20 V ; 4.7 uF ; 10% ; 1206
 K Capacitor 4.7uF 20V
 $ENDCMP
 #
+$CMP 68uF-10V-10p-Tantalum-1210
+D Capacitor ; tantalum ; 10 V ; 68 uF ; 10% ; 1210
+K Capacitor 68uF 10V
+$ENDCMP
+#
 #End Doc Library

@@ -220,4 +220,14 @@ D Resistor ; 976 Ohm ; 0.166W ; 0.1% ; 0603
 K Resistor 976
 $ENDCMP
 #
+$CMP 130R-0.100W-1P-0603
+D Resistor ; 130 Ohm ; 0.100W ; 1% ; 0603
+K Resistor 130R
+$ENDCMP
+#
+$CMP 82R-0.100W-1P-0603
+D Resistor ; 82 Ohm ; 0.100W ; 1% ; 0603
+K Resistor 82R
+$ENDCMP
+#
 #End Doc Library

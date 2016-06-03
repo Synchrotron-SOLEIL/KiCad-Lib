@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 510ABA100M000AAG
+D Oscillator ; LVPECL ; 3V3 ; 100MHz ; SMD
+K oscillator
+$ENDCMP
+#
 $CMP CVHD-950M-108.3681
 D Oscillator ; HCMOS ; 3V3 ; 108.3681MHz ; SMD
 K VCXO

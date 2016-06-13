@@ -25,6 +25,11 @@ D Single Power Supply Quadruple Buffer GATE w/ 3-State Output CMOS Logic Level S
 K buffer
 $ENDCMP
 #
+$CMP SN74LV541APWR
+D 8bits Buffer/Line Driver 3 state Out ; TSSOP20
+K buffer 3State
+$ENDCMP
+#
 $CMP SN75LVDS389DBT
 D Octal LVDS Transmitter ; TSSOP38
 K buffer LVDS

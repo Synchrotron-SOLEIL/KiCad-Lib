@@ -5,6 +5,11 @@ D Oscillator ; LVPECL ; 3V3 ; 100MHz ; SMD
 K oscillator
 $ENDCMP
 #
+$CMP 7B-25.000MEEQ-T
+D Crystal ; 25 MHz ; 10 ppm ; SMD
+K crystal
+$ENDCMP
+#
 $CMP 9C-25.000MEEJ-T
 D Crystal ; 25 MHz ; 10 ppm ; SMD ; HC-49S
 K crystal

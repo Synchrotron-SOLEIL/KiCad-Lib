@@ -5,5 +5,5 @@
   (fp_text value VAL** (at 0 -3.937) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (pad 1 thru_hole circle (at 0 0) (size 5.6007 5.6007) (drill 2.79908) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole circle (at 0 0) (size 5.6 5.6) (drill 2.8) (layers *.Cu *.Mask F.SilkS))
 )

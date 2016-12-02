@@ -2,6 +2,7 @@ KiCad-Lib
 =========
 
 This repository contains the components (schematic symbols and footprints) libraries used for miscellaneous project developped by Synchrotron SOLEIL.
+
 There are meant to be used with KiCad EDA (http://www.kicad-pcb.org).
 Most components were created from scratch, few have been modified from KiCad's librariries.
 

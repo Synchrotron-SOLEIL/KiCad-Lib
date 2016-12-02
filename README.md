@@ -14,6 +14,7 @@ Projects includes:
 Any feedback will be much appreciated if you plan to use these libraries.
 
 Released under GNU GPL license (see KiCad License at http://www.kicad-pcb.org).
+
 Synchrotron SOLEIL's name and logo cannot be used without permission.
 
 ----------

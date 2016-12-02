@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: 11/05/2012 15:04:06
+EESchema-LIBRARY Version 2.3  Date: 19/06/2015 15:04:06
 #encoding utf-8
 #
 # A6S-6104-H
@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.3  Date: 11/05/2012 15:04:06
 DEF A6S-6104-H SW 0 50 Y N 1 F N
 F0 "SW" 250 300 60 H V C CNN
 F1 "A6S-6104-H" 450 200 60 H V C CNN
-F2 "SOLEIL-A6S-6104-H" 600 -625 60 H I C CNN
+F2 "passives:SOLEIL-A6S-6104-H" 600 -625 60 H I C CNN
 F4 "Omron" 300 -700 60 H I C CNN "Manufacturer"
 F5 "A6S-6104-H" 450 -800 60 H I C CNN "Manufacturer ref"
 F6 "RS" 200 -900 60 H I C CNN "Supplier"
@@ -52,7 +52,7 @@ ENDDEF
 DEF TEST-22 TP 0 50 N N 1 F N
 F0 "TP" -50 450 60 H V C CNN
 F1 "TEST-22" 50 350 60 H V C CNN
-F2 "SOLEIL-TEST-22" 400 0 60 H I C CNN
+F2 "passives:SOLEIL-TEST-22" 400 0 60 H I C CNN
 F4 "Multicomp" 250 -100 60 H I C CNN "Manufacturer"
 F5 "TEST-22" 250 -200 60 H I C CNN "Manufacturer ref"
 F6 "Farnell" 200 -300 60 H I C CNN "Supplier"
@@ -75,7 +75,7 @@ ENDDEF
 DEF TPA11CGRA004 SW 0 40 N N 1 F N
 F0 "SW" 150 360 60 H V C CNN
 F1 "TPA11CGRA004" 400 270 60 H V C CNN
-F2 "TPA11CGRA" 510 -135 60 H I C CNN
+F2 "passives:TPA11CGRA" 510 -135 60 H I C CNN
 F4 "TE Connectivity" 600 -240 60 H I C CNN "Manufacturer"
 F5 "TPA11CGRA004" 600 -340 60 H I C CNN "Manufacturer ref"
 F6 "Farnell" 400 -440 60 H I C CNN "Supplier"

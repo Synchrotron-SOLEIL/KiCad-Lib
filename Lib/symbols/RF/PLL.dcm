@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LMX2541SQ2690E
+D Fractional N PLL with intregated VCO, RFout = 2490MHz to 2865MHz ; OSCin = 5MHz to 900MHz ; VCO_DIV = 1 to 63
+K PLL
+$ENDCMP
+#
+#End Doc Library

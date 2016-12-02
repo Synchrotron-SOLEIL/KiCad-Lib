@@ -1,0 +1,38 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LT1012ACS8
+D Picoamp Input Current, Microvolt Offset, Low Noise Op Amp
+K opa
+$ENDCMP
+#
+$CMP LT1360CS8
+D Picoamp Input Current, Microvolt Offset, Low Noise Op Amp
+K opa
+$ENDCMP
+#
+$CMP LT6600CS8-2.5
+D Very Low Noise, Differential Amplifier and 2.5MHz Lowpass Filter
+K differential amplifier, opa
+$ENDCMP
+#
+$CMP LTC2054HVCS5
+D Single Micropower Zero-Drift Operational Amplifiers
+K opa
+$ENDCMP
+#
+$CMP LTC6241HVCS8
+D Dual low noise, low offset, rail-to-rail output, unity gain stable CMOS op amps that feature 1pA of input bias current
+K opa
+$ENDCMP
+#
+$CMP OPA2209AIDGKR
+D Dual low noise, low offset, 18 MHz GB, +/-2.5V to +/-18V supply voltage
+K opa
+$ENDCMP
+#
+$CMP PMA2-43LN+
+D low noise, high IP3, 1.1 GHz to 4 GHz, 17.6 dB gain at 2.5 GHz
+K opa RF
+$ENDCMP
+#
+#End Doc Library

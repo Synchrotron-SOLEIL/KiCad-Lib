@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HFJ11-1G01E-L12RL
+D RJ45 Ethernet connector for PCB ; 1Gbs ; tab-down ; green and yelow LEDs ; right angle trough hole
+K RJ45 Ehernet connector
+$ENDCMP
+#
+#End Doc Library

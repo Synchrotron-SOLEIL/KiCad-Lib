@@ -1,13 +1,33 @@
-EESchema-DOCLIB  Version 2.0  Date: 11/05/2012 15:11:35
+EESchema-DOCLIB  Version 2.0
 #
 $CMP LP3883ES-1.2
-D Ultra low dropout linear regulator 3A ; IN = 5V ; OUT = 1V2 ; TO263-5
+D Ultra low dropout linear regulator ; 3A ; Vin = 5V ; Vout = 1V2 ; TO263-5
+K ldo regulator
+$ENDCMP
+#
+$CMP LP3966ES-3.3
+D Ultra low dropout linear regulator ; 3A ; Vin = 5V ; Vout = 3V3 ; TO263-5
 K ldo regulator
 $ENDCMP
 #
 $CMP LTC2908CTS8-A1
 D Six inputs supply monitor ; TSOT23-8
 K monitor reset
+$ENDCMP
+#
+$CMP TPS7A3301
+D Low noise ldo ; 1A ; Vin = -3V to -36V; Vout = -2V to -33V ; 16µVrms noise ; 72dB PSRR
+K ldo regulator
+$ENDCMP
+#
+$CMP TPS7A4700
+D Low noise ldo ; 1A ; Vin = 3V to 36V; Vout = 1.4V to 34V ; 4µVrms noise ; 55dB PSRR
+K ldo regulator
+$ENDCMP
+#
+$CMP LP3966ES-2.5
+D Ultra low dropout linear regulator ; 3A ; Vin = 5V ; Vout = 2V5 ; TO263-5
+K ldo regulator
 $ENDCMP
 #
 #End Doc Library

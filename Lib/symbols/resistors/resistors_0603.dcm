@@ -1,18 +1,233 @@
-EESchema-DOCLIB  Version 2.0  Date: 19/07/2012 17:38:09
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 0R-0.100W-1P-0603
+D Resistor ; 0 Ohm ; 0.100W ; 1% ; 0603
+K Resistor 0R
+$ENDCMP
+#
+$CMP 102K-0.100W-1P-0603
+D Resistor ; 102 KOhm ; 0.100W ; 0.1% ; 0603
+K Resistor 102K
+$ENDCMP
+#
+$CMP 105K-0.100W-1P-0603
+D Resistor ; 105 KOhm ; 0.100W ; 0.1% ; 0603
+K Resistor 105K
+$ENDCMP
+#
+$CMP 10K-0.125W-1P-0603
+D Resistor ; 10 kOhm ; 0.125W ; 1% ; 0603
+K Resistor 10K
+$ENDCMP
+#
+$CMP 10K-0.166W-0.1P-0603
+D Resistor ; 10 KOhm ; 0.166W ; 0.1% ; 0603
+K Resistor 10K
+$ENDCMP
+#
+$CMP 10M-0.100W-1P-0603
+D Resistor ; 10 MOhm ; 0.100W ; 1% ; 0603
+K Resistor 10M
+$ENDCMP
+#
+$CMP 10R-0.125W-1P-0603
+D Resistor ; 10 Ohm ; 0.125W ; 1% ; 0603
+K Resistor 10R
+$ENDCMP
+#
+$CMP 14K-0.166W-0.1P-0603
+D Resistor ; 14 KOhm ; 0.166W ; 0.1% ; 0603
+K Resistor 14K
+$ENDCMP
+#
+$CMP 15K-0.150W-0.1P-0603
+D Resistor ; 15 KOhm ; 0.150W ; 0.1% ; 0603
+K Resistor 15K
+$ENDCMP
+#
+$CMP 180R-0.100W-0.1P-0603
+D Resistor ; 180 Ohm ; 0.100W ; 0.1% ; 0603
+K Resistor 180R
+$ENDCMP
+#
+$CMP 18R-0.250W-1P-0603
+D Resistor ; 18 Ohm ; 0.250W ; 1% ; 0603
+K Resistor 18R
+$ENDCMP
+#
+$CMP 1K-0.166W-0.1P-0603
+D Resistor ; 1 KOhm ; 0.166W ; 0.1% ; 0603
+K Resistor 1K
+$ENDCMP
+#
+$CMP 1K2-0.100W-0.1P-0603
+D Resistor ; 1.2 KOhm ; 0.100W ; 0.1% ; 0603
+K Resistor 1K2
+$ENDCMP
+#
+$CMP 1K5-0.166W-0.1P-0603
+D Resistor ; 1.5 KOhm ; 0.166W ; 0.1% ; 0603
+K Resistor 1K5
+$ENDCMP
+#
+$CMP 1K8-0.100W-0.1P-0603
+D Resistor ; 1.8 KOhm ; 0.100W ; 0.1% ; 0603
+K Resistor 1K8
+$ENDCMP
+#
+$CMP 1K91-0.166W-0.1P-0603
+D Resistor ; 1.91 KOhm ; 0.166W ; 0.1% ; 0603
+K Resistor 1K91
+$ENDCMP
+#
+$CMP 1M24-0.100W-1P-0603
+D Resistor ; 1.24 MOhm ; 0.100W ; 0.1% ; 0603
+K Resistor 1M24
+$ENDCMP
+#
+$CMP 1R21-0.100W-1P-0603
+D Resistor ; 1.21 Ohm ; 0.100W ; 1% ; 0603
+K Resistor 1R21
+$ENDCMP
+#
+$CMP 215R-0.166W-0.1P-0603
+D Resistor ; 215 Ohm ; 0.166W ; 0.1% ; 0603
+K Resistor 215R
+$ENDCMP
 #
 $CMP 22R-0.125W-1P-0603
 D Resistor ; 22 Ohm ; 0.125W ; 1% ; 0603
 K Resistor 22R
 $ENDCMP
 #
-$CMP 10k-0.125W-1P-0603
-D Resistor ; 10 kOhm ; 0.125W ; 1% ; 0603
-K Resistor 10k
+$CMP 27K-0.100W-0.1P-0603
+D Resistor ; 27 KOhm ; 0.100W ; 0.1% ; 0603
+K Resistor 27K
 $ENDCMP
 #
-$CMP 10R-0.125W-1P-0603
-D Resistor ; 10 Ohm ; 0.125W ; 1% ; 0603
-K Resistor 10R
+$CMP 2K2-0.100W-0.1P-0603
+D Resistor ; 2.2 KOhm ; 0.100W ; 0.1% ; 0603
+K Resistor 2K2
+$ENDCMP
+#
+$CMP 330R-0.250W-1P-0603
+D Resistor ; 330 Ohm ; 0.250W ; 1% ; 0603
+K Resistor 330R
+$ENDCMP
+#
+$CMP 332K-0.100W-1P-0603
+D Resistor ; 332 KOhm ; 0.100W ; 0.1% ; 0603
+K Resistor 332K
+$ENDCMP
+#
+$CMP 33R2-0.166W-0.1P-0603
+D Resistor ; 33.2 Ohm ; 0.166W ; 0.1% ; 0603
+K Resistor 33R2
+$ENDCMP
+#
+$CMP 470R-0.125W-0.1P-0603
+D Resistor ; 470 Ohm ; 0.125W ; 0.1% ; 0603
+K Resistor 470R
+$ENDCMP
+#
+$CMP 47R5-0.166W-0.1P-0603
+D Resistor ; 47.5 Ohm ; 0.166W ; 0.1% ; 0603
+K Resistor 47R5
+$ENDCMP
+#
+$CMP 48R7-0.166W-0.1P-0603
+D Resistor ; 48.7 Ohm ; 0.166W ; 0.1% ; 0603
+K Resistor 48R7
+$ENDCMP
+#
+$CMP 499R-0.150W-0.1P-0603
+D Resistor ; 499 Ohm ; 0.150W ; 0.1% ; 0603
+K Resistor 499R
+$ENDCMP
+#
+$CMP 49R9-0.166W-0.1P-0603
+D Resistor ; 49.9 Ohm ; 0.166W ; 0.1% ; 0603
+K Resistor 49R9
+$ENDCMP
+#
+$CMP 4K02-0.166W-0.1P-0603
+D Resistor ; 4.02 KOhm ; 0.166W ; 0.1% ; 0603
+K Resistor 4K02
+$ENDCMP
+#
+$CMP 4K7-0.100W-0.1P-0603
+D Resistor ; 4.7 KOhm ; 0.100W ; 0.1% ; 0603
+K Resistor 4K7
+$ENDCMP
+#
+$CMP 4R7-0.100W-1P-0603
+D Resistor ; 4.7 Ohm ; 0.100W ; 1% ; 0603
+K Resistor 4R7
+$ENDCMP
+#
+$CMP 50R5-0.150W-0.1P-0603
+D Resistor ; 50.5 Ohm ; 0.150W ; 0.1% ; 0603
+K Resistor 50R5
+$ENDCMP
+#
+$CMP 576R-0.166W-0.1P-0603
+D Resistor ; 576 Ohm ; 0.166W ; 0.1% ; 0603
+K Resistor 576
+$ENDCMP
+#
+$CMP 5K11-0.166W-0.1P-0603
+D Resistor ; 5.11 KOhm ; 0.166W ; 0.1% ; 0603
+K Resistor 5K11
+$ENDCMP
+#
+$CMP 62R-0.100W-0.1P-0603
+D Resistor ; 62 Ohm ; 0.100W ; 0.1% ; 0603
+K Resistor 62R
+$ENDCMP
+#
+$CMP 62R-0.200W-1P-0603
+D Resistor ; 62 Ohm ; 0.200W ; 1% ; 0603
+K Resistor 62R
+$ENDCMP
+#
+$CMP 71R5-0.166W-0.1P-0603
+D Resistor ; 71.5 Ohm ; 0.166W ; 0.1% ; 0603
+K Resistor 70R5
+$ENDCMP
+#
+$CMP 75K-0.166W-0.1P-0603
+D Resistor ; 75 KOhm ; 0.166W ; 0.1% ; 0603
+K Resistor 75K
+$ENDCMP
+#
+$CMP 7K5-0.166W-0.1P-0603
+D Resistor ; 7.5 KOhm ; 0.166W ; 0.1% ; 0603
+K Resistor 7K5
+$ENDCMP
+#
+$CMP 820R-0.250W-1P-0603
+D Resistor ; 820 Ohm ; 0.250W ; 1% ; 0603
+K Resistor 820R
+$ENDCMP
+#
+$CMP 88K7-0.166W-0.1P-0603
+D Resistor ; 88.7 KOhm ; 0.166W ; 0.1% ; 0603
+K Resistor 88K7
+$ENDCMP
+#
+$CMP 976R-0.166W-0.1P-0603
+D Resistor ; 976 Ohm ; 0.166W ; 0.1% ; 0603
+K Resistor 976
+$ENDCMP
+#
+$CMP 130R-0.100W-1P-0603
+D Resistor ; 130 Ohm ; 0.100W ; 1% ; 0603
+K Resistor 130R
+$ENDCMP
+#
+$CMP 82R-0.100W-1P-0603
+D Resistor ; 82 Ohm ; 0.100W ; 1% ; 0603
+K Resistor 82R
 $ENDCMP
 #
 #End Doc Library

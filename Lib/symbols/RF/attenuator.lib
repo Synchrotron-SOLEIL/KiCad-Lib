@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# GAT-5+
+#
+DEF GAT-5+ U 0 30 Y Y 1 F N
+F0 "U" 550 600 60 H V C CNN
+F1 "GAT-5+" 600 500 60 H V C CNN
+F2 "passives:SOLEIL-FG873" 1350 -450 60 H I C CNN
+F3 "" -1850 750 60 H V C CNN
+F4 "Mini-Circuits" 1100 -550 60 H I C CNN "Manufacturer"
+F5 "GAT-5+" 1000 -650 60 H I C CNN "Manufacturer ref"
+F6 "Mini-Circuits" 1100 -750 60 H I C CNN "Supplier"
+F7 "GAT-5+" 1000 -850 60 H I C CNN "Supplier ref"
+F8 "1" 550 400 60 H V C CNN "Qty"
+F9 "5dB" 900 -950 60 H I C CNN "Desc1"
+F10 "-" 1150 -1050 60 H I C CNN "Desc2"
+F11 "-" 850 -1050 60 H I C CNN "Desc3"
+F12 "-" 1000 -1050 60 H I C CNN "Desc4"
+F13 "FG873" 950 -1200 60 H I C CNN "Case"
+F14 "2.35" 900 -1300 60 H I C CNN "Price"
+DRAW
+T 0 550 250 60 0 0 0 5~dB  Normal 0 C C
+P 2 0 0 0  400 -150  700 -150 N
+P 2 0 0 0  400 150  700 150 N
+P 2 0 0 0  550 -150  550 150 N
+S 200 350 900 -400 0 1 0 N
+X IN 1 0 0 200 R 50 50 1 1 I
+X GND0 2 500 -600 200 U 50 50 1 1 W
+X OUT 3 1100 0 200 L 50 50 1 1 O
+X GND1 4 600 -600 200 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+#End Library

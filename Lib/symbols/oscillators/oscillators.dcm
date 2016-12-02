@@ -1,4 +1,24 @@
-EESchema-DOCLIB  Version 2.0  Date: 19/07/2012 14:53:33
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 510ABA100M000AAG
+D Oscillator ; LVPECL ; 3V3 ; 100MHz ; SMD
+K oscillator
+$ENDCMP
+#
+$CMP 7B-25.000MEEQ-T
+D Crystal ; 25 MHz ; 10 ppm ; SMD
+K crystal
+$ENDCMP
+#
+$CMP 9C-25.000MEEJ-T
+D Crystal ; 25 MHz ; 10 ppm ; SMD ; HC-49S
+K crystal
+$ENDCMP
+#
+$CMP CVHD-950M-108.3681
+D Oscillator ; HCMOS ; 3V3 ; 108.3681MHz ; SMD
+K VCXO
+$ENDCMP
 #
 $CMP FXO-HC736R-25MHZ
 D Oscillator ; HCMOS ; 3V3 ; 25MHz ; SMD

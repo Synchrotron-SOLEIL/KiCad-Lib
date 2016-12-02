@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 26/09/2012 16:36:50
+EESchema-DOCLIB  Version 2.0
 #
 $CMP 20021121-00010C4LF
 D Header ; 2x5 points ; straight ; 1.27mm pitch ; 3mm height  ; SMD
@@ -13,6 +13,11 @@ $ENDCMP
 $CMP JTAG-87832-1420
 D XILINX JTAG platform cable connector ; 2x7 points ; straight ; 2mm pitch ; SMD
 K JTAG connector
+$ENDCMP
+#
+$CMP QSH-040-01-F-D-DP-A
+D 0.50 mm Q Pairs High Speed Ground Plane Socket Strip, Differential Pair
+K header connector
 $ENDCMP
 #
 $CMP TSM-102-02-S-DV
@@ -37,6 +42,11 @@ $ENDCMP
 #
 $CMP TSM-123-02-S-DV
 D Header ; 2x23 points ; straight ; 2.54mm pitch ; 8.13mm height  ; SMD
+K header connector
+$ENDCMP
+#
+$CMP TSW-123-14-G-D
+D Header ; 2x23 points ; straight ; 2.54mm pitch ; 8.13mm height  ; trough hole
 K header connector
 $ENDCMP
 #

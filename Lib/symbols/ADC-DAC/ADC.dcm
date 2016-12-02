@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADS8694IDBT
+D 4 channel, 18 bits SAR ADC, 500 kSPS, SPI interface
+K ADC
+$ENDCMP
+#
+#End Doc Library

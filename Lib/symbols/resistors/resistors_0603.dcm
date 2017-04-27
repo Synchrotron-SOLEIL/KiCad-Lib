@@ -230,4 +230,19 @@ D Resistor ; 82 Ohm ; 0.100W ; 1% ; 0603
 K Resistor 82R
 $ENDCMP
 #
+$CMP 12K4-0.200W-1P-0603
+D Resistor ; 12.4 KOhm ; 0.2W ; 1% ; 0603
+K Resistor 12K4
+$ENDCMP
+#
+$CMP 232K-0.200W-1P-0603
+D Resistor ; 232 KOhm ; 0.2W ; 1% ; 0603
+K Resistor 232K
+$ENDCMP
+#
+$CMP 240K-0.200W-1P-0603
+D Resistor ; 240 KOhm ; 0.2W ; 1% ; 0603
+K Resistor 240K
+$ENDCMP
+#
 #End Doc Library

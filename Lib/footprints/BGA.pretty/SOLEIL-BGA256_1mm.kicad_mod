@@ -1,4 +1,4 @@
-(module SOLEIL-BGA256_1mm (layer F.Cu) (tedit 577F5913)
+(module SOLEIL-BGA256_1mm (layer F.Cu) (tedit 5B55EDD9)
   (attr smd)
   (fp_text reference SOLEIL-BGA256_1mm (at 0 10.16) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -267,9 +267,9 @@
   (pad K16 smd circle (at 7.50062 1.50114) (size 0.39878 0.39878) (layers F.Cu F.Paste F.Mask))
   (pad J16 smd circle (at 7.50062 0.50038) (size 0.39878 0.39878) (layers F.Cu F.Paste F.Mask))
   (pad H16 smd circle (at 7.50062 -0.50038) (size 0.39878 0.39878) (layers F.Cu F.Paste F.Mask))
-  (model smd/generic_bga.wrl
+  (model ${KISYS3DMOD}/Package_BGA.3dshapes/BGA-256_17.0x17.0mm_Layout16x16_P1.0mm_Ball0.5mm_Pad0.4mm_NSMD.step
     (at (xyz 0 0 0))
-    (scale (xyz 0.8 0.8 0.5))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
 )

@@ -1,4 +1,4 @@
-(module SOLEIL-BeagleBoneBlack-P8 (layer F.Cu) (tedit 57696418)
+(module SOLEIL-BeagleBoneBlack-P8 (layer F.Cu) (tedit 5B574A49)
   (fp_text reference SOLEIL-BeagleBoneBlack-P8 (at -43.053 -45.5295) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -74,4 +74,9 @@
   (pad "" np_thru_hole circle (at -60.96 -4.445 180) (size 3.175 3.175) (drill 3.175) (layers *.Cu *.Mask F.SilkS))
   (pad "" np_thru_hole circle (at 5.08 -49.53 180) (size 3.175 3.175) (drill 3.175) (layers *.Cu *.Mask F.SilkS))
   (pad "" np_thru_hole circle (at -60.96 -46.355 180) (size 3.175 3.175) (drill 3.175) (layers *.Cu *.Mask F.SilkS))
+  (model D:/jpr/projets/KiCad/Lib/packages3d_extra/Connector_BeagleBone.3dshapes/BeagleBone_P8.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

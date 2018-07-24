@@ -1,4 +1,4 @@
-(module SOLEIL-87832-1420 (layer F.Cu) (tedit 500EA03A)
+(module SOLEIL-87832-1420 (layer F.Cu) (tedit 5B572E02)
   (fp_text reference SOLEIL-87832-1420 (at 6.5786 4.3434) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -26,4 +26,9 @@
   (pad 14 smd rect (at 11.99896 -5.6007) (size 1.00076 4.09956) (layers F.Cu F.Paste F.Mask))
   (pad "" np_thru_hole circle (at 1.00076 -2.79908) (size 1.00076 1.00076) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
   (pad "" np_thru_hole circle (at 11.00074 -2.79908) (size 1.00076 1.00076) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
+  (model D:/jpr/projets/KiCad/Lib/packages3d_extra/Connector_Molex.3dshapes/Molex_Milli-Grid_878321420_2x7_P2.00_Vertical.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

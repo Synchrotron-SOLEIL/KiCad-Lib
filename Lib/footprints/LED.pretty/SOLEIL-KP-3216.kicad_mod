@@ -1,4 +1,4 @@
-(module SOLEIL-KP-3216 (layer F.Cu) (tedit 4F7C197D)
+(module SOLEIL-KP-3216 (layer F.Cu) (tedit 5B584C02)
   (fp_text reference SOLEIL-KP-3216 (at 2.667 2.794) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -13,4 +13,9 @@
   (fp_line (start 5.08 1.27) (end 5.08 -1.27) (layer F.SilkS) (width 0.1))
   (pad 1 smd rect (at 0 0) (size 1.75006 1.50114) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 3.74904 0) (size 1.75006 1.50114) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_1206_3216Metric_Castellated.wrl
+    (offset (xyz 1.8 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

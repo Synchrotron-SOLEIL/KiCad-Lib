@@ -1,4 +1,4 @@
-(module SOLEIL-FXO-HC73 (layer F.Cu) (tedit 4F7D8A85)
+(module SOLEIL-FXO-HC73 (layer F.Cu) (tedit 5B589A6E)
   (fp_text reference FXO-HC73 (at 4.20116 -1.89992) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -14,4 +14,9 @@
   (pad 2 smd rect (at 5.08 0) (size 1.80086 1.99898) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 5.08 -4.20116) (size 1.80086 1.99898) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at 0 -4.20116) (size 1.80086 1.99898) (layers F.Cu F.Paste F.Mask))
+  (model D:/jpr/projets/KiCad/Lib/packages3d_extra/Oscillator.3dshapes/Abracon_ASVV_L7mm_W5mm_H2mm.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

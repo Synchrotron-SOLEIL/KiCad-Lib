@@ -1,4 +1,4 @@
-(module SOLEIL-HE-1.27-10 (layer F.Cu) (tedit 5B59E863)
+(module SOLEIL-HE-1.27-10 (layer F.Cu) (tedit 5B5AE638)
   (fp_text reference SOLEIL-HE-1.27-10 (at 2.7305 2.9845) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -20,8 +20,8 @@
   (pad 8 smd rect (at 3.81 -3.8989) (size 0.75946 2.4003) (layers F.Cu F.Paste F.Mask))
   (pad 9 smd rect (at 5.08 0) (size 0.75946 2.4003) (layers F.Cu F.Paste F.Mask))
   (pad 10 smd rect (at 5.08 -3.8989) (size 0.75946 2.4003) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_2x05_P1.27mm_Vertical_SMD.wrl
-    (offset (xyz 2.55 2 0))
+  (model ${KISYS3DMOD}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_2x05_P1.27mm_Vertical.wrl
+    (offset (xyz 5 2.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
   )

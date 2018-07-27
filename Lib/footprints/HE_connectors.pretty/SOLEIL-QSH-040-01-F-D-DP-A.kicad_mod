@@ -104,7 +104,7 @@
   (pad 80 smd rect (at 34 -5.74) (size 0.28 2.27) (layers F.Cu F.Paste F.Mask))
   (pad "" np_thru_hole circle (at -2.818 -5.54) (size 1.02 1.02) (drill 1.02) (layers *.Cu *.Mask F.SilkS))
   (pad "" np_thru_hole circle (at 47.91 -2.87) (size 4.35 4.35) (drill 4.35) (layers *.Cu *.Mask F.SilkS))
-  (model D:/jpr/projets/KiCad/Lib/packages3d_extra/Connector_Samtec.3dshapes/Samtec_QSH_040_01_F_D_DP_A.wrl
+  (model ${KISYS3DMOD}/Connector_Samtec.3dshapes/Samtec_QSH_040_01_F_D_DP_A.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

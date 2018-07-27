@@ -20,6 +20,11 @@ D Resistor ; 10 KOhm ; 0.166W ; 0.1% ; 0603
 K Resistor 10K
 $ENDCMP
 #
+$CMP 10K-0.125W-1P-0603
+D Resistor ; 10 KOhm ; 0.125W ; 1% ; 0603
+K Resistor 10K
+$ENDCMP
+#
 $CMP 10M-0.100W-1P-0603
 D Resistor ; 10 MOhm ; 0.100W ; 1% ; 0603
 K Resistor 10M

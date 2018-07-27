@@ -13,7 +13,7 @@
   (fp_line (start 2.921 -1.016) (end 2.921 1.016) (layer F.SilkS) (width 0.1))
   (pad 1 smd rect (at 0 0) (size 0.8001 1.00076) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.99898 0) (size 0.8001 1.00076) (layers F.Cu F.Paste F.Mask))
-  (model D:/jpr/projets/KiCad/Lib/packages3d_extra/LED_SMD.3dshapes/Osram_M67K_L2.3mm_W1.3mm_H1.6mm.wrl
+  (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_Osram_M67K_L2.3mm_W1.3mm_H1.6mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

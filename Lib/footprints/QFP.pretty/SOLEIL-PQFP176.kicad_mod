@@ -1,4 +1,4 @@
-(module SOLEIL-PQFP176 (layer F.Cu) (tedit 5048C731)
+(module SOLEIL-PQFP176 (layer F.Cu) (tedit 5B5B075F)
   (attr smd)
   (fp_text reference SOLEIL-PQFP176 (at -11.0744 12.6492) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -188,4 +188,9 @@
   (pad 174 smd rect (at 2.07772 3.07594) (size 1.6002 0.3048) (layers F.Cu F.Paste F.Mask))
   (pad 175 smd rect (at 2.07772 2.5781) (size 1.6002 0.3048) (layers F.Cu F.Paste F.Mask))
   (pad 176 smd rect (at 2.07772 2.07772) (size 1.6002 0.3048) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Package_QFP.3dshapes/LQFP-176_24x24mm_P0.5mm.wrl
+    (offset (xyz -10.75 -12.83 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )

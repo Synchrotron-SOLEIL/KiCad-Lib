@@ -1,4 +1,4 @@
-(module SOLEIL-MC1631 (layer F.Cu) (tedit 56D9A418)
+(module SOLEIL-MC1631 (layer F.Cu) (tedit 5B5B2791)
   (descr "Mini-Circuits MC1631-1")
   (attr smd)
   (fp_text reference MC1631 (at 3.125 -0.9 90) (layer F.SilkS)
@@ -21,9 +21,9 @@
   (pad 3 smd rect (at 1 0) (size 0.25 0.8) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.5 0) (size 0.25 0.8) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at 0 0) (size 0.25 0.8) (layers F.Cu F.Paste F.Mask))
-  (model smd/cms_so8.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 0.5 0.38 0.5))
-    (rotate (xyz 0 0 0))
+  (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/DFN-8_2x2mm_P0.5mm.wrl
+    (offset (xyz 0.75 0.95 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
   )
 )

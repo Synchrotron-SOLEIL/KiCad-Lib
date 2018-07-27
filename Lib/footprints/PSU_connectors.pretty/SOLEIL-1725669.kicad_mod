@@ -1,4 +1,4 @@
-(module SOLEIL-1725669 (layer F.Cu) (tedit 574EE458)
+(module SOLEIL-1725669 (layer F.Cu) (tedit 5B5B3E5E)
   (fp_text reference 1725669 (at 2.54 -4.572) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -15,4 +15,9 @@
   (pad 2 thru_hole circle (at 2.54 0) (size 2 2) (drill 1.1) (layers *.Cu *.Mask F.SilkS))
   (pad 3 thru_hole circle (at 5.08 0) (size 2 2) (drill 1.1) (layers *.Cu *.Mask F.SilkS))
   (pad "" np_thru_hole circle (at 0 -2.54) (size 1.1 1.1) (drill 1.1) (layers *.Cu *.Mask F.SilkS))
+  (model ${KISYS3DMOD}/Connector_Phoenix_MC.3dshapes/PhoenixContact_MPT_1725669-1x3_P2.54mm_vertical.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

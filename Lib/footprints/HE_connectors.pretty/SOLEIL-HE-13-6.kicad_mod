@@ -1,4 +1,4 @@
-(module SOLEIL-HE-13-6 (layer F.Cu) (tedit 4F7C1961)
+(module SOLEIL-HE-13-6 (layer F.Cu) (tedit 5B5F29F6)
   (fp_text reference HE13-6 (at 7.366 2.667) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -15,4 +15,9 @@
   (pad 4 thru_hole circle (at 7.62 0) (size 1.6002 1.6002) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
   (pad 5 thru_hole circle (at 10.16 0) (size 1.6002 1.6002) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
   (pad 6 thru_hole circle (at 12.7 0) (size 1.6002 1.6002) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
+  (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl
+    (offset (xyz 12.65 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )

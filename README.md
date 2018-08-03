@@ -12,6 +12,7 @@ Projects includes:
 * TimIQ  ; sub picosecond laser / beam delay adjust
 
 Please refer to KiCad libraries license terms (http://kicad-pcb.org/libraries/license).
+
 Synchrotron SOLEIL's name and logo cannot be used without permission.
 
 ----------

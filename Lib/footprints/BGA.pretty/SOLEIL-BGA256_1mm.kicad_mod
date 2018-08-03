@@ -267,7 +267,7 @@
   (pad K16 smd circle (at 7.50062 1.50114) (size 0.39878 0.39878) (layers F.Cu F.Paste F.Mask))
   (pad J16 smd circle (at 7.50062 0.50038) (size 0.39878 0.39878) (layers F.Cu F.Paste F.Mask))
   (pad H16 smd circle (at 7.50062 -0.50038) (size 0.39878 0.39878) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Package_BGA.3dshapes/BGA-256_17.0x17.0mm_Layout16x16_P1.0mm_Ball0.5mm_Pad0.4mm_NSMD.step
+  (model ${KISYS3DMOD}/Package_BGA.3dshapes/BGA-256_17.0x17.0mm_Layout16x16_P1.0mm_Ball0.5mm_Pad0.4mm_NSMD.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

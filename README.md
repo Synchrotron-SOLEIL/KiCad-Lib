@@ -17,5 +17,5 @@ Synchrotron SOLEIL's name and logo cannot be used without permission.
 
 ----------
 
-http://www.synchrotron-soleil.fr/
+https://www.synchrotron-soleil.fr/en
 

@@ -1,4 +1,4 @@
-(module SOLEIL-TSM-102-DV (layer F.Cu) (tedit 5017CAF7)
+(module SOLEIL-TSM-102-DV (layer F.Cu) (tedit 5B680FD1)
   (fp_text reference SOLEIL-TSM-102-DV (at -0.0254 4.5466) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -14,4 +14,9 @@
   (pad 2 smd rect (at 0 -4.95046) (size 1.27 3.68046) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 2.54 0) (size 1.27 3.68046) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at 2.54 -4.95046) (size 1.27 3.68046) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Connector_Samtec.3dshapes/Samtec_TSM_102_02_S_DV_2x2_P2.54mm_Vetical.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

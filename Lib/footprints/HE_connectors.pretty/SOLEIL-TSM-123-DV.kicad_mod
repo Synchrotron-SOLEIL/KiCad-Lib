@@ -1,4 +1,4 @@
-(module SOLEIL-TSM-123-DV (layer F.Cu) (tedit 5017CA7F)
+(module SOLEIL-TSM-123-DV (layer F.Cu) (tedit 5B681AB2)
   (fp_text reference SOLEIL-TSM-123-DV (at 27.7114 4.445) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -56,4 +56,9 @@
   (pad 44 smd rect (at 53.34 -4.95046) (size 1.27 3.68046) (layers F.Cu F.Paste F.Mask))
   (pad 45 smd rect (at 55.88 0) (size 1.27 3.68046) (layers F.Cu F.Paste F.Mask))
   (pad 46 smd rect (at 55.88 -4.95046) (size 1.27 3.68046) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Connector_Samtec.3dshapes/Samtec_TSM_123_02_S_DV_2x23_P2.54mm_Vetical.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

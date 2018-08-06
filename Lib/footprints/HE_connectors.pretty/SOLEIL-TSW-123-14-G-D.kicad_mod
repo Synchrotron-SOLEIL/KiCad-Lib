@@ -1,4 +1,4 @@
-(module SOLEIL-TSW-123-14-G-D (layer F.Cu) (tedit 56BB320E)
+(module SOLEIL-TSW-123-14-G-D (layer F.Cu) (tedit 5B681DBB)
   (fp_text reference SOLEIL-TSW-123-14-G-D (at 12.827 -5.334) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -56,4 +56,9 @@
   (pad 1 thru_hole rect (at 0 0 180) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 0 -2.54 180) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad 45 thru_hole circle (at 55.88 0 180) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (model ${KISYS3DMOD}/Connector_Samtec.3dshapes/Samtec_TSW_123_14_G_D_2x23_P2.54mm_Vetical_THT.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

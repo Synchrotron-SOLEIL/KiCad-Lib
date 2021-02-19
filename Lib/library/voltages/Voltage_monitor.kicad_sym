@@ -10,7 +10,7 @@
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/2908fd.pdf" (id 3) (at 0 15.24 0)
-      (effects (font (size 1.524 1.524)))
+      (effects (font (size 1.524 1.524)) hide)
     )
     (property "Manufacturer" "Analogue Devices" (id 4) (at 24.13 -21.59 0)
       (effects (font (size 1.524 1.524)) hide)

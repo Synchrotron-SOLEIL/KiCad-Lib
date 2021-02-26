@@ -378,7 +378,7 @@
       )
     )
     (symbol "Cora_Z7-10_8_1"
-      (rectangle (start 0 3.81) (end 12.7 -25.4)
+      (rectangle (start 3.81 3.81) (end 12.7 -25.4)
         (stroke (width 0.254)) (fill (type none))
       )
       (pin no_connect line (at 0 -13.97 0) (length 3.81)

@@ -249,7 +249,7 @@
         (name "CK_IO40" (effects (font (size 1.27 1.27))))
         (number "J4_14" (effects (font (size 1.27 1.27))))
       )
-      (pin bidirectional line (at 1.27 -17.78 0) (length 3.81)
+      (pin bidirectional line (at 0 -17.78 0) (length 3.81)
         (name "CK_IOA" (effects (font (size 1.27 1.27))))
         (number "J4_15" (effects (font (size 1.27 1.27))))
       )

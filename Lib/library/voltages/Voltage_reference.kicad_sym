@@ -187,7 +187,7 @@
     (property "Manufacturer" "Analog Devices" (id 4) (at 29.21 -10.16 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Manufacturer ref" "LTC6655BHMS8-1.25#PBF" (id 5) (at -8.89 -10.16 0)
+    (property "Manufacturer ref" "LTC6655BHMS8-3.3#PBF" (id 5) (at -8.89 -10.16 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Supplier" "Digi-Key" (id 6) (at 22.86 -12.7 0)

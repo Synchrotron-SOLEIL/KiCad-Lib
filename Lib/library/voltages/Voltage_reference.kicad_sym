@@ -178,7 +178,7 @@
     (property "Value" "LTC6655BHMS8-3.3" (id 1) (at 15.24 2.54 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm" (id 2) (at -11.43 -12.7 0)
+    (property "Footprint" "S_Package_SO:MSOP-8_3x3mm_P0.65mm" (id 2) (at -11.43 -12.7 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ltc6655-6655ln.pdf" (id 3) (at 12.7 12.7 0)

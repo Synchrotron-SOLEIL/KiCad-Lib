@@ -118,7 +118,7 @@
     (property "Value" "LTC6752IS5" (id 1) (at 3.81 -7.62 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5" (id 2) (at 20.32 -22.86 0)
+    (property "Footprint" "S_Package_TO_SOT_SMD:TSOT-23-5" (id 2) (at 20.32 -22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/6752fc.pdf" (id 3) (at 0 15.24 0)

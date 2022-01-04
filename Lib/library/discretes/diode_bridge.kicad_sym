@@ -1,5 +1,5 @@
-(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
-  (symbol "S_Diode_Bridge:MB6S" (pin_names (offset 0)) (in_bom yes) (on_board yes)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "MB6S" (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 2.54 6.985 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -60,28 +60,32 @@
           (xy -2.54 3.81)
           (xy -1.27 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.27 -2.54)
           (xy -2.54 -3.81)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 2.54 -1.27)
           (xy 3.81 -2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 2.54 1.27)
           (xy 3.81 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -90,7 +94,8 @@
           (xy -1.905 3.175)
           (xy -3.81 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
@@ -99,7 +104,8 @@
           (xy -1.905 -3.175)
           (xy -2.54 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
@@ -108,7 +114,8 @@
           (xy 3.175 1.905)
           (xy 1.27 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
@@ -117,7 +124,8 @@
           (xy 2.54 -3.81)
           (xy 3.175 -1.905)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
@@ -127,16 +135,17 @@
           (xy 0 5.08)
           (xy -5.08 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "MB6S_1_1"
       (pin passive line (at 0 -7.62 90) (length 2.54)
-        (name "~~" (effects (font (size 1.27 1.27))))
+        (name "~" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at 0 7.62 270) (length 2.54)
-        (name "~~" (effects (font (size 1.27 1.27))))
+        (name "~" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at 7.62 0 180) (length 2.54)

@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LAN8810I-AKZE
+D GMII 10/100/1000 Ethernet Transceiver with HP Auto-MDIX Support ; 72 WQFN
+K Ethernet interface
+$ENDCMP
+#
+#End Doc Library

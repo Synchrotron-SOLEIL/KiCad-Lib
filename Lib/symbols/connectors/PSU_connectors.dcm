@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1725669
+D Phoenix Contact connector ; through hole ; 3 points ; right angle trough hole ; 6 A ; 160 V ; screw connection
+K Phoenix srew connection connector
+$ENDCMP
+#
+$CMP 24.243.1
+D Multicomp connector ; through hole ; 2 points ; right angle trough hole ; red
+K Multicomp connector ; banana
+$ENDCMP
+#
+$CMP 24.243.2
+D Multicomp connector ; through hole ; 2 points ; right angle trough hole ; black
+K Multicomp connector ; banana
+$ENDCMP
+#
+$CMP 24.243.5
+D Multicomp connector ; through hole ; 2 points ; right angle trough hole ; blue
+K Multicomp connector ; banana
+$ENDCMP
+#
+$CMP 26481046
+D Molex connector ; through hole ; 4 points ; right angle trough hole
+K molex connector
+$ENDCMP
+#
+$CMP 39-30-1061
+D Molex Mini-Fit connector ; through hole ; 6 points ; right angle trough hole ; mates with 39-01-2060
+K molex Mini-Fit connector
+$ENDCMP
+#
+#End Doc Library

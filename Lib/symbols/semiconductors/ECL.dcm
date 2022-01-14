@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: 19/06/2015 15:49:45
+#
+$CMP MC100EPT22D
+D Double TTL to LVPECL convertor ; SOIC8NB
+K LVPECL convertor
+$ENDCMP
+#
+#End Doc Library

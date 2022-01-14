@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0  Date: 19/06/2015 15:04:06
+#
+$CMP A6S-6104-H
+D DIP switch ; 6 poles ; SMD
+K switch
+$ENDCMP
+#
+$CMP TEST-22
+D PCB test point
+K test point
+$ENDCMP
+#
+$CMP TPA11CGRA004
+D Push Button ; SPST ; trough hole
+K Switch SPST
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 132134
+D SMA connector for PCB ; vertical trough hole
+K SMA
+$ENDCMP
+#
+$CMP 132430
+D SMA connector end launch jack for 1.19mm (0.047 icnh) PCB ; straight SMD ; flat tab contact
+K SMA
+$ENDCMP
+#
+$CMP 449.42.2522.201
+D SMA connector elbow for PCB ; right angle trough hole
+K SMA
+$ENDCMP
+#
+#End Doc Library

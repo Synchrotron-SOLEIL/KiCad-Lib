@@ -1,8 +1,0 @@
-EESchema-DOCLIB  Version 2.0  Date: 19/06/2015 17:26:27
-#
-$CMP PCI9030-AA60PI
-D cPCI / local bus interface ; 176 PQFP
-K PLX cPCI interface
-$ENDCMP
-#
-#End Doc Library

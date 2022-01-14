@@ -1,8 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP XCF04SVOG20C
-D 4Mb Platform Flash Configuration PROMs ; TSSOP20
-K PROM FPGA
-$ENDCMP
-#
-#End Doc Library

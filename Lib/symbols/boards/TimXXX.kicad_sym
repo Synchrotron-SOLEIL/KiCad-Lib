@@ -1,9 +1,9 @@
 (kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
   (symbol "TimBEL" (in_bom yes) (on_board yes)
-    (property "Reference" "U" (id 0) (at -6.35 10.795 0)
+    (property "Reference" "U" (id 0) (at -6.35 11.43 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "TimBEL" (id 1) (at -5.715 8.255 0)
+    (property "Value" "TimBEL" (id 1) (at -6.35 8.89 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (id 2) (at 8.89 -11.43 0)
@@ -13,7 +13,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TimBEL_0_0"
-      (rectangle (start -19.05 6.985) (end 6.35 -64.135)
+      (rectangle (start -19.05 7.62) (end 6.35 -64.77)
         (stroke (width 0.1524) (type default) (color 0 0 0 0))
         (fill (type background))
       )
@@ -163,7 +163,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TimEX3-A_0_0"
-      (rectangle (start -6.35 7.62) (end 6.35 -64.135)
+      (rectangle (start -6.35 7.62) (end 6.35 -64.77)
         (stroke (width 0.1524) (type default) (color 0 0 0 0))
         (fill (type background))
       )
@@ -253,7 +253,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TimEX3-B_0_0"
-      (rectangle (start -6.35 7.62) (end 6.35 -64.135)
+      (rectangle (start -6.35 7.62) (end 6.35 -64.77)
         (stroke (width 0.1524) (type default) (color 0 0 0 0))
         (fill (type background))
       )
@@ -343,7 +343,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TimEX3-C_0_0"
-      (rectangle (start -6.35 7.62) (end 6.35 -64.135)
+      (rectangle (start -6.35 7.62) (end 6.35 -64.77)
         (stroke (width 0.1524) (type default) (color 0 0 0 0))
         (fill (type background))
       )
@@ -433,7 +433,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TimEX3-D_0_0"
-      (rectangle (start -6.35 7.62) (end 6.35 -64.135)
+      (rectangle (start -6.35 7.62) (end 6.35 -64.77)
         (stroke (width 0.1524) (type default) (color 0 0 0 0))
         (fill (type background))
       )
@@ -523,7 +523,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TimEX3-E_0_0"
-      (rectangle (start -6.35 7.62) (end 6.35 -64.135)
+      (rectangle (start -6.35 7.62) (end 6.35 -64.77)
         (stroke (width 0.1524) (type default) (color 0 0 0 0))
         (fill (type background))
       )
@@ -613,7 +613,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TimEX3-F_0_0"
-      (rectangle (start -6.35 7.62) (end 6.35 -64.135)
+      (rectangle (start -6.35 7.62) (end 6.35 -64.77)
         (stroke (width 0.1524) (type default) (color 0 0 0 0))
         (fill (type background))
       )
@@ -703,7 +703,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TimEX3-G_0_0"
-      (rectangle (start -6.35 7.62) (end 6.35 -64.135)
+      (rectangle (start -6.35 7.62) (end 6.35 -64.77)
         (stroke (width 0.1524) (type default) (color 0 0 0 0))
         (fill (type background))
       )
@@ -793,7 +793,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TimEX3-I_0_0"
-      (rectangle (start -6.35 7.62) (end 6.35 -64.135)
+      (rectangle (start -6.35 7.62) (end 6.35 -64.77)
         (stroke (width 0.1524) (type default) (color 0 0 0 0))
         (fill (type background))
       )
@@ -883,7 +883,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TimIQ_0_0"
-      (rectangle (start -63.5 50.8) (end 63.5 -8.255)
+      (rectangle (start -63.5 50.8) (end 63.5 -8.89)
         (stroke (width 0.1524) (type default) (color 0 0 0 0))
         (fill (type background))
       )
@@ -903,11 +903,11 @@
         (stroke (width 0.1524) (type default) (color 0 0 0 0))
         (fill (type outline))
       )
-      (rectangle (start -6.35 25.4) (end -2.54 22.86)
+      (rectangle (start -7.62 25.4) (end -2.54 22.86)
         (stroke (width 0.1524) (type default) (color 0 0 0 0))
         (fill (type outline))
       )
-      (rectangle (start -6.35 38.1) (end -2.54 35.56)
+      (rectangle (start -7.62 38.1) (end -2.54 35.56)
         (stroke (width 0.1524) (type default) (color 0 0 0 0))
         (fill (type outline))
       )
@@ -957,19 +957,19 @@
         (stroke (width 0.1524) (type default) (color 0 0 0 0))
         (fill (type outline))
       )
-      (circle (center 19.05 -0.635) (radius 2.2895)
+      (circle (center 19.05 0) (radius 2.2895)
         (stroke (width 0.1524) (type default) (color 0 0 0 0))
         (fill (type outline))
       )
-      (circle (center 25.4 -0.635) (radius 2.2895)
+      (circle (center 25.4 0) (radius 2.3759)
         (stroke (width 0.1524) (type default) (color 0 0 0 0))
         (fill (type outline))
       )
-      (circle (center 38.1 -0.635) (radius 2.2895)
+      (circle (center 38.1 0) (radius 2.2895)
         (stroke (width 0.1524) (type default) (color 0 0 0 0))
         (fill (type outline))
       )
-      (circle (center 44.45 -0.635) (radius 2.2895)
+      (circle (center 44.45 0) (radius 2.2895)
         (stroke (width 0.1524) (type default) (color 0 0 0 0))
         (fill (type outline))
       )
@@ -983,27 +983,27 @@
         (name "AUX_OUT" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin input line (at 19.05 -0.635 90) (length 2.54) hide
+      (pin input line (at 19.05 0 90) (length 2.54) hide
         (name "352MHZ_IN" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin input line (at 25.4 -0.635 90) (length 2.54) hide
+      (pin input line (at 25.4 0 90) (length 2.54) hide
         (name "3GHz_IN" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin output line (at 38.1 -0.635 90) (length 2.54) hide
+      (pin output line (at 38.1 0 90) (length 2.54) hide
         (name "P_OUT" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin output line (at 44.45 -0.635 90) (length 2.54) hide
+      (pin output line (at 44.45 0 90) (length 2.54) hide
         (name "N_OUT" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin bidirectional line (at -4.445 36.83 90) (length 2.54) hide
+      (pin bidirectional line (at -5.08 36.83 90) (length 2.54) hide
         (name "USB" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin bidirectional line (at -4.445 24.13 90) (length 2.54) hide
+      (pin bidirectional line (at -5.08 24.13 90) (length 2.54) hide
         (name "Ethernet" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )

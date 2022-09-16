@@ -1,8 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP HMC1097LP4E
-D IQ modulator 100 - 6000 MHz
-K IQ modulator
-$ENDCMP
-#
-#End Doc Library

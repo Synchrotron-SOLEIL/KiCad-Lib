@@ -6,7 +6,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 2656f227-7435-4d77-978a-b3cdcc217cca)
   )
-  (fp_text value "Oscillator_SMD_SI510_4Pin_7x5mm" (at 3.7592 -2.1336 180) (layer "F.Fab") hide
+  (fp_text value "Oscillator_SMD_SI510_4Pin_7x5mm" (at 3.7592 -2.1336 180) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 42d7d84b-f294-4e38-b2b5-a2e74b6ff55f)
   )

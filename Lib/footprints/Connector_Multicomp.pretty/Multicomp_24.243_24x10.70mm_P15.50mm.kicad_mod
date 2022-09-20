@@ -6,7 +6,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d25279e3-8a06-4683-8823-b19d9b327cc8)
   )
-  (fp_text value "Multicomp_24.243_24x10.70mm_P15.50mm" (at 8.0645 3.3655) (layer "F.Fab") hide
+  (fp_text value "Multicomp_24.243_24x10.70mm_P15.50mm" (at 8.0645 3.3655) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 3d33c5e2-7884-49eb-ad5a-e8b05aea179d)
   )

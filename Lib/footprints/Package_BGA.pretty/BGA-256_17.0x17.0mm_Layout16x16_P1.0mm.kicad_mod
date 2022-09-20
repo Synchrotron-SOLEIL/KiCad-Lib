@@ -7,7 +7,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 217f295d-1f53-4824-9840-e61be5529ad8)
   )
-  (fp_text value "BGA-256_17.0x17.0mm_Layout16x16_P1.0mm" (at 0 -9.8298) (layer "F.Fab") hide
+  (fp_text value "BGA-256_17.0x17.0mm_Layout16x16_P1.0mm" (at 0 -9.8298) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 5b2e8494-ee7f-46b6-a1e7-a3b88d9cce85)
   )

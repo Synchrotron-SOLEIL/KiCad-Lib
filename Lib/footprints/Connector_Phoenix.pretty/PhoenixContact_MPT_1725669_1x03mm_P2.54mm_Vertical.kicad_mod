@@ -6,7 +6,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp fd08bff8-af2b-424d-957e-e1b18a36c813)
   )
-  (fp_text value "PhoenixContact_MPT_1725669_1x03mm_P2.54mm_Vertical" (at 2.794 4.318) (layer "F.Fab") hide
+  (fp_text value "PhoenixContact_MPT_1725669_1x03mm_P2.54mm_Vertical" (at 2.794 4.318) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 13fc19d0-5dcb-4c20-852a-f7e1cfc8209a)
   )

@@ -6,7 +6,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp ece1d3ca-3322-49df-9fe7-792f06747057)
   )
-  (fp_text value "Molex_Mini-Fit-Jr_5569-39301061_2x3_13.8x12.8mm_P4.20mm_Horizontal" (at 4.25 13.05) (layer "F.Fab") hide
+  (fp_text value "Molex_Mini-Fit-Jr_5569-39301061_2x3_13.8x12.8mm_P4.20mm_Horizontal" (at 4.25 13.05) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0e4844cd-2451-41ce-9481-f0e4a6396b1c)
   )

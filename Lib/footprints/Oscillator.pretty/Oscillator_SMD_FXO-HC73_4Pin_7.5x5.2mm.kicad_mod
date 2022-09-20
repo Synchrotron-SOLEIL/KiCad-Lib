@@ -6,7 +6,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 39444818-4dbf-4d28-989c-cdfa3de3722b)
   )
-  (fp_text value "Oscillator_SMD_FXO-HC73_4Pin_7.5x5.2mm" (at -0.508 -2.286) (layer "F.Fab") hide
+  (fp_text value "Oscillator_SMD_FXO-HC73_4Pin_7.5x5.2mm" (at -0.508 -2.286) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp f41ef2fc-609d-47ca-9380-211aff18dfe0)
   )

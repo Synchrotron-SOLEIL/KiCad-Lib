@@ -6,7 +6,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 231bc5bb-881c-4b42-a67f-8c9659cd9d14)
   )
-  (fp_text value "Molex_KK-396-26481046_1x4_15x12.7mm_P3.96mm_Horizontal" (at 6.0579 3.5179) (layer "F.Fab") hide
+  (fp_text value "Molex_KK-396-26481046_1x4_15x12.7mm_P3.96mm_Horizontal" (at 6.0579 3.5179) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 8c6795c5-a728-4e97-96b2-8e418c4ae2a5)
   )

@@ -6,7 +6,7 @@
     (property "Value" "Cora_Z7-10" (id 1) (at 0 7.62 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "S_SBC:Cora_Z7" (id 2) (at 0 5.08 0)
+    (property "Footprint" "ZZ_SBC:Cora_Z7" (id 2) (at 0 5.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://reference.digilentinc.com/reference/programmable-logic/cora-z7/reference-manual" (id 3) (at 7.62 -44.45 0)

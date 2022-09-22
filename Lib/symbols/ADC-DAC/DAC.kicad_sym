@@ -6,7 +6,7 @@
     (property "Value" "LTC2758ACLX" (id 1) (at 45.72 -15.24 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_QFP:LQFP-48-1EP_7x7mm_P0.5mm_EP3.6x3.6mm" (id 2) (at 112.776 -42.926 0)
+    (property "Footprint" "ZZ_Package_QFP:LQFP-48-1EP_7x7mm_P0.5mm_EP3.6x3.6mm" (id 2) (at 112.776 -42.926 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at -41.91 -1.27 0)

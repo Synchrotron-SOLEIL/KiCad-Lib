@@ -6,7 +6,7 @@
     (property "Value" "SMFLP" (id 1) (at 4.445 6.35 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "S_OptoDevice:Bivar_SMFLP" (id 2) (at 12.7 -3.81 0)
+    (property "Footprint" "ZZ_OptoDevice:Bivar_SMFLP" (id 2) (at 12.7 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 0 0)

@@ -6,7 +6,7 @@
     (property "Value" "MB6S" (id 1) (at 2.54 5.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Diode_SMD.pretty:TO-269AA" (id 2) (at 6.35 -12.7 0)
+    (property "Footprint" "ZZ_Diode_SMD.pretty:TO-269AA" (id 2) (at 6.35 -12.7 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "http://www.vishay.com/docs/88573/dfs.pdf" (id 3) (at 0 15.24 0)

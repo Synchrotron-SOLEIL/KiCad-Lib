@@ -6,7 +6,7 @@
     (property "Value" "HFJ11-1G01E-L12RL" (id 1) (at 41.91 7.62 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "RJ45_connectors:SOLEIL-RJ45-HFJ11-1G01E-L12RL" (id 2) (at 71.12 -27.94 0)
+    (property "Footprint" "ZZ_RJ45_connectors:SOLEIL-RJ45-HFJ11-1G01E-L12RL" (id 2) (at 71.12 -27.94 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 0 0)

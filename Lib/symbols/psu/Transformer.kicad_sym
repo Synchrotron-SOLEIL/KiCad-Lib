@@ -6,7 +6,7 @@
     (property "Value" "VB-1-0-1-6" (id 1) (at 0 -6.35 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "S_Transformer:Block_VB_1_0_1_6-28x33" (id 2) (at -15.24 -12.7 0)
+    (property "Footprint" "ZZ_Transformer:Block_VB_1_0_1_6-28x33" (id 2) (at -15.24 -12.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://catalog.block-trafo.de/prodvardatasheet/393256-459177_US" (id 3) (at 2.54 -15.24 0)

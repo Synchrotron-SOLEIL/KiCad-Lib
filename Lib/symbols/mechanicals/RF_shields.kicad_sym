@@ -80,7 +80,7 @@
     (property "Value" "BMI-S-204-F" (id 1) (at 11.43 -6.35 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "passives:SOLEIL-BMI-S-204-F" (id 2) (at 38.1 -15.24 0)
+    (property "Footprint" "ZZ_RF_shield:BMI-S-204-F" (id 2) (at 38.1 -15.24 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 0 0)

@@ -6,7 +6,7 @@
     (property "Value" "LMX2541SQ2690E" (id 1) (at 34.29 -13.97 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "Package_DFN_QFN:Texas_S-PVQFN-N36_EP4.6x4.6mm" (id 2) (at 81.28 -26.67 0)
+    (property "Footprint" "ZZ_Package_DFN_QFN:Texas_S-PVQFN-N36_EP4.6x4.6mm" (id 2) (at 81.28 -26.67 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at -41.91 -1.27 0)

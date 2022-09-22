@@ -6,7 +6,7 @@
     (property "Value" "ADS8694IDBT" (id 1) (at 31.75 -15.24 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:TSSOP-38_4.4x9.7mm_P0.5mm" (id 2) (at 66.04 -43.18 0)
+    (property "Footprint" "ZZ_Package_SO:TSSOP-38_4.4x9.7mm_P0.5mm" (id 2) (at 66.04 -43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at -41.91 -1.27 0)

@@ -6,7 +6,7 @@
     (property "Value" "CPCI-J1" (id 1) (at 22.86 -90.17 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_Erni:Erni_ERmet_Female_Type_A-354142" (id 2) (at 22.86 -95.25 0)
+    (property "Footprint" "ZZ_Connector_Erni:Erni_ERmet_Female_Type_A-354142" (id 2) (at 22.86 -95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 0 0)

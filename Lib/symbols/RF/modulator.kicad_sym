@@ -6,7 +6,7 @@
     (property "Value" "HMC1097LP4E" (id 1) (at 24.13 -13.97 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "Package_QFP:WQFN-24_4x4mm_P0.5mm" (id 2) (at 66.04 -30.48 0)
+    (property "Footprint" "ZZ_Package_QFP:WQFN-24_4x4mm_P0.5mm" (id 2) (at 66.04 -30.48 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at -44.45 -1.27 0)

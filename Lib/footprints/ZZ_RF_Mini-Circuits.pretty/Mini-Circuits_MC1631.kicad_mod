@@ -21,6 +21,7 @@
   (fp_line (start -0.335 -2.5) (end -0.335 0.6) (layer "F.SilkS") (width 0.1) (tstamp 917920ab-0c6e-4927-974d-ef342cdd4f63))
   (fp_line (start 1.9 0.6) (end -0.3155 0.6) (layer "F.SilkS") (width 0.1) (tstamp d69a5fdf-de15-4ec9-94f6-f9ee2f4b69fa))
   (fp_circle (center -0.875 0.7) (end -0.609246 0.7) (layer "F.SilkS") (width 0.1) (fill solid) (tstamp 6e435cd4-da2b-4602-a0aa-5dd988834dff))
+  (fp_rect (start -0.45 -2.6) (end 2 0.7) (layer "F.CrtYd") (width 0.12) (fill none) (tstamp 8e1d316b-6d6e-46c9-b9bb-c27b1edc0f41))
   (pad "0" smd rect (at 0.75 -0.95) (size 1.25 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c7af8405-da2e-4a34-b9b8-518f342f8995))
   (pad "1" smd rect (at 0 0) (size 0.25 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9a0b74a5-4879-4b51-8e8e-6d85a0107422))
   (pad "2" smd rect (at 0.5 0) (size 0.25 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 71989e06-8659-4605-b2da-4f729cc41263))

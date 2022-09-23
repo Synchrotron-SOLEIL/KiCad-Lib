@@ -1,5 +1,5 @@
-(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
-  (symbol "S_Transistor:BSH103" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "BSH103" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "Q" (id 0) (at 15.494 4.318 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
@@ -39,16 +39,19 @@
     (property "Desc4" "-" (id 12) (at 12.7 -21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Case" "SOT-23-3" (id 13) (at 15.24 -24.13 0)
+    (property "Height" "" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Case" "SOT-23-3" (id 14) (at 15.24 -24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Price" "1.05" (id 14) (at 12.7 -26.67 0)
+    (property "Price" "1.05" (id 15) (at 12.7 -26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_keywords" "NMOS transistor" (id 15) (at 0 0 0)
+    (property "ki_keywords" "NMOS transistor" (id 16) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "N-channel MOS transistor ; Vdsmax = 30 V ; Idmax = 0.85 A ; Rdson = 0.5 Ohm ; SOT-23-3" (id 16) (at 0 0 0)
+    (property "ki_description" "N-channel MOS transistor ; Vdsmax = 30 V ; Idmax = 0.85 A ; Rdson = 0.5 Ohm ; SOT-23-3" (id 17) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "BSH103_0_1"
@@ -57,49 +60,56 @@
           (xy 3.81 0)
           (xy 3.81 5.08)
         )
-        (stroke (width 0.2032)) (fill (type none))
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 -0.635)
           (xy 5.08 0.635)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 1.905)
           (xy 5.08 3.175)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 4.445)
           (xy 5.08 5.715)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 7.62 0)
           (xy 5.08 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 7.62 5.08)
           (xy 5.08 5.08)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 8.89 3.81)
           (xy 11.43 3.81)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -107,7 +117,8 @@
           (xy 7.62 2.54)
           (xy 6.35 2.54)
         )
-        (stroke (width 0.2032)) (fill (type none))
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -115,7 +126,8 @@
           (xy 10.16 0)
           (xy 10.16 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -123,7 +135,8 @@
           (xy 10.16 5.08)
           (xy 7.62 5.08)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -132,7 +145,8 @@
           (xy 11.43 1.27)
           (xy 10.16 3.81)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
@@ -142,7 +156,8 @@
           (xy 6.35 3.302)
           (xy 6.35 3.302)
         )
-        (stroke (width 0.2032)) (fill (type none))
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "BSH103_1_1"
@@ -160,7 +175,7 @@
       )
     )
   )
-  (symbol "S_Transistor:BSN20" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "BSN20" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "Q" (id 0) (at 15.494 4.318 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
@@ -200,16 +215,19 @@
     (property "Desc4" "-" (id 12) (at 12.7 -19.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Case" "SOT-23-3" (id 13) (at 13.97 -22.86 0)
+    (property "Height" "" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Case" "SOT-23-3" (id 14) (at 13.97 -22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Price" "0.21" (id 14) (at 11.43 -25.4 0)
+    (property "Price" "0.21" (id 15) (at 11.43 -25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_keywords" "NMOS transistor" (id 15) (at 0 0 0)
+    (property "ki_keywords" "NMOS transistor" (id 16) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "N-channel MOS transistor ; Vdsmax = 50 V ; Idmax = 0.1 A ; Rdson = 15 Ohm ; SOT-23-3" (id 16) (at 0 0 0)
+    (property "ki_description" "N-channel MOS transistor ; Vdsmax = 50 V ; Idmax = 0.1 A ; Rdson = 15 Ohm ; SOT-23-3" (id 17) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "BSN20_0_1"
@@ -218,49 +236,56 @@
           (xy 3.81 0)
           (xy 3.81 5.08)
         )
-        (stroke (width 0.2032)) (fill (type none))
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 -0.635)
           (xy 5.08 0.635)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 1.905)
           (xy 5.08 3.175)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 4.445)
           (xy 5.08 5.715)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 7.62 0)
           (xy 5.08 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 7.62 5.08)
           (xy 5.08 5.08)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 8.89 3.81)
           (xy 11.43 3.81)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -268,7 +293,8 @@
           (xy 7.62 2.54)
           (xy 6.35 2.54)
         )
-        (stroke (width 0.2032)) (fill (type none))
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -276,7 +302,8 @@
           (xy 10.16 0)
           (xy 10.16 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -284,7 +311,8 @@
           (xy 10.16 5.08)
           (xy 7.62 5.08)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -293,7 +321,8 @@
           (xy 11.43 1.27)
           (xy 10.16 3.81)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
@@ -303,7 +332,8 @@
           (xy 6.35 3.302)
           (xy 6.35 3.302)
         )
-        (stroke (width 0.2032)) (fill (type none))
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "BSN20_1_1"
@@ -321,7 +351,7 @@
       )
     )
   )
-  (symbol "S_Transistor:BSN20BK" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "BSN20BK" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "Q" (id 0) (at 15.494 4.318 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
@@ -361,16 +391,19 @@
     (property "Desc4" "-" (id 12) (at 12.7 -19.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Case" "SOT-23-3" (id 13) (at 13.97 -22.86 0)
+    (property "Height" "" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Case" "SOT-23-3" (id 14) (at 13.97 -22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Price" "0.36" (id 14) (at 11.43 -25.4 0)
+    (property "Price" "0.36" (id 15) (at 11.43 -25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_keywords" "NMOS transistor" (id 15) (at 0 0 0)
+    (property "ki_keywords" "NMOS transistor" (id 16) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "N-channel MOSFET transistor ; Vdsmax = 60 V ; Idmax = 0.265 A ; Rdson = 2.1 Ohm ; SOT-23-3" (id 16) (at 0 0 0)
+    (property "ki_description" "N-channel MOSFET transistor ; Vdsmax = 60 V ; Idmax = 0.265 A ; Rdson = 2.1 Ohm ; SOT-23-3" (id 17) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "BSN20BK_0_1"
@@ -379,49 +412,56 @@
           (xy 3.81 0)
           (xy 3.81 5.08)
         )
-        (stroke (width 0.2032)) (fill (type none))
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 -0.635)
           (xy 5.08 0.635)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 1.905)
           (xy 5.08 3.175)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 4.445)
           (xy 5.08 5.715)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 7.62 0)
           (xy 5.08 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 7.62 5.08)
           (xy 5.08 5.08)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 8.89 3.81)
           (xy 11.43 3.81)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -429,7 +469,8 @@
           (xy 7.62 2.54)
           (xy 6.35 2.54)
         )
-        (stroke (width 0.2032)) (fill (type none))
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -437,7 +478,8 @@
           (xy 10.16 0)
           (xy 10.16 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -445,7 +487,8 @@
           (xy 10.16 5.08)
           (xy 7.62 5.08)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -454,7 +497,8 @@
           (xy 11.43 1.27)
           (xy 10.16 3.81)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
@@ -464,7 +508,8 @@
           (xy 6.35 3.302)
           (xy 6.35 3.302)
         )
-        (stroke (width 0.2032)) (fill (type none))
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "BSN20BK_1_1"

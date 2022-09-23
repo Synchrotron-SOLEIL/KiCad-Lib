@@ -1,5 +1,5 @@
-(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
-  (symbol "S_LED:KP-3216SGC" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "KP-3216SGC" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 3.81 -1.27 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -39,16 +39,19 @@
     (property "Desc4" "-" (id 12) (at 6.35 -26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Case" "1206" (id 13) (at 6.35 -29.21 0)
+    (property "Height" "" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Case" "1206" (id 14) (at 6.35 -29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Price" "0.117" (id 14) (at 6.35 -31.75 0)
+    (property "Price" "0.117" (id 15) (at 6.35 -31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_keywords" "LED" (id 15) (at 0 0 0)
+    (property "ki_keywords" "LED" (id 16) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "LED ; SMD ; green ; If = 20 mA ; Vf = 2.2V ; SMD 1206" (id 16) (at 0 0 0)
+    (property "ki_description" "LED ; SMD ; green ; If = 20 mA ; Vf = 2.2V ; SMD 1206" (id 17) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "KP-3216SGC_0_1"
@@ -57,21 +60,24 @@
           (xy 1.27 -6.35)
           (xy -1.27 -6.35)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.2954 -8.3566)
           (xy 0.508 -7.5692)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.7272 -7.7724)
           (xy 0.9398 -6.985)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -79,7 +85,8 @@
           (xy 0 -6.35)
           (xy -1.27 -3.81)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
@@ -88,7 +95,8 @@
           (xy 1.0922 -8.5344)
           (xy 1.4732 -8.2042)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
@@ -97,7 +105,8 @@
           (xy 1.524 -7.9502)
           (xy 1.905 -7.62)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
     (symbol "KP-3216SGC_1_1"
@@ -111,7 +120,7 @@
       )
     )
   )
-  (symbol "S_LED:KP-3216SRC-PRV" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "KP-3216SRC-PRV" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 3.81 -1.27 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -151,16 +160,19 @@
     (property "Desc4" "-" (id 12) (at 6.35 -26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Case" "1206" (id 13) (at 6.35 -29.21 0)
+    (property "Height" "" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Case" "1206" (id 14) (at 6.35 -29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Price" "0.145" (id 14) (at 6.35 -31.75 0)
+    (property "Price" "0.145" (id 15) (at 6.35 -31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_keywords" "LED" (id 15) (at 0 0 0)
+    (property "ki_keywords" "LED" (id 16) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "LED ; SMD ; red ; If = 20 mA ; Vf = 1.8V ; SMD 1206" (id 16) (at 0 0 0)
+    (property "ki_description" "LED ; SMD ; red ; If = 20 mA ; Vf = 1.8V ; SMD 1206" (id 17) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "KP-3216SRC-PRV_0_1"
@@ -169,21 +181,24 @@
           (xy 1.27 -6.35)
           (xy -1.27 -6.35)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.2954 -8.3566)
           (xy 0.508 -7.5692)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.7272 -7.7724)
           (xy 0.9398 -6.985)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -191,7 +206,8 @@
           (xy 0 -6.35)
           (xy -1.27 -3.81)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
@@ -200,7 +216,8 @@
           (xy 1.0922 -8.5344)
           (xy 1.4732 -8.2042)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
@@ -209,7 +226,8 @@
           (xy 1.524 -7.9502)
           (xy 1.905 -7.62)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
     (symbol "KP-3216SRC-PRV_1_1"
@@ -223,7 +241,7 @@
       )
     )
   )
-  (symbol "S_LED:LG_M67K-G1J2-24" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "LG_M67K-G1J2-24" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 3.81 -1.27 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -263,16 +281,19 @@
     (property "Desc4" "-" (id 12) (at 6.35 -26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Case" "0805" (id 13) (at 6.35 -29.21 0)
+    (property "Height" "" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Case" "0805" (id 14) (at 6.35 -29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Price" "0.11" (id 14) (at 6.35 -31.75 0)
+    (property "Price" "0.11" (id 15) (at 6.35 -31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_keywords" "LED" (id 15) (at 0 0 0)
+    (property "ki_keywords" "LED" (id 16) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "LED ; SMD ; green ; If = 2 mA ; Vf = 1.8V ; SMD 0805" (id 16) (at 0 0 0)
+    (property "ki_description" "LED ; SMD ; green ; If = 2 mA ; Vf = 1.8V ; SMD 0805" (id 17) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LG_M67K-G1J2-24_0_1"
@@ -281,21 +302,24 @@
           (xy 1.27 -6.35)
           (xy -1.27 -6.35)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.2954 -8.3566)
           (xy 0.508 -7.5692)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.7272 -7.7724)
           (xy 0.9398 -6.985)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -303,7 +327,8 @@
           (xy 0 -6.35)
           (xy -1.27 -3.81)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
@@ -312,7 +337,8 @@
           (xy 1.0922 -8.5344)
           (xy 1.4732 -8.2042)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
@@ -321,7 +347,8 @@
           (xy 1.524 -7.9502)
           (xy 1.905 -7.62)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
     (symbol "LG_M67K-G1J2-24_1_1"
@@ -335,7 +362,7 @@
       )
     )
   )
-  (symbol "S_LED:LS_M67K-H2L1-1" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "LS_M67K-H2L1-1" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 3.81 -1.27 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -375,16 +402,19 @@
     (property "Desc4" "-" (id 12) (at 6.35 -26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Case" "0805" (id 13) (at 6.35 -29.21 0)
+    (property "Height" "" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Case" "0805" (id 14) (at 6.35 -29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Price" "0.099" (id 14) (at 6.35 -31.75 0)
+    (property "Price" "0.099" (id 15) (at 6.35 -31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_keywords" "LED" (id 15) (at 0 0 0)
+    (property "ki_keywords" "LED" (id 16) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "LED ; SMD ; red ; If = 2 mA ; Vf = 1.8V ; SMD 0805" (id 16) (at 0 0 0)
+    (property "ki_description" "LED ; SMD ; red ; If = 2 mA ; Vf = 1.8V ; SMD 0805" (id 17) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LS_M67K-H2L1-1_0_1"
@@ -393,21 +423,24 @@
           (xy 1.27 -6.35)
           (xy -1.27 -6.35)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.2954 -8.3566)
           (xy 0.508 -7.5692)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.7272 -7.7724)
           (xy 0.9398 -6.985)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -415,7 +448,8 @@
           (xy 0 -6.35)
           (xy -1.27 -3.81)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
@@ -424,7 +458,8 @@
           (xy 1.0922 -8.5344)
           (xy 1.4732 -8.2042)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
@@ -433,7 +468,8 @@
           (xy 1.524 -7.9502)
           (xy 1.905 -7.62)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
     (symbol "LS_M67K-H2L1-1_1_1"
@@ -447,7 +483,7 @@
       )
     )
   )
-  (symbol "S_LED:Wurth_150141SV73110" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "Wurth_150141SV73110" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 8.89 6.35 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -487,50 +523,113 @@
     (property "Desc4" "-" (id 12) (at 16.51 -17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Case" "SMD" (id 13) (at 16.51 -20.32 0)
+    (property "Height" "" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Case" "SMD" (id 14) (at 16.51 -20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Price" "0.593" (id 14) (at 16.51 -22.86 0)
+    (property "Price" "0.593" (id 15) (at 16.51 -22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_keywords" "LED" (id 15) (at 0 0 0)
+    (property "ki_keywords" "LED" (id 16) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "LED ; SMD ; red-green ; If = 20 mA ; Vf = 2.2V ; SMD" (id 16) (at 0 0 0)
+    (property "ki_description" "LED ; SMD ; red-green ; If = 20 mA ; Vf = 2.2V ; SMD" (id 17) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Wurth_150141SV73110_0_0"
-      (text "R" (at -2.54 -5.08 0)
+      (text "G" (at 7.62 -5.08 0)
         (effects (font (size 1.27 1.27)))
       )
-      (text "G" (at 7.62 -5.08 0)
+      (text "R" (at -2.54 -5.08 0)
         (effects (font (size 1.27 1.27)))
       )
     )
     (symbol "Wurth_150141SV73110_0_1"
       (rectangle (start -3.81 -3.81) (end 8.89 -8.89)
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -7.62)
+          (xy 0 -8.89)
+        )
+        (stroke (width 0.0006) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -3.81)
+          (xy 0 -5.08)
+        )
+        (stroke (width 0.0006) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 -7.62)
           (xy -1.27 -7.62)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 2.5654 -7.0866)
           (xy 1.778 -6.2992)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 2.9972 -6.5024)
           (xy 2.2098 -5.715)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 -7.62)
+          (xy 5.08 -8.89)
+        )
+        (stroke (width 0.0006) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 -3.81)
+          (xy 5.08 -5.08)
+        )
+        (stroke (width 0.0006) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 6.35 -7.62)
+          (xy 3.81 -7.62)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.6454 -7.0866)
+          (xy 6.858 -6.2992)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 8.0772 -6.5024)
+          (xy 7.2898 -5.715)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -538,7 +637,17 @@
           (xy 0 -7.62)
           (xy -1.27 -5.08)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 6.35 -5.08)
+          (xy 5.08 -7.62)
+          (xy 3.81 -5.08)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
@@ -547,7 +656,8 @@
           (xy 2.3622 -7.2644)
           (xy 2.7432 -6.9342)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
@@ -556,36 +666,8 @@
           (xy 2.794 -6.6802)
           (xy 3.175 -6.35)
         )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy 6.35 -7.62)
-          (xy 3.81 -7.62)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.6454 -7.0866)
-          (xy 6.858 -6.2992)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 8.0772 -6.5024)
-          (xy 7.2898 -5.715)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.35 -5.08)
-          (xy 5.08 -7.62)
-          (xy 3.81 -5.08)
-        )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
@@ -594,7 +676,8 @@
           (xy 7.4422 -7.2644)
           (xy 7.8232 -6.9342)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
@@ -603,41 +686,18 @@
           (xy 7.874 -6.6802)
           (xy 8.255 -6.35)
         )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy 5.08 -3.81)
-          (xy 5.08 -5.08)
-        )
-        (stroke (width 0.0006)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 -3.81)
-          (xy 0 -5.08)
-        )
-        (stroke (width 0.0006)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.08 -7.62)
-          (xy 5.08 -8.89)
-        )
-        (stroke (width 0.0006)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 -7.62)
-          (xy 0 -8.89)
-        )
-        (stroke (width 0.0006)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
     (symbol "Wurth_150141SV73110_1_1"
       (pin passive line (at 0 0 270) (length 3.81)
         (name "A" (effects (font (size 1.016 1.016))))
         (number "1" (effects (font (size 1.016 1.016))))
+      )
+      (pin passive line (at 5.08 -12.7 90) (length 3.81)
+        (name "K" (effects (font (size 1.016 1.016))))
+        (number "2" (effects (font (size 1.016 1.016))))
       )
       (pin passive line (at 0 -12.7 90) (length 3.81)
         (name "K" (effects (font (size 1.016 1.016))))
@@ -646,10 +706,6 @@
       (pin passive line (at 5.08 0 270) (length 3.81)
         (name "A" (effects (font (size 1.016 1.016))))
         (number "4" (effects (font (size 1.016 1.016))))
-      )
-      (pin passive line (at 5.08 -12.7 90) (length 3.81)
-        (name "K" (effects (font (size 1.016 1.016))))
-        (number "2" (effects (font (size 1.016 1.016))))
       )
     )
   )

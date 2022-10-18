@@ -159,7 +159,7 @@
     (property "Desc4" "-" (id 12) (at 17.78 -13.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Height" "0" (id 13) (at 13.97 -20.955 0)
+    (property "Height" "" (id 13) (at 13.97 -20.955 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Case" "SMA trough hole" (id 14) (at 19.05 -16.51 0)

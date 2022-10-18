@@ -39,7 +39,7 @@
     (property "Desc4" "-" (id 12) (at 5.08 -20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Height" "0" (id 13) (at 3.175 -27.94 0)
+    (property "Height" "8.9" (id 13) (at 3.175 -27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Case" "SMFLP ; through hole" (id 14) (at 12.7 -22.86 0)

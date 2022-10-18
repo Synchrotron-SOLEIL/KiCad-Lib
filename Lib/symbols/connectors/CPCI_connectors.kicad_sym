@@ -39,7 +39,7 @@
     (property "Desc4" "-" (id 12) (at 26.67 -113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Height" "0" (id 13) (at 22.86 -121.92 0)
+    (property "Height" "" (id 13) (at 22.86 -121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Case" "CPCI type A" (id 14) (at 22.86 -115.57 0)

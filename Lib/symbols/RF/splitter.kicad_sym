@@ -39,7 +39,7 @@
     (property "Desc4" "-" (id 12) (at 46.99 -19.05 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Height" "0.89mm" (id 13) (at 46.99 -29.21 0)
+    (property "Height" "0.89" (id 13) (at 46.99 -29.21 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Case" "DQ1225" (id 14) (at 46.99 -24.13 0)

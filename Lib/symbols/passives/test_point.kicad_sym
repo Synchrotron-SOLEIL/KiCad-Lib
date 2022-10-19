@@ -39,7 +39,7 @@
     (property "Desc4" "-" (id 12) (at 6.35 -17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Height" "" (id 13) (at 0 0 0)
+    (property "Height" "4.7" (id 13) (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Case" "TEST-22" (id 14) (at 6.35 -20.32 0)

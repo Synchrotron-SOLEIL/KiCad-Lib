@@ -39,7 +39,7 @@
     (property "Desc4" "-" (id 12) (at 74.93 -39.37 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Height" "0.8mm" (id 13) (at 6.35 -80.01 0)
+    (property "Height" "0.8" (id 13) (at 6.35 -80.01 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Case" "WQFN36" (id 14) (at 74.93 -44.45 0)
@@ -51,7 +51,7 @@
     (property "ki_keywords" "PLL" (id 16) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Fractional N PLL with intregated VCO, RFout = 2490MHz to 2865MHz ; OSCin = 5MHz to 900MHz ; VCO_DIV = 1 to 63" (id 17) (at 0 0 0)
+    (property "ki_description" "Fractional N PLL with intregated VCO ; RFout = 2490MHz to 2865MHz ; OSCin = 5MHz to 900MHz ; VCO_DIV = 1 to 63" (id 17) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LMX2541SQ2690E_0_1"

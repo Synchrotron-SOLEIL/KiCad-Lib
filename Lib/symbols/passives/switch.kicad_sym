@@ -51,7 +51,7 @@
     (property "ki_keywords" "dip switch" (id 16) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "6x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol" (id 17) (at 0 0 0)
+    (property "ki_description" "6x DIP Switch ; Single Pole Single Throw (SPST) switch ; small symbol" (id 17) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_fp_filters" "SW?DIP?x6*" (id 18) (at 0 0 0)

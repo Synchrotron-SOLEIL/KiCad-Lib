@@ -7,32 +7,22 @@ import (
     "log"
     "os"
     "strings"
+    "strconv"
+
+    "symbols_to_csv/parameters"
 )
 
 func main() {
-    //file_name   := "resistors_0603"
-    file_name   := "DAC"
-    input_path  := "../../Lib/symbols/ADC-DAC/"
-    output_path := "../../cvs/symbols/ADC-DAC/"
+    file_name := parameters.Comparator_file
+    part_ID   := file_name + "-"
+    folder    := parameters.Comparator_folder + "/"
+    data      := parameters.IC_data
 
-//  Reistors
-//    data := [][]string { {"symbol", "Value", "Footprint", "Datasheet", "Manufacturer", "Manufacturer ref",
-//            "Supplier", "Supplier ref", "Qty", "Impedance", "Power", "Precision", "Type", "Height",
-//            "Package", "Price", "ki_keywords", "ki_description"} }
-//  Capacitors
-//    data := [][]string { {"symbol", "Value", "Footprint", "Datasheet", "Manufacturer", "Manufacturer ref",
-//            "Supplier", "Supplier ref", "Qty", "Capacitance", "Voltage", "Precision", "Type", "Height",
-//            "Package", "Price", "ki_keywords", "ki_description"} }
-//  IC
-    data := [][]string { {"symbol", "Value", "Footprint", "Datasheet", "Manufacturer", "Manufacturer ref",
-            "Supplier", "Supplier ref", "Qty", "Note 1", "Note 2", "Note 3", "Note 4", "Height",
-            "Package", "Price", "ki_keywords", "ki_description"} }
-
-    input_file  := input_path + file_name + ".kicad_sym"
-    output_file := output_path + file_name + ".csv"
+    input_file  := "../../Lib/symbols/" + folder + file_name + ".kicad_sym"
+    output_file := "../../cvs/symbols/" + folder + file_name + ".csv"
 
     var field []string
-    var fields_index int = 1
+    var fields_index int = 0
     var sub_strings []string
 
     file, err := os.Open(input_file)
@@ -55,8 +45,9 @@ func main() {
 
     for _, s := range lines {
         switch {
-            case strings.Contains(s, "pin_numbers") :
+            case strings.Contains(s, "on_board") :
                 sub_strings = strings.Split(s, "\"")
+                field = append(field, part_ID + strconv.Itoa(fields_index))
                 field = append(field, sub_strings[1])
                 fields_index += 1
             case strings.Contains(s, "Value") :

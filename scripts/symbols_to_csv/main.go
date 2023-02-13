@@ -71,9 +71,10 @@ func main() {
             case strings.Contains(s, "Supplier ref") :
                 sub_strings = strings.Split(s, " ")
                 field = append(field, sub_strings[3])
-            case strings.Contains(s, "Qty") :
+            case strings.Contains(s, "Mounted") :
                 sub_strings = strings.Split(s, "\"")
-                field = append(field, sub_strings[3])
+                // KiCad v7 use DNP
+                //field = append(field, sub_strings[3])
             case strings.Contains(s, "Desc1") :
                 sub_strings = strings.Split(s, "\"")
                 field = append(field, sub_strings[3])

@@ -13,10 +13,15 @@ import (
 )
 
 func main() {
-    file_name := parameters.Comparator_file
+    file_name := parameters.Capacitors_ceramic_0603_file
     part_ID   := file_name + "-"
-    folder    := parameters.Comparator_folder + "/"
-    data      := parameters.IC_data
+    folder    := parameters.Capacitors_folder + "/"
+    data      := parameters.Capacitors_data
+    symbols   := parameters.Capacitors_symbol
+    //file_name := parameters.Comparator_file
+    //part_ID   := file_name + "-"
+    //folder    := parameters.Comparator_folder + "/"
+    //data      := parameters.IC_data
 
     input_file  := "../../Lib/symbols/" + folder + file_name + ".kicad_sym"
     output_file := "../../cvs/symbols/" + folder + file_name + ".csv"
@@ -47,8 +52,11 @@ func main() {
         switch {
             case strings.Contains(s, "on_board") :
                 sub_strings = strings.Split(s, "\"")
-                field = append(field, part_ID + strconv.Itoa(fields_index))
-                field = append(field, sub_strings[1])
+                field = append(field, part_ID + strconv.Itoa(fields_index)) // key field
+                //field = append(field, file_name + ".kicad_sym") // Symbole field
+                //field = append(field, folder + file_name) // Symbole field
+                //field = append(field, "Device:R") // Symbole field
+                field = append(field, symbols) // Symbole field
                 fields_index += 1
             case strings.Contains(s, "Value") :
                 sub_strings = strings.Split(s, "\"")

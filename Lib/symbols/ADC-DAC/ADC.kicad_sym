@@ -48,7 +48,7 @@
     (property "ki_keywords" "ADC" (id 16) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "4 channel ; 18 bits SAR ADC ; 500 kSPS ; SPI interface" (id 17) (at 0 0 0)
+    (property "ki_description" "ADS8694IDBT ; 4 channel ; 18 bits SAR ADC ; 500 kSPS ; SPI interface" (id 17) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "ADS8694IDBT_0_1"

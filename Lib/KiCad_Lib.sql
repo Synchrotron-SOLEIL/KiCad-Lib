@@ -5,7 +5,7 @@
 -- Dumped from database version 14.5
 -- Dumped by pg_dump version 14.5
 
--- Started on 2023-02-22 17:38:16
+-- Started on 2023-02-23 17:37:49
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -21,6 +21,64 @@ SET row_security = off;
 SET default_tablespace = '';
 
 SET default_table_access_method = heap;
+
+--
+-- TOC entry 218 (class 1259 OID 16612)
+-- Name: adc; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.adc (
+    "Part_ID" character varying NOT NULL,
+    "Symbols" character varying,
+    "Value" character varying,
+    "Footprints" character varying,
+    "Datasheet" character varying,
+    "Manufacturer" character varying,
+    "Manufacturer ref" character varying,
+    "Supplier" character varying,
+    "Supplier ref" character varying,
+    "Note 1" character varying,
+    "Note 2" character varying,
+    "Note 3" character varying,
+    "Note 4" character varying,
+    "Height" character varying,
+    "Package" character varying,
+    "Price" character varying,
+    ki_keywords character varying,
+    ki_description character varying
+);
+
+
+ALTER TABLE public.adc OWNER TO postgres;
+
+--
+-- TOC entry 216 (class 1259 OID 16596)
+-- Name: capacitors_aluminium; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.capacitors_aluminium (
+    "Part_ID" character varying NOT NULL,
+    "Symbols" character varying,
+    "Value" character varying,
+    "Footprints" character varying,
+    "Datasheet" character varying,
+    "Manufacturer" character varying,
+    "Manufacturer ref" character varying,
+    "Supplier" character varying,
+    "Supplier ref" character varying,
+    "Capacitance" character varying,
+    "Voltage" character varying,
+    "Precision" character varying,
+    "Type" character varying,
+    "Height" character varying,
+    "Package" character varying,
+    "Price" character varying,
+    ki_keywords character varying,
+    ki_description character varying
+);
+
+
+ALTER TABLE public.capacitors_aluminium OWNER TO postgres;
 
 --
 -- TOC entry 213 (class 1259 OID 16581)
@@ -50,6 +108,122 @@ CREATE TABLE public.capacitors_ceramic_0603 (
 
 
 ALTER TABLE public.capacitors_ceramic_0603 OWNER TO postgres;
+
+--
+-- TOC entry 214 (class 1259 OID 16586)
+-- Name: capacitors_ceramic_0805; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.capacitors_ceramic_0805 (
+    "Part_ID" character varying NOT NULL,
+    "Symbols" character varying,
+    "Value" character varying,
+    "Footprints" character varying,
+    "Datasheet" character varying,
+    "Manufacturer" character varying,
+    "Manufacturer ref" character varying,
+    "Supplier" character varying,
+    "Supplier ref" character varying,
+    "Capacitance" character varying,
+    "Voltage" character varying,
+    "Precision" character varying,
+    "Type" character varying,
+    "Height" character varying,
+    "Package" character varying,
+    "Price" character varying,
+    ki_keywords character varying,
+    ki_description character varying
+);
+
+
+ALTER TABLE public.capacitors_ceramic_0805 OWNER TO postgres;
+
+--
+-- TOC entry 215 (class 1259 OID 16591)
+-- Name: capacitors_ceramic_1210; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.capacitors_ceramic_1210 (
+    "Part_ID" character varying NOT NULL,
+    "Symbols" character varying,
+    "Value" character varying,
+    "Footprints" character varying,
+    "Datasheet" character varying,
+    "Manufacturer" character varying,
+    "Manufacturer ref" character varying,
+    "Supplier" character varying,
+    "Supplier ref" character varying,
+    "Capacitance" character varying,
+    "Voltage" character varying,
+    "Precision" character varying,
+    "Type" character varying,
+    "Height" character varying,
+    "Package" character varying,
+    "Price" character varying,
+    ki_keywords character varying,
+    ki_description character varying
+);
+
+
+ALTER TABLE public.capacitors_ceramic_1210 OWNER TO postgres;
+
+--
+-- TOC entry 217 (class 1259 OID 16601)
+-- Name: capacitors_tantalum; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.capacitors_tantalum (
+    "Part_ID" character varying NOT NULL,
+    "Symbols" character varying,
+    "Value" character varying,
+    "Footprints" character varying,
+    "Datasheet" character varying,
+    "Manufacturer" character varying,
+    "Manufacturer ref" character varying,
+    "Supplier" character varying,
+    "Supplier ref" character varying,
+    "Capacitance" character varying,
+    "Voltage" character varying,
+    "Precision" character varying,
+    "Type" character varying,
+    "Height" character varying,
+    "Package" character varying,
+    "Price" character varying,
+    ki_keywords character varying,
+    ki_description character varying
+);
+
+
+ALTER TABLE public.capacitors_tantalum OWNER TO postgres;
+
+--
+-- TOC entry 219 (class 1259 OID 16617)
+-- Name: dac; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.dac (
+    "Part_ID" character varying NOT NULL,
+    "Symbols" character varying,
+    "Value" character varying,
+    "Footprints" character varying,
+    "Datasheet" character varying,
+    "Manufacturer" character varying,
+    "Manufacturer ref" character varying,
+    "Supplier" character varying,
+    "Supplier ref" character varying,
+    "Note 1" character varying,
+    "Note 2" character varying,
+    "Note 3" character varying,
+    "Note 4" character varying,
+    "Height" character varying,
+    "Package" character varying,
+    "Price" character varying,
+    ki_keywords character varying,
+    ki_description character varying
+);
+
+
+ALTER TABLE public.dac OWNER TO postgres;
 
 --
 -- TOC entry 209 (class 1259 OID 16561)
@@ -168,7 +342,30 @@ CREATE TABLE public.resistors_network (
 ALTER TABLE public.resistors_network OWNER TO postgres;
 
 --
--- TOC entry 3322 (class 0 OID 16581)
+-- TOC entry 3351 (class 0 OID 16612)
+-- Dependencies: 218
+-- Data for Name: adc; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.adc ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Note 1", "Note 2", "Note 3", "Note 4", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
+ADC-0	ZZ_ADC_DAC:ADS8694IDBT	ADS8694IDBT	ZZ_Package_SO:TSSOP-38_4.4x9.7mm_P0.5mm	\N	Texas Instruments	ADS8694IDBT#PBF	Digi-Key	296-42531-5-ND	-	-	-	-	1.2	TSSOP38	26.49	ADC	ADS8694IDBT ; 4 channel ; 18 bits SAR ADC ; 500 kSPS ; SPI interface
+\.
+
+
+--
+-- TOC entry 3349 (class 0 OID 16596)
+-- Dependencies: 216
+-- Data for Name: capacitors_aluminium; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.capacitors_aluminium ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Capacitance", "Voltage", "Precision", "Type", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
+capacitors_aluminium-0	ZZ_capacitors:C_Electrolytic	100uF-10V-20p-Al-TypeE	ZZ_Capacitor_SMD:CP_Elec_8x6.2	\N	Panasonic	EEEFC1A101P	Farnell	9693467	100uF	10V	20%	Aluminium	6.2	Type E	0.70	Capacitor 100uF 10V	Capacitor ; Al electolytic ; 10 V ; 100 uF ; 20% ; type E
+capacitors_aluminium-1	ZZ_capacitors:C_Electrolytic	10uF-16V-20p-Al-TypeB	ZZ_Capacitor_SMD:CP_Elec_4x5.4	\N	Panasonic	EEEFC1C100R	Farnell	9693491	10uF	16V	20%	Aluminium	5.4	Type B	0.31	Capacitor 10uF 16V	Capacitor ; Al electolytic ; 16 V ; 10 uF ; 20% ; type B
+\.
+
+
+--
+-- TOC entry 3346 (class 0 OID 16581)
 -- Dependencies: 213
 -- Data for Name: capacitors_ceramic_0603; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -197,7 +394,61 @@ capacitors_ceramic_0603-18	ZZ_capacitors:C	5pF-50V-5p-Ceramic-0603	ZZ_Capacitor_
 
 
 --
--- TOC entry 3318 (class 0 OID 16561)
+-- TOC entry 3347 (class 0 OID 16586)
+-- Dependencies: 214
+-- Data for Name: capacitors_ceramic_0805; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.capacitors_ceramic_0805 ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Capacitance", "Voltage", "Precision", "Type", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
+capacitors_ceramic_0805-0	ZZ_capacitors:C	100nF-50V-10p-Ceramic-0805	ZZ_Capacitor_SMD:C_0805_2012Metric	\N	KEMET	C0805F104K5RACTU	Farnell	1288272	100nF	50V	10%	X7R	1.1	0805	0.28	Capacitor 100nF 50V	Capacitor ; ceramic X7R ; 50 V ; 100 nF ; 10% ; 0805
+capacitors_ceramic_0805-1	ZZ_capacitors:C	100pF-50V-5p-Ceramic-0805	ZZ_Capacitor_SMD:C_0805_2012Metric	\N	KEMET	C0805C101J5GACTU	Farnell	1414656RL	100pF	50V	5%	X7R	1.1	0805	0.041	Capacitor 100pF 50V	Capacitor ; ceramic C0G ; 50 V ; 100 pF ; 10% ; 0805
+capacitors_ceramic_0805-2	ZZ_capacitors:C	10nF-50V-10p-Ceramic-0805	ZZ_Capacitor_SMD:C_0805_2012Metric	\N	KEMET	C0805C103K5RACTU	Farnell	1414662	10nF	50V	10%	X7R	1.1	0805	0.032	Capacitor 10nF 50V	Capacitor ; ceramic X7R ; 50 V ; 10 nF ; 10% ; 0805
+capacitors_ceramic_0805-3	ZZ_capacitors:C	10uF-16V-10p-Ceramic-0805	ZZ_Capacitor_SMD:C_0805_2012Metric	\N	KEMET	C0805C106K4PACTU	Farnell	1288204	10uF	16V	10%	X5R	1.1	0805	0.174	Capacitor 5pF 50V	Capacitor ; ceramic X5R ; 16 V ; 10 uF ; 10% ; 0805
+capacitors_ceramic_0805-4	ZZ_capacitors:C	1nF-50V-10p-Ceramic-0805	ZZ_Capacitor_SMD:C_0805_2012Metric	\N	KEMET	C0805C102K5RACTU	Farnell	1414660	1nF	50V	10%	X7R	1.1	0805	0.032	Capacitor 1nF 50V	Capacitor ; ceramic X7R ; 50 V ; 1 nF ; 10% ; 0805
+capacitors_ceramic_0805-5	ZZ_capacitors:C	2.2nF-50V-5p-Ceramic-0805	ZZ_Capacitor_SMD:C_0805_2012Metric	\N	KEMET	C0805C222J5GACAUTO	Farnell	2070464	2.2nF	50V	5%	C0G	1.1	0805	0.10	Capacitor 2.2nF 50V	Capacitor ; ceramic C0G ; 50 V ; 2.2 nF ; 10% ; 0805
+capacitors_ceramic_0805-6	ZZ_capacitors:C	5pF-50V-10p-Ceramic-0805	ZZ_Capacitor_SMD:C_0805_2012Metric	\N	Multicomp	MC0805N5R0C500CT	Farnell	1759184	5pF	50V	10%	C0G	1.1	0805	0.041	Capacitor 5pF 50V	Capacitor ; ceramic C0G ; 50 V ; 5 pF ; 10% ; 0805
+\.
+
+
+--
+-- TOC entry 3348 (class 0 OID 16591)
+-- Dependencies: 215
+-- Data for Name: capacitors_ceramic_1210; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.capacitors_ceramic_1210 ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Capacitance", "Voltage", "Precision", "Type", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
+capacitors_ceramic_1210-0	ZZ_capacitors:C	10uF-10V-10p-Ceramic-1210	ZZ_Capacitor_SMD:C_1210_3225Metric	\N	KEMET	C1210C106K8PACTU	Farnell	9227970RL	10uF	10V	10%	X7R	2.10	1210	0.66	Capacitor 10uF 10V	Capacitor ; ceramic X5R ; 10 V ; 10 uF ; 10% ; 1210
+capacitors_ceramic_1210-1	ZZ_capacitors:C	10uF-25V-10p-Ceramic-1210	ZZ_Capacitor_SMD:C_1210_3225Metric	\N	KEMET	C1210C106K3RACTU	Farnell	1358512	10uF	25V	10%	X7R	2.10	1210	0.41	Capacitor 10uF 25V	Capacitor ; ceramic X7R ; 25 V ; 10 uF ; 10% ; 1210
+\.
+
+
+--
+-- TOC entry 3350 (class 0 OID 16601)
+-- Dependencies: 217
+-- Data for Name: capacitors_tantalum; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.capacitors_tantalum ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Capacitance", "Voltage", "Precision", "Type", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
+capacitors_tantalum-0	ZZ_capacitors:C_Electrolytic	10uF-20V-10p-Tantalum-1210	ZZ_Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B	\N	AVX	TAJB106K020RNJ	Farnell	197427RL	10uF	20V	10%	Tantalum	1.90	1210	0.57	Capacitor 10uF 20V	Capacitor ; tantalum ; 20 V ; 10 uF ; 10% ; 1210
+capacitors_tantalum-1	ZZ_capacitors:C_Electrolytic	2u2F-20V-10p-Tantalum-1210	ZZ_Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B	\N	AVX	TAJB225K020RNJ	Farnell	197373RL	2.2uF	20V	10%	Tantalum	1.90	1210	0.22	Capacitor 2u2F 20V	Capacitor ; tantalum ; 20 V ; 2.2 uF ; 10% ; 1210
+capacitors_tantalum-2	ZZ_capacitors:C_Electrolytic	4u7F-20V-10p-Tantalum-1206	ZZ_Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A	\N	AVX	TAJA475K020RNJ	Farnell	197397RL	4.7uF	20V	10%	Tantalum	1.60	1206	0.60	Capacitor 4.7uF 20V	Capacitor ; tantalum ; 20 V ; 4.7 uF ; 10% ; 1206
+capacitors_tantalum-3	ZZ_capacitors:C_Electrolytic	68uF-10V-10p-Tantalum-1210	ZZ_Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B	\N	AVX	TAJB686K010RNJ	Farnell	1432371	68uF	10V	10%	Tantalum	1.90	1210	0.77	Capacitor 68uF 10V	Capacitor ; tantalum ; 10 V ; 68 uF ; 10% ; 1210
+\.
+
+
+--
+-- TOC entry 3352 (class 0 OID 16617)
+-- Dependencies: 219
+-- Data for Name: dac; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.dac ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Note 1", "Note 2", "Note 3", "Note 4", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
+DAC-0	ZZ_ADC-DAC:LTC2758ACLX	LTC2758ACLX	ZZ_Package_QFP:LQFP-48-1EP_7x7mm_P0.5mm_EP3.6x3.6mm	\N	Linear Technology	LTC2758ACLX#PBF	Farnell	2097867	-	-	-	-	1.60	LQFP48	58.02	DAC	LTC2758ACLX ; Dual serial 18 bits DAC
+\.
+
+
+--
+-- TOC entry 3342 (class 0 OID 16561)
 -- Dependencies: 209
 -- Data for Name: resistors_0603; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -257,7 +508,7 @@ resistors_0603-49	ZZ_resistors:R	976R-0.166W-0.1P-0603	Resistor_SMD:R_0603_1608M
 
 
 --
--- TOC entry 3319 (class 0 OID 16566)
+-- TOC entry 3343 (class 0 OID 16566)
 -- Dependencies: 210
 -- Data for Name: resistors_0805; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -300,7 +551,7 @@ resistors_0805-32	ZZ_resistors:R	8K06-0.125W-1P-0805	Resistor_SMD:R_0805_2012Met
 
 
 --
--- TOC entry 3320 (class 0 OID 16571)
+-- TOC entry 3344 (class 0 OID 16571)
 -- Dependencies: 211
 -- Data for Name: resistors_2512; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -311,7 +562,7 @@ resistors_2512-0	ZZ_resistors:R	49R9-1W-1P-2512	Resistor_SMD:R_2512_6332Metric	\
 
 
 --
--- TOC entry 3321 (class 0 OID 16576)
+-- TOC entry 3345 (class 0 OID 16576)
 -- Dependencies: 212
 -- Data for Name: resistors_network; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -323,7 +574,7 @@ resistors_network-2	ZZ_resistors:Rx4	22Rx4-0.063W-1P-4x0603	Resistor_SMD:R_Array
 \.
 
 
--- Completed on 2023-02-22 17:38:16
+-- Completed on 2023-02-23 17:37:49
 
 --
 -- PostgreSQL database dump complete

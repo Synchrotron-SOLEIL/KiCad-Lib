@@ -48,7 +48,7 @@
     (property "ki_keywords" "DAC" (id 16) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Dual serial 18 bits DAC" (id 17) (at 0 0 0)
+    (property "ki_description" "LTC2758ACLX ; Dual serial 18 bits DAC" (id 17) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LTC2758ACLX_0_1"

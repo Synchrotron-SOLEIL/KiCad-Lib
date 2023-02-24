@@ -5,7 +5,7 @@
 -- Dumped from database version 14.5
 -- Dumped by pg_dump version 14.5
 
--- Started on 2023-02-23 17:37:49
+-- Started on 2023-02-24 17:54:44
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -50,6 +50,35 @@ CREATE TABLE public.adc (
 
 
 ALTER TABLE public.adc OWNER TO postgres;
+
+--
+-- TOC entry 220 (class 1259 OID 16622)
+-- Name: amplifier; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.amplifier (
+    "Part_ID" character varying NOT NULL,
+    "Symbols" character varying,
+    "Value" character varying,
+    "Footprints" character varying,
+    "Datasheet" character varying,
+    "Manufacturer" character varying,
+    "Manufacturer ref" character varying,
+    "Supplier" character varying,
+    "Supplier ref" character varying,
+    "Note 1" character varying,
+    "Note 2" character varying,
+    "Note 3" character varying,
+    "Note 4" character varying,
+    "Height" character varying,
+    "Package" character varying,
+    "Price" character varying,
+    ki_keywords character varying,
+    ki_description character varying
+);
+
+
+ALTER TABLE public.amplifier OWNER TO postgres;
 
 --
 -- TOC entry 216 (class 1259 OID 16596)
@@ -197,6 +226,64 @@ CREATE TABLE public.capacitors_tantalum (
 ALTER TABLE public.capacitors_tantalum OWNER TO postgres;
 
 --
+-- TOC entry 221 (class 1259 OID 16627)
+-- Name: comparator; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.comparator (
+    "Part_ID" character varying NOT NULL,
+    "Symbols" character varying,
+    "Value" character varying,
+    "Footprints" character varying,
+    "Datasheet" character varying,
+    "Manufacturer" character varying,
+    "Manufacturer ref" character varying,
+    "Supplier" character varying,
+    "Supplier ref" character varying,
+    "Note 1" character varying,
+    "Note 2" character varying,
+    "Note 3" character varying,
+    "Note 4" character varying,
+    "Height" character varying,
+    "Package" character varying,
+    "Price" character varying,
+    ki_keywords character varying,
+    ki_description character varying
+);
+
+
+ALTER TABLE public.comparator OWNER TO postgres;
+
+--
+-- TOC entry 222 (class 1259 OID 16632)
+-- Name: cpci_connectors; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.cpci_connectors (
+    "Part_ID" character varying NOT NULL,
+    "Symbols" character varying,
+    "Value" character varying,
+    "Footprints" character varying,
+    "Datasheet" character varying,
+    "Manufacturer" character varying,
+    "Manufacturer ref" character varying,
+    "Supplier" character varying,
+    "Supplier ref" character varying,
+    "Note 1" character varying,
+    "Note 2" character varying,
+    "Note 3" character varying,
+    "Note 4" character varying,
+    "Height" character varying,
+    "Package" character varying,
+    "Price" character varying,
+    ki_keywords character varying,
+    ki_description character varying
+);
+
+
+ALTER TABLE public.cpci_connectors OWNER TO postgres;
+
+--
 -- TOC entry 219 (class 1259 OID 16617)
 -- Name: dac; Type: TABLE; Schema: public; Owner: postgres
 --
@@ -342,7 +429,7 @@ CREATE TABLE public.resistors_network (
 ALTER TABLE public.resistors_network OWNER TO postgres;
 
 --
--- TOC entry 3351 (class 0 OID 16612)
+-- TOC entry 3363 (class 0 OID 16612)
 -- Dependencies: 218
 -- Data for Name: adc; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -353,7 +440,24 @@ ADC-0	ZZ_ADC_DAC:ADS8694IDBT	ADS8694IDBT	ZZ_Package_SO:TSSOP-38_4.4x9.7mm_P0.5mm
 
 
 --
--- TOC entry 3349 (class 0 OID 16596)
+-- TOC entry 3365 (class 0 OID 16622)
+-- Dependencies: 220
+-- Data for Name: amplifier; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.amplifier ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Note 1", "Note 2", "Note 3", "Note 4", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
+Amplifier-0	ZZ_analogs:LT1012ACS8	LT1012ACS8	ZZ_Package_SO:SOIC-8_3.9x4.9mm_P1.27mm	\N	LINEAR TECHNOLOGY	LT1012ACS8#PBF	Digi-Key	LT1012ACS8#PBF-ND	VCC : +/- 1.2 to +/- 20V	-	-	-	1.75	SOIC8	7.58	opa	Picoamp Input Current ; Microvolt Offset ; Low Noise Op Amp
+Amplifier-1	ZZ_analogs:LT1360CS8	LT1360CS8	ZZ_Package_SO:SOIC-8_3.9x4.9mm_P1.27mm	\N	LINEAR TECHNOLOGY	 LT1360CS8#PBF	Farnell	1330641	VCC : +/- 15V	-	-	-	1.75	SOIC8	5.67	opa	Picoamp Input Current ; Microvolt Offset ; Low Noise Op Amp
+Amplifier-2	ZZ_analogs:LT6600CS8-2.5	LT6600CS8-2.5	ZZ_Package_SO:SOIC-8_3.9x4.9mm_P1.27mm	\N	Linear Technology	LT6600CS8-2.5	Farnell	1663590	Differential inputs and outputs amplifier	-	-	-	1.75	SOIC8	7.11	differential amplifier, opa	Very Low Noise ; Differential Amplifier and 2.5MHz Lowpass Filter
+Amplifier-3	ZZ_analogs:LTC2054HVCS5	LTC2054HVCS5	ZZ_Package_TO_SOT_SMD:SOT-23-5	\N	LINEAR TECHNOLOGY	LTC2054HVCS5#PBF	Digi-Key	LTC2054HVCS5#TRMPBFCT-ND	VCC : 2.7 to +/- 5.5V	-	-	-	1.0	SOT-23-5	2.46	opa	Single Micropower Zero-Drift Operational Amplifiers
+Amplifier-4	ZZ_analogs:LTC6241HVCS8	LTC6241HVCS8	ZZ_Package_SO:SOIC-8_3.9x4.9mm_P1.27mm	\N	LINEAR TECHNOLOGY	LTC6241HVCS8#PBF	Farnell	1330970	VCC : 2.8 to +/- 5.5V	-	-	-	1.75	SOIC8	5.28	opa	Dual low noise ; low offset ; rail-to-rail output ; unity gain stable CMOS op amps that feature 1pA of input bias current
+Amplifier-5	ZZ_analogs:OPA2209AIDGKR	OPA2209AIDGKR	ZZ_Package_SO:MSOP-8_3x3mm_P0.65mm	\N	Texas Instruments	OPA209AIDGKR	Digi-Key	296-39109-1-ND	VCC : +/-2.5 to +/-18V	-	-	-	1.10	MSOP8	3.71	opa	Dual low noise ; low offset ; 18 MHz GB ; +/-2.5V to +/-18V supply voltage
+Amplifier-6	ZZ_analogs:PMA2-43LN+	PMA2-43LN+	ZZ_RF_Mini-Circuits:Mini-Circuits_MC1631	\N	Mini-Circuits	PMA2-43LN+	Mini-Circuits	PMA2-43LN+	VCC : 5V	-	-	-	1.0	MC1631	3.99	opa RF	low noise ; high IP3 ; 1.1 GHz to 4 GHz ; 17.6 dB gain at 2.5 GHz
+\.
+
+
+--
+-- TOC entry 3361 (class 0 OID 16596)
 -- Dependencies: 216
 -- Data for Name: capacitors_aluminium; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -365,7 +469,7 @@ capacitors_aluminium-1	ZZ_capacitors:C_Electrolytic	10uF-16V-20p-Al-TypeB	ZZ_Cap
 
 
 --
--- TOC entry 3346 (class 0 OID 16581)
+-- TOC entry 3358 (class 0 OID 16581)
 -- Dependencies: 213
 -- Data for Name: capacitors_ceramic_0603; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -394,7 +498,7 @@ capacitors_ceramic_0603-18	ZZ_capacitors:C	5pF-50V-5p-Ceramic-0603	ZZ_Capacitor_
 
 
 --
--- TOC entry 3347 (class 0 OID 16586)
+-- TOC entry 3359 (class 0 OID 16586)
 -- Dependencies: 214
 -- Data for Name: capacitors_ceramic_0805; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -411,7 +515,7 @@ capacitors_ceramic_0805-6	ZZ_capacitors:C	5pF-50V-10p-Ceramic-0805	ZZ_Capacitor_
 
 
 --
--- TOC entry 3348 (class 0 OID 16591)
+-- TOC entry 3360 (class 0 OID 16591)
 -- Dependencies: 215
 -- Data for Name: capacitors_ceramic_1210; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -423,7 +527,7 @@ capacitors_ceramic_1210-1	ZZ_capacitors:C	10uF-25V-10p-Ceramic-1210	ZZ_Capacitor
 
 
 --
--- TOC entry 3350 (class 0 OID 16601)
+-- TOC entry 3362 (class 0 OID 16601)
 -- Dependencies: 217
 -- Data for Name: capacitors_tantalum; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -437,18 +541,41 @@ capacitors_tantalum-3	ZZ_capacitors:C_Electrolytic	68uF-10V-10p-Tantalum-1210	ZZ
 
 
 --
--- TOC entry 3352 (class 0 OID 16617)
+-- TOC entry 3366 (class 0 OID 16627)
+-- Dependencies: 221
+-- Data for Name: comparator; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.comparator ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Note 1", "Note 2", "Note 3", "Note 4", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
+Comparator-0	ZZ_analogs:LTC6702CTS8	LTC6702CTS8	ZZ_Package_TO_SOT_SMD:TSOT-23-8	https://www.analog.com/media/en/technical-documentation/data-sheets/6702fa.pdf	LINEAR TECHNOLOGY	LTC6702CTS8	Digi-Key	LTC6702CTS8#TRMPBFCT-ND	-	-	-	-	1.0	TSOT-23-8	2.47	dual comparator low voltage	Low Voltage Dual Comparator ; 3.2MHz ; TSOT-23-8
+Comparator-1	ZZ_analogs:LTC6752IS5	LTC6752IS5	ZZ_Package_TO_SOT_SMD:TSOT-23-5	https://www.analog.com/media/en/technical-documentation/data-sheets/6752fc.pdf	LINEAR TECHNOLOGY	LTC6752IS5	Digi-Key	LTC6752IS5#TRMPBFCT-ND	-	-	-	-	1.0	TSOT-23-5	3.68	single comparator high speed cmos	Single 280Mhz 2.9ns Comparator ; Rail-to-Rail Inputs ; CMOS Output ; TSOT-23-5
+\.
+
+
+--
+-- TOC entry 3367 (class 0 OID 16632)
+-- Dependencies: 222
+-- Data for Name: cpci_connectors; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.cpci_connectors ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Note 1", "Note 2", "Note 3", "Note 4", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
+CPCI_connectors-0	ZZ_connectors:CPCI-J1	CPCI-J1	ZZ_Connector_Erni:Erni_ERmet_Female_Type_A-354142	\N	Erni	354142	Mouser	305-354142	-	-	-	-	12.25	CPCI type A	14.02	CPCI connector	CPCI TYPE A connector ; press-fit
+\.
+
+
+--
+-- TOC entry 3364 (class 0 OID 16617)
 -- Dependencies: 219
 -- Data for Name: dac; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
 COPY public.dac ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Note 1", "Note 2", "Note 3", "Note 4", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
-DAC-0	ZZ_ADC-DAC:LTC2758ACLX	LTC2758ACLX	ZZ_Package_QFP:LQFP-48-1EP_7x7mm_P0.5mm_EP3.6x3.6mm	\N	Linear Technology	LTC2758ACLX#PBF	Farnell	2097867	-	-	-	-	1.60	LQFP48	58.02	DAC	LTC2758ACLX ; Dual serial 18 bits DAC
+DAC-0	ZZ_ADC_DAC:LTC2758ACLX	LTC2758ACLX	ZZ_Package_QFP:LQFP-48_7x7mm_P0.5mm	\N	Linear Technology	LTC2758ACLX#PBF	Farnell	2097867	-	-	-	-	1.60	LQFP48	58.02	DAC	LTC2758ACLX ; Dual serial 18 bits DAC
 \.
 
 
 --
--- TOC entry 3342 (class 0 OID 16561)
+-- TOC entry 3354 (class 0 OID 16561)
 -- Dependencies: 209
 -- Data for Name: resistors_0603; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -508,7 +635,7 @@ resistors_0603-49	ZZ_resistors:R	976R-0.166W-0.1P-0603	Resistor_SMD:R_0603_1608M
 
 
 --
--- TOC entry 3343 (class 0 OID 16566)
+-- TOC entry 3355 (class 0 OID 16566)
 -- Dependencies: 210
 -- Data for Name: resistors_0805; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -551,7 +678,7 @@ resistors_0805-32	ZZ_resistors:R	8K06-0.125W-1P-0805	Resistor_SMD:R_0805_2012Met
 
 
 --
--- TOC entry 3344 (class 0 OID 16571)
+-- TOC entry 3356 (class 0 OID 16571)
 -- Dependencies: 211
 -- Data for Name: resistors_2512; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -562,7 +689,7 @@ resistors_2512-0	ZZ_resistors:R	49R9-1W-1P-2512	Resistor_SMD:R_2512_6332Metric	\
 
 
 --
--- TOC entry 3345 (class 0 OID 16576)
+-- TOC entry 3357 (class 0 OID 16576)
 -- Dependencies: 212
 -- Data for Name: resistors_network; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -574,7 +701,7 @@ resistors_network-2	ZZ_resistors:Rx4	22Rx4-0.063W-1P-4x0603	Resistor_SMD:R_Array
 \.
 
 
--- Completed on 2023-02-23 17:37:49
+-- Completed on 2023-02-24 17:54:44
 
 --
 -- PostgreSQL database dump complete

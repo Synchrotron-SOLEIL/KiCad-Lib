@@ -13,10 +13,10 @@ import (
 )
 
 func main() {
-    file_name := parameters.DAC_file
+    file_name := parameters.Terminal_connectors_file
     part_ID   := file_name + "-"
-    folder    := parameters.DAC_folder + "/"
-    symbols   := parameters.DAC_symbol
+    folder    := parameters.Connectors_folder + "/"
+    symbols   := parameters.Connectors_symbol
     data      := parameters.IC_data
 
     input_file  := "../../Lib/symbols/" + folder + file_name + ".kicad_sym"
@@ -52,8 +52,8 @@ func main() {
                 //field = append(field, symbols) // Symbole field
                 field = append(field, symbols + sub_strings[1]) // Symbole field
                 fields_index += 1
-                fmt.Printf("part_ID field: %s \n", strconv.Itoa(fields_index))
-                fmt.Printf("symbols field: %s \n", symbols + sub_strings[1])
+                //fmt.Printf("part_ID field: %s \n", strconv.Itoa(fields_index))
+                //fmt.Printf("symbols field: %s \n", symbols + sub_strings[1])
             case strings.Contains(s, "Value") :
                 sub_strings = strings.Split(s, "\"")
                 field = append(field, sub_strings[3])

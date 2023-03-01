@@ -5,7 +5,7 @@
 -- Dumped from database version 14.5
 -- Dumped by pg_dump version 14.5
 
--- Started on 2023-02-24 17:54:44
+-- Started on 2023-03-01 11:53:40
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -255,11 +255,11 @@ CREATE TABLE public.comparator (
 ALTER TABLE public.comparator OWNER TO postgres;
 
 --
--- TOC entry 222 (class 1259 OID 16632)
--- Name: cpci_connectors; Type: TABLE; Schema: public; Owner: postgres
+-- TOC entry 223 (class 1259 OID 16647)
+-- Name: connectors_cpci; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.cpci_connectors (
+CREATE TABLE public.connectors_cpci (
     "Part_ID" character varying NOT NULL,
     "Symbols" character varying,
     "Value" character varying,
@@ -281,7 +281,36 @@ CREATE TABLE public.cpci_connectors (
 );
 
 
-ALTER TABLE public.cpci_connectors OWNER TO postgres;
+ALTER TABLE public.connectors_cpci OWNER TO postgres;
+
+--
+-- TOC entry 222 (class 1259 OID 16642)
+-- Name: connectors_he; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.connectors_he (
+    "Part_ID" character varying NOT NULL,
+    "Symbols" character varying,
+    "Value" character varying,
+    "Footprints" character varying,
+    "Datasheet" character varying,
+    "Manufacturer" character varying,
+    "Manufacturer ref" character varying,
+    "Supplier" character varying,
+    "Supplier ref" character varying,
+    "Note 1" character varying,
+    "Note 2" character varying,
+    "Note 3" character varying,
+    "Note 4" character varying,
+    "Height" character varying,
+    "Package" character varying,
+    "Price" character varying,
+    ki_keywords character varying,
+    ki_description character varying
+);
+
+
+ALTER TABLE public.connectors_he OWNER TO postgres;
 
 --
 -- TOC entry 219 (class 1259 OID 16617)
@@ -429,7 +458,7 @@ CREATE TABLE public.resistors_network (
 ALTER TABLE public.resistors_network OWNER TO postgres;
 
 --
--- TOC entry 3363 (class 0 OID 16612)
+-- TOC entry 3367 (class 0 OID 16612)
 -- Dependencies: 218
 -- Data for Name: adc; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -440,7 +469,7 @@ ADC-0	ZZ_ADC_DAC:ADS8694IDBT	ADS8694IDBT	ZZ_Package_SO:TSSOP-38_4.4x9.7mm_P0.5mm
 
 
 --
--- TOC entry 3365 (class 0 OID 16622)
+-- TOC entry 3369 (class 0 OID 16622)
 -- Dependencies: 220
 -- Data for Name: amplifier; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -457,7 +486,7 @@ Amplifier-6	ZZ_analogs:PMA2-43LN+	PMA2-43LN+	ZZ_RF_Mini-Circuits:Mini-Circuits_M
 
 
 --
--- TOC entry 3361 (class 0 OID 16596)
+-- TOC entry 3365 (class 0 OID 16596)
 -- Dependencies: 216
 -- Data for Name: capacitors_aluminium; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -469,7 +498,7 @@ capacitors_aluminium-1	ZZ_capacitors:C_Electrolytic	10uF-16V-20p-Al-TypeB	ZZ_Cap
 
 
 --
--- TOC entry 3358 (class 0 OID 16581)
+-- TOC entry 3362 (class 0 OID 16581)
 -- Dependencies: 213
 -- Data for Name: capacitors_ceramic_0603; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -498,7 +527,7 @@ capacitors_ceramic_0603-18	ZZ_capacitors:C	5pF-50V-5p-Ceramic-0603	ZZ_Capacitor_
 
 
 --
--- TOC entry 3359 (class 0 OID 16586)
+-- TOC entry 3363 (class 0 OID 16586)
 -- Dependencies: 214
 -- Data for Name: capacitors_ceramic_0805; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -515,7 +544,7 @@ capacitors_ceramic_0805-6	ZZ_capacitors:C	5pF-50V-10p-Ceramic-0805	ZZ_Capacitor_
 
 
 --
--- TOC entry 3360 (class 0 OID 16591)
+-- TOC entry 3364 (class 0 OID 16591)
 -- Dependencies: 215
 -- Data for Name: capacitors_ceramic_1210; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -527,7 +556,7 @@ capacitors_ceramic_1210-1	ZZ_capacitors:C	10uF-25V-10p-Ceramic-1210	ZZ_Capacitor
 
 
 --
--- TOC entry 3362 (class 0 OID 16601)
+-- TOC entry 3366 (class 0 OID 16601)
 -- Dependencies: 217
 -- Data for Name: capacitors_tantalum; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -541,7 +570,7 @@ capacitors_tantalum-3	ZZ_capacitors:C_Electrolytic	68uF-10V-10p-Tantalum-1210	ZZ
 
 
 --
--- TOC entry 3366 (class 0 OID 16627)
+-- TOC entry 3370 (class 0 OID 16627)
 -- Dependencies: 221
 -- Data for Name: comparator; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -553,18 +582,38 @@ Comparator-1	ZZ_analogs:LTC6752IS5	LTC6752IS5	ZZ_Package_TO_SOT_SMD:TSOT-23-5	ht
 
 
 --
--- TOC entry 3367 (class 0 OID 16632)
--- Dependencies: 222
--- Data for Name: cpci_connectors; Type: TABLE DATA; Schema: public; Owner: postgres
+-- TOC entry 3372 (class 0 OID 16647)
+-- Dependencies: 223
+-- Data for Name: connectors_cpci; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.cpci_connectors ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Note 1", "Note 2", "Note 3", "Note 4", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
+COPY public.connectors_cpci ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Note 1", "Note 2", "Note 3", "Note 4", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
 CPCI_connectors-0	ZZ_connectors:CPCI-J1	CPCI-J1	ZZ_Connector_Erni:Erni_ERmet_Female_Type_A-354142	\N	Erni	354142	Mouser	305-354142	-	-	-	-	12.25	CPCI type A	14.02	CPCI connector	CPCI TYPE A connector ; press-fit
 \.
 
 
 --
--- TOC entry 3364 (class 0 OID 16617)
+-- TOC entry 3371 (class 0 OID 16642)
+-- Dependencies: 222
+-- Data for Name: connectors_he; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.connectors_he ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Note 1", "Note 2", "Note 3", "Note 4", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
+HE_connectors-0	ZZ_connectors:FCI_20021121-00010C4LF	FCI_20021121-00010C4LF	ZZ_Connector_PinHeader:PinHeader_2x05_P1.27mm_Vertical_SMD	\N	FCI	20021121-00010C4LF	Farnell	1865279	-	-	-	-	\N	1.27mm SMD 2x5	1.22	header connector	Header ; 2x5 points ; straight ; 1.27mm pitch ; 3mm height  ; SMD
+HE_connectors-1	ZZ_connectors:HE-13-6	HE-13-6	ZZ_Connector_PinHeader:PinHeader_1x06_P2.54mm_Vertical	\N	-	-	-	-	-	-	-	-	\N	HE-13-6	0.36	HE13 connector	HE13 ; 1x6 points ; straight ; 2.54mm pitch ; trough hole
+HE_connectors-2	ZZ_connectors:JTAG-87832-1420	JTAG-87832-1420	ZZ_Connector_PinHeader:PinHeader-2x07_P2mm_Vertical_SMD	\N	Molex	87832-1420	Farnell	2102706	Xilinx JTAG connector	-	-	-	\N	2mm SMD 2x7	1.01	JTAG connector	XILINX JTAG platform cable connector ; 2x7 points ; straight ; 2mm pitch ; SMD
+HE_connectors-3	ZZ_connectors:QSH-040-01-F-D-DP-A	QSH-040-01-F-D-DP-A	ZZ_Connector_Samtec:Samtec_QSH-040-01-F-D-DP-A_2x40_P0.5mm_Vertical_SMD	\N	Samtec	QSH-040-01-F-D-DP-A	Samtec	QSH-040-01-F-D-DP-A	-	-	-	-	\N	0.5mm SMD 2x40	49.99	header connector	0.50 mm Q Pairs High Speed Ground Plane Socket Strip ; Differential Pair
+HE_connectors-4	ZZ_connectors:TSM-102-02-S-DV	TSM-102-02-S-DV	ZZ_Connector_Samtec:Samtec_TSM-102-DV_2x02_P2.54mm_Vertical_SMD	\N	Samtec	TSM-102-02-S-DV	Farnell	2055840	-	-	-	-	8.13	8.13mm SMD 2x2	1.24	header connector	Header ; 2x2 points ; straight ; 2.54mm pitch ; 8.13mm height  ; SMD
+HE_connectors-5	ZZ_connectors:TSM-104-02-S-DV	TSM-104-02-S-DV	ZZ_Connector_Samtec:Samtec_TSM-104-DV_2x04_P2.54mm_Vertical_SMD	\N	Samtec	TSM-104-02-S-DV	Farnell	2055849	-	-	-	-	8.13	2.54mm SMD 2x11	2.03	header connector	Header ; 2x4 points ; straight ; 2.54mm pitch ; 8.13mm height  ; SMD
+HE_connectors-6	ZZ_connectors:TSM-108-02-S-DV	TSM-108-02-S-DV	ZZ_Connector_Samtec:Samtec_TSM-108-DV_2x08_P2.54mm_Vertical_SMD	\N	Samtec	TSM-108-02-S-DV	Farnell	2055866	-	-	-	-	8.13	2.54mm SMD 2x11	4.06	header connector	Header ; 2x8 points ; straight ; 2.54mm pitch ; 8.13mm height  ; SMD
+HE_connectors-7	ZZ_connectors:TSM-111-02-S-DV	TSM-111-02-S-DV	ZZ_Connector_Samtec:Samtec_TSM-111-DV_.2x11_P2.54mm_Vertical_SMD	\N	Samtec	TSM-111-02-S-DV	Farnell	2055881	-	-	-	-	8.13	2.54mm SMD 2x11	6.10	header connector	Header ; 2x11 points ; straight ; 2.54mm pitch ; 8.13mm height  ; SMD
+HE_connectors-8	ZZ_connectors:TSM-123-02-S-DV	TSM-123-02-S-DV	ZZ_Connector_Samtec:Samtec_TSM-123-DV_2x23_P2.54mm_Vertical_SMD	\N	Samtec	TSM-123-02-S-DV	Farnell	2055931	-	-	-	-	8.13	2.54mm SMD 2x23	12.78	header connector	Header ; 2x23 points ; straight ; 2.54mm pitch ; 8.13mm height  ; SMD
+HE_connectors-9	ZZ_connectors:TSW-123-14-G-D	TSW-123-14-G-D	ZZ_Connector_Samtec:Samtec_TSW-123-14-G-D_2x23_P2.54mm_Vertical	\N	Samtec	TSW-123-14-G-D	Farnell	2027086	-	-	-	-	8.13	2.54mm 2x23	5.38	header connector	Header ; 2x23 points ; straight ; 2.54mm pitch ; 8.13mm height  ; trough hole
+\.
+
+
+--
+-- TOC entry 3368 (class 0 OID 16617)
 -- Dependencies: 219
 -- Data for Name: dac; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -575,7 +624,7 @@ DAC-0	ZZ_ADC_DAC:LTC2758ACLX	LTC2758ACLX	ZZ_Package_QFP:LQFP-48_7x7mm_P0.5mm	\N	
 
 
 --
--- TOC entry 3354 (class 0 OID 16561)
+-- TOC entry 3358 (class 0 OID 16561)
 -- Dependencies: 209
 -- Data for Name: resistors_0603; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -635,7 +684,7 @@ resistors_0603-49	ZZ_resistors:R	976R-0.166W-0.1P-0603	Resistor_SMD:R_0603_1608M
 
 
 --
--- TOC entry 3355 (class 0 OID 16566)
+-- TOC entry 3359 (class 0 OID 16566)
 -- Dependencies: 210
 -- Data for Name: resistors_0805; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -678,7 +727,7 @@ resistors_0805-32	ZZ_resistors:R	8K06-0.125W-1P-0805	Resistor_SMD:R_0805_2012Met
 
 
 --
--- TOC entry 3356 (class 0 OID 16571)
+-- TOC entry 3360 (class 0 OID 16571)
 -- Dependencies: 211
 -- Data for Name: resistors_2512; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -689,7 +738,7 @@ resistors_2512-0	ZZ_resistors:R	49R9-1W-1P-2512	Resistor_SMD:R_2512_6332Metric	\
 
 
 --
--- TOC entry 3357 (class 0 OID 16576)
+-- TOC entry 3361 (class 0 OID 16576)
 -- Dependencies: 212
 -- Data for Name: resistors_network; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -701,7 +750,7 @@ resistors_network-2	ZZ_resistors:Rx4	22Rx4-0.063W-1P-4x0603	Resistor_SMD:R_Array
 \.
 
 
--- Completed on 2023-02-24 17:54:44
+-- Completed on 2023-03-01 11:53:41
 
 --
 -- PostgreSQL database dump complete

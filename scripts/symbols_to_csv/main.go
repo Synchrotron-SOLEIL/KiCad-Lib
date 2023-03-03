@@ -13,7 +13,7 @@ import (
 )
 
 func main() {
-    file_name := parameters.CPCI_connectors_file
+    file_name := parameters.SMA_connectors_file
     part_ID   := file_name + "-"
     folder    := parameters.Connectors_folder + "/"
     symbols   := parameters.Connectors_symbol

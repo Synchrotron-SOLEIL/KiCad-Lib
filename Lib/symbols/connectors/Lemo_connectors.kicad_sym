@@ -6,7 +6,7 @@
     (property "Value" "XBG.00.302.NLN" (id 1) (at 11.43 6.35 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "ZZ_Connector_Lemo:XBG_Lemo_2p_XBG-00-302-NLN_Horizontal" (id 2) (at 49.53 2.54 0)
+    (property "Footprint" "ZZ_Connector_Lemo:Lemo_2p_XBG-00-302-NLN_Horizontal" (id 2) (at 49.53 2.54 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 0 0)

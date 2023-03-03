@@ -5,7 +5,7 @@
 -- Dumped from database version 14.5
 -- Dumped by pg_dump version 14.5
 
--- Started on 2023-03-01 11:53:40
+-- Started on 2023-03-03 17:49:07
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -313,6 +313,122 @@ CREATE TABLE public.connectors_he (
 ALTER TABLE public.connectors_he OWNER TO postgres;
 
 --
+-- TOC entry 224 (class 1259 OID 16658)
+-- Name: connectors_lemo; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.connectors_lemo (
+    "Part_ID" character varying NOT NULL,
+    "Symbols" character varying,
+    "Value" character varying,
+    "Footprints" character varying,
+    "Datasheet" character varying,
+    "Manufacturer" character varying,
+    "Manufacturer ref" character varying,
+    "Supplier" character varying,
+    "Supplier ref" character varying,
+    "Note 1" character varying,
+    "Note 2" character varying,
+    "Note 3" character varying,
+    "Note 4" character varying,
+    "Height" character varying,
+    "Package" character varying,
+    "Price" character varying,
+    ki_keywords character varying,
+    ki_description character varying
+);
+
+
+ALTER TABLE public.connectors_lemo OWNER TO postgres;
+
+--
+-- TOC entry 225 (class 1259 OID 16663)
+-- Name: connectors_psu; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.connectors_psu (
+    "Part_ID" character varying NOT NULL,
+    "Symbols" character varying,
+    "Value" character varying,
+    "Footprints" character varying,
+    "Datasheet" character varying,
+    "Manufacturer" character varying,
+    "Manufacturer ref" character varying,
+    "Supplier" character varying,
+    "Supplier ref" character varying,
+    "Note 1" character varying,
+    "Note 2" character varying,
+    "Note 3" character varying,
+    "Note 4" character varying,
+    "Height" character varying,
+    "Package" character varying,
+    "Price" character varying,
+    ki_keywords character varying,
+    ki_description character varying
+);
+
+
+ALTER TABLE public.connectors_psu OWNER TO postgres;
+
+--
+-- TOC entry 226 (class 1259 OID 16668)
+-- Name: connectors_rj45; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.connectors_rj45 (
+    "Part_ID" character varying NOT NULL,
+    "Symbols" character varying,
+    "Value" character varying,
+    "Footprints" character varying,
+    "Datasheet" character varying,
+    "Manufacturer" character varying,
+    "Manufacturer ref" character varying,
+    "Supplier" character varying,
+    "Supplier ref" character varying,
+    "Note 1" character varying,
+    "Note 2" character varying,
+    "Note 3" character varying,
+    "Note 4" character varying,
+    "Height" character varying,
+    "Package" character varying,
+    "Price" character varying,
+    ki_keywords character varying,
+    ki_description character varying
+);
+
+
+ALTER TABLE public.connectors_rj45 OWNER TO postgres;
+
+--
+-- TOC entry 227 (class 1259 OID 16673)
+-- Name: connectors_sma; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.connectors_sma (
+    "Part_ID" character varying NOT NULL,
+    "Symbols" character varying,
+    "Value" character varying,
+    "Footprints" character varying,
+    "Datasheet" character varying,
+    "Manufacturer" character varying,
+    "Manufacturer ref" character varying,
+    "Supplier" character varying,
+    "Supplier ref" character varying,
+    "Note 1" character varying,
+    "Note 2" character varying,
+    "Note 3" character varying,
+    "Note 4" character varying,
+    "Height" character varying,
+    "Package" character varying,
+    "Price" character varying,
+    ki_keywords character varying,
+    ki_description character varying
+);
+
+
+ALTER TABLE public.connectors_sma OWNER TO postgres;
+
+--
 -- TOC entry 219 (class 1259 OID 16617)
 -- Name: dac; Type: TABLE; Schema: public; Owner: postgres
 --
@@ -458,7 +574,7 @@ CREATE TABLE public.resistors_network (
 ALTER TABLE public.resistors_network OWNER TO postgres;
 
 --
--- TOC entry 3367 (class 0 OID 16612)
+-- TOC entry 3383 (class 0 OID 16612)
 -- Dependencies: 218
 -- Data for Name: adc; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -469,7 +585,7 @@ ADC-0	ZZ_ADC_DAC:ADS8694IDBT	ADS8694IDBT	ZZ_Package_SO:TSSOP-38_4.4x9.7mm_P0.5mm
 
 
 --
--- TOC entry 3369 (class 0 OID 16622)
+-- TOC entry 3385 (class 0 OID 16622)
 -- Dependencies: 220
 -- Data for Name: amplifier; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -486,7 +602,7 @@ Amplifier-6	ZZ_analogs:PMA2-43LN+	PMA2-43LN+	ZZ_RF_Mini-Circuits:Mini-Circuits_M
 
 
 --
--- TOC entry 3365 (class 0 OID 16596)
+-- TOC entry 3381 (class 0 OID 16596)
 -- Dependencies: 216
 -- Data for Name: capacitors_aluminium; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -498,7 +614,7 @@ capacitors_aluminium-1	ZZ_capacitors:C_Electrolytic	10uF-16V-20p-Al-TypeB	ZZ_Cap
 
 
 --
--- TOC entry 3362 (class 0 OID 16581)
+-- TOC entry 3378 (class 0 OID 16581)
 -- Dependencies: 213
 -- Data for Name: capacitors_ceramic_0603; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -527,7 +643,7 @@ capacitors_ceramic_0603-18	ZZ_capacitors:C	5pF-50V-5p-Ceramic-0603	ZZ_Capacitor_
 
 
 --
--- TOC entry 3363 (class 0 OID 16586)
+-- TOC entry 3379 (class 0 OID 16586)
 -- Dependencies: 214
 -- Data for Name: capacitors_ceramic_0805; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -544,7 +660,7 @@ capacitors_ceramic_0805-6	ZZ_capacitors:C	5pF-50V-10p-Ceramic-0805	ZZ_Capacitor_
 
 
 --
--- TOC entry 3364 (class 0 OID 16591)
+-- TOC entry 3380 (class 0 OID 16591)
 -- Dependencies: 215
 -- Data for Name: capacitors_ceramic_1210; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -556,7 +672,7 @@ capacitors_ceramic_1210-1	ZZ_capacitors:C	10uF-25V-10p-Ceramic-1210	ZZ_Capacitor
 
 
 --
--- TOC entry 3366 (class 0 OID 16601)
+-- TOC entry 3382 (class 0 OID 16601)
 -- Dependencies: 217
 -- Data for Name: capacitors_tantalum; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -570,7 +686,7 @@ capacitors_tantalum-3	ZZ_capacitors:C_Electrolytic	68uF-10V-10p-Tantalum-1210	ZZ
 
 
 --
--- TOC entry 3370 (class 0 OID 16627)
+-- TOC entry 3386 (class 0 OID 16627)
 -- Dependencies: 221
 -- Data for Name: comparator; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -582,7 +698,7 @@ Comparator-1	ZZ_analogs:LTC6752IS5	LTC6752IS5	ZZ_Package_TO_SOT_SMD:TSOT-23-5	ht
 
 
 --
--- TOC entry 3372 (class 0 OID 16647)
+-- TOC entry 3388 (class 0 OID 16647)
 -- Dependencies: 223
 -- Data for Name: connectors_cpci; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -593,7 +709,7 @@ CPCI_connectors-0	ZZ_connectors:CPCI-J1	CPCI-J1	ZZ_Connector_Erni:Erni_ERmet_Fem
 
 
 --
--- TOC entry 3371 (class 0 OID 16642)
+-- TOC entry 3387 (class 0 OID 16642)
 -- Dependencies: 222
 -- Data for Name: connectors_he; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -613,7 +729,58 @@ HE_connectors-9	ZZ_connectors:TSW-123-14-G-D	TSW-123-14-G-D	ZZ_Connector_Samtec:
 
 
 --
--- TOC entry 3368 (class 0 OID 16617)
+-- TOC entry 3389 (class 0 OID 16658)
+-- Dependencies: 224
+-- Data for Name: connectors_lemo; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.connectors_lemo ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Note 1", "Note 2", "Note 3", "Note 4", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
+Lemo_connectors-0	ZZ_connectors:XBG.00.302.NLN	XBG.00.302.NLN	ZZ_Connector_Lemo:Lemo_2p_XBG-00-302-NLN_Horizontal	\N	Lemo	XBG.00.302.NLN	Lemo	XBG.00.302.NLN	-	-	-	-	\N	Lemo P18	-	lemo	Lemo connectror 2p elbow for PCB ; right angle trough hole
+\.
+
+
+--
+-- TOC entry 3390 (class 0 OID 16663)
+-- Dependencies: 225
+-- Data for Name: connectors_psu; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.connectors_psu ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Note 1", "Note 2", "Note 3", "Note 4", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
+PSU_connectors-0	ZZ_connectors:Molex_KK-396-26481046	Molex_KK-396-26481046	ZZ_Connector_Molex:Molex_KK-396-26481046_1x4_15x12.7mm_P3.96mm_Horizontal	\N	Molex	26-48-1046	RS	2508872285	-	-	-	-	9.02	Molex 26481046	0.30	molex connector	Molex connector ; through hole ; 4 points ; right angle trough hole
+PSU_connectors-1	ZZ_connectors:Molex_Mini-Fit-Jr_5569-39-30-1061	Molex_Mini-Fit-Jr_5569-39-30-1061	ZZ_Connector_Molex:Molex_Mini-Fit-Jr_5569-39301061_2x3_13.8x12.8mm_P4.20mm_Horizontal	\N	Molex	39-30-1061	Farnell	2381283	-	-	-	-	12.60	Molex 39-30-1061	\N	molex Mini-Fit connector	Molex Mini-Fit Jr connector ; through hole ; 6 points ; right angle trough hole ; mates with 39-01-2060
+PSU_connectors-2	ZZ_connectors:Multicomp_24.243.1	Multicomp_24.243.1	ZZ_Connector_Multicomp:Multicomp_24.243_24x10.70mm_P15.50mm	\N	Multicomp	24.243.1	Farnell	1698982	Red	-	-	-	12.60	Multicomp 24.243	1.76	Multicomp connector ; banana	Multicomp connector ; through hole ; 2 points ; right angle trough hole ; red
+PSU_connectors-3	ZZ_connectors:Multicomp_24.243.2	Multicomp_24.243.2	ZZ_Connector_Multicomp:Multicomp_24.243_24x10.70mm_P15.50mm	\N	Multicomp	24.243.2	Farnell	1698983	Black	-	-	-	12.60	Multicomp 24.243	1.83	Multicomp connector ; banana	Multicomp connector ; through hole ; 2 points ; right angle trough hole ; black
+PSU_connectors-4	ZZ_connectors:Multicomp_24.243.5	Multicomp_24.243.5	ZZ_Connector_Multicomp:Multicomp_24.243_24x10.70mm_P15.50mm	\N	Multicomp	24.243.5	Farnell	1698984	Blue	-	-	-	12.60	Multicomp 24.243	0.81	Multicomp connector ; banana	Multicomp connector ; through hole ; 2 points ; right angle trough hole ; blue
+\.
+
+
+--
+-- TOC entry 3391 (class 0 OID 16668)
+-- Dependencies: 226
+-- Data for Name: connectors_rj45; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.connectors_rj45 ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Note 1", "Note 2", "Note 3", "Note 4", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
+RJ45_connectors-0	ZZ_connectors:HFJ11-1G01E-L12RL	HFJ11-1G01E-L12RL	ZZ_RJ45_connectors:SOLEIL-RJ45-HFJ11-1G01E-L12RL	\N	Halo Electronics	HFJ11-1G01E-L12RL	Mouser	493-HFJ111G01EL12RL	-	-	-	-	\N	RJ45	12.60	RJ45 Ehernet connector	RJ45 Ethernet connector for PCB ; 1Gbs ; tab-down ; green and yelow LEDs ; right angle trough hole
+\.
+
+
+--
+-- TOC entry 3392 (class 0 OID 16673)
+-- Dependencies: 227
+-- Data for Name: connectors_sma; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.connectors_sma ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Note 1", "Note 2", "Note 3", "Note 4", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
+SMA_connectors-0	ZZ_connectors:132134	132134	ZZ_Connectors_SMA:SOLEIL-SMA-132134	\N	Amphenol Connex	132134	Farnell	2112465	-	-	-	-	\N	SMA 132134	3.65	SMA	SMA connector for PCB ; vertical trough hole
+SMA_connectors-1	ZZ_connectors:132203	132203	ZZ_Connectors_SMA:SMA_Amphenol_132203-12_Horizontal	\N	Amphenol Connex	132203	Farnell	2144524	-	-	-	-	\N	SMA trough hole	9.72	SMA	SMA connector for PCB ; right angle trough hole
+SMA_connectors-2	ZZ_connectors:132430	132430	ZZ_Connectors_SMA:SOLEIL-SMA-132430	\N	Amphenol	132430	Digi-Key	ACX1923-ND	-	-	-	-	\N	Amphenol 132430	8.19	SMA	SMA connector end launch jack for 1.19mm (0.047 icnh) PCB ; straight SMD ; flat tab contact
+SMA_connectors-3	ZZ_connectors:449.42.2522.201	449.42.2522.201	ZZ_Connectors_SMA:SOLEIL-SMA-449	\N	IMS	449.42.2522.201	PN Electronics	449.42.2522.201	-	-	-	-	\N	IMS 449	58	SMA	SMA connector elbow for PCB ; right angle trough hole
+\.
+
+
+--
+-- TOC entry 3384 (class 0 OID 16617)
 -- Dependencies: 219
 -- Data for Name: dac; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -624,7 +791,7 @@ DAC-0	ZZ_ADC_DAC:LTC2758ACLX	LTC2758ACLX	ZZ_Package_QFP:LQFP-48_7x7mm_P0.5mm	\N	
 
 
 --
--- TOC entry 3358 (class 0 OID 16561)
+-- TOC entry 3374 (class 0 OID 16561)
 -- Dependencies: 209
 -- Data for Name: resistors_0603; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -684,7 +851,7 @@ resistors_0603-49	ZZ_resistors:R	976R-0.166W-0.1P-0603	Resistor_SMD:R_0603_1608M
 
 
 --
--- TOC entry 3359 (class 0 OID 16566)
+-- TOC entry 3375 (class 0 OID 16566)
 -- Dependencies: 210
 -- Data for Name: resistors_0805; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -727,7 +894,7 @@ resistors_0805-32	ZZ_resistors:R	8K06-0.125W-1P-0805	Resistor_SMD:R_0805_2012Met
 
 
 --
--- TOC entry 3360 (class 0 OID 16571)
+-- TOC entry 3376 (class 0 OID 16571)
 -- Dependencies: 211
 -- Data for Name: resistors_2512; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -738,7 +905,7 @@ resistors_2512-0	ZZ_resistors:R	49R9-1W-1P-2512	Resistor_SMD:R_2512_6332Metric	\
 
 
 --
--- TOC entry 3361 (class 0 OID 16576)
+-- TOC entry 3377 (class 0 OID 16576)
 -- Dependencies: 212
 -- Data for Name: resistors_network; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -750,7 +917,7 @@ resistors_network-2	ZZ_resistors:Rx4	22Rx4-0.063W-1P-4x0603	Resistor_SMD:R_Array
 \.
 
 
--- Completed on 2023-03-01 11:53:41
+-- Completed on 2023-03-03 17:49:07
 
 --
 -- PostgreSQL database dump complete

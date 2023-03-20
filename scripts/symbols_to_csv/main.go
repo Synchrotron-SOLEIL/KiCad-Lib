@@ -13,10 +13,10 @@ import (
 )
 
 func main() {
-    file_name := parameters.Terminal_connectors_file
+    file_name := parameters.FPGA_file
     part_ID   := file_name + "-"
-    folder    := parameters.Connectors_folder + "/"
-    symbols   := parameters.Connectors_symbol
+    folder    := parameters.FPGA_folder + "/"
+    symbols   := parameters.FPGA_symbol
     data      := parameters.IC_data
 
     input_file  := "../../Lib/symbols/" + folder + file_name + ".kicad_sym"

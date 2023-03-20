@@ -58,6 +58,22 @@ const Terminal_symbol      string = "ZZ_connectors:"
 const Connectors_folder    string = "connectors"
 const Connectors_symbol    string = "ZZ_connectors:"
 
+// Diode
+const Diodes_file   string = "diode_bridge"
+const Diodes_folder string = "discretes"
+const Diodes_symbol string = "ZZ_diodes:"
+
+// Transistor
+const Transistors_file   string = "transistors"
+const Transistors_folder string = "discretes"
+const Transistors_symbol string = "ZZ_transistors:"
+
+// FPGA
+const FPGA_file   string = "Xilinx-Spartan"
+const FPGA_folder string = "FPGA"
+const FPGA_symbol string = "ZZ_FPGA:"
+
+
 // IC
 var IC_data = [][]string {{"Part_ID", "Symbol", "Value", "Footprint",  "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Note 1", "Note 2", "Note 3", "Note 4", "Height", "Package", "Price", "ki_keywords", "ki_description"}}
 

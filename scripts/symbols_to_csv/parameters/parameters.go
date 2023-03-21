@@ -21,6 +21,13 @@ const Capacitors_folder string = "capacitors"
 //const Capacitors_symbol string = "ZZ_capacitors:C"
 const Capacitors_symbol string = "ZZ_capacitors:C_Electrolytic"
 
+// Inductors
+const Inductors_file    string = "inductors"
+var Inductors_data = [][]string {{"Part_ID", "Symbol", "Value", "Footprint", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Inductance", "Current", "Precision", "SRF", "Height", "Package", "Price", "ki_keywords", "ki_description"}}
+const Inductors_folder string = "inductors"
+//const Capacitors_symbol string = "ZZ_capacitors:C"
+const Inductors_symbol string = "ZZ_inductors:"
+
 // ADC
 const ADC_file   string = "ADC"
 const ADC_folder string = "ADC-DAC"

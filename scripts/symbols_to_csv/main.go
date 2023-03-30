@@ -13,10 +13,11 @@ import (
 )
 
 func main() {
-    file_name := parameters.FPGA_file
+    file_name := parameters.Shields_file
     part_ID   := file_name + "-"
-    folder    := parameters.FPGA_folder + "/"
-    symbols   := parameters.FPGA_symbol
+    folder    := parameters.Shields_folder + "/"
+    symbols   := parameters.Shields_symbol
+    //data      := parameters.Inductors_data
     data      := parameters.IC_data
 
     input_file  := "../../Lib/symbols/" + folder + file_name + ".kicad_sym"

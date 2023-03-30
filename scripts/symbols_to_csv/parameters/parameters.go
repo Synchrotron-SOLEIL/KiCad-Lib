@@ -22,11 +22,10 @@ const Capacitors_folder string = "capacitors"
 const Capacitors_symbol string = "ZZ_capacitors:C_Electrolytic"
 
 // Inductors
-const Inductors_file    string = "inductors"
+const Inductors_0603_file   string = "inductors_0603"
 var Inductors_data = [][]string {{"Part_ID", "Symbol", "Value", "Footprint", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Inductance", "Current", "Precision", "SRF", "Height", "Package", "Price", "ki_keywords", "ki_description"}}
-const Inductors_folder string = "inductors"
-//const Capacitors_symbol string = "ZZ_capacitors:C"
-const Inductors_symbol string = "ZZ_inductors:"
+const Inductors_0603_folder string = "inductors"
+const Inductors_0603_symbol string = "ZZ_inductors:"
 
 // ADC
 const ADC_file   string = "ADC"
@@ -80,6 +79,15 @@ const FPGA_file   string = "Xilinx-Spartan"
 const FPGA_folder string = "FPGA"
 const FPGA_symbol string = "ZZ_FPGA:"
 
+// Interface
+const Interfaces_file   string = "interfaces"
+const Interfaces_folder string = "interfaces"
+const Interfaces_symbol string = "ZZ_interfaces:"
+
+// Shields
+const Shields_file   string = "shields"
+const Shields_folder string = "mechanicals"
+const Shields_symbol string = "ZZ_shields:"
 
 // IC
 var IC_data = [][]string {{"Part_ID", "Symbol", "Value", "Footprint",  "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Note 1", "Note 2", "Note 3", "Note 4", "Height", "Package", "Price", "ki_keywords", "ki_description"}}

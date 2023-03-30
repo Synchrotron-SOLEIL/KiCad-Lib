@@ -15,7 +15,7 @@
     (property "ki_keywords" "rectifier acdc diode bridge" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Diode bridge ; Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers ; 700V Vrms ; 1.0A If ; DFS SMD package" (at 0 0 0)
+    (property "ki_description" "Diode bridge" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_fp_filters" "TO?269AA*" (at 0 0 0)

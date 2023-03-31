@@ -27,6 +27,12 @@ var Inductors_data = [][]string {{"Part_ID", "Symbol", "Value", "Footprint", "Da
 const Inductors_0603_folder string = "inductors"
 const Inductors_0603_symbol string = "ZZ_inductors:"
 
+// LED
+const LED_file   string = "LED"
+var LED_data = [][]string {{"Part_ID", "Symbol", "Value", "Footprint", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Color", "Vf", "If", "Note 4", "Height", "Package", "Price", "ki_keywords", "ki_description"}}
+const LED_folder string = "optoelectronics"
+const LED_symbol string = "ZZ_LED:"
+
 // ADC
 const ADC_file   string = "ADC"
 const ADC_folder string = "ADC-DAC"
@@ -88,6 +94,11 @@ const Interfaces_symbol string = "ZZ_interfaces:"
 const Shields_file   string = "shields"
 const Shields_folder string = "mechanicals"
 const Shields_symbol string = "ZZ_shields:"
+
+// Mounting_holes
+const Mounting_holes_file   string = "holes"
+const Mounting_holes_folder string = "mechanicals"
+const Mounting_holes_symbol string = "ZZ_mounting_holes:"
 
 // IC
 var IC_data = [][]string {{"Part_ID", "Symbol", "Value", "Footprint",  "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Note 1", "Note 2", "Note 3", "Note 4", "Height", "Package", "Price", "ki_keywords", "ki_description"}}

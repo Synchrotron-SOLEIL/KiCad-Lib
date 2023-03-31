@@ -1,15 +1,15 @@
 (kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "MB6S" (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "D_bridge" (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "D" (at 2.54 6.985 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "MB6S" (at 2.54 5.08 0)
+    (property "Value" "D_bridge" (at 2.54 5.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 6.35 -12.7 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.vishay.com/docs/88573/dfs.pdf" (at 0 15.24 0)
+    (property "Datasheet" "" (at 0 15.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_keywords" "rectifier acdc diode bridge" (at 0 0 0)
@@ -21,7 +21,7 @@
     (property "ki_fp_filters" "TO?269AA*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "MB6S_0_1"
+    (symbol "D_bridge_0_1"
       (polyline
         (pts
           (xy -2.54 3.81)
@@ -106,7 +106,7 @@
         (fill (type none))
       )
     )
-    (symbol "MB6S_1_1"
+    (symbol "D_bridge_1_1"
       (pin passive line (at 0 -7.62 90) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))

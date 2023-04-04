@@ -13,12 +13,12 @@ import (
 )
 
 func main() {
-    file_name := parameters.LED_file
+    file_name := parameters.Clock_buffers_file
     part_ID   := file_name + "-"
-    folder    := parameters.LED_folder + "/"
-    symbols   := parameters.LED_symbol
-    data      := parameters.LED_data
-    //data      := parameters.IC_data
+    folder    := parameters.Clock_buffers_folder + "/"
+    symbols   := parameters.Clock_buffers_symbol
+    //data      := parameters.Oscillators_data
+    data      := parameters.IC_data
 
     input_file  := "../../Lib/symbols/" + folder + file_name + ".kicad_sym"
     output_file := "../../cvs/symbols/" + folder + file_name + ".csv"

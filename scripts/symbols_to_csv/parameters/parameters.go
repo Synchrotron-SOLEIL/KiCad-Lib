@@ -33,6 +33,13 @@ var LED_data = [][]string {{"Part_ID", "Symbol", "Value", "Footprint", "Datashee
 const LED_folder string = "optoelectronics"
 const LED_symbol string = "ZZ_LED:"
 
+// Oscillator
+const Oscillators_file   string = "oscillators"
+var Oscillators_data = [][]string {{"Part_ID", "Symbol", "Value", "Footprint", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Frequency", "Stability", "Type", "Note 4", "Height", "Package", "Price", "ki_keywords", "ki_description"}}
+const Oscillators_folder string = "oscillators"
+const Oscillators_symbol string = "ZZ_oscillators:"
+
+
 // ADC
 const ADC_file   string = "ADC"
 const ADC_folder string = "ADC-DAC"
@@ -99,6 +106,16 @@ const Shields_symbol string = "ZZ_shields:"
 const Mounting_holes_file   string = "holes"
 const Mounting_holes_folder string = "mechanicals"
 const Mounting_holes_symbol string = "ZZ_mounting_holes:"
+
+// optical_devices
+const Optical_devices_file   string = "OpticalDevice"
+const Optical_devices_folder string = "optoelectronics"
+const Optical_devices_symbol string = "ZZ_optical_devices:"
+
+// clock_buffers
+const Clock_buffers_file   string = "clock_buffers"
+const Clock_buffers_folder string = "oscillators"
+const Clock_buffers_symbol string = "ZZ_clock_buffers:"
 
 // IC
 var IC_data = [][]string {{"Part_ID", "Symbol", "Value", "Footprint",  "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Note 1", "Note 2", "Note 3", "Note 4", "Height", "Package", "Price", "ki_keywords", "ki_description"}}

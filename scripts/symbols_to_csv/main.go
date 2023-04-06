@@ -13,11 +13,11 @@ import (
 )
 
 func main() {
-    file_name := parameters.Clock_buffers_file
+    file_name := parameters.Test_points_file
     part_ID   := file_name + "-"
-    folder    := parameters.Clock_buffers_folder + "/"
-    symbols   := parameters.Clock_buffers_symbol
-    //data      := parameters.Oscillators_data
+    folder    := parameters.Test_points_folder + "/"
+    symbols   := parameters.Test_points_symbol
+    //data      := parameters.Filters_data
     data      := parameters.IC_data
 
     input_file  := "../../Lib/symbols/" + folder + file_name + ".kicad_sym"

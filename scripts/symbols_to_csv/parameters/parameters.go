@@ -21,6 +21,12 @@ const Capacitors_folder string = "capacitors"
 //const Capacitors_symbol string = "ZZ_capacitors:C"
 const Capacitors_symbol string = "ZZ_capacitors:C_Electrolytic"
 
+// Filter
+const Filters_file   string = "filters"
+var Filters_data = [][]string {{"Part_ID", "Symbol", "Value", "Footprint", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Impedance", "Current", "Note 3", "Note 4", "Height", "Package", "Price", "ki_keywords", "ki_description"}}
+const Filters_folder string = "passives"
+const Filters_symbol string = "ZZ_filters:"
+
 // Inductors
 const Inductors_0603_file   string = "inductors_0603"
 var Inductors_data = [][]string {{"Part_ID", "Symbol", "Value", "Footprint", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Inductance", "Current", "Precision", "SRF", "Height", "Package", "Price", "ki_keywords", "ki_description"}}
@@ -116,6 +122,17 @@ const Optical_devices_symbol string = "ZZ_optical_devices:"
 const Clock_buffers_file   string = "clock_buffers"
 const Clock_buffers_folder string = "oscillators"
 const Clock_buffers_symbol string = "ZZ_clock_buffers:"
+
+// switch
+const Switch_file   string = "switch"
+const Switch_folder string = "passives"
+const Switch_symbol string = "ZZ_switch:"
+
+    // Test points
+const Test_points_file   string = "test_point"
+const Test_points_folder string = "passives"
+const Test_points_symbol string = "ZZ_test_points:"
+
 
 // IC
 var IC_data = [][]string {{"Part_ID", "Symbol", "Value", "Footprint",  "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Note 1", "Note 2", "Note 3", "Note 4", "Height", "Package", "Price", "ki_keywords", "ki_description"}}

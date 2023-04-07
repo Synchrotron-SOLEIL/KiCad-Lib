@@ -13,10 +13,10 @@ import (
 )
 
 func main() {
-    file_name := parameters.Test_points_file
+    file_name := parameters.LDO_file
     part_ID   := file_name + "-"
-    folder    := parameters.Test_points_folder + "/"
-    symbols   := parameters.Test_points_symbol
+    folder    := parameters.LDO_folder + "/"
+    symbols   := parameters.LDO_symbol
     //data      := parameters.Filters_data
     data      := parameters.IC_data
 

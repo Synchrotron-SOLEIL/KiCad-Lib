@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GAT-5+
+D RF attenuator ; DC to 8 GHz ; 5 dB ; 50 Ohm ; 5.12 dB attenuation at 3 GHz
+K attenuator
+$ENDCMP
+#
+#End Doc Library

@@ -128,11 +128,15 @@ const Switch_file   string = "switch"
 const Switch_folder string = "passives"
 const Switch_symbol string = "ZZ_switch:"
 
-    // Test points
+// Test points
 const Test_points_file   string = "test_point"
 const Test_points_folder string = "passives"
 const Test_points_symbol string = "ZZ_test_points:"
 
+// LDO
+const LDO_file   string = "LDO"
+const LDO_folder string = "PSU"
+const LDO_symbol string = "ZZ_PSU:"
 
 // IC
 var IC_data = [][]string {{"Part_ID", "Symbol", "Value", "Footprint",  "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Note 1", "Note 2", "Note 3", "Note 4", "Height", "Package", "Price", "ki_keywords", "ki_description"}}

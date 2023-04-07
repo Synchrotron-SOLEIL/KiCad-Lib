@@ -13,10 +13,10 @@ import (
 )
 
 func main() {
-    file_name := parameters.LDO_file
+    file_name := parameters.Voltage_reference_file
     part_ID   := file_name + "-"
-    folder    := parameters.LDO_folder + "/"
-    symbols   := parameters.LDO_symbol
+    folder    := parameters.Voltage_reference_folder + "/"
+    symbols   := parameters.Voltage_reference_symbol
     //data      := parameters.Filters_data
     data      := parameters.IC_data
 

@@ -1,8 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP HMC705LP4E
-D Programmable frequency divider (1 - 17) ; 0.1 - 6.5 GHz ; -153 dBc/Hz @ 100 kHz
-K frequency divider
-$ENDCMP
-#
-#End Doc Library

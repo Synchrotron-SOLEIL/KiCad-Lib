@@ -138,6 +138,26 @@ const LDO_file   string = "LDO"
 const LDO_folder string = "PSU"
 const LDO_symbol string = "ZZ_PSU:"
 
+// RF
+const RF_file   string = "tmp"
+const RF_folder string = "RF"
+const RF_symbol string = "ZZ_RF:"
+
+// Logic
+const Logic_file   string = "Logic"
+const Logic_folder string = "semiconductors"
+const Logic_symbol string = "ZZ_Logic:"
+
+// Voltage monitor
+const Voltage_monitor_file   string = "Voltage_monitor"
+const Voltage_monitor_folder string = "voltages"
+const Voltage_monitor_symbol string = "ZZ_voltage_monitor:"
+
+// Voltage ref
+const Voltage_reference_file   string = "voltage_reference"
+const Voltage_reference_folder string = "voltages"
+const Voltage_reference_symbol string = "ZZ_voltage_reference:"
+
 // IC
 var IC_data = [][]string {{"Part_ID", "Symbol", "Value", "Footprint",  "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Note 1", "Note 2", "Note 3", "Note 4", "Height", "Package", "Price", "ki_keywords", "ki_description"}}
 

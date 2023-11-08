@@ -1,11 +1,44 @@
 --
+-- PostgreSQL database cluster dump
+--
+
+-- Started on 2023-11-06 17:04:53
+
+SET default_transaction_read_only = off;
+
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+
+--
+-- Roles
+--
+
+CREATE ROLE postgres;
+ALTER ROLE postgres WITH SUPERUSER INHERIT CREATEROLE CREATEDB LOGIN REPLICATION BYPASSRLS PASSWORD 'SCRAM-SHA-256$4096:pRwwgxvaZlZb2W2DgrvgOw==$PRo2XRv9TDQQOnNU4jwNIHVVL/g+qyQNXePKqUFQgFs=:cyvPj2ZfaMdvUrrKpbItegs39+jFZ5NViEj+ibKv9Zw=';
+
+
+
+
+
+
+--
+-- Databases
+--
+
+--
+-- Database "template1" dump
+--
+
+\connect template1
+
+--
 -- PostgreSQL database dump
 --
 
 -- Dumped from database version 14.5
 -- Dumped by pg_dump version 14.5
 
--- Started on 2023-04-07 17:15:12
+-- Started on 2023-11-06 17:04:53
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -17,6 +50,68 @@ SET check_function_bodies = false;
 SET xmloption = content;
 SET client_min_messages = warning;
 SET row_security = off;
+
+-- Completed on 2023-11-06 17:04:54
+
+--
+-- PostgreSQL database dump complete
+--
+
+--
+-- Database "components" dump
+--
+
+--
+-- PostgreSQL database dump
+--
+
+-- Dumped from database version 14.5
+-- Dumped by pg_dump version 14.5
+
+-- Started on 2023-11-06 17:04:54
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET xmloption = content;
+SET client_min_messages = warning;
+SET row_security = off;
+
+--
+-- TOC entry 3503 (class 1262 OID 16394)
+-- Name: components; Type: DATABASE; Schema: -; Owner: postgres
+--
+
+CREATE DATABASE components WITH TEMPLATE = template0 ENCODING = 'UTF8' LOCALE = 'French_France.1252';
+
+
+ALTER DATABASE components OWNER TO postgres;
+
+\connect components
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET xmloption = content;
+SET client_min_messages = warning;
+SET row_security = off;
+
+--
+-- TOC entry 3504 (class 0 OID 0)
+-- Dependencies: 3503
+-- Name: DATABASE components; Type: COMMENT; Schema: -; Owner: postgres
+--
+
+COMMENT ON DATABASE components IS 'KiCad components';
+
 
 SET default_tablespace = '';
 
@@ -1801,9 +1896,64 @@ voltage_reference-4	ZZ_voltage_reference:LTC6655BHMS8	LTC6655BHMS8-5	ZZ_Package_
 \.
 
 
--- Completed on 2023-04-07 17:15:12
+-- Completed on 2023-11-06 17:04:54
 
 --
 -- PostgreSQL database dump complete
+--
+
+--
+-- Database "postgres" dump
+--
+
+\connect postgres
+
+--
+-- PostgreSQL database dump
+--
+
+-- Dumped from database version 14.5
+-- Dumped by pg_dump version 14.5
+
+-- Started on 2023-11-06 17:04:54
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET xmloption = content;
+SET client_min_messages = warning;
+SET row_security = off;
+
+--
+-- TOC entry 2 (class 3079 OID 16384)
+-- Name: adminpack; Type: EXTENSION; Schema: -; Owner: -
+--
+
+CREATE EXTENSION IF NOT EXISTS adminpack WITH SCHEMA pg_catalog;
+
+
+--
+-- TOC entry 3304 (class 0 OID 0)
+-- Dependencies: 2
+-- Name: EXTENSION adminpack; Type: COMMENT; Schema: -; Owner: 
+--
+
+COMMENT ON EXTENSION adminpack IS 'administrative functions for PostgreSQL';
+
+
+-- Completed on 2023-11-06 17:04:54
+
+--
+-- PostgreSQL database dump complete
+--
+
+-- Completed on 2023-11-06 17:04:54
+
+--
+-- PostgreSQL database cluster dump complete
 --
 

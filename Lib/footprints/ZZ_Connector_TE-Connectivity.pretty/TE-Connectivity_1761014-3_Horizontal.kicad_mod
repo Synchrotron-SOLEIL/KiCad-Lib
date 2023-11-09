@@ -50,7 +50,7 @@
     (stroke (width 0.1) (type default)) (fill none) (layer "Dwgs.User") (tstamp 11cdb9fe-27c1-43cd-b749-e8b0e369e6f8))
   (fp_line (start -12.025 -1.5) (end -12.025 30)
     (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 46e03d95-23be-464d-8c80-86f50cc1798a))
-  (fp_line (start -11.775 -1.5) (end 39.625 -1.5)
+  (fp_line (start -12.025 -1.5) (end 39.625 -1.5)
     (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 6914c0ed-f823-4115-837c-b9f824babda3))
   (fp_line (start 39.625 30) (end -12.025 30)
     (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 51f2351b-cf10-4734-8ba4-52a7661a767d))

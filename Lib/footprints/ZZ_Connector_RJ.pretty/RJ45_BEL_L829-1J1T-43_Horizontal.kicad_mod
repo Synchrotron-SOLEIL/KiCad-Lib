@@ -1,6 +1,6 @@
 (footprint "RJ45_BEL_L829-1J1T-43_Horizontal" (version 20231007) (generator pcbnew)
   (layer "F.Cu")
-  (descr "Magjack Connector Through Hole 1000BASE-T, MagJack, 3w-OG/Y, https://www.belfuse.com/product/part-details?partn=L829-1J1T-43")
+  (descr "Magjack Connector Through Hole 1000BASE-T ; MagJack ; 3w-OG/Y ; https://www.belfuse.com/product/part-details?partn=L829-1J1T-43")
   (tags "RJ45 Magjack")
   (property "Reference" "REF**" (at -0.745 5.761 0) (layer "F.SilkS") (tstamp 3ca35449-632b-44cd-8ef6-36ba26abe40b)
     (effects (font (size 1 1) (thickness 0.15)))

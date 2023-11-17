@@ -5,7 +5,7 @@
 -- Dumped from database version 14.5
 -- Dumped by pg_dump version 14.5
 
--- Started on 2023-11-14 17:20:36
+-- Started on 2023-11-17 17:40:57
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1563,7 +1563,7 @@ inductors_0603-1	ZZ_inductors:L	8.2nH-700mA-2p-4.2GHz-0603	Inductor_SMD:L_0603_1
 COPY public.interfaces ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Note 1", "Note 2", "Note 3", "Note 4", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
 interfaces-0	ZZ_interfaces:LAN8810I-AKZE	LAN8810I-AKZE	ZZ_Package_DFN_QFN:QFN-72-1EP_10x10mm_P0.5mm_EP6x6mm	\N	Microchip Technology	LAN8810I-AKZE	Digi-Key	LAN8810I-AKZE-ND	-	-	-	-	0.85	WQFN72	4.73	Ethernet interface	GMII 10/100/1000 Ethernet Transceiver with HP Auto-MDIX Support ; 72 WQFN
 interfaces-1	ZZ_interfaces:PCI9030-AA60PI	PCI9030-AA60PI	ZZ_Package_QFP:PQFP-176_24x24mm_P0.5	\N	PLX Technology	PCI9030-AA60PI	Farnell	1623122	-	-	-	-	2.7	PQFP176	58.14	PLX cPCI interface	cPCI / local bus interface ; 176 PQFP
-interfaces-2	ZZ_interfaces:PI4ULS3V4857GEAEX	PI4ULS3V4857GEAEX	ZZ_Package_CSP:WLCSP-20_1.934x2.434mm_Layout4x5_P0.4mm	https://www.diodes.com/assets/Datasheets/PI4ULS3V4857.pdf	Diodes Incorporated	PI4ULS3V4857GEAEX	Mouser	621-I4ULS3V4857GEAEX	-	-	-	-	0.49	WLCSP-20 P0.4	1.09	microSD Level shifter	6-Bit Bi-directional Level Shifter for SD 3.0-SDR104 Compliant Memory Card
+interfaces-2	ZZ_interfaces:PI4ULS3V4857GEAEX	PI4ULS3V4857GEAEX	ZZ_Package_CSP:DIODES-INC_WLCSP-20_1.70x2.10mm_Layout4x5_P0.4mm	https://www.diodes.com/assets/Datasheets/PI4ULS3V4857.pdf	Diodes Incorporated	PI4ULS3V4857GEAEX	Mouser	621-I4ULS3V4857GEAEX	-	-	-	-	0.49	WLCSP-20 P0.4	1.09	microSD Level shifter	6-Bit Bi-directional Level Shifter for SD 3.0-SDR104 Compliant Memory Card
 \.
 
 
@@ -1884,7 +1884,7 @@ voltage_reference-4	ZZ_voltage_reference:LTC6655BHMS8	LTC6655BHMS8-5	ZZ_Package_
 \.
 
 
--- Completed on 2023-11-14 17:20:37
+-- Completed on 2023-11-17 17:40:58
 
 --
 -- PostgreSQL database dump complete

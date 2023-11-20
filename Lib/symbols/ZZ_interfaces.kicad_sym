@@ -1,9 +1,9 @@
 (kicad_symbol_lib (version 20230620) (generator kicad_symbol_editor)
-  (symbol "DP83867CRRGZR " (exclude_from_sim no) (in_bom yes) (on_board yes)
+  (symbol "DP83867CRRGZR" (exclude_from_sim no) (in_bom yes) (on_board yes)
     (property "Reference" "U" (at 0.762 49.53 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "DP83867CRRGZR " (at -8.382 47.244 0)
+    (property "Value" "DP83867CRRGZR" (at -8.382 47.244 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 5.08 0 0)
@@ -21,13 +21,13 @@
     (property "ki_fp_filters" "SOIC*3.9x9.9mm*P1.27mm*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "DP83867CRRGZR _0_1"
+    (symbol "DP83867CRRGZR_0_1"
       (rectangle (start -19.05 45.72) (end 19.05 -45.72)
         (stroke (width 0.254) (type default))
         (fill (type background))
       )
     )
-    (symbol "DP83867CRRGZR _1_1"
+    (symbol "DP83867CRRGZR_1_1"
       (pin passive line (at 21.59 22.86 180) (length 2.54)
         (name "TD_P_A" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))

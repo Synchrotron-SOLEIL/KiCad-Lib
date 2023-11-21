@@ -5,7 +5,7 @@
 -- Dumped from database version 14.5
 -- Dumped by pg_dump version 14.5
 
--- Started on 2023-11-21 14:47:54
+-- Started on 2023-11-21 16:35:29
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1402,7 +1402,7 @@ HE_connectors-6	ZZ_connectors:TSM-108-02-S-DV	TSM-108-02-S-DV	ZZ_Connector_Samte
 HE_connectors-7	ZZ_connectors:TSM-111-02-S-DV	TSM-111-02-S-DV	ZZ_Connector_Samtec:Samtec_TSM-111-DV_.2x11_P2.54mm_Vertical_SMD	\N	Samtec	TSM-111-02-S-DV	Farnell	2055881	-	-	-	-	8.13	2.54mm SMD 2x11	6.10	header connector	Header ; 2x11 points ; straight ; 2.54mm pitch ; 8.13mm height  ; SMD
 HE_connectors-8	ZZ_connectors:TSM-123-02-S-DV	TSM-123-02-S-DV	ZZ_Connector_Samtec:Samtec_TSM-123-DV_2x23_P2.54mm_Vertical_SMD	\N	Samtec	TSM-123-02-S-DV	Farnell	2055931	-	-	-	-	8.13	2.54mm SMD 2x23	12.78	header connector	Header ; 2x23 points ; straight ; 2.54mm pitch ; 8.13mm height  ; SMD
 HE_connectors-9	ZZ_connectors:TSW-123-14-G-D	TSW-123-14-G-D	ZZ_Connector_Samtec:Samtec_TSW-123-14-G-D_2x23_P2.54mm_Vertical	\N	Samtec	TSW-123-14-G-D	Farnell	2027086	-	-	-	-	8.13	2.54mm 2x23	5.38	header connector	Header ; 2x23 points ; straight ; 2.54mm pitch ; 8.13mm height  ; trough hole
-HE_connectors-10	ZZ_connectors:JTAG_MOLEX_878321420	JTAG_MOLEX_878321420	ZZ_Connector_Molex:Molex_Milli-Gird_878321420_2x07_P2.00mm_Vertical_SMD	https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/878/87832/878321420_sd.pdf?inline	Molex	878321420	Mouser	538-87832-1420	-	-	-	-	7.6	SMD 2mm	2.03	JTAG connector	2.00mm Pitch ; Milli-Grid PCB Header ; Dual Row ; Vertical ; Surface Mount ; Shrouded ; Lead-Free ; 14 Circuits ; 0.38æm Gold (Au) Plating ; with Locking Windows and Center Polarization Slot
+HE_connectors-10	ZZ_connectors:JTAG_MOLEX_2x7_878321420	JTAG_MOLEX_2x7_878321420	ZZ_Connector_Molex:Molex_Milli-Gird_878321420_2x07_P2.00mm_Vertical_SMD	https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/878/87832/878321420_sd.pdf?inline	Molex	878321420	Mouser	538-87832-1420	-	-	-	-	7.6	SMD 2mm 2x7	2.03	JTAG connector	2.00mm Pitch ; Milli-Grid PCB Header ; Dual Row ; Vertical ; Surface Mount ; Shrouded ; Lead-Free ; 14 Circuits ; 0.38æm Gold (Au) Plating ; with Locking Windows and Center Polarization Slot
 \.
 
 
@@ -1612,6 +1612,7 @@ Logic-4	ZZ_logic:SN74LV4T125PWR	SN74LV4T125PWR	ZZ_Package_SO:TSSOP-14_4.4x5mm_P0
 Logic-5	ZZ_logic:SN74LV541APWR	SN74LV541APWR	ZZ_Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm	\N	TI	SN74LV541APWR	Digi-Key	296-13700-1-ND	-	-	-	-	1.2	TSSOP20	0.88	buffer 3State	8 bits Buffer/Line Driver 3 state Out ; TSSOP20
 Logic-6	ZZ_logic:SN75LVDS389DBT	SN75LVDS389DBT	ZZ_Package_SO:TSSOP-38_4.4x9.7mm_P0.5mm	\N	TI	SN75LVDS389DBT	Digi-Key	296-2369-5-ND	-	-	-	-	1.2	TSSOP38	4.89	buffer LVDS	Octal LVDS Transmitter ; TSSOP38
 Logic-7	ZZ_logic:SN75LVDT388ADBT	SN75LVDT388ADBT	ZZ_Package_SO:TSSOP-38_4.4x9.7mm_P0.5mm	\N	TI	SN75LVDT388ADBT	Digi-Key	296-26671-5-ND	-	-	-	-	1.2	TSSOP38	5.40	buffer LVDS	Octal LVDS Receiver with integrated 110R terminations ; TSSOP38
+Logic-8	ZZ_logic:NC7WZ07P6X	NC7WZ07P6X	ZZ_Package_TO_SOT_SMD:SOT-363_SC-70-6	https://www.onsemi.com/download/data-sheet/pdf/nc7wz07-d.pdf	Onsemi	NC7WZ07P6X 	Mouser	512-NC7WZ07P6X	-	-	-	-	1.10	SOT-363	0.28	buffer open drain	TinyLogic UHS Dual Buffer Open-Drain Outputs
 \.
 
 
@@ -1884,7 +1885,7 @@ voltage_reference-4	ZZ_voltage_reference:LTC6655BHMS8	LTC6655BHMS8-5	ZZ_Package_
 \.
 
 
--- Completed on 2023-11-21 14:47:55
+-- Completed on 2023-11-21 16:35:29
 
 --
 -- PostgreSQL database dump complete

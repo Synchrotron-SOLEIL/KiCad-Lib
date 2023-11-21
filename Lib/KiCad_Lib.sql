@@ -5,7 +5,7 @@
 -- Dumped from database version 14.5
 -- Dumped by pg_dump version 14.5
 
--- Started on 2023-11-17 17:40:57
+-- Started on 2023-11-21 14:47:54
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1395,7 +1395,6 @@ CPCI_connectors-0	ZZ_connectors:CPCI-J1	CPCI-J1	ZZ_Connector_Erni:Erni_ERmet_Fem
 COPY public.connectors_he ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Note 1", "Note 2", "Note 3", "Note 4", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
 HE_connectors-0	ZZ_connectors:FCI_20021121-00010C4LF	FCI_20021121-00010C4LF	ZZ_Connector_PinHeader:PinHeader_2x05_P1.27mm_Vertical_SMD	\N	FCI	20021121-00010C4LF	Farnell	1865279	-	-	-	-	\N	1.27mm SMD 2x5	1.22	header connector	Header ; 2x5 points ; straight ; 1.27mm pitch ; 3mm height  ; SMD
 HE_connectors-1	ZZ_connectors:HE-13-6	HE-13-6	ZZ_Connector_PinHeader:PinHeader_1x06_P2.54mm_Vertical	\N	-	-	-	-	-	-	-	-	\N	HE-13-6	0.36	HE13 connector	HE13 ; 1x6 points ; straight ; 2.54mm pitch ; trough hole
-HE_connectors-2	ZZ_connectors:JTAG-87832-1420	JTAG-87832-1420	ZZ_Connector_PinHeader:PinHeader-2x07_P2mm_Vertical_SMD	\N	Molex	87832-1420	Farnell	2102706	Xilinx JTAG connector	-	-	-	\N	2mm SMD 2x7	1.01	JTAG connector	XILINX JTAG platform cable connector ; 2x7 points ; straight ; 2mm pitch ; SMD
 HE_connectors-3	ZZ_connectors:QSH-040-01-F-D-DP-A	QSH-040-01-F-D-DP-A	ZZ_Connector_Samtec:Samtec_QSH-040-01-F-D-DP-A_2x40_P0.5mm_Vertical_SMD	\N	Samtec	QSH-040-01-F-D-DP-A	Samtec	QSH-040-01-F-D-DP-A	-	-	-	-	\N	0.5mm SMD 2x40	49.99	header connector	0.50 mm Q Pairs High Speed Ground Plane Socket Strip ; Differential Pair
 HE_connectors-4	ZZ_connectors:TSM-102-02-S-DV	TSM-102-02-S-DV	ZZ_Connector_Samtec:Samtec_TSM-102-DV_2x02_P2.54mm_Vertical_SMD	\N	Samtec	TSM-102-02-S-DV	Farnell	2055840	-	-	-	-	8.13	8.13mm SMD 2x2	1.24	header connector	Header ; 2x2 points ; straight ; 2.54mm pitch ; 8.13mm height  ; SMD
 HE_connectors-5	ZZ_connectors:TSM-104-02-S-DV	TSM-104-02-S-DV	ZZ_Connector_Samtec:Samtec_TSM-104-DV_2x04_P2.54mm_Vertical_SMD	\N	Samtec	TSM-104-02-S-DV	Farnell	2055849	-	-	-	-	8.13	2.54mm SMD 2x11	2.03	header connector	Header ; 2x4 points ; straight ; 2.54mm pitch ; 8.13mm height  ; SMD
@@ -1403,6 +1402,7 @@ HE_connectors-6	ZZ_connectors:TSM-108-02-S-DV	TSM-108-02-S-DV	ZZ_Connector_Samte
 HE_connectors-7	ZZ_connectors:TSM-111-02-S-DV	TSM-111-02-S-DV	ZZ_Connector_Samtec:Samtec_TSM-111-DV_.2x11_P2.54mm_Vertical_SMD	\N	Samtec	TSM-111-02-S-DV	Farnell	2055881	-	-	-	-	8.13	2.54mm SMD 2x11	6.10	header connector	Header ; 2x11 points ; straight ; 2.54mm pitch ; 8.13mm height  ; SMD
 HE_connectors-8	ZZ_connectors:TSM-123-02-S-DV	TSM-123-02-S-DV	ZZ_Connector_Samtec:Samtec_TSM-123-DV_2x23_P2.54mm_Vertical_SMD	\N	Samtec	TSM-123-02-S-DV	Farnell	2055931	-	-	-	-	8.13	2.54mm SMD 2x23	12.78	header connector	Header ; 2x23 points ; straight ; 2.54mm pitch ; 8.13mm height  ; SMD
 HE_connectors-9	ZZ_connectors:TSW-123-14-G-D	TSW-123-14-G-D	ZZ_Connector_Samtec:Samtec_TSW-123-14-G-D_2x23_P2.54mm_Vertical	\N	Samtec	TSW-123-14-G-D	Farnell	2027086	-	-	-	-	8.13	2.54mm 2x23	5.38	header connector	Header ; 2x23 points ; straight ; 2.54mm pitch ; 8.13mm height  ; trough hole
+HE_connectors-10	ZZ_connectors:JTAG_MOLEX_878321420	JTAG_MOLEX_878321420	ZZ_Connector_Molex:Molex_Milli-Gird_878321420_2x07_P2.00mm_Vertical_SMD	https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/878/87832/878321420_sd.pdf?inline	Molex	878321420	Mouser	538-87832-1420	-	-	-	-	7.6	SMD 2mm	2.03	JTAG connector	2.00mm Pitch ; Milli-Grid PCB Header ; Dual Row ; Vertical ; Surface Mount ; Shrouded ; Lead-Free ; 14 Circuits ; 0.38æm Gold (Au) Plating ; with Locking Windows and Center Polarization Slot
 \.
 
 
@@ -1884,7 +1884,7 @@ voltage_reference-4	ZZ_voltage_reference:LTC6655BHMS8	LTC6655BHMS8-5	ZZ_Package_
 \.
 
 
--- Completed on 2023-11-17 17:40:58
+-- Completed on 2023-11-21 14:47:55
 
 --
 -- PostgreSQL database dump complete

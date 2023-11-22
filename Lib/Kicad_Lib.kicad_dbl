@@ -3006,6 +3006,142 @@
             }
         },
         {
+            "name": "Connectors_USB",
+            "table": "connectors_usb",
+            "key": "Part_ID",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields": [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": false
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false,
+                    "show_name": false,
+                    "inherit_properties": false
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false,
+                    "show_name": false,
+                    "inherit_properties": false
+                },
+                {
+                    "column": "Manufacturer ref",
+                    "name": "Manufacturer ref",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false,
+                    "show_name": false,
+                    "inherit_properties": false
+                },
+                {
+                    "column": "Supplier",
+                    "name": "Supplier",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false,
+                    "show_name": false,
+                    "inherit_properties": false
+                },
+                {
+                    "column": "Supplier ref",
+                    "name": "Supplier ref",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false,
+                    "show_name": false,
+                    "inherit_properties": false
+                },
+                {
+                    "column": "Note 1",
+                    "name": "Note 1",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false,
+                    "show_name": false,
+                    "inherit_properties": false
+                },
+                {
+                    "column": "Note 2",
+                    "name": "Note 2",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false,
+                    "show_name": false,
+                    "inherit_properties": false
+                },
+                {
+                    "column": "Note 3",
+                    "name": "Note 3",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false,
+                    "show_name": false,
+                    "inherit_properties": false
+                },
+                {
+                    "column": "Note 4",
+                    "name": "Note 4",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false,
+                    "show_name": false,
+                    "inherit_properties": false
+                },
+                {
+                    "column": "Height",
+                    "name": "Height",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false,
+                    "show_name": false,
+                    "inherit_properties": false
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false,
+                    "show_name": false,
+                    "inherit_properties": false
+                },
+                {
+                    "column": "Price",
+                    "name": "Price",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false,
+                    "show_name": false,
+                    "inherit_properties": false
+                },
+                {
+                    "column": "ki_keywords",
+                    "name": "ki_keywords",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false,
+                    "show_name": false,
+                    "inherit_properties": false
+                },
+                {
+                    "column": "ki_description",
+                    "name": "ki_description",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false,
+                    "show_name": false,
+                    "inherit_properties": false
+                }
+            ],
+            "properties": {
+                "description": "USB connectors",
+                "footprint_filters": "Footprint Filters",
+                "keywords": "USB connectors",
+                "exclude_from_bom": "0",
+                "exclude_from_board": "0"
+            }
+        },
+        {
             "name": "Diodes",
             "table": "diodes",
             "key": "Part_ID",

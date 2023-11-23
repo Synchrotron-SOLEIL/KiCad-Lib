@@ -5,7 +5,7 @@
 -- Dumped from database version 14.5
 -- Dumped by pg_dump version 14.5
 
--- Started on 2023-11-23 17:01:42
+-- Started on 2023-11-23 17:34:26
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1663,6 +1663,7 @@ interfaces-0	ZZ_interfaces:LAN8810I-AKZE	LAN8810I-AKZE	ZZ_Package_DFN_QFN:QFN-72
 interfaces-1	ZZ_interfaces:PCI9030-AA60PI	PCI9030-AA60PI	ZZ_Package_QFP:PQFP-176_24x24mm_P0.5	\N	PLX Technology	PCI9030-AA60PI	Farnell	1623122	-	-	-	-	2.7	PQFP176	58.14	PLX cPCI interface	cPCI / local bus interface ; 176 PQFP
 interfaces-2	ZZ_interfaces:PI4ULS3V4857GEAEX	PI4ULS3V4857GEAEX	ZZ_Package_CSP:DIODES-INC_WLCSP-20_1.70x2.10mm_Layout4x5_P0.4mm	https://www.diodes.com/assets/Datasheets/PI4ULS3V4857.pdf	Diodes Incorporated	PI4ULS3V4857GEAEX	Mouser	621-I4ULS3V4857GEAEX	-	-	-	-	0.49	WLCSP-20 P0.4	1.09	microSD Level shifter	6-Bit Bi-directional Level Shifter for SD 3.0-SDR104 Compliant Memory Card
 interfaces-3	ZZ_interfaces:FT4232HL	FT4232HL	ZZ_Package_DFN_QFN:LQFP-64_10x10mm_P0.5mm	https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf	FTDI	Manufacturer ref	Mouser	895-FT4232HL	-	-	-	-	1.6	LQFP-64	5.91	FTDI USB Quad UART FIFO	Hi Speed Quad Channel USB UART/FIFO ; LQFP/QFN-64
+interfaces-4	ZZ_interfaces:DP83867CRRGZR	DP83867CRRGZR	ZZ_Package_DFN_QFN:VQFN-48-1EP_7x7mm_P0.5mm_EP4.1x4.1mm_ThermalVias	https://www.ti.com/lit/gpn/dp83867cr	Texas Instruments	DP83867CRRGZR	Mouser	595-DP83867CRRGZR	-	-	-	-	1.0	VQFN-48	5.86	Ethernet PHY transceiver	Low-power ; robust gigabit Ethernet PHY transceiver
 \.
 
 
@@ -2007,7 +2008,7 @@ voltage_reference-4	ZZ_voltage_reference:LTC6655BHMS8	LTC6655BHMS8-5	ZZ_Package_
 \.
 
 
--- Completed on 2023-11-23 17:01:42
+-- Completed on 2023-11-23 17:34:26
 
 --
 -- PostgreSQL database dump complete

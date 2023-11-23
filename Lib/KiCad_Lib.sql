@@ -5,7 +5,7 @@
 -- Dumped from database version 14.5
 -- Dumped by pg_dump version 14.5
 
--- Started on 2023-11-23 16:15:21
+-- Started on 2023-11-23 17:01:42
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1764,6 +1764,7 @@ oscillators-3	ZZ_oscillators:CVHD-950M-108.3681	CVHD-950M-108.3681	ZZ_Oscillator
 oscillators-4	ZZ_oscillators:FXO-HC73	FXO-HC736R-25MHZ	ZZ_Oscillator:Oscillator_SMD_FXO-HC73_4Pin_7.5x5.2mm	\N	FOX Electronics	FXO-HC736R-25	RS	672-0858	25MHz	-	XO	-	1.5	FXO-HC	3.27	oscillator	Obsolete ; Oscillator ; HCMOS ; 3V3 ; 25MHz ; SMD
 oscillators-5	ZZ_oscillators:FXO-HC73	FXO-HC736R-50MHZ	ZZ_Oscillator:Oscillator_SMD_FXO-HC73_4Pin_7.5x5.2mm	\N	FOX Electronics	FXO-HC736R-50	RS	672-0882P	50MHz	-	XO	-	1.5	FXO-HC	2.78	oscillator	Obsolete ; Oscillator ; HCMOS ; 3V3 ; 25MHz ; SMD
 oscillators-6	ZZ_oscillators:FXO-HC73	FXO-HC736R-60MHZ	ZZ_Oscillator:Oscillator_SMD_FXO-HC73_4Pin_7.5x5.2mm	\N	FOX Electronics	FXO-HC736R-60	Farnell	2058129	60MHz	-	XO	-	1.5	FXO-HC	2.21	oscillator	Obsolete ; Oscillator ; HCMOS ; 3V3 ; 60MHz ; SMD
+oscillators-7	ZZ_oscillators:ABM8G-12.000MHZ-8-B2X-T	ABM8G-12.000MHZ-8-B2X-T	ZZ_Oscillator:Crystal_SMD_3225-4Pin_3.2x2.5mm	https://www.abracon.com/Resonators/ABM8G.pdf	Abracon	ABM8G-12.000MHZ-8-B2X-T	Mouser	815-ABM8G-12-8-B2X-T	12.000MHZ	+/- 20 ppm	ceramic glass crystal	-	1.0	SMD	Price	quartz ceramic resonator oscillator	Ceramic glass crystal ; stability +/- 20 ppm ; tolerance +/- 20 ppm, SMD
 \.
 
 
@@ -2006,7 +2007,7 @@ voltage_reference-4	ZZ_voltage_reference:LTC6655BHMS8	LTC6655BHMS8-5	ZZ_Package_
 \.
 
 
--- Completed on 2023-11-23 16:15:22
+-- Completed on 2023-11-23 17:01:42
 
 --
 -- PostgreSQL database dump complete

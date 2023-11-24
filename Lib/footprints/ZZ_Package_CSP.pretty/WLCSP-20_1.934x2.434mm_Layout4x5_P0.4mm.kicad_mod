@@ -129,7 +129,7 @@
     (solder_paste_margin_ratio 0.055556)
     (tstamp a2183e1e-b40e-4aaa-8912-836e36093ee6)
   )
-  (model "${KICAD_USER_3DMODEL_DIR}/ZZ_Package_CSP.3dshapes/WLCSP-20_1.7x2.1mm_Layout4x5_P0.4mm.wrl"
+  (model "${KICAD_USER_3DMODEL_DIR}/ZZ_Package_CSP.3dshapes/DIODES-INC_WLCSP-20_1.7x2.1mm_Layout4x5_P0.4mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

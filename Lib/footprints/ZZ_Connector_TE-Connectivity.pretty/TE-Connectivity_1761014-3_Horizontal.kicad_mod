@@ -180,7 +180,7 @@
   (pad "CAGE" thru_hole circle (at 38.375 26.175) (size 1.5 1.5) (drill 0.95) (layers "*.Cu" "*.Mask")
     (tstamp 9a58c551-264b-4350-9d56-90c9346eeb9a)
   )
-  (model "${KICAD_USER_3DMODEL_DIR}/ZZ_Connector_TE-Connectivity.pretty/TE-Connectivity_1761014-3_Horizontal.wrl"
+  (model "${KICAD_USER_3DMODEL_DIR}/ZZ_Connector_TE-Connectivity.pretty/TE-Connectivity_1761014-3_Horizontal.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

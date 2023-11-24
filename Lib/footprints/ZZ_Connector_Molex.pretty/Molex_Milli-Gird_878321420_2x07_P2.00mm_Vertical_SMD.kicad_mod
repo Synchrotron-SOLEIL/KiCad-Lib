@@ -127,7 +127,7 @@
   (pad "14" smd rect (at 2.1 6.01) (size 2.75 1) (layers "F.Cu" "F.Paste" "F.Mask")
     (tstamp 4c94a8be-59b5-4d93-948b-bff176371e93)
   )
-  (model "${KICAD_USER_3DMODEL_DIR}/ZZ_Connector_Molex.3dshapes/Molex_Milli-Gird_878321420_2x07_P2.00mm_Vertical_SMD.wrl"
+  (model "${KICAD_USER_3DMODEL_DIR}/ZZ_Connector_Molex.3dshapes/Molex_Milli-Gird_878321420_2x07_P2.00mm_Vertical_SMD.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

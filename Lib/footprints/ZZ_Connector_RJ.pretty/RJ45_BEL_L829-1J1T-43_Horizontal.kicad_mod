@@ -133,7 +133,7 @@
   (pad "S2" thru_hole circle (at 13.8684 -6.604) (size 2.3622 2.3622) (drill 1.5748) (layers "*.Cu" "*.Mask")
     (tstamp 8a57a682-5bc6-4adc-b5de-6ef39d505ca4)
   )
-  (model "${KICAD_USER_3DMODEL_DIR}/ZZ_Connector_RJ.3dshapes/RJ45_BEL_L829-1J1T-43_Horizontal.wrl"
+  (model "${KICAD_USER_3DMODEL_DIR}/ZZ_Connector_RJ.3dshapes/RJ45_BEL_L829-1J1T-43_Horizontal.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

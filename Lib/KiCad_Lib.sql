@@ -5,7 +5,7 @@
 -- Dumped from database version 14.5
 -- Dumped by pg_dump version 14.5
 
--- Started on 2023-11-23 17:34:26
+-- Started on 2023-11-24 18:10:38
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1704,7 +1704,7 @@ LED-4	ZZ_LED:LED_Red_Green	Wurth_150141SV73110	ZZ_LED_SMD:LED_RGB_Wurth-PLCC4_3.
 --
 
 COPY public.logic ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Note 1", "Note 2", "Note 3", "Note 4", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
-Logic-0	ZZ_logic:74ABT541BDW	74ABT541BDW	ZZ_Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm	\N	TI	SN74ABT541BDW	Avnet	SN74ABT541BDW	-	-	-	-	2.65	SOIC20	1.33	buffer 3State BUS	8 bits Buffer/Line Driver 3 state Out ; SOIC20MS
+Logic-0	ZZ_logic:SN74ABT541BDW	SN74ABT541BDW	ZZ_Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm	\N	TI	SN74ABT541BDW	Avnet	SN74ABT541BDW	-	-	-	-	2.65	SOIC20	1.33	buffer 3State BUS	8 bits Buffer/Line Driver 3 state Out ; SOIC20MS
 Logic-1	ZZ_logic:74LVC14AD	74LVC14AD	ZZ_Package_SO:SOIC-14_3.9x8.7mm_P1.27mm	\N	TI	SN74LVC14AD	Avnet	SN74LVC14AD	-	-	-	-	2.65	SOIC14	0.47	buffer schmitt inverting	Hex inverting Schmitt trigger with 5 V tolerant input ; SOIC14MS
 Logic-2	ZZ_logic:74LVC1G17DBVR	74LVC1G17DBVR	ZZ_Package_TO_SOT_SMD:SOT-23-5	\N	TI	SN74LVC1G17DBVRG4	Avnet	SN74LVC1G17DBVRG4	-	-	-	-	1.10	SOT-23-5	2.71	buffer schmitt	Single schmitt trigger buffer ; SOT-23-5
 Logic-3	ZZ_logic:SN65HVD78D	SN65HVD78D	ZZ_Package_SO:SOIC-8_3.9x4.9mm_P1.27mm	\N	TI	SN65HVD78D	Digi-Key	296-30500-5-ND	-	-	-	-	2.65	SOIC8	2.58	RS-485	RS-485 driver and receiver with IEC ESD Protection ; SOIC8
@@ -1713,6 +1713,7 @@ Logic-5	ZZ_logic:SN74LV541APWR	SN74LV541APWR	ZZ_Package_SO:TSSOP-20_4.4x6.5mm_P0
 Logic-6	ZZ_logic:SN75LVDS389DBT	SN75LVDS389DBT	ZZ_Package_SO:TSSOP-38_4.4x9.7mm_P0.5mm	\N	TI	SN75LVDS389DBT	Digi-Key	296-2369-5-ND	-	-	-	-	1.2	TSSOP38	4.89	buffer LVDS	Octal LVDS Transmitter ; TSSOP38
 Logic-7	ZZ_logic:SN75LVDT388ADBT	SN75LVDT388ADBT	ZZ_Package_SO:TSSOP-38_4.4x9.7mm_P0.5mm	\N	TI	SN75LVDT388ADBT	Digi-Key	296-26671-5-ND	-	-	-	-	1.2	TSSOP38	5.40	buffer LVDS	Octal LVDS Receiver with integrated 110R terminations ; TSSOP38
 Logic-8	ZZ_logic:NC7WZ07P6X	NC7WZ07P6X	ZZ_Package_TO_SOT_SMD:SOT-363_SC-70-6	https://www.onsemi.com/download/data-sheet/pdf/nc7wz07-d.pdf	Onsemi	NC7WZ07P6X 	Mouser	512-NC7WZ07P6X	-	-	-	-	1.10	SOT-363	0.28	buffer open drain	TinyLogic UHS Dual Buffer Open-Drain Outputs
+Logic-9	ZZ_logic:SN74HCS09PWR	SN74HCS09PWR	ZZ_Package_SO:TSSOP-14_4.4x5mm_P0.65mm	https://www.ti.com/lit/gpn/SN74HCS09	Texas Instruments	SN74HCS09PWR	Mouser	595-SN74HCS09PWR	-	-	-	-	1.20	TSSOP-14	0.33	AND gate open drain	4-ch 2-input 2-V to 6-V AND gate with open-drain outputs and Schmitt-trigger inputs ; TSSOP14
 \.
 
 
@@ -1990,6 +1991,9 @@ transistors-2	ZZ_transistors:NMOS	BSN20BK	ZZ_Package_TO_SOT_SMD:SOT-23-3	\N	Nexp
 
 COPY public.voltage_monitor ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Note 1", "Note 2", "Note 3", "Note 4", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
 Voltage_monitor-0	ZZ_voltage_monitor:LTC2908CTS8-A1	LTC2908CTS8-A1	ZZ_Package_TO_SOT_SMD:TSOT-23-8	https://www.analog.com/media/en/technical-documentation/data-sheets/2908fd.pdf	Analogue Devices	LTC2908CTS8-A1	Linear Technology	LTC2908CTS8-A1	-	-	-	-	1.0	TSOT-23-8	3.47	monitor reset	Six inputs supply monitor ; TSOT-23-8
+Voltage_monitor-1	ZZ_voltage_monitor:LTC2919CMS-3.3	LTC2919CMS-3.3	ZZ_Package_SO:MSOP-10_3x3mm_P0.5mm	https://www.analog.com/media/en/technical-documentation/data-sheets/LTC2919.pdf	Analog Devices	LTC2919CMS-3.3	Mouser	584-C2919CMS-3.3PBF	-	-	-	-	1.10	MSOP-10	5.42	supply monitor reset manager	Precision Triple/Dual Input UV ; OV and Negative Voltage Monitor
+Voltage_monitor-2	ZZ_voltage_monitor:LTC2919CMS-2.5	LTC2919CMS-2.5	ZZ_Package_SO:MSOP-10_3x3mm_P0.5mm	https://www.analog.com/media/en/technical-documentation/data-sheets/LTC2919.pdf	Analog Devices	LTC2919CMS-2.5	Mouser	584-C2919CMS-2.5PBF	-	-	-	-	1.10	MSOP-10	5.42	supply monitor reset manager	Precision Triple/Dual Input UV ; OV and Negative Voltage Monitor
+Voltage_monitor-3	ZZ_voltage_monitor:TLV840MADL30DBVR	TLV840MADL30DBVR	ZZ_Package_TO_SOT_SMD:SOT-23-5	https://www.ti.com/lit/gpn/TLV840	Analog Devices	Texas Instruments	Mouser	595-TLV840MADL30DBVR	-	-	-	-	1.45	SOT-23-5	0.70	supply monitor reset manager	Low-voltage supervisor with adjustable-reset time delay and manual reset
 \.
 
 
@@ -2008,7 +2012,7 @@ voltage_reference-4	ZZ_voltage_reference:LTC6655BHMS8	LTC6655BHMS8-5	ZZ_Package_
 \.
 
 
--- Completed on 2023-11-23 17:34:26
+-- Completed on 2023-11-24 18:10:39
 
 --
 -- PostgreSQL database dump complete

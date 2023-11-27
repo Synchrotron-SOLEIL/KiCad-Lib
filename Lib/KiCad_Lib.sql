@@ -5,7 +5,7 @@
 -- Dumped from database version 14.5
 -- Dumped by pg_dump version 14.5
 
--- Started on 2023-11-27 15:38:51
+-- Started on 2023-11-27 16:19:15
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1727,6 +1727,7 @@ Logic-10	ZZ_logic:SN74AVC2T245RSWR	SN74AVC2T245RSWR	ZZ_Package_DFN_QFN:Texas_UQF
 
 COPY public.memory ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Note 1", "Note 2", "Note 3", "Note 4", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
 memory-0	ZZ_memory:93LC56B-I/SN	93LC56B-I/SN	ZZ_Package_SO:SOIC-8_3.9x4.9mm_P1.27mm	https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/93AA56X-93LC56X-93C56X-2-Kbit-Microwire-Compatible-Serial-EEPROM-Data-Sheet.pdf	Microchip	93LC56B-I/SN	Mouser	579-93LC56BISN	-	-	-	-	1.75	SOIC-8	0.31	EEPROM memory Microwire	2-Kbit ; 128x16 ; 2.5V Serial EEPROM ; Automotive Grade 3 ; SOIC
+memory-1	ZZ_memory:PCA9306	M24C64-DRDW8	ZZ_Package_SO:TSSOP-8_4.4x3mm_P0.65mm	https://www.st.com/resource/en/datasheet/m24c64-r.pdf	STMicroelectronics	M24C64-DRDW8	Mouser	511-M24C64-DRDW8TP/K	-	-	-	-	1.20	TSSOP-8	0.47	EEPROM I2C memory	64-Kbit serial I2C bus EEPROM
 \.
 
 
@@ -2014,7 +2015,7 @@ voltage_reference-4	ZZ_voltage_reference:LTC6655BHMS8	LTC6655BHMS8-5	ZZ_Package_
 \.
 
 
--- Completed on 2023-11-27 15:38:51
+-- Completed on 2023-11-27 16:19:15
 
 --
 -- PostgreSQL database dump complete

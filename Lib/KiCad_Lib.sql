@@ -5,7 +5,7 @@
 -- Dumped from database version 14.5
 -- Dumped by pg_dump version 14.5
 
--- Started on 2023-11-27 16:19:15
+-- Started on 2023-11-27 17:27:16
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1727,7 +1727,7 @@ Logic-10	ZZ_logic:SN74AVC2T245RSWR	SN74AVC2T245RSWR	ZZ_Package_DFN_QFN:Texas_UQF
 
 COPY public.memory ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Note 1", "Note 2", "Note 3", "Note 4", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
 memory-0	ZZ_memory:93LC56B-I/SN	93LC56B-I/SN	ZZ_Package_SO:SOIC-8_3.9x4.9mm_P1.27mm	https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/93AA56X-93LC56X-93C56X-2-Kbit-Microwire-Compatible-Serial-EEPROM-Data-Sheet.pdf	Microchip	93LC56B-I/SN	Mouser	579-93LC56BISN	-	-	-	-	1.75	SOIC-8	0.31	EEPROM memory Microwire	2-Kbit ; 128x16 ; 2.5V Serial EEPROM ; Automotive Grade 3 ; SOIC
-memory-1	ZZ_memory:PCA9306	M24C64-DRDW8	ZZ_Package_SO:TSSOP-8_4.4x3mm_P0.65mm	https://www.st.com/resource/en/datasheet/m24c64-r.pdf	STMicroelectronics	M24C64-DRDW8	Mouser	511-M24C64-DRDW8TP/K	-	-	-	-	1.20	TSSOP-8	0.47	EEPROM I2C memory	64-Kbit serial I2C bus EEPROM
+memory-1	ZZ_memory:FM24C64B	M24C64-DRDW8	ZZ_Package_SO:TSSOP-8_4.4x3mm_P0.65mm	https://www.st.com/resource/en/datasheet/m24c64-r.pdf	STMicroelectronics	M24C64-DRDW8	Mouser	511-M24C64-DRDW8TP/K	-	-	-	-	1.20	TSSOP-8	0.47	EEPROM I2C memory	64-Kbit serial I2C bus EEPROM
 \.
 
 
@@ -1996,7 +1996,8 @@ COPY public.voltage_monitor ("Part_ID", "Symbols", "Value", "Footprints", "Datas
 Voltage_monitor-0	ZZ_voltage_monitor:LTC2908CTS8-A1	LTC2908CTS8-A1	ZZ_Package_TO_SOT_SMD:TSOT-23-8	https://www.analog.com/media/en/technical-documentation/data-sheets/2908fd.pdf	Analogue Devices	LTC2908CTS8-A1	Linear Technology	LTC2908CTS8-A1	-	-	-	-	1.0	TSOT-23-8	3.47	monitor reset	Six inputs supply monitor ; TSOT-23-8
 Voltage_monitor-1	ZZ_voltage_monitor:LTC2919CMS-3.3	LTC2919CMS-3.3	ZZ_Package_SO:MSOP-10_3x3mm_P0.5mm	https://www.analog.com/media/en/technical-documentation/data-sheets/LTC2919.pdf	Analog Devices	LTC2919CMS-3.3	Mouser	584-C2919CMS-3.3PBF	-	-	-	-	1.10	MSOP-10	5.42	supply monitor reset manager	Precision Triple/Dual Input UV ; OV and Negative Voltage Monitor
 Voltage_monitor-2	ZZ_voltage_monitor:LTC2919CMS-2.5	LTC2919CMS-2.5	ZZ_Package_SO:MSOP-10_3x3mm_P0.5mm	https://www.analog.com/media/en/technical-documentation/data-sheets/LTC2919.pdf	Analog Devices	LTC2919CMS-2.5	Mouser	584-C2919CMS-2.5PBF	-	-	-	-	1.10	MSOP-10	5.42	supply monitor reset manager	Precision Triple/Dual Input UV ; OV and Negative Voltage Monitor
-Voltage_monitor-3	ZZ_voltage_monitor:TLV840MADL30DBVR	TLV840MADL30DBVR	ZZ_Package_TO_SOT_SMD:SOT-23-5	https://www.ti.com/lit/gpn/TLV840	Analog Devices	Texas Instruments	Mouser	595-TLV840MADL30DBVR	-	-	-	-	1.45	SOT-23-5	0.70	supply monitor reset manager	Low-voltage supervisor with adjustable-reset time delay and manual reset
+Voltage_monitor-3	ZZ_voltage_monitor:TLV840MADL30DBVR	TLV840MADL30DBVR	ZZ_Package_TO_SOT_SMD:SOT-23-5	https://www.ti.com/lit/gpn/TLV840	Texas Instruments	TLV840MADL30DBVR	Mouser	595-TLV840MADL30DBVR	-	-	-	-	1.45	SOT-23-5	0.70	supply monitor reset manager	Low-voltage supervisor with adjustable-reset time delay and manual reset
+Voltage_monitor-4	ZZ_voltage_monitor:TPS3430WDRCR	TPS3430WDRCR	ZZ_Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm_ThermalVias	https://www.ti.com/lit/gpn/TPS3430	Texas Instruments	TPS3430WDRCR	Mouser	595-TPS3430WDRCR	-	-	-	-	1.00	VSON-10	1.58	watchdog supervisor	Window watchdog timer with programmable reset delay
 \.
 
 
@@ -2015,7 +2016,7 @@ voltage_reference-4	ZZ_voltage_reference:LTC6655BHMS8	LTC6655BHMS8-5	ZZ_Package_
 \.
 
 
--- Completed on 2023-11-27 16:19:15
+-- Completed on 2023-11-27 17:27:17
 
 --
 -- PostgreSQL database dump complete

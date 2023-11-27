@@ -5,7 +5,7 @@
 -- Dumped from database version 14.5
 -- Dumped by pg_dump version 14.5
 
--- Started on 2023-11-27 14:17:10
+-- Started on 2023-11-27 15:38:51
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1664,6 +1664,7 @@ interfaces-1	ZZ_interfaces:PCI9030-AA60PI	PCI9030-AA60PI	ZZ_Package_QFP:PQFP-176
 interfaces-2	ZZ_interfaces:PI4ULS3V4857GEAEX	PI4ULS3V4857GEAEX	ZZ_Package_CSP:DIODES-INC_WLCSP-20_1.70x2.10mm_Layout4x5_P0.4mm	https://www.diodes.com/assets/Datasheets/PI4ULS3V4857.pdf	Diodes Incorporated	PI4ULS3V4857GEAEX	Mouser	621-I4ULS3V4857GEAEX	-	-	-	-	0.49	WLCSP-20 P0.4	1.09	microSD Level shifter	6-Bit Bi-directional Level Shifter for SD 3.0-SDR104 Compliant Memory Card
 interfaces-3	ZZ_interfaces:FT4232HL	FT4232HL	ZZ_Package_DFN_QFN:LQFP-64_10x10mm_P0.5mm	https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf	FTDI	Manufacturer ref	Mouser	895-FT4232HL	-	-	-	-	1.6	LQFP-64	5.91	FTDI USB Quad UART FIFO	Hi Speed Quad Channel USB UART/FIFO ; LQFP/QFN-64
 interfaces-4	ZZ_interfaces:DP83867CRRGZR	DP83867CRRGZR	ZZ_Package_DFN_QFN:VQFN-48-1EP_7x7mm_P0.5mm_EP4.1x4.1mm_ThermalVias	https://www.ti.com/lit/gpn/dp83867cr	Texas Instruments	DP83867CRRGZR	Mouser	595-DP83867CRRGZR	-	-	-	-	1.0	VQFN-48	5.86	Ethernet PHY transceiver	Low-power ; robust gigabit Ethernet PHY transceiver
+interfaces-5	ZZ_interfaces:PCA9306	PCA9306DCTR	ZZ_Package_SO:SSOP-8_2.95x2.8mm_P0.65mm	http://www.ti.com/lit/ds/symlink/pca9306.pdf	Texas Instruments	PCA9306DCTR	Mouser	595-PCA9306DCTR	-	-	-	-	1.30	SSOP-8	0.61	I2C SMBus voltage level translator	Dual bidirectional I2C Bus and SMBus voltage level translator
 \.
 
 
@@ -1714,7 +1715,7 @@ Logic-6	ZZ_logic:SN75LVDS389DBT	SN75LVDS389DBT	ZZ_Package_SO:TSSOP-38_4.4x9.7mm_
 Logic-7	ZZ_logic:SN75LVDT388ADBT	SN75LVDT388ADBT	ZZ_Package_SO:TSSOP-38_4.4x9.7mm_P0.5mm	\N	TI	SN75LVDT388ADBT	Digi-Key	296-26671-5-ND	-	-	-	-	1.2	TSSOP38	5.40	buffer LVDS	Octal LVDS Receiver with integrated 110R terminations ; TSSOP38
 Logic-8	ZZ_logic:NC7WZ07P6X	NC7WZ07P6X	ZZ_Package_TO_SOT_SMD:SOT-363_SC-70-6	https://www.onsemi.com/download/data-sheet/pdf/nc7wz07-d.pdf	Onsemi	NC7WZ07P6X 	Mouser	512-NC7WZ07P6X	-	-	-	-	1.10	SOT-363	0.28	buffer open drain	TinyLogic UHS Dual Buffer Open-Drain Outputs
 Logic-9	ZZ_logic:SN74HCS09PWR	SN74HCS09PWR	ZZ_Package_SO:TSSOP-14_4.4x5mm_P0.65mm	https://www.ti.com/lit/gpn/SN74HCS09	Texas Instruments	SN74HCS09PWR	Mouser	595-SN74HCS09PWR	-	-	-	-	1.20	TSSOP-14	0.33	AND gate open drain	4-ch 2-input 2-V to 6-V AND gate with open-drain outputs and Schmitt-trigger inputs ; TSSOP14
-Logic-10	ZZ_logic:SN74AVC2T245RSWR	SN74AVC2T245RSWR	ZZ_Package_SO:Texas_UQFN-10_1.4x1.8mm_P0.4mm	https://www.ti.com/lit/gpn/sn74avc2t245	Texas Instruments	SN74AVC2T245RSWR	Mouser	595-SN74AVC2T245RSWR	-	-	-	-	0.50	UQFN-10	0.95	buffer dual-supply bi-dir	Dual-Bit ; 2-DIR pin Dual-Supply Bus Transceiver w/ Configurable Voltage Translation ; 3-State Output
+Logic-10	ZZ_logic:SN74AVC2T245RSWR	SN74AVC2T245RSWR	ZZ_Package_DFN_QFN:Texas_UQFN-10_1.4x1.8mm_P0.4mm	https://www.ti.com/lit/gpn/sn74avc2t245	Texas Instruments	SN74AVC2T245RSWR	Mouser	595-SN74AVC2T245RSWR	-	-	-	-	0.50	UQFN-10	0.95	buffer dual-supply bi-dir	Dual-Bit ; 2-DIR pin Dual-Supply Bus Transceiver w/ Configurable Voltage Translation ; 3-State Output
 \.
 
 
@@ -2013,7 +2014,7 @@ voltage_reference-4	ZZ_voltage_reference:LTC6655BHMS8	LTC6655BHMS8-5	ZZ_Package_
 \.
 
 
--- Completed on 2023-11-27 14:17:10
+-- Completed on 2023-11-27 15:38:51
 
 --
 -- PostgreSQL database dump complete

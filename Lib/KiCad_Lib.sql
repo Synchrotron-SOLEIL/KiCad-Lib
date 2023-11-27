@@ -5,7 +5,7 @@
 -- Dumped from database version 14.5
 -- Dumped by pg_dump version 14.5
 
--- Started on 2023-11-24 18:10:38
+-- Started on 2023-11-27 14:17:10
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1714,6 +1714,7 @@ Logic-6	ZZ_logic:SN75LVDS389DBT	SN75LVDS389DBT	ZZ_Package_SO:TSSOP-38_4.4x9.7mm_
 Logic-7	ZZ_logic:SN75LVDT388ADBT	SN75LVDT388ADBT	ZZ_Package_SO:TSSOP-38_4.4x9.7mm_P0.5mm	\N	TI	SN75LVDT388ADBT	Digi-Key	296-26671-5-ND	-	-	-	-	1.2	TSSOP38	5.40	buffer LVDS	Octal LVDS Receiver with integrated 110R terminations ; TSSOP38
 Logic-8	ZZ_logic:NC7WZ07P6X	NC7WZ07P6X	ZZ_Package_TO_SOT_SMD:SOT-363_SC-70-6	https://www.onsemi.com/download/data-sheet/pdf/nc7wz07-d.pdf	Onsemi	NC7WZ07P6X 	Mouser	512-NC7WZ07P6X	-	-	-	-	1.10	SOT-363	0.28	buffer open drain	TinyLogic UHS Dual Buffer Open-Drain Outputs
 Logic-9	ZZ_logic:SN74HCS09PWR	SN74HCS09PWR	ZZ_Package_SO:TSSOP-14_4.4x5mm_P0.65mm	https://www.ti.com/lit/gpn/SN74HCS09	Texas Instruments	SN74HCS09PWR	Mouser	595-SN74HCS09PWR	-	-	-	-	1.20	TSSOP-14	0.33	AND gate open drain	4-ch 2-input 2-V to 6-V AND gate with open-drain outputs and Schmitt-trigger inputs ; TSSOP14
+Logic-10	ZZ_logic:SN74AVC2T245RSWR	SN74AVC2T245RSWR	ZZ_Package_SO:Texas_UQFN-10_1.4x1.8mm_P0.4mm	https://www.ti.com/lit/gpn/sn74avc2t245	Texas Instruments	SN74AVC2T245RSWR	Mouser	595-SN74AVC2T245RSWR	-	-	-	-	0.50	UQFN-10	0.95	buffer dual-supply bi-dir	Dual-Bit ; 2-DIR pin Dual-Supply Bus Transceiver w/ Configurable Voltage Translation ; 3-State Output
 \.
 
 
@@ -2012,7 +2013,7 @@ voltage_reference-4	ZZ_voltage_reference:LTC6655BHMS8	LTC6655BHMS8-5	ZZ_Package_
 \.
 
 
--- Completed on 2023-11-24 18:10:39
+-- Completed on 2023-11-27 14:17:10
 
 --
 -- PostgreSQL database dump complete

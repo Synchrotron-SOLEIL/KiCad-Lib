@@ -1026,4 +1026,9 @@
     (solder_mask_margin 0.075)
     (tstamp 208d95b2-a188-46d2-8479-012bbd817397)
   )
+  (model "${KICAD_USER_3DMODEL_DIR}/ZZ_Connector_Samtec.3dshapes/SAMTEC_ADM6-60-01.5-L-4-2-A-TR_4x60_P0.635mm_Vertical_SMD.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

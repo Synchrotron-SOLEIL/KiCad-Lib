@@ -5,7 +5,7 @@
 -- Dumped from database version 14.5
 -- Dumped by pg_dump version 14.5
 
--- Started on 2023-11-30 15:21:51
+-- Started on 2023-12-01 16:57:19
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -371,7 +371,7 @@ CREATE TABLE public.connectors_lemo (
 ALTER TABLE public.connectors_lemo OWNER TO postgres;
 
 --
--- TOC entry 250 (class 1259 OID 33092)
+-- TOC entry 249 (class 1259 OID 33092)
 -- Name: connectors_memory_card; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -458,7 +458,7 @@ CREATE TABLE public.connectors_rj45 (
 ALTER TABLE public.connectors_rj45 OWNER TO postgres;
 
 --
--- TOC entry 249 (class 1259 OID 33087)
+-- TOC entry 248 (class 1259 OID 33087)
 -- Name: connectors_sfp; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -516,7 +516,7 @@ CREATE TABLE public.connectors_sma (
 ALTER TABLE public.connectors_sma OWNER TO postgres;
 
 --
--- TOC entry 254 (class 1259 OID 41289)
+-- TOC entry 253 (class 1259 OID 41289)
 -- Name: connectors_som; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -574,7 +574,7 @@ CREATE TABLE public.connectors_terminal (
 ALTER TABLE public.connectors_terminal OWNER TO postgres;
 
 --
--- TOC entry 252 (class 1259 OID 33102)
+-- TOC entry 251 (class 1259 OID 33102)
 -- Name: connectors_usb; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -777,35 +777,6 @@ CREATE TABLE public.interfaces (
 ALTER TABLE public.interfaces OWNER TO postgres;
 
 --
--- TOC entry 244 (class 1259 OID 24945)
--- Name: ldo; Type: TABLE; Schema: public; Owner: postgres
---
-
-CREATE TABLE public.ldo (
-    "Part_ID" character varying NOT NULL,
-    "Symbols" character varying,
-    "Value" character varying,
-    "Footprints" character varying,
-    "Datasheet" character varying,
-    "Manufacturer" character varying,
-    "Manufacturer ref" character varying,
-    "Supplier" character varying,
-    "Supplier ref" character varying,
-    "Note 1" character varying,
-    "Note 2" character varying,
-    "Note 3" character varying,
-    "Note 4" character varying,
-    "Height" character varying,
-    "Package" character varying,
-    "Price" character varying,
-    ki_keywords character varying,
-    ki_description character varying
-);
-
-
-ALTER TABLE public.ldo OWNER TO postgres;
-
---
 -- TOC entry 236 (class 1259 OID 24905)
 -- Name: led; Type: TABLE; Schema: public; Owner: postgres
 --
@@ -835,7 +806,7 @@ CREATE TABLE public.led (
 ALTER TABLE public.led OWNER TO postgres;
 
 --
--- TOC entry 246 (class 1259 OID 24956)
+-- TOC entry 245 (class 1259 OID 24956)
 -- Name: logic; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -864,7 +835,7 @@ CREATE TABLE public.logic (
 ALTER TABLE public.logic OWNER TO postgres;
 
 --
--- TOC entry 251 (class 1259 OID 33097)
+-- TOC entry 250 (class 1259 OID 33097)
 -- Name: memory; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -980,7 +951,36 @@ CREATE TABLE public.oscillators (
 ALTER TABLE public.oscillators OWNER TO postgres;
 
 --
--- TOC entry 253 (class 1259 OID 33107)
+-- TOC entry 254 (class 1259 OID 41294)
+-- Name: power; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.power (
+    "Part_ID" character varying NOT NULL,
+    "Symbols" character varying,
+    "Value" character varying,
+    "Footprints" character varying,
+    "Datasheet" character varying,
+    "Manufacturer" character varying,
+    "Manufacturer ref" character varying,
+    "Supplier" character varying,
+    "Supplier ref" character varying,
+    "Input voltage" character varying,
+    "Output voltage" character varying,
+    "Current" character varying,
+    "Type" character varying,
+    "Height" character varying,
+    "Package" character varying,
+    "Price" character varying,
+    ki_keywords character varying,
+    ki_description character varying
+);
+
+
+ALTER TABLE public.power OWNER TO postgres;
+
+--
+-- TOC entry 252 (class 1259 OID 33107)
 -- Name: power_protection; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -1125,7 +1125,7 @@ CREATE TABLE public.resistors_network (
 ALTER TABLE public.resistors_network OWNER TO postgres;
 
 --
--- TOC entry 245 (class 1259 OID 24951)
+-- TOC entry 244 (class 1259 OID 24951)
 -- Name: rf; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -1299,7 +1299,7 @@ CREATE TABLE public.transistors (
 ALTER TABLE public.transistors OWNER TO postgres;
 
 --
--- TOC entry 247 (class 1259 OID 24961)
+-- TOC entry 246 (class 1259 OID 24961)
 -- Name: voltage_monitor; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -1328,7 +1328,7 @@ CREATE TABLE public.voltage_monitor (
 ALTER TABLE public.voltage_monitor OWNER TO postgres;
 
 --
--- TOC entry 248 (class 1259 OID 24966)
+-- TOC entry 247 (class 1259 OID 24966)
 -- Name: voltage_reference; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -1534,8 +1534,8 @@ Lemo_connectors-0	ZZ_connectors:XBG.00.302.NLN	XBG.00.302.NLN	ZZ_Connector_Lemo:
 
 
 --
--- TOC entry 3523 (class 0 OID 33092)
--- Dependencies: 250
+-- TOC entry 3522 (class 0 OID 33092)
+-- Dependencies: 249
 -- Data for Name: connectors_memory_card; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -1572,8 +1572,8 @@ RJ45_connectors-1	ZZ_connectors:RJ45_BEL_L829-1J1T-43	RJ45_BEL_L829-1J1T-43	ZZ_C
 
 
 --
--- TOC entry 3522 (class 0 OID 33087)
--- Dependencies: 249
+-- TOC entry 3521 (class 0 OID 33087)
+-- Dependencies: 248
 -- Data for Name: connectors_sfp; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -1598,8 +1598,8 @@ SMA_connectors-3	ZZ_connectors:Coax_5_points	449.42.2522.201	ZZ_Connector_SMA:SO
 
 
 --
--- TOC entry 3527 (class 0 OID 41289)
--- Dependencies: 254
+-- TOC entry 3526 (class 0 OID 41289)
+-- Dependencies: 253
 -- Data for Name: connectors_som; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -1622,8 +1622,8 @@ Terminal_connectors-1	ZZ_connectors:Phoenix_MKDS_1-5-2	Phoenix_MKDS_1-5-2	ZZ_Con
 
 
 --
--- TOC entry 3525 (class 0 OID 33102)
--- Dependencies: 252
+-- TOC entry 3524 (class 0 OID 33102)
+-- Dependencies: 251
 -- Data for Name: connectors_usb; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -1710,21 +1710,6 @@ interfaces-5	ZZ_interfaces:PCA9306	PCA9306DCTR	ZZ_Package_SO:SSOP-8_2.95x2.8mm_P
 
 
 --
--- TOC entry 3517 (class 0 OID 24945)
--- Dependencies: 244
--- Data for Name: ldo; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-COPY public.ldo ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Note 1", "Note 2", "Note 3", "Note 4", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
-LDO-0	ZZ_PSU:LP3883ES-1.2	LP3883ES-1.2	ZZ_TO263:SOLEIL-TO263-5	\N	Texas Instruments	LP3883ES-1.2	Digi-Key	LP3883ES-1.2/NOPB	1.2V	3A	-	-	4.57	TO263-2	5.53	ldo regulator	Ultra low dropout linear regulator ; 3A ; Vin = 5V ; Vout = 1V2 ; TO263-5
-LDO-1	ZZ_PSU:LP3966ES-2.5	LP3966ES-2.5	ZZ_TO263:SOLEIL-TO263-5	\N	Texas Instruments	LP3966ES-2.5/NOPB	Digi-Key	LP3966ES-2.5/NOPB-ND	2.5V	3A	-	-	4.57	TO263-2	4.23	ldo regulator	Ultra low dropout linear regulator ; 3A ; Vin = 5V ; Vout = 2V5 ; TO263-5
-LDO-2	ZZ_PSU:LP3966ES-3.3	LP3966ES-3.3	ZZ_TO263:SOLEIL-TO263-5	\N	Texas Instruments	LP3966ES-3.3/NOPB	Digi-Key	LP3966ES-3.3/NOPB-ND	3.3V	3A	-	-	4.57	TO263-2	7.35	ldo regulator	Ultra low dropout linear regulator ; 3A ; Vin = 5V ; Vout = 3V3 ; TO263-5
-LDO-3	ZZ_PSU:TPS7A3301	TPS7A3301	ZZ_Package_DFN_QFN:Texas_S-PVQFN-N20_EP3.15x3.15mm_ThermalVias	https://www.ti.com/lit/gpn/tps7a33	Texas Instruments	TPS7A3301RGWT	Farnell	2214998	-	-	-	-	1.0	VQFN20	6.24	ldo regulator	Low noise ldo ; 1A ; Vin = -3V to -36V; Vout = -2V to -33V ; 16µVrms noise ; 72dB PSRR
-LDO-4	ZZ_PSU:TPS7A4700	TPS7A4700	ZZ_Package_DFN_QFN:Texas_S-PVQFN-N20_EP3.15x3.15mm_ThermalVias	\N	Texas Instruments	TPS7A4700RGWT	Farnell	2211360	-	-	-	-	1.0	VQFN20	6.21	ldo regulator	Low noise ldo ; 1A ; Vin = 3V to 36V; Vout = 1.4V to 34V ; 4µVrms noise ; 55dB PSRR
-\.
-
-
---
 -- TOC entry 3509 (class 0 OID 24905)
 -- Dependencies: 236
 -- Data for Name: led; Type: TABLE DATA; Schema: public; Owner: postgres
@@ -1740,8 +1725,8 @@ LED-4	ZZ_LED:LED_Red_Green	Wurth_150141SV73110	ZZ_LED_SMD:LED_RGB_Wurth-PLCC4_3.
 
 
 --
--- TOC entry 3519 (class 0 OID 24956)
--- Dependencies: 246
+-- TOC entry 3518 (class 0 OID 24956)
+-- Dependencies: 245
 -- Data for Name: logic; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -1761,8 +1746,8 @@ Logic-10	ZZ_logic:SN74AVC2T245RSWR	SN74AVC2T245RSWR	ZZ_Package_DFN_QFN:Texas_UQF
 
 
 --
--- TOC entry 3524 (class 0 OID 33097)
--- Dependencies: 251
+-- TOC entry 3523 (class 0 OID 33097)
+-- Dependencies: 250
 -- Data for Name: memory; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -1815,8 +1800,24 @@ oscillators-7	ZZ_oscillators:ABM8G-12.000MHZ-8-B2X-T	ABM8G-12.000MHZ-8-B2X-T	ZZ_
 
 
 --
--- TOC entry 3526 (class 0 OID 33107)
--- Dependencies: 253
+-- TOC entry 3527 (class 0 OID 41294)
+-- Dependencies: 254
+-- Data for Name: power; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.power ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Input voltage", "Output voltage", "Current", "Type", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
+LDO-0	ZZ_Power:LP3883ES-1.2	LP3883ES-1.2	ZZ_TO263:SOLEIL-TO263-5	-	Texas Instruments	LP3883ES-1.2	Digi-Key	LP3883ES-1.2/NOPB	-	1.2V	3A	LDO	4.57	TO263-2	5.53	ldo regulator	Ultra low dropout linear regulator ; 3A ; Vin = 5V ; Vout = 1V2 ; TO263-5
+LDO-1	ZZ_Power:LP3966ES-2.5	LP3966ES-2.5	ZZ_TO263:SOLEIL-TO263-5	-	Texas Instruments	LP3966ES-2.5/NOPB	Digi-Key	LP3966ES-2.5/NOPB-ND	-	2.5V	3A	LDO	4.57	TO263-2	4.23	ldo regulator	Ultra low dropout linear regulator ; 3A ; Vin = 5V ; Vout = 2V5 ; TO263-5
+LDO-2	ZZ_Power:LP3966ES-3.3	LP3966ES-3.3	ZZ_TO263:SOLEIL-TO263-5	-	Texas Instruments	LP3966ES-3.3/NOPB	Digi-Key	LP3966ES-3.3/NOPB-ND	-	3.3V	3A	LDO	4.57	TO263-2	7.35	ldo regulator	Ultra low dropout linear regulator ; 3A ; Vin = 5V ; Vout = 3V3 ; TO263-5
+LDO-3	ZZ_Power:TPS7A3301	TPS7A3301	ZZ_Package_DFN_QFN:Texas_S-PVQFN-N20_EP3.15x3.15mm_ThermalVias	https://www.ti.com/lit/gpn/tps7a33	Texas Instruments	TPS7A3301RGWT	Farnell	2214998	-	-	-	-	1.0	VQFN20	6.24	ldo regulator	Low noise ldo ; 1A ; Vin = -3V to -36V; Vout = -2V to -33V ; 16µVrms noise ; 72dB PSRR
+LDO-4	ZZ_Power:TPS7A4700	TPS7A4700	ZZ_Package_DFN_QFN:Texas_S-PVQFN-N20_EP3.15x3.15mm_ThermalVias	-	Texas Instruments	TPS7A4700RGWT	Farnell	2211360	-	-	-	-	1.0	VQFN20	6.21	ldo regulator	Low noise ldo ; 1A ; Vin = 3V to 36V; Vout = 1.4V to 34V ; 4µVrms noise ; 55dB PSRR
+LDO-5	ZZ_Power:MP8904DD	MP8904DD	ZZ_Package_DFN_QFN:QFN-8-1EP_3x2mm_P0.5mm_EP1.6x1.7mm	https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP8904DD/document_id/1244/	Monolithic Power Systems	MP8904DD–LF–Z	Mouser	946-MP8904DDLFZ	2.5V to 6.5V	0.5V to 5V	500 mA	LDO	1.0	QFN-8	1.44	500mA Linear Regulator LDO	500mA Linear Regulator ; 2.5V to 6.5V input supply ; Adjustable Output Voltage from 0.5V to 5V
+\.
+
+
+--
+-- TOC entry 3525 (class 0 OID 33107)
+-- Dependencies: 252
 -- Data for Name: power_protection; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -1953,8 +1954,8 @@ resistors_network-2	ZZ_resistors:Rx4	22Rx4-0.063W-1P-4x0603	Resistor_SMD:R_Array
 
 
 --
--- TOC entry 3518 (class 0 OID 24951)
--- Dependencies: 245
+-- TOC entry 3517 (class 0 OID 24951)
+-- Dependencies: 244
 -- Data for Name: rf; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -2024,12 +2025,13 @@ COPY public.transistors ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet
 transistors-0	ZZ_transistors:NMOS	BSH103	ZZ_Package_TO_SOT_SMD:SOT-23-3	\N	NXP	BSH103	Farnell	1081307	NRND	-	-	-	1.1	SOT-23-3	1.05	NMOS transistor	N-channel MOS transistor ; Vdsmax = 30 V ; Idmax = 0.85 A ; Rdson = 0.5 Ohm ; SOT-23-3
 transistors-1	ZZ_transistors:NMOS	BSN20	ZZ_Package_TO_SOT_SMD:SOT-23-3	\N	NXP	BSN20	Farnell	1081309	NRND	-	-	-	1.1	SOT-23-3	0.21	NMOS transistor	N-channel MOS transistor ; Vdsmax = 50 V ; Idmax = 0.1 A ; Rdson = 15 Ohm ; SOT-23-3
 transistors-2	ZZ_transistors:NMOS	BSN20BK	ZZ_Package_TO_SOT_SMD:SOT-23-3	\N	Nexperia	BSN20BK	Farnell	2575103	-	-	-	-	1.1	SOT-23-3	0.36	NMOS transistor	N-channel MOSFET transistor ; Vdsmax = 60 V ; Idmax = 0.265 A ; Rdson = 2.1 Ohm ; SOT-23-3
+transistors-3	ZZ_transistors:NMOS	DMN26D0UT-7	ZZ_Package_TO_SOT_SMD:SOT-523	https://www.diodes.com/assets/Datasheets/ds31854.pdf	Diodes Incorporated	DMN26D0UT-7	Mouser	621-DMN26D0UT-7	-	-	-	-	0.90	SOT-533	0.29	transistor NMOS N-MOS N-MOSFET	N-MOSFET transistor ; gate/source/drain
 \.
 
 
 --
--- TOC entry 3520 (class 0 OID 24961)
--- Dependencies: 247
+-- TOC entry 3519 (class 0 OID 24961)
+-- Dependencies: 246
 -- Data for Name: voltage_monitor; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -2043,8 +2045,8 @@ Voltage_monitor-4	ZZ_voltage_monitor:TPS3430WDRCR	TPS3430WDRCR	ZZ_Package_SON:VS
 
 
 --
--- TOC entry 3521 (class 0 OID 24966)
--- Dependencies: 248
+-- TOC entry 3520 (class 0 OID 24966)
+-- Dependencies: 247
 -- Data for Name: voltage_reference; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -2057,7 +2059,7 @@ voltage_reference-4	ZZ_voltage_reference:LTC6655BHMS8	LTC6655BHMS8-5	ZZ_Package_
 \.
 
 
--- Completed on 2023-11-30 15:21:51
+-- Completed on 2023-12-01 16:57:19
 
 --
 -- PostgreSQL database dump complete

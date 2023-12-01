@@ -156,7 +156,7 @@
     (property "Datasheet" "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP8904DD/document_id/1244/" (at 2.54 -17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "500mA Linear Regulator ; 2.5Vto-6.5V input supply ; Adjustable Output Voltage from 0.5V to 5V" (at 0 -15.24 0)
+    (property "Description" "500mA Linear Regulator ; 2.5V to 6.5V input supply ; Adjustable Output Voltage from 0.5V to 5V" (at 0 -15.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_keywords" "500mA Linear Regulator LDO" (at 0 0 0)

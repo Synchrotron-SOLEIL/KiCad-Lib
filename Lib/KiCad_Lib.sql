@@ -5,7 +5,7 @@
 -- Dumped from database version 14.5
 -- Dumped by pg_dump version 14.5
 
--- Started on 2023-12-01 16:57:19
+-- Started on 2023-12-04 16:13:15
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1806,12 +1806,13 @@ oscillators-7	ZZ_oscillators:ABM8G-12.000MHZ-8-B2X-T	ABM8G-12.000MHZ-8-B2X-T	ZZ_
 --
 
 COPY public.power ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Input voltage", "Output voltage", "Current", "Type", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
-LDO-0	ZZ_Power:LP3883ES-1.2	LP3883ES-1.2	ZZ_TO263:SOLEIL-TO263-5	-	Texas Instruments	LP3883ES-1.2	Digi-Key	LP3883ES-1.2/NOPB	-	1.2V	3A	LDO	4.57	TO263-2	5.53	ldo regulator	Ultra low dropout linear regulator ; 3A ; Vin = 5V ; Vout = 1V2 ; TO263-5
-LDO-1	ZZ_Power:LP3966ES-2.5	LP3966ES-2.5	ZZ_TO263:SOLEIL-TO263-5	-	Texas Instruments	LP3966ES-2.5/NOPB	Digi-Key	LP3966ES-2.5/NOPB-ND	-	2.5V	3A	LDO	4.57	TO263-2	4.23	ldo regulator	Ultra low dropout linear regulator ; 3A ; Vin = 5V ; Vout = 2V5 ; TO263-5
-LDO-2	ZZ_Power:LP3966ES-3.3	LP3966ES-3.3	ZZ_TO263:SOLEIL-TO263-5	-	Texas Instruments	LP3966ES-3.3/NOPB	Digi-Key	LP3966ES-3.3/NOPB-ND	-	3.3V	3A	LDO	4.57	TO263-2	7.35	ldo regulator	Ultra low dropout linear regulator ; 3A ; Vin = 5V ; Vout = 3V3 ; TO263-5
-LDO-3	ZZ_Power:TPS7A3301	TPS7A3301	ZZ_Package_DFN_QFN:Texas_S-PVQFN-N20_EP3.15x3.15mm_ThermalVias	https://www.ti.com/lit/gpn/tps7a33	Texas Instruments	TPS7A3301RGWT	Farnell	2214998	-	-	-	-	1.0	VQFN20	6.24	ldo regulator	Low noise ldo ; 1A ; Vin = -3V to -36V; Vout = -2V to -33V ; 16µVrms noise ; 72dB PSRR
-LDO-4	ZZ_Power:TPS7A4700	TPS7A4700	ZZ_Package_DFN_QFN:Texas_S-PVQFN-N20_EP3.15x3.15mm_ThermalVias	-	Texas Instruments	TPS7A4700RGWT	Farnell	2211360	-	-	-	-	1.0	VQFN20	6.21	ldo regulator	Low noise ldo ; 1A ; Vin = 3V to 36V; Vout = 1.4V to 34V ; 4µVrms noise ; 55dB PSRR
-LDO-5	ZZ_Power:MP8904DD	MP8904DD	ZZ_Package_DFN_QFN:QFN-8-1EP_3x2mm_P0.5mm_EP1.6x1.7mm	https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP8904DD/document_id/1244/	Monolithic Power Systems	MP8904DD–LF–Z	Mouser	946-MP8904DDLFZ	2.5V to 6.5V	0.5V to 5V	500 mA	LDO	1.0	QFN-8	1.44	500mA Linear Regulator LDO	500mA Linear Regulator ; 2.5V to 6.5V input supply ; Adjustable Output Voltage from 0.5V to 5V
+power-6	ZZ_Power:MPM3810AGQB	MPM3810AGQB	ZZ_Package_DFN_QFN:MPS_MPM3810_QFN-12_2.5x3mm	https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MPM3810AGQB-AEC1/document_id/4608/	Monolithic Power Systems	MPM3810AGQBE-AEC1-Z	Mouser	946-PM3810AGQBEAEC1Z	2.6V to 6V	12% x VIN to VIN	1.2A	Synchronous Step-Down Converter	1.0	QFN-12	3.1	voltage regulator	6V Input ; 1.2A Module Synchronous Step-Down Converter with Integrated Inductor AEC-Q100 Qualified
+power-0	ZZ_Power:LP3883ES-1.2	LP3883ES-1.2	ZZ_TO263:SOLEIL-TO263-5	-	Texas Instruments	LP3883ES-1.2	Digi-Key	LP3883ES-1.2/NOPB	-	1.2V	3A	LDO	4.57	TO263-2	5.53	ldo regulator	Ultra low dropout linear regulator ; 3A ; Vin = 5V ; Vout = 1V2 ; TO263-5
+power-1	ZZ_Power:LP3966ES-2.5	LP3966ES-2.5	ZZ_TO263:SOLEIL-TO263-5	-	Texas Instruments	LP3966ES-2.5/NOPB	Digi-Key	LP3966ES-2.5/NOPB-ND	-	2.5V	3A	LDO	4.57	TO263-2	4.23	ldo regulator	Ultra low dropout linear regulator ; 3A ; Vin = 5V ; Vout = 2V5 ; TO263-5
+power-2	ZZ_Power:LP3966ES-3.3	LP3966ES-3.3	ZZ_TO263:SOLEIL-TO263-5	-	Texas Instruments	LP3966ES-3.3/NOPB	Digi-Key	LP3966ES-3.3/NOPB-ND	-	3.3V	3A	LDO	4.57	TO263-2	7.35	ldo regulator	Ultra low dropout linear regulator ; 3A ; Vin = 5V ; Vout = 3V3 ; TO263-5
+power-3	ZZ_Power:TPS7A3301	TPS7A3301	ZZ_Package_DFN_QFN:Texas_S-PVQFN-N20_EP3.15x3.15mm_ThermalVias	https://www.ti.com/lit/gpn/tps7a33	Texas Instruments	TPS7A3301RGWT	Farnell	2214998	-	-	-	-	1.0	VQFN20	6.24	ldo regulator	Low noise ldo ; 1A ; Vin = -3V to -36V; Vout = -2V to -33V ; 16µVrms noise ; 72dB PSRR
+power-4	ZZ_Power:TPS7A4700	TPS7A4700	ZZ_Package_DFN_QFN:Texas_S-PVQFN-N20_EP3.15x3.15mm_ThermalVias	-	Texas Instruments	TPS7A4700RGWT	Farnell	2211360	-	-	-	-	1.0	VQFN20	6.21	ldo regulator	Low noise ldo ; 1A ; Vin = 3V to 36V; Vout = 1.4V to 34V ; 4µVrms noise ; 55dB PSRR
+power-5	ZZ_Power:MP8904DD	MP8904DD	ZZ_Package_DFN_QFN:QFN-8-1EP_3x2mm_P0.5mm_EP1.6x1.7mm	https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP8904DD/document_id/1244/	Monolithic Power Systems	MP8904DD–LF–Z	Mouser	946-MP8904DDLFZ	2.5V to 6.5V	0.5V to 5V	500 mA	LDO	1.0	QFN-8	1.44	500mA Linear Regulator LDO	500mA Linear Regulator ; 2.5V to 6.5V input supply ; Adjustable Output Voltage from 0.5V to 5V
 \.
 
 
@@ -2059,7 +2060,7 @@ voltage_reference-4	ZZ_voltage_reference:LTC6655BHMS8	LTC6655BHMS8-5	ZZ_Package_
 \.
 
 
--- Completed on 2023-12-01 16:57:19
+-- Completed on 2023-12-04 16:13:16
 
 --
 -- PostgreSQL database dump complete

@@ -5,7 +5,7 @@
 -- Dumped from database version 14.5
 -- Dumped by pg_dump version 14.5
 
--- Started on 2023-12-05 15:08:11
+-- Started on 2023-12-06 16:56:38
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1808,6 +1808,7 @@ oscillators-7	ZZ_oscillators:ABM8G-12.000MHZ-8-B2X-T	ABM8G-12.000MHZ-8-B2X-T	ZZ_
 COPY public.power ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Input voltage", "Output voltage", "Current", "Type", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
 power-7	ZZ_Power:MPM3840	MPM3840GQV-Z	ZZ_Package_DFN_QFN:MPS_MPM3840_QFN-20_3x5mm_P0.5mm	https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MPM3840GQV/document_id/2124/	Monolithic Power Systems	MPM3840GQV-Z	Mouser	946-MPM3840GQV-Z	2.8V to 5.5V	min 0.6V	4A	Synchronous Step-Down Converter	1.6	QFN-20	4.98	voltage regulator	4A 5.5V ; Synchronous Step-down Power Module with Integrated Inductor and Power Good
 power-6	ZZ_Power:MPM3810AGQB	MPM3810AGQBE-AEC1-Z	ZZ_Package_DFN_QFN:MPS_MPM3810_QFN-12_2.5x3mm_P0.4mm	https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MPM3810AGQB-AEC1/document_id/4608/	Monolithic Power Systems	MPM3810AGQBE-AEC1-Z	Mouser	946-PM3810AGQBEAEC1Z	2.6V to 6V	12% x VIN to VIN	1.2A	Synchronous Step-Down Converter	1.0	QFN-12	3.1	voltage regulator	6V Input ; 1.2A Module Synchronous Step-Down Converter with Integrated Inductor AEC-Q100 Qualified
+power-8	ZZ_Power:MP8772GQ	MP8772GQ-Z	ZZ_Package_DFN_QFN:MPS_MP8772_QFN-20_3x3mm_P0.4mm	https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP8772GQ/document_id/3720/	Monolithic Power Systems	MP8772GQ-Z	Mouser	946-MP8772GQ-Z	3V to 17V	0.6V to 12V	12A	Synchronous Step-Down Converter	1.0	QFN-16	2.72	voltage regulator	12A 17V ; 700kHz Synchronous Step-down Converter with PG and External Soft Start
 power-0	ZZ_Power:LP3883ES-1.2	LP3883ES-1.2	ZZ_TO263:SOLEIL-TO263-5	-	Texas Instruments	LP3883ES-1.2	Digi-Key	LP3883ES-1.2/NOPB	-	1.2V	3A	LDO	4.57	TO263-2	5.53	ldo regulator	Ultra low dropout linear regulator ; 3A ; Vin = 5V ; Vout = 1V2 ; TO263-5
 power-1	ZZ_Power:LP3966ES-2.5	LP3966ES-2.5	ZZ_TO263:SOLEIL-TO263-5	-	Texas Instruments	LP3966ES-2.5/NOPB	Digi-Key	LP3966ES-2.5/NOPB-ND	-	2.5V	3A	LDO	4.57	TO263-2	4.23	ldo regulator	Ultra low dropout linear regulator ; 3A ; Vin = 5V ; Vout = 2V5 ; TO263-5
 power-2	ZZ_Power:LP3966ES-3.3	LP3966ES-3.3	ZZ_TO263:SOLEIL-TO263-5	-	Texas Instruments	LP3966ES-3.3/NOPB	Digi-Key	LP3966ES-3.3/NOPB-ND	-	3.3V	3A	LDO	4.57	TO263-2	7.35	ldo regulator	Ultra low dropout linear regulator ; 3A ; Vin = 5V ; Vout = 3V3 ; TO263-5
@@ -2061,7 +2062,7 @@ voltage_reference-4	ZZ_voltage_reference:LTC6655BHMS8	LTC6655BHMS8-5	ZZ_Package_
 \.
 
 
--- Completed on 2023-12-05 15:08:11
+-- Completed on 2023-12-06 16:56:39
 
 --
 -- PostgreSQL database dump complete

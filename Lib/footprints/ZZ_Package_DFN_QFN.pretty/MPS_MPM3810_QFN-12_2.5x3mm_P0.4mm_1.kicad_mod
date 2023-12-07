@@ -1,4 +1,4 @@
-(footprint "MPS_MPM3810_QFN-12_2.5x3mm_P0.4mm"
+(footprint "MPS_MPM3810_QFN-12_2.5x3mm_P0.4mm_1"
 	(version 20231014)
 	(generator "pcbnew")
 	(generator_version "7.99")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "MPS_MPM3810_QFN-12_2.5x3mm_P0.4mm"
+	(property "Value" "MPS_MPM3810_QFN-12_2.5x3mm_P0.4mm_1"
 		(at -0.025 2.45 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b189d5bc-500e-48eb-af8d-2bb596ba41e0")
+		(uuid "1b3714b1-9f95-45ed-9664-6d341ba417da")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3b19a26f-1287-4ecb-ab01-4c21f36ef901")
+		(uuid "8b10572b-2a57-4ae2-8d13-f0f68af7455e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,7 +58,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "71da432f-12cc-42ca-aee9-066ae8742495")
+		(uuid "ada99e97-9380-4155-a442-5f6d7b32289f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -66,30 +66,6 @@
 		)
 	)
 	(attr smd)
-	(fp_poly
-		(pts
-			(xy -1.05 1.275) (xy -0.5 1.275) (xy -0.5 0.075) (xy -1.05 0.075)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Cu")
-		(uuid "21ab820c-f402-418c-b087-879ab4abf8e9")
-	)
-	(fp_poly
-		(pts
-			(xy 0.5 0.075) (xy 1.05 0.075) (xy 1.05 1.275) (xy 0.5 1.275)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Cu")
-		(uuid "7fa9b198-09ba-4624-9c9b-221bb8ac67f4")
-	)
 	(fp_line
 		(start -1.4 -1.1)
 		(end -0.9 -1.6)

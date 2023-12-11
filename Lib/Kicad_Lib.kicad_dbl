@@ -3278,8 +3278,8 @@
             }
         },
         {
-            "name": "inductors_0603",
-            "table": "inductors_0603",
+            "name": "Inductors_SMD",
+            "table": "inductors_smd",
             "key": "Part_ID",
             "symbols": "Symbols",
             "footprints": "Footprints",
@@ -3406,9 +3406,9 @@
                 }
             ],
             "properties": {
-                "description": "FPGA",
+                "description": "SMD inductors",
                 "footprint_filters": "Footprint Filters",
-                "keywords": "FPGA",
+                "keywords": "inductor",
                 "exclude_from_bom": "0",
                 "exclude_from_board": "0"
             }
@@ -4222,7 +4222,7 @@
                 }
             ],
             "properties": {
-                "description": "Misc optical devices",
+                "descript/ion": "Misc optical devices",
                 "footprint_filters": "Footprint Filters",
                 "keywords": "optical devices",
                 "exclude_from_bom": "0",
@@ -4366,8 +4366,8 @@
             }
         },
         {
-            "name": "Power",
-            "table": "power",
+            "name": "Power Supply",
+            "table": "power_supply",
             "key": "Part_ID",
             "symbols": "Symbols",
             "footprints": "Footprints",

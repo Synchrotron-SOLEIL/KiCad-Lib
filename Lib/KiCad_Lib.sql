@@ -5,7 +5,7 @@
 -- Dumped from database version 14.5
 -- Dumped by pg_dump version 14.5
 
--- Started on 2023-12-07 11:18:15
+-- Started on 2023-12-11 17:39:54
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -226,7 +226,7 @@ CREATE TABLE public.capacitors_tantalum (
 ALTER TABLE public.capacitors_tantalum OWNER TO postgres;
 
 --
--- TOC entry 239 (class 1259 OID 24920)
+-- TOC entry 238 (class 1259 OID 24920)
 -- Name: clock_buffers; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -371,7 +371,7 @@ CREATE TABLE public.connectors_lemo (
 ALTER TABLE public.connectors_lemo OWNER TO postgres;
 
 --
--- TOC entry 249 (class 1259 OID 33092)
+-- TOC entry 248 (class 1259 OID 33092)
 -- Name: connectors_memory_card; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -458,7 +458,7 @@ CREATE TABLE public.connectors_rj45 (
 ALTER TABLE public.connectors_rj45 OWNER TO postgres;
 
 --
--- TOC entry 248 (class 1259 OID 33087)
+-- TOC entry 247 (class 1259 OID 33087)
 -- Name: connectors_sfp; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -516,7 +516,7 @@ CREATE TABLE public.connectors_sma (
 ALTER TABLE public.connectors_sma OWNER TO postgres;
 
 --
--- TOC entry 253 (class 1259 OID 41289)
+-- TOC entry 252 (class 1259 OID 41289)
 -- Name: connectors_som; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -574,7 +574,7 @@ CREATE TABLE public.connectors_terminal (
 ALTER TABLE public.connectors_terminal OWNER TO postgres;
 
 --
--- TOC entry 251 (class 1259 OID 33102)
+-- TOC entry 250 (class 1259 OID 33102)
 -- Name: connectors_usb; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -661,7 +661,7 @@ CREATE TABLE public.diodes (
 ALTER TABLE public.diodes OWNER TO postgres;
 
 --
--- TOC entry 240 (class 1259 OID 24925)
+-- TOC entry 239 (class 1259 OID 24925)
 -- Name: filters; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -719,11 +719,11 @@ CREATE TABLE public.fpga (
 ALTER TABLE public.fpga OWNER TO postgres;
 
 --
--- TOC entry 232 (class 1259 OID 16698)
--- Name: inductors_0603; Type: TABLE; Schema: public; Owner: postgres
+-- TOC entry 255 (class 1259 OID 41304)
+-- Name: inductors_smd; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.inductors_0603 (
+CREATE TABLE public.inductors_smd (
     "Part_ID" character varying NOT NULL,
     "Symbols" character varying,
     "Value" character varying,
@@ -745,10 +745,10 @@ CREATE TABLE public.inductors_0603 (
 );
 
 
-ALTER TABLE public.inductors_0603 OWNER TO postgres;
+ALTER TABLE public.inductors_smd OWNER TO postgres;
 
 --
--- TOC entry 233 (class 1259 OID 24890)
+-- TOC entry 232 (class 1259 OID 24890)
 -- Name: interfaces; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -777,7 +777,7 @@ CREATE TABLE public.interfaces (
 ALTER TABLE public.interfaces OWNER TO postgres;
 
 --
--- TOC entry 236 (class 1259 OID 24905)
+-- TOC entry 235 (class 1259 OID 24905)
 -- Name: led; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -806,7 +806,7 @@ CREATE TABLE public.led (
 ALTER TABLE public.led OWNER TO postgres;
 
 --
--- TOC entry 245 (class 1259 OID 24956)
+-- TOC entry 244 (class 1259 OID 24956)
 -- Name: logic; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -835,7 +835,7 @@ CREATE TABLE public.logic (
 ALTER TABLE public.logic OWNER TO postgres;
 
 --
--- TOC entry 250 (class 1259 OID 33097)
+-- TOC entry 249 (class 1259 OID 33097)
 -- Name: memory; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -864,7 +864,7 @@ CREATE TABLE public.memory (
 ALTER TABLE public.memory OWNER TO postgres;
 
 --
--- TOC entry 235 (class 1259 OID 24900)
+-- TOC entry 234 (class 1259 OID 24900)
 -- Name: mounting_holes; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -893,7 +893,7 @@ CREATE TABLE public.mounting_holes (
 ALTER TABLE public.mounting_holes OWNER TO postgres;
 
 --
--- TOC entry 237 (class 1259 OID 24910)
+-- TOC entry 236 (class 1259 OID 24910)
 -- Name: optical_devices; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -922,7 +922,7 @@ CREATE TABLE public.optical_devices (
 ALTER TABLE public.optical_devices OWNER TO postgres;
 
 --
--- TOC entry 238 (class 1259 OID 24915)
+-- TOC entry 237 (class 1259 OID 24915)
 -- Name: oscillators; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -951,36 +951,7 @@ CREATE TABLE public.oscillators (
 ALTER TABLE public.oscillators OWNER TO postgres;
 
 --
--- TOC entry 254 (class 1259 OID 41294)
--- Name: power; Type: TABLE; Schema: public; Owner: postgres
---
-
-CREATE TABLE public.power (
-    "Part_ID" character varying NOT NULL,
-    "Symbols" character varying,
-    "Value" character varying,
-    "Footprints" character varying,
-    "Datasheet" character varying,
-    "Manufacturer" character varying,
-    "Manufacturer ref" character varying,
-    "Supplier" character varying,
-    "Supplier ref" character varying,
-    "Input voltage" character varying,
-    "Output voltage" character varying,
-    "Current" character varying,
-    "Type" character varying,
-    "Height" character varying,
-    "Package" character varying,
-    "Price" character varying,
-    ki_keywords character varying,
-    ki_description character varying
-);
-
-
-ALTER TABLE public.power OWNER TO postgres;
-
---
--- TOC entry 252 (class 1259 OID 33107)
+-- TOC entry 251 (class 1259 OID 33107)
 -- Name: power_protection; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -1007,6 +978,35 @@ CREATE TABLE public.power_protection (
 
 
 ALTER TABLE public.power_protection OWNER TO postgres;
+
+--
+-- TOC entry 253 (class 1259 OID 41294)
+-- Name: power_supply; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.power_supply (
+    "Part_ID" character varying NOT NULL,
+    "Symbols" character varying,
+    "Value" character varying,
+    "Footprints" character varying,
+    "Datasheet" character varying,
+    "Manufacturer" character varying,
+    "Manufacturer ref" character varying,
+    "Supplier" character varying,
+    "Supplier ref" character varying,
+    "Input voltage" character varying,
+    "Output voltage" character varying,
+    "Current" character varying,
+    "Type" character varying,
+    "Height" character varying,
+    "Package" character varying,
+    "Price" character varying,
+    ki_keywords character varying,
+    ki_description character varying
+);
+
+
+ALTER TABLE public.power_supply OWNER TO postgres;
 
 --
 -- TOC entry 209 (class 1259 OID 16561)
@@ -1125,7 +1125,7 @@ CREATE TABLE public.resistors_network (
 ALTER TABLE public.resistors_network OWNER TO postgres;
 
 --
--- TOC entry 244 (class 1259 OID 24951)
+-- TOC entry 243 (class 1259 OID 24951)
 -- Name: rf; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -1154,7 +1154,7 @@ CREATE TABLE public.rf (
 ALTER TABLE public.rf OWNER TO postgres;
 
 --
--- TOC entry 255 (class 1259 OID 41299)
+-- TOC entry 254 (class 1259 OID 41299)
 -- Name: sensor; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -1183,7 +1183,7 @@ CREATE TABLE public.sensor (
 ALTER TABLE public.sensor OWNER TO postgres;
 
 --
--- TOC entry 234 (class 1259 OID 24895)
+-- TOC entry 233 (class 1259 OID 24895)
 -- Name: shields; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -1212,7 +1212,7 @@ CREATE TABLE public.shields (
 ALTER TABLE public.shields OWNER TO postgres;
 
 --
--- TOC entry 241 (class 1259 OID 24930)
+-- TOC entry 240 (class 1259 OID 24930)
 -- Name: switch; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -1241,7 +1241,7 @@ CREATE TABLE public.switch (
 ALTER TABLE public.switch OWNER TO postgres;
 
 --
--- TOC entry 242 (class 1259 OID 24935)
+-- TOC entry 241 (class 1259 OID 24935)
 -- Name: test_points; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -1270,7 +1270,7 @@ CREATE TABLE public.test_points (
 ALTER TABLE public.test_points OWNER TO postgres;
 
 --
--- TOC entry 243 (class 1259 OID 24940)
+-- TOC entry 242 (class 1259 OID 24940)
 -- Name: transformer; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -1328,7 +1328,7 @@ CREATE TABLE public.transistors (
 ALTER TABLE public.transistors OWNER TO postgres;
 
 --
--- TOC entry 246 (class 1259 OID 24961)
+-- TOC entry 245 (class 1259 OID 24961)
 -- Name: voltage_monitor; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -1357,7 +1357,7 @@ CREATE TABLE public.voltage_monitor (
 ALTER TABLE public.voltage_monitor OWNER TO postgres;
 
 --
--- TOC entry 247 (class 1259 OID 24966)
+-- TOC entry 246 (class 1259 OID 24966)
 -- Name: voltage_reference; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -1422,6 +1422,10 @@ Amplifier-6	ZZ_analogs:PMA2-43LN+	PMA2-43LN+	ZZ_RF_Mini-Circuits:Mini-Circuits_M
 COPY public.capacitors_aluminium ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Capacitance", "Voltage", "Precision", "Type", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
 capacitors_aluminium-0	ZZ_capacitors:C_Electrolytic	100uF-10V-20p-Al-TypeE	ZZ_Capacitor_SMD:CP_Elec_8x6.2	\N	Panasonic	EEEFC1A101P	Farnell	9693467	100uF	10V	20%	Aluminium	6.2	Type E	0.70	Capacitor 100uF 10V	Capacitor ; Al electolytic ; 10 V ; 100 uF ; 20% ; type E
 capacitors_aluminium-1	ZZ_capacitors:C_Electrolytic	10uF-16V-20p-Al-TypeB	ZZ_Capacitor_SMD:CP_Elec_4x5.4	\N	Panasonic	EEEFC1C100R	Farnell	9693491	10uF	16V	20%	Aluminium	5.4	Type B	0.31	Capacitor 10uF 16V	Capacitor ; Al electolytic ; 16 V ; 10 uF ; 20% ; type B
+capacitors_aluminium-2	ZZ_capacitors:C_Electrolytic	100uF-16V-20p-Al-TypeC	ZZ_Capacitor_SMD:CP_Elec_5x5.8	https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/RDE0000C1259.pdf	Panasonic	EEEFN1C101UR	Mouser	667-EEE-FN1C101UR 	100uF	16V	20%	Aluminium	5.8	Type C	0.41	Capacitor 100uF 16V	Capacitor ; Al electolytic ; 16 V ; 100 uF ; 20% ; type C
+capacitors_aluminium-3	ZZ_capacitors:C_Electrolytic	22uF-25V-20p-Al-TypeD	ZZ_Capacitor_SMD:CP_Elec_6.3x5.8	https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1154.pdf	Panasonic	EEEHB1E220AP	Mouser	667-EEE-HB1E220AP 	22uF	25V	20%	Aluminium	5.8	Type D	0.47	Capacitor 22uF 25V	Capacitor ; Al electolytic ; 25 V ; 22 uF ; 20% ; type D
+capacitors_aluminium-4	ZZ_capacitors:C_Electrolytic	100uF-25V-20p-Al-TypeF	ZZ_Capacitor_SMD:CP_Elec_8x10	https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1154.pdf	Panasonic	EEEHB1E101AP	Mouser	667-EEE-HB1E101AP 	100uF	25V	20%	Aluminium	10.2	Type F	0.75	Capacitor 100uF 25V	Capacitor ; Al electolytic ; 25 V ; 100 uF ; 20% ; type F
+capacitors_aluminium-5	ZZ_capacitors:C_Electrolytic	10uF-25V-20p-Al-TypeC	ZZ_Capacitor_SMD:CP_Elec_5x5.8	https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1154.pdf	Panasonic	EEEHB1E100AR	Mouser	667-EEE-HB1E100AR 	10uF	25V	20%	Aluminium	5.8	Type C	0.39	Capacitor 10uF 25V	Capacitor ; Al electolytic ; 25 V ; 10 uF ; 20% ; type C
 \.
 
 
@@ -1498,8 +1502,8 @@ capacitors_tantalum-3	ZZ_capacitors:C_Electrolytic	68uF-10V-10p-Tantalum-1210	ZZ
 
 
 --
--- TOC entry 3516 (class 0 OID 24920)
--- Dependencies: 239
+-- TOC entry 3515 (class 0 OID 24920)
+-- Dependencies: 238
 -- Data for Name: clock_buffers; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -1563,8 +1567,8 @@ Lemo_connectors-0	ZZ_connectors:XBG.00.302.NLN	XBG.00.302.NLN	ZZ_Connector_Lemo:
 
 
 --
--- TOC entry 3526 (class 0 OID 33092)
--- Dependencies: 249
+-- TOC entry 3525 (class 0 OID 33092)
+-- Dependencies: 248
 -- Data for Name: connectors_memory_card; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -1601,8 +1605,8 @@ RJ45_connectors-1	ZZ_connectors:RJ45_BEL_L829-1J1T-43	RJ45_BEL_L829-1J1T-43	ZZ_C
 
 
 --
--- TOC entry 3525 (class 0 OID 33087)
--- Dependencies: 248
+-- TOC entry 3524 (class 0 OID 33087)
+-- Dependencies: 247
 -- Data for Name: connectors_sfp; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -1627,8 +1631,8 @@ SMA_connectors-3	ZZ_connectors:Coax_5_points	449.42.2522.201	ZZ_Connector_SMA:SO
 
 
 --
--- TOC entry 3530 (class 0 OID 41289)
--- Dependencies: 253
+-- TOC entry 3529 (class 0 OID 41289)
+-- Dependencies: 252
 -- Data for Name: connectors_som; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -1651,8 +1655,8 @@ Terminal_connectors-1	ZZ_connectors:Phoenix_MKDS_1-5-2	Phoenix_MKDS_1-5-2	ZZ_Con
 
 
 --
--- TOC entry 3528 (class 0 OID 33102)
--- Dependencies: 251
+-- TOC entry 3527 (class 0 OID 33102)
+-- Dependencies: 250
 -- Data for Name: connectors_usb; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -1684,8 +1688,8 @@ diode_bridge-0	ZZ_diodes:D_bridge	MB6S	ZZ_Diode_SMD:TO-269AA	http://www.vishay.c
 
 
 --
--- TOC entry 3517 (class 0 OID 24925)
--- Dependencies: 240
+-- TOC entry 3516 (class 0 OID 24925)
+-- Dependencies: 239
 -- Data for Name: filters; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -1693,7 +1697,7 @@ COPY public.filters ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "
 filters-0	ZZ_filters:L	742792116	Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder	\N	Wuerth Elektronik	742792116	Farnell	1635757	500 Ohm at 100 MHz	2.5 A	-	-	1.1	1206	0.23	ferrite	Ferrite ; SMD 1206 ; 500 Ohm at 100 MHz ; 2.5 A ; 1206
 filters-1	ZZ_filters:L	74792093	Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder	\N	Wuerth Elektronik	742792093	Farnell	1635726	2k2 Ohm at 100 MHz	200 mA	-	-	0.9	0805	0.15	ferrite	Ferrite ; SMD 0805 ; 2k2 Ohm at 100 MHz ; 200 mA ; 0805
 filters-2	ZZ_filters:L	BLM18AG102SN1D	Inductor_SMD:L_0201_0603Metric	\N	Murata	BLM18AG102SN1D	Farnell	1515671	1 KOhm at 100 MHz	400 mA	-	-	0.8	0603	0.39	ferrite	Ferrite ; SMD 0603 ; 1 KOhm at 100 MHz ; 400 mA ; 0603
-filters-3	ZZ_filters:NFM41	NFM41PC155B1H3L	S_Filter:Filter_Murata-NFM41P	\N	Murata	NFM41PC155B1H3L	Digi-Key	490-12576-1-ND	-80dB at 10MHz	6A	-	-	1.0	NFM41P	3.91	filter	Capacitor filter ; SMD 1806 ; 6A ; 50 Vdc ; -80dB at 10MHz ; SMD NFM41P
+filters-3	ZZ_filters:NFM41	NFM41PC155B1H3L	ZZ_Filter:Murata_NFM41P	\N	Murata	NFM41PC155B1H3L	Digi-Key	490-12576-1-ND	-80dB at 10MHz	6A	-	-	1.0	NFM41P	3.91	filter	Capacitor filter ; SMD 1806 ; 6A ; 50 Vdc ; -80dB at 10MHz ; SMD NFM41P
 \.
 
 
@@ -1711,20 +1715,21 @@ Xilinx-Spartan-2	ZZ_FPGA:XC6SLX9-2FTG256C	XC6SLX9-2FTG256C	ZZ_Package_BGA:BGA-25
 
 
 --
--- TOC entry 3509 (class 0 OID 16698)
--- Dependencies: 232
--- Data for Name: inductors_0603; Type: TABLE DATA; Schema: public; Owner: postgres
+-- TOC entry 3532 (class 0 OID 41304)
+-- Dependencies: 255
+-- Data for Name: inductors_smd; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.inductors_0603 ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Inductance", "Current", "Precision", "SRF", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
-inductors_0603-0	ZZ_inductors:L	10nH-1.4A-2p-4.3GHz-0603	Inductor_SMD:L_0603_1608Metric	\N	Coilcraft	0603HP-10NXGLU	Farnell	2286144	10nH	1.4A	2%	4.3GHz	0.94	0603	1.04	inductor	Inductor ; 10 nH ; 2%; SMD 0603 ; 1.4 A ; 0603
-inductors_0603-1	ZZ_inductors:L	8.2nH-700mA-2p-4.2GHz-0603	Inductor_SMD:L_0603_1608Metric	\N	Coilcraft	0603CS-8N2XGLU	Farnell	2285928	8.2nH	700mA	2%	4.2GHz	1.02	0603	8.89	inductor	Inductor ; 8.2 nH ; 2%; SMD 0603 ; 700 mA ; 0603
+COPY public.inductors_smd ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Inductance", "Current", "Precision", "SRF", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
+inductors_SMD-0	ZZ_inductors:L	10nH-1.4A-2p-4.3GHz-0603	ZZ_Inductor_SMD:L_0603_1608Metric	\N	Coilcraft	0603HP-10NXGLU	Farnell	2286144	10nH	1.4A	2%	4.3GHz	0.94	0603	1.04	inductor	Inductor ; 10 nH ; 2%; SMD 0603 ; 1.4 A ; 0603
+inductors_SMD-1	ZZ_inductors:L	8.2nH-700mA-2p-4.2GHz-0603	ZZ_Inductor_SMD:L_0603_1608Metric	\N	Coilcraft	0603CS-8N2XGLU	Farnell	2285928	8.2nH	700mA	2%	4.2GHz	1.02	0603	8.89	inductor	Inductor ; 8.2 nH ; 2%; SMD 0603 ; 700 mA ; 0603
+inductors_SMD-2	ZZ_inductors:L	1.2uH-8.5A-20p-43MHz-1625	ZZ_Inductor_SMD:L_Bourns_SRP5030CA_5.5x5.3mm_P3.25mm	https://www.bourns.com/docs/Product-Datasheets/SRP5030CA.pdf	Bourns	SRP5030CA-1R2M	Mouser	652-SRP5030CA-1R2M	1.2uH	8.5A	20%	43MHz	2.9	1625	0.89	inductor	Inductor ; 1.2 uH ; 20%; SMD 1625 ; 8.5 A
 \.
 
 
 --
--- TOC entry 3510 (class 0 OID 24890)
--- Dependencies: 233
+-- TOC entry 3509 (class 0 OID 24890)
+-- Dependencies: 232
 -- Data for Name: interfaces; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -1739,8 +1744,8 @@ interfaces-5	ZZ_interfaces:PCA9306	PCA9306DCTR	ZZ_Package_SO:SSOP-8_2.95x2.8mm_P
 
 
 --
--- TOC entry 3513 (class 0 OID 24905)
--- Dependencies: 236
+-- TOC entry 3512 (class 0 OID 24905)
+-- Dependencies: 235
 -- Data for Name: led; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -1754,8 +1759,8 @@ LED-4	ZZ_LED:LED_Red_Green	Wurth_150141SV73110	ZZ_LED_SMD:LED_RGB_Wurth-PLCC4_3.
 
 
 --
--- TOC entry 3522 (class 0 OID 24956)
--- Dependencies: 245
+-- TOC entry 3521 (class 0 OID 24956)
+-- Dependencies: 244
 -- Data for Name: logic; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -1775,8 +1780,8 @@ Logic-10	ZZ_logic:SN74AVC2T245RSWR	SN74AVC2T245RSWR	ZZ_Package_DFN_QFN:Texas_UQF
 
 
 --
--- TOC entry 3527 (class 0 OID 33097)
--- Dependencies: 250
+-- TOC entry 3526 (class 0 OID 33097)
+-- Dependencies: 249
 -- Data for Name: memory; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -1787,8 +1792,8 @@ memory-1	ZZ_memory:FM24C64B	M24C64-DRDW8	ZZ_Package_SO:TSSOP-8_4.4x3mm_P0.65mm	h
 
 
 --
--- TOC entry 3512 (class 0 OID 24900)
--- Dependencies: 235
+-- TOC entry 3511 (class 0 OID 24900)
+-- Dependencies: 234
 -- Data for Name: mounting_holes; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -1800,8 +1805,8 @@ mounting_holes-2	ZZ_mounting_holes:FIX	D_3mm7	MountingHole:MountingHole_3.7mm_Pa
 
 
 --
--- TOC entry 3514 (class 0 OID 24910)
--- Dependencies: 237
+-- TOC entry 3513 (class 0 OID 24910)
+-- Dependencies: 236
 -- Data for Name: optical_devices; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -1811,8 +1816,8 @@ OpticalDevice-0	ZZ_optical_devices:Light_pipe	SMFLP	ZZ_OptoDevice:Bivar_SMFLP	\N
 
 
 --
--- TOC entry 3515 (class 0 OID 24915)
--- Dependencies: 238
+-- TOC entry 3514 (class 0 OID 24915)
+-- Dependencies: 237
 -- Data for Name: oscillators; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -1829,32 +1834,32 @@ oscillators-7	ZZ_oscillators:ABM8G-12.000MHZ-8-B2X-T	ABM8G-12.000MHZ-8-B2X-T	ZZ_
 
 
 --
--- TOC entry 3531 (class 0 OID 41294)
--- Dependencies: 254
--- Data for Name: power; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-COPY public.power ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Input voltage", "Output voltage", "Current", "Type", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
-power-7	ZZ_Power:MPM3840	MPM3840GQV-Z	ZZ_Package_DFN_QFN:MPS_MPM3840_QFN-20_3x5mm_P0.5mm	https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MPM3840GQV/document_id/2124/	Monolithic Power Systems	MPM3840GQV-Z	Mouser	946-MPM3840GQV-Z	2.8V to 5.5V	min 0.6V	4A	Synchronous Step-Down Converter	1.6	QFN-20	4.98	voltage regulator	4A 5.5V ; Synchronous Step-down Power Module with Integrated Inductor and Power Good
-power-6	ZZ_Power:MPM3810AGQB	MPM3810AGQBE-AEC1-Z	ZZ_Package_DFN_QFN:MPS_MPM3810_QFN-12_2.5x3mm_P0.4mm	https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MPM3810AGQB-AEC1/document_id/4608/	Monolithic Power Systems	MPM3810AGQBE-AEC1-Z	Mouser	946-PM3810AGQBEAEC1Z	2.6V to 6V	12% x VIN to VIN	1.2A	Synchronous Step-Down Converter	1.0	QFN-12	3.1	voltage regulator	6V Input ; 1.2A Module Synchronous Step-Down Converter with Integrated Inductor AEC-Q100 Qualified
-power-8	ZZ_Power:MP8772GQ	MP8772GQ-Z	ZZ_Package_DFN_QFN:MPS_MP8772_QFN-20_3x3mm_P0.4mm	https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP8772GQ/document_id/3720/	Monolithic Power Systems	MP8772GQ-Z	Mouser	946-MP8772GQ-Z	3V to 17V	0.6V to 12V	12A	Synchronous Step-Down Converter	1.0	QFN-16	2.72	voltage regulator	12A 17V ; 700kHz Synchronous Step-down Converter with PG and External Soft Start
-power-0	ZZ_Power:LP3883ES-1.2	LP3883ES-1.2	ZZ_TO263:SOLEIL-TO263-5	-	Texas Instruments	LP3883ES-1.2	Digi-Key	LP3883ES-1.2/NOPB	-	1.2V	3A	LDO	4.57	TO263-2	5.53	ldo regulator	Ultra low dropout linear regulator ; 3A ; Vin = 5V ; Vout = 1V2 ; TO263-5
-power-1	ZZ_Power:LP3966ES-2.5	LP3966ES-2.5	ZZ_TO263:SOLEIL-TO263-5	-	Texas Instruments	LP3966ES-2.5/NOPB	Digi-Key	LP3966ES-2.5/NOPB-ND	-	2.5V	3A	LDO	4.57	TO263-2	4.23	ldo regulator	Ultra low dropout linear regulator ; 3A ; Vin = 5V ; Vout = 2V5 ; TO263-5
-power-2	ZZ_Power:LP3966ES-3.3	LP3966ES-3.3	ZZ_TO263:SOLEIL-TO263-5	-	Texas Instruments	LP3966ES-3.3/NOPB	Digi-Key	LP3966ES-3.3/NOPB-ND	-	3.3V	3A	LDO	4.57	TO263-2	7.35	ldo regulator	Ultra low dropout linear regulator ; 3A ; Vin = 5V ; Vout = 3V3 ; TO263-5
-power-3	ZZ_Power:TPS7A3301	TPS7A3301	ZZ_Package_DFN_QFN:Texas_S-PVQFN-N20_EP3.15x3.15mm_ThermalVias	https://www.ti.com/lit/gpn/tps7a33	Texas Instruments	TPS7A3301RGWT	Farnell	2214998	-	-	-	-	1.0	VQFN20	6.24	ldo regulator	Low noise ldo ; 1A ; Vin = -3V to -36V; Vout = -2V to -33V ; 16µVrms noise ; 72dB PSRR
-power-4	ZZ_Power:TPS7A4700	TPS7A4700	ZZ_Package_DFN_QFN:Texas_S-PVQFN-N20_EP3.15x3.15mm_ThermalVias	-	Texas Instruments	TPS7A4700RGWT	Farnell	2211360	-	-	-	-	1.0	VQFN20	6.21	ldo regulator	Low noise ldo ; 1A ; Vin = 3V to 36V; Vout = 1.4V to 34V ; 4µVrms noise ; 55dB PSRR
-power-5	ZZ_Power:MP8904DD	MP8904DD	ZZ_Package_DFN_QFN:QFN-8-1EP_3x2mm_P0.5mm_EP1.6x1.7mm	https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP8904DD/document_id/1244/	Monolithic Power Systems	MP8904DD–LF–Z	Mouser	946-MP8904DDLFZ	2.5V to 6.5V	0.5V to 5V	500 mA	LDO	1.0	QFN-8	1.44	500mA Linear Regulator LDO	500mA Linear Regulator ; 2.5V to 6.5V input supply ; Adjustable Output Voltage from 0.5V to 5V
-\.
-
-
---
--- TOC entry 3529 (class 0 OID 33107)
--- Dependencies: 252
+-- TOC entry 3528 (class 0 OID 33107)
+-- Dependencies: 251
 -- Data for Name: power_protection; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
 COPY public.power_protection ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Note 1", "Note 2", "Note 3", "Note 4", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
 power_protection-0	ZZ_Power_Protection:TPD4S012DRYR	TPD4S012DRYR	ZZ_Package_SON:Texas_USON-6_1x1.45mm_P0.5mm_SMD	https://www.ti.com/lit/gpn/tpd4s012	Texas Instruments	TPD4S012DRYR	Mouser	595-TPD4S012DRYR	-	-	-	-	0.65	USON	0.56	USB  Port Protection	Quad 0.8-pF ; 5.5-V ; ñ10-kV ESD protection diode with 15-V tolerant Vbus for USB Interface
+\.
+
+
+--
+-- TOC entry 3530 (class 0 OID 41294)
+-- Dependencies: 253
+-- Data for Name: power_supply; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.power_supply ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Input voltage", "Output voltage", "Current", "Type", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
+power-7	ZZ_Power_Supply:MPM3840	MPM3840GQV-Z	ZZ_Package_DFN_QFN:MPS_MPM3840_QFN-20_3x5mm_P0.5mm	https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MPM3840GQV/document_id/2124/	Monolithic Power Systems	MPM3840GQV-Z	Mouser	946-MPM3840GQV-Z	2.8V to 5.5V	min 0.6V	4A	Synchronous Step-Down Converter	1.6	QFN-20	4.98	voltage regulator	4A 5.5V ; Synchronous Step-down Power Module with Integrated Inductor and Power Good
+power-6	ZZ_Power_Supply:MPM3810AGQB	MPM3810AGQBE-AEC1-Z	ZZ_Package_DFN_QFN:MPS_MPM3810_QFN-12_2.5x3mm_P0.4mm	https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MPM3810AGQB-AEC1/document_id/4608/	Monolithic Power Systems	MPM3810AGQBE-AEC1-Z	Mouser	946-PM3810AGQBEAEC1Z	2.6V to 6V	12% x VIN to VIN	1.2A	Synchronous Step-Down Converter	1.0	QFN-12	3.1	voltage regulator	6V Input ; 1.2A Module Synchronous Step-Down Converter with Integrated Inductor AEC-Q100 Qualified
+power-8	ZZ_Power_Supply:MP8772GQ	MP8772GQ-Z	ZZ_Package_DFN_QFN:MPS_MP8772_QFN-20_3x3mm_P0.4mm	https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP8772GQ/document_id/3720/	Monolithic Power Systems	MP8772GQ-Z	Mouser	946-MP8772GQ-Z	3V to 17V	0.6V to 12V	12A	Synchronous Step-Down Converter	1.0	QFN-16	2.72	voltage regulator	12A 17V ; 700kHz Synchronous Step-down Converter with PG and External Soft Start
+power-0	ZZ_Power_Supply:LP3883ES-1.2	LP3883ES-1.2	ZZ_TO263:SOLEIL-TO263-5	-	Texas Instruments	LP3883ES-1.2	Digi-Key	LP3883ES-1.2/NOPB	-	1.2V	3A	LDO	4.57	TO263-2	5.53	ldo regulator	Ultra low dropout linear regulator ; 3A ; Vin = 5V ; Vout = 1V2 ; TO263-5
+power-1	ZZ_Power_Supply:LP3966ES-2.5	LP3966ES-2.5	ZZ_TO263:SOLEIL-TO263-5	-	Texas Instruments	LP3966ES-2.5/NOPB	Digi-Key	LP3966ES-2.5/NOPB-ND	-	2.5V	3A	LDO	4.57	TO263-2	4.23	ldo regulator	Ultra low dropout linear regulator ; 3A ; Vin = 5V ; Vout = 2V5 ; TO263-5
+power-2	ZZ_Power_Supply:LP3966ES-3.3	LP3966ES-3.3	ZZ_TO263:SOLEIL-TO263-5	-	Texas Instruments	LP3966ES-3.3/NOPB	Digi-Key	LP3966ES-3.3/NOPB-ND	-	3.3V	3A	LDO	4.57	TO263-2	7.35	ldo regulator	Ultra low dropout linear regulator ; 3A ; Vin = 5V ; Vout = 3V3 ; TO263-5
+power-3	ZZ_Power_Supply:TPS7A3301	TPS7A3301	ZZ_Package_DFN_QFN:Texas_S-PVQFN-N20_EP3.15x3.15mm_ThermalVias	https://www.ti.com/lit/gpn/tps7a33	Texas Instruments	TPS7A3301RGWT	Farnell	2214998	-	-	-	-	1.0	VQFN20	6.24	ldo regulator	Low noise ldo ; 1A ; Vin = -3V to -36V; Vout = -2V to -33V ; 16µVrms noise ; 72dB PSRR
+power-4	ZZ_Power_Supply:TPS7A4700	TPS7A4700	ZZ_Package_DFN_QFN:Texas_S-PVQFN-N20_EP3.15x3.15mm_ThermalVias	-	Texas Instruments	TPS7A4700RGWT	Farnell	2211360	-	-	-	-	1.0	VQFN20	6.21	ldo regulator	Low noise ldo ; 1A ; Vin = 3V to 36V; Vout = 1.4V to 34V ; 4µVrms noise ; 55dB PSRR
+power-5	ZZ_Power_Supply:MP8904DD	MP8904DD	ZZ_Package_DFN_QFN:QFN-8-1EP_3x2mm_P0.5mm_EP1.6x1.7mm	https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP8904DD/document_id/1244/	Monolithic Power Systems	MP8904DD–LF–Z	Mouser	946-MP8904DDLFZ	2.5V to 6.5V	0.5V to 5V	500 mA	LDO	1.0	QFN-8	1.44	500mA Linear Regulator LDO	500mA Linear Regulator ; 2.5V to 6.5V input supply ; Adjustable Output Voltage from 0.5V to 5V
 \.
 
 
@@ -1865,8 +1870,9 @@ power_protection-0	ZZ_Power_Protection:TPD4S012DRYR	TPD4S012DRYR	ZZ_Package_SON:
 --
 
 COPY public.resistors_0603 ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Impedance", "Power", "Precision", "Type", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
+resistors_0603-50	ZZ_resistors:R	100K-0.100W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/doc?20036	Vishay	CRCW0603100KFHEAP	Mouser	71-CRCW0603100KFHEAP	100K	0.1W	1%	Thick Film	0.45	0603	0.21	Resistor 100K	R\nesistor ; 100 KOhm ; 0.100W ; 0.1% ; 0603
 resistors_0603-0	ZZ_resistors:R	0R-0.100W-1P-0603	Resistor_SMD:R_0603_1608Metric	\N	Multicomp	MC0603SAF0000T5E	Farnell	2309111	0R	0.100W	1%	Thick Film	0.45	0603	0.011	Resistor 0R	Resistor ; 0 Ohm ; 0.100W ; 1% ; 0603
-resistors_0603-1	ZZ_resistors:R	102K-0.100W-1P-0603	Resistor_SMD:R_0603_1608Metric	\N	Vishay	CRCW0603102KFKEA	Farnell	2138497	102K	0.125W	1%	Thick Film	0.45	0603	0.016	Resistor 102K	Resistor ; 102 KOhm ; 0.100W ; 0.1% ; 0603
+resistors_0603-1	ZZ_resistors:R	102K-0.100W-1P-0603	Resistor_SMD:R_0603_1608Metric	\N	Vishay	CRCW0603102KFKEA	Farnell	2138497	102K	0.125W	1%	Thick Film	0.45	0603	0.016	Resistor 102K	R\nesistor ; 100 KOhm ; 0.100W ; 0.1% ; 0603
 resistors_0603-2	ZZ_resistors:R	105K-0.100W-1P-0603	Resistor_SMD:R_0603_1608Metric	\N	Vishay	CRCW0603105KFKEA	Farnell	2138498	105K	0.125W	1%	Thick Film	0.45	0603	0.016	Resistor 105K	Resistor ; 105 KOhm ; 0.100W ; 0.1% ; 0603
 resistors_0603-3	ZZ_resistors:R	10K-0.125W-1P-0603	Resistor_SMD:R_0603_1608Metric	\N	Vishay	CRCW060310K0FKEA	Farnell	1469748	10K	0.125W	1%	Thick Film	0.45	0603	0.019	Resistor 10K	Resistor ; 10 KOhm ; 0.125W ; 1% ; 0603
 resistors_0603-4	ZZ_resistors:R	10K-0.166W-0.1P-0603	Resistor_SMD:R_0603_1608Metric	\N	TE Connectivity	RP73PF1J10KBTDF	Farnell	2116784	10K	0.166W	0.1%	Thick Film	0.45	0603	0.535	Resistor 10K	Resistor ; 10 KOhm ; 0.166W ; 0.1% ; 0603
@@ -1986,8 +1992,8 @@ resistors_network-2	ZZ_resistors:Rx4	22Rx4-0.063W-1P-4x0603	Resistor_SMD:R_Array
 
 
 --
--- TOC entry 3521 (class 0 OID 24951)
--- Dependencies: 244
+-- TOC entry 3520 (class 0 OID 24951)
+-- Dependencies: 243
 -- Data for Name: rf; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -2002,8 +2008,8 @@ RF-5	ZZ_RF:SIM-73L+	SIM-73L+	SO:SOLEIL-HV1195	\N	Mini-Circuits	SIM-73L+	Mini-Cir
 
 
 --
--- TOC entry 3532 (class 0 OID 41299)
--- Dependencies: 255
+-- TOC entry 3531 (class 0 OID 41299)
+-- Dependencies: 254
 -- Data for Name: sensor; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -2013,8 +2019,8 @@ sensor-0	ZZ_sensors:INA260	INA260AIPW	ZZ_Package_SO:TSSOP-16_4.4x5mm_P0.65mm	htt
 
 
 --
--- TOC entry 3511 (class 0 OID 24895)
--- Dependencies: 234
+-- TOC entry 3510 (class 0 OID 24895)
+-- Dependencies: 233
 -- Data for Name: shields; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -2026,8 +2032,8 @@ shields-2	ZZ_shields:CN-5700	CN-5700	ZZ_Boxes:Bud_Industries_CN-5700	\N	Bud Indu
 
 
 --
--- TOC entry 3518 (class 0 OID 24930)
--- Dependencies: 241
+-- TOC entry 3517 (class 0 OID 24930)
+-- Dependencies: 240
 -- Data for Name: switch; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -2037,8 +2043,8 @@ switch-0	ZZ_switch:SW_DIP_x06	SW_DIP_x06	ZZ_Passives:SW_DIP_SPSTx06_Slide_Omron_
 
 
 --
--- TOC entry 3519 (class 0 OID 24935)
--- Dependencies: 242
+-- TOC entry 3518 (class 0 OID 24935)
+-- Dependencies: 241
 -- Data for Name: test_points; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -2048,8 +2054,8 @@ test_point-0	ZZ_test_points:TP	TEST-22	ZZ_Passives:TEST-22	\N	Multicomp	TEST-22	
 
 
 --
--- TOC entry 3520 (class 0 OID 24940)
--- Dependencies: 243
+-- TOC entry 3519 (class 0 OID 24940)
+-- Dependencies: 242
 -- Data for Name: transformer; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -2073,8 +2079,8 @@ transistors-3	ZZ_transistors:NMOS	DMN26D0UT-7	ZZ_Package_TO_SOT_SMD:SOT-523	http
 
 
 --
--- TOC entry 3523 (class 0 OID 24961)
--- Dependencies: 246
+-- TOC entry 3522 (class 0 OID 24961)
+-- Dependencies: 245
 -- Data for Name: voltage_monitor; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -2088,8 +2094,8 @@ Voltage_monitor-4	ZZ_voltage_monitor:TPS3430WDRCR	TPS3430WDRCR	ZZ_Package_SON:VS
 
 
 --
--- TOC entry 3524 (class 0 OID 24966)
--- Dependencies: 247
+-- TOC entry 3523 (class 0 OID 24966)
+-- Dependencies: 246
 -- Data for Name: voltage_reference; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -2102,7 +2108,7 @@ voltage_reference-4	ZZ_voltage_reference:LTC6655BHMS8	LTC6655BHMS8-5	ZZ_Package_
 \.
 
 
--- Completed on 2023-12-07 11:18:16
+-- Completed on 2023-12-11 17:39:54
 
 --
 -- PostgreSQL database dump complete

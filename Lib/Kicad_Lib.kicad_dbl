@@ -3287,7 +3287,7 @@
                 {
                     "column": "Value",
                     "name": "Value",
-                    "visible_on_add": true,
+                    "visible_on_add": false,
                     "visible_in_chooser": true,
                     "show_name": false,
                     "inherit_properties": false
@@ -3335,7 +3335,7 @@
                 {
                     "column": "Inductance",
                     "name": "Inductance",
-                    "visible_on_add": false,
+                    "visible_on_add": true,
                     "visible_in_chooser": false,
                     "show_name": false,
                     "inherit_properties": false

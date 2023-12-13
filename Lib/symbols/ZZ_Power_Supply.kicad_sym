@@ -983,7 +983,7 @@
 			(pin open_collector line
 				(at -15.24 -5.08 0)
 				(length 5.08)
-				(name "3PG"
+				(name "PG"
 					(effects
 						(font
 							(size 1.27 1.27)

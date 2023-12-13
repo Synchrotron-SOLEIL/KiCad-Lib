@@ -5,7 +5,7 @@
 -- Dumped from database version 14.5
 -- Dumped by pg_dump version 14.5
 
--- Started on 2023-12-12 17:40:53
+-- Started on 2023-12-13 13:57:42
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1426,6 +1426,7 @@ capacitors_aluminium-2	ZZ_capacitors:C_Electrolytic	100uF-16V-20p-Al-TypeC	ZZ_Ca
 capacitors_aluminium-3	ZZ_capacitors:C_Electrolytic	22uF-25V-20p-Al-TypeD	ZZ_Capacitor_SMD:CP_Elec_6.3x5.8	https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1154.pdf	Panasonic	EEEHB1E220AP	Mouser	667-EEE-HB1E220AP 	22uF	25V	20%	Aluminium	5.8	Type D	0.47	Capacitor 22uF 25V	Capacitor ; Al electolytic ; 25 V ; 22 uF ; 20% ; type D
 capacitors_aluminium-4	ZZ_capacitors:C_Electrolytic	100uF-25V-20p-Al-TypeF	ZZ_Capacitor_SMD:CP_Elec_8x10	https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1154.pdf	Panasonic	EEEHB1E101AP	Mouser	667-EEE-HB1E101AP 	100uF	25V	20%	Aluminium	10.2	Type F	0.75	Capacitor 100uF 25V	Capacitor ; Al electolytic ; 25 V ; 100 uF ; 20% ; type F
 capacitors_aluminium-5	ZZ_capacitors:C_Electrolytic	10uF-25V-20p-Al-TypeC	ZZ_Capacitor_SMD:CP_Elec_5x5.8	https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1154.pdf	Panasonic	EEEHB1E100AR	Mouser	667-EEE-HB1E100AR 	10uF	25V	20%	Aluminium	5.8	Type C	0.39	Capacitor 10uF 25V	Capacitor ; Al electolytic ; 25 V ; 10 uF ; 20% ; type C
+capacitors_aluminium-6	ZZ_capacitors:C_Electrolytic	47uF-25V-20p-Al-TypeC	ZZ_Capacitor_SMD:CP_Elec_8x6.2	https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1157.pdf	Panasonic	EEEHB1E470P	Mouser	667-EEE-HB1E470P	47uF	25V	20%	Aluminium	6.2	Type E	0.39	Capacitor 47uF 25V	Capacitor ; Al electolytic ; 25 V ; 47 uF ; 20% ; type E
 \.
 
 
@@ -1456,6 +1457,7 @@ capacitors_ceramic_0603-16	ZZ_capacitors:C	33pF-50V-5p-Ceramic-0603	ZZ_Capacitor
 capacitors_ceramic_0603-17	ZZ_capacitors:C	4.7uF-6.3V-10p-Ceramic-0603	ZZ_Capacitor_SMD:C_0603_1608Metric	\N	KEMET	C0603C475K9PACTU	Farnell	9227784	4.7uF	6.3V	10%	X5R	0.85	0603	0.863	Capacitor 4.7uF 6.3V	Capacitor ; ceramic X5R ; 6.3 V ; 4.7 uF ; 10% ; 0603
 capacitors_ceramic_0603-18	ZZ_capacitors:C	5pF-50V-5p-Ceramic-0603	ZZ_Capacitor_SMD:C_0603_1608Metric	\N	KEMET	MC0603N5R0C500CT	Farnell	1759046	5pF	50V	5%	C0G	0.85	0603	0.010	Capacitor 5pF 50V	Capacitor ; ceramic C0G ; 50 V ; 5 pF ; 5% ; 0603
 capacitors_ceramic_0603-19	ZZ_capacitors:C	56pF-200V-5p-Ceramic-0603	ZZ_Capacitor_SMD:C_0603_1608Metric	https://search.kemet.com/component-documentation/download/datasheet/C0603C560J2GACTU.pdf	KEMET	C0603C560J2GACTU	Mouser	80-C0603C560J2G	56pF	200V	5%	C0G	0.85	0603	0.29	Capacitor 56pF 200V	Capacitor ; ceramic C0G ; 200 V ; 56 pF ; 5% ; 0603
+capacitors_ceramic_0603-20	ZZ_capacitors:C	27pF-200V-5p-Ceramic-0603	ZZ_Capacitor_SMD:C_0603_1608Metric	https://search.kemet.com/component-documentation/download/datasheet/C0603C270J2GACTU.pdf	KEMET	C0603C270J2GACTU	Mouser	80-C0603C270J2G	27pF	200V	5%	C0G	0.85	0603	0.29	Capacitor 27pF 200V	Capacitor ; ceramic C0G ; 200 V ; 27 pF ; 5% ; 0603
 \.
 
 
@@ -1473,6 +1475,8 @@ capacitors_ceramic_0805-3	ZZ_capacitors:C	10uF-16V-10p-Ceramic-0805	ZZ_Capacitor
 capacitors_ceramic_0805-4	ZZ_capacitors:C	1nF-50V-10p-Ceramic-0805	ZZ_Capacitor_SMD:C_0805_2012Metric	\N	KEMET	C0805C102K5RACTU	Farnell	1414660	1nF	50V	10%	X7R	1.1	0805	0.032	Capacitor 1nF 50V	Capacitor ; ceramic X7R ; 50 V ; 1 nF ; 10% ; 0805
 capacitors_ceramic_0805-5	ZZ_capacitors:C	2.2nF-50V-5p-Ceramic-0805	ZZ_Capacitor_SMD:C_0805_2012Metric	\N	KEMET	C0805C222J5GACAUTO	Farnell	2070464	2.2nF	50V	5%	C0G	1.1	0805	0.10	Capacitor 2.2nF 50V	Capacitor ; ceramic C0G ; 50 V ; 2.2 nF ; 10% ; 0805
 capacitors_ceramic_0805-6	ZZ_capacitors:C	5pF-50V-10p-Ceramic-0805	ZZ_Capacitor_SMD:C_0805_2012Metric	\N	Multicomp	MC0805N5R0C500CT	Farnell	1759184	5pF	50V	10%	C0G	1.1	0805	0.041	Capacitor 5pF 50V	Capacitor ; ceramic C0G ; 50 V ; 5 pF ; 10% ; 0805
+capacitors_ceramic_0805-7	ZZ_capacitors:C	22uF-25V-20p-Ceramic-0805	ZZ_Capacitor_SMD:C_0805_2012Metric	https://product.samsungsem.com/mlcc/CL21A226MAYNNN.do	Samsung Electro-Mechanics	CL21A226MAYNNNE	Mouser	187-CL21A226MAYNNNE	22uF	25V	20%	X5R	1.25	0805	0.28	Capacitor 22uF 25V	Capacitor ; ceramic X5R ; 25 V ; 22 uF ; 20% ; 0805
+capacitors_ceramic_0805-8	ZZ_capacitors:C	47uF-10V-20p-Ceramic-0805	ZZ_Capacitor_SMD:C_0805_2012Metric	https://ds.yuden.co.jp/TYCOMPAS/ap/specSheet?pn=MSASL21GBB5476MTNA01	Taiyo Yuden	LMK212BBJ476MG-T	Mouser	963-LMK212BBJ476MG-T	47uF	10V	20%	X5R	1.25	0805	0.67	Capacitor 47uF 10V	Capacitor ; ceramic X5R ; 10 V ; 47 uF ; 20% ; 0805
 \.
 
 
@@ -1925,6 +1929,7 @@ resistors_0603-43	ZZ_resistors:R	75K-0.166W-0.1P-0603	Resistor_SMD:R_0603_1608Me
 resistors_0603-44	ZZ_resistors:R	7K5-0.166W-0.1P-0603	Resistor_SMD:R_0603_1608Metric	\N	TE Connectivity	RP73PF1J7K5BTDF	Farnell	2116771	7K5	0.166W	0.1%	Thick Film	0.45	0603	0.309	Resistor 7K5	Resistor ; 7.5 KOhm ; 0.166W ; 0.1% ; 0603
 resistors_0603-45	ZZ_resistors:R	820R-0.100W-0.1P-0603	Resistor_SMD:R_0603_1608Metric	\N	Panasonic	ERA3AEB821V	Farnell	1577604	820R	0.100W	0.1%	Thick Film	0.45	0603	0.23	Resistor 820R	Resistor ; 820 Ohm ; 0.100W ; 0.1% ; 0603
 resistors_0603-46	ZZ_resistors:R	820R-0.250W-1P-0603	Resistor_SMD:R_0603_1608Metric	\N	Vishay	CRCW0603820RFKEAHP	Farnell	1738904	820R	0.250W	1%	Thick Film	0.45	0603	0.100	Resistor 820R	Resistor ; 820 Ohm ; 0.250W ; 1% ; 0603
+resistors_0603-58	ZZ_resistors:R	40K2-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/docs/20043/crcwhpe3.pdf	Vishay	CRCW060340K2FKEA	Mouser	71-CRCW0603-40.2K-E3	40K2	0.1W	1%	Thick Film	0.45	0603	0.1	Resistor 40K2	Resistor ; 40.2 KOhm ; 0.100W ; 1% ; 0603
 resistors_0603-47	ZZ_resistors:R	82R-0.100W-1P-0603	Resistor_SMD:R_0603_1608Metric	\N	Vishay	CRCW060382R0FKEA	Farnell	2141266	82R	0.100W	1%	Thick Film	0.45	0603	0.011	Resistor 82R	Resistor ; 82 Ohm ; 0.100W ; 1% ; 0603
 resistors_0603-48	ZZ_resistors:R	88K7-0.166W-0.1P-0603	Resistor_SMD:R_0603_1608Metric	\N	TE Connectivity	RP73PF1J88K7BTDF	Farnell	2116886	88K7	0.166W	0.1%	Thick Film	0.45	0603	0.553	Resistor 88K7	Resistor ; 88.7 KOhm ; 0.166W ; 0.1% ; 0603
 resistors_0603-49	ZZ_resistors:R	976R-0.166W-0.1P-0603	Resistor_SMD:R_0603_1608Metric	\N	TE Connectivity	RP73PF1J976RBTDF	Farnell	2116677	976R	0.166W	0.1%	Thick Film	0.45	0603	0.596	Resistor 976	Resistor ; 976 Ohm ; 0.166W ; 0.1% ; 0603
@@ -2146,7 +2151,7 @@ ALTER TABLE ONLY public.transistors
     ADD CONSTRAINT transistors_pkey PRIMARY KEY ("Part_ID");
 
 
--- Completed on 2023-12-12 17:40:53
+-- Completed on 2023-12-13 13:57:42
 
 --
 -- PostgreSQL database dump complete

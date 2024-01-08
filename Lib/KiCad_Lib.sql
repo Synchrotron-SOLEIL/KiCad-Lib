@@ -5,7 +5,7 @@
 -- Dumped from database version 14.5
 -- Dumped by pg_dump version 14.5
 
--- Started on 2023-12-13 13:57:42
+-- Started on 2024-01-08 11:33:59
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1386,7 +1386,7 @@ CREATE TABLE public.voltage_reference (
 ALTER TABLE public.voltage_reference OWNER TO postgres;
 
 --
--- TOC entry 3501 (class 0 OID 16612)
+-- TOC entry 3505 (class 0 OID 16612)
 -- Dependencies: 218
 -- Data for Name: adc; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1397,7 +1397,7 @@ ADC-0	ZZ_ADC_DAC:ADS8694IDBT	ADS8694IDBT	ZZ_Package_SO:TSSOP-38_4.4x9.7mm_P0.5mm
 
 
 --
--- TOC entry 3503 (class 0 OID 16622)
+-- TOC entry 3507 (class 0 OID 16622)
 -- Dependencies: 220
 -- Data for Name: amplifier; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1414,7 +1414,7 @@ Amplifier-6	ZZ_analogs:PMA2-43LN+	PMA2-43LN+	ZZ_RF_Mini-Circuits:Mini-Circuits_M
 
 
 --
--- TOC entry 3499 (class 0 OID 16596)
+-- TOC entry 3503 (class 0 OID 16596)
 -- Dependencies: 216
 -- Data for Name: capacitors_aluminium; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1431,7 +1431,7 @@ capacitors_aluminium-6	ZZ_capacitors:C_Electrolytic	47uF-25V-20p-Al-TypeC	ZZ_Cap
 
 
 --
--- TOC entry 3496 (class 0 OID 16581)
+-- TOC entry 3500 (class 0 OID 16581)
 -- Dependencies: 213
 -- Data for Name: capacitors_ceramic_0603; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1458,11 +1458,13 @@ capacitors_ceramic_0603-17	ZZ_capacitors:C	4.7uF-6.3V-10p-Ceramic-0603	ZZ_Capaci
 capacitors_ceramic_0603-18	ZZ_capacitors:C	5pF-50V-5p-Ceramic-0603	ZZ_Capacitor_SMD:C_0603_1608Metric	\N	KEMET	MC0603N5R0C500CT	Farnell	1759046	5pF	50V	5%	C0G	0.85	0603	0.010	Capacitor 5pF 50V	Capacitor ; ceramic C0G ; 50 V ; 5 pF ; 5% ; 0603
 capacitors_ceramic_0603-19	ZZ_capacitors:C	56pF-200V-5p-Ceramic-0603	ZZ_Capacitor_SMD:C_0603_1608Metric	https://search.kemet.com/component-documentation/download/datasheet/C0603C560J2GACTU.pdf	KEMET	C0603C560J2GACTU	Mouser	80-C0603C560J2G	56pF	200V	5%	C0G	0.85	0603	0.29	Capacitor 56pF 200V	Capacitor ; ceramic C0G ; 200 V ; 56 pF ; 5% ; 0603
 capacitors_ceramic_0603-20	ZZ_capacitors:C	27pF-200V-5p-Ceramic-0603	ZZ_Capacitor_SMD:C_0603_1608Metric	https://search.kemet.com/component-documentation/download/datasheet/C0603C270J2GACTU.pdf	KEMET	C0603C270J2GACTU	Mouser	80-C0603C270J2G	27pF	200V	5%	C0G	0.85	0603	0.29	Capacitor 27pF 200V	Capacitor ; ceramic C0G ; 200 V ; 27 pF ; 5% ; 0603
+capacitors_ceramic_0603-21	ZZ_capacitors:C	39nF-50V-5p-Ceramic-0603	ZZ_Capacitor_SMD:C_0603_1608Metric	https://search.kemet.com/component-documentation/download/datasheet/C0603C393J5RACTU.pdf	KEMET	C0603C393J5RACTU	Mouser	80-C0603C393J5R	39nF	50V	5%	X7R	0.85	0603	0.27	Capacitor 39nF 50V	Capacitor ; ceramic X7R ; 50 V ; 39 nF ; 5% ; 0603
+capacitors_ceramic_0603-22	ZZ_capacitors:C	220nF-25V-10p-Ceramic-0603	ZZ_Capacitor_SMD:C_0603_1608Metric	https://search.kemet.com/component-documentation/download/datasheet/C0603C224K3RACTU.pdf	KEMET	C0603C224K3RACTU	Mouser	80-C0603C224K3R	220nF	25V	10%	X7R	0.85	0603	0.15	Capacitor 220nF 25V	Capacitor ; ceramic X7R ; 25 V ; 220 nF ; 10% ; 0603
 \.
 
 
 --
--- TOC entry 3497 (class 0 OID 16586)
+-- TOC entry 3501 (class 0 OID 16586)
 -- Dependencies: 214
 -- Data for Name: capacitors_ceramic_0805; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1481,7 +1483,7 @@ capacitors_ceramic_0805-8	ZZ_capacitors:C	47uF-10V-20p-Ceramic-0805	ZZ_Capacitor
 
 
 --
--- TOC entry 3498 (class 0 OID 16591)
+-- TOC entry 3502 (class 0 OID 16591)
 -- Dependencies: 215
 -- Data for Name: capacitors_ceramic_1210; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1493,7 +1495,7 @@ capacitors_ceramic_1210-1	ZZ_capacitors:C	10uF-25V-10p-Ceramic-1210	ZZ_Capacitor
 
 
 --
--- TOC entry 3500 (class 0 OID 16601)
+-- TOC entry 3504 (class 0 OID 16601)
 -- Dependencies: 217
 -- Data for Name: capacitors_tantalum; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1507,7 +1509,7 @@ capacitors_tantalum-3	ZZ_capacitors:C_Electrolytic	68uF-10V-10p-Tantalum-1210	ZZ
 
 
 --
--- TOC entry 3521 (class 0 OID 24920)
+-- TOC entry 3525 (class 0 OID 24920)
 -- Dependencies: 238
 -- Data for Name: clock_buffers; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1518,7 +1520,7 @@ clock_buffers-0	ZZ_clock_buffers:CY2305CSXI-1H	CY2305CSXI-1H	SO:SOLEIL-SOIC8NB	\
 
 
 --
--- TOC entry 3504 (class 0 OID 16627)
+-- TOC entry 3508 (class 0 OID 16627)
 -- Dependencies: 221
 -- Data for Name: comparator; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1530,7 +1532,7 @@ Comparator-1	ZZ_analogs:LTC6752IS5	LTC6752IS5	ZZ_Package_TO_SOT_SMD:TSOT-23-5	ht
 
 
 --
--- TOC entry 3506 (class 0 OID 16647)
+-- TOC entry 3510 (class 0 OID 16647)
 -- Dependencies: 223
 -- Data for Name: connectors_cpci; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1541,7 +1543,7 @@ CPCI_connectors-0	ZZ_connectors:CPCI-J1	CPCI-J1	ZZ_Connector_Erni:Erni_ERmet_Fem
 
 
 --
--- TOC entry 3505 (class 0 OID 16642)
+-- TOC entry 3509 (class 0 OID 16642)
 -- Dependencies: 222
 -- Data for Name: connectors_he; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1550,18 +1552,19 @@ COPY public.connectors_he ("Part_ID", "Symbols", "Value", "Footprints", "Datashe
 HE_connectors-0	ZZ_connectors:FCI_20021121-00010C4LF	FCI_20021121-00010C4LF	ZZ_Connector_PinHeader:PinHeader_2x05_P1.27mm_Vertical_SMD	\N	FCI	20021121-00010C4LF	Farnell	1865279	-	-	-	-	\N	1.27mm SMD 2x5	1.22	header connector	Header ; 2x5 points ; straight ; 1.27mm pitch ; 3mm height  ; SMD
 HE_connectors-1	ZZ_connectors:HE-13-6	HE-13-6	ZZ_Connector_PinHeader:PinHeader_1x06_P2.54mm_Vertical	\N	-	-	-	-	-	-	-	-	\N	HE-13-6	0.36	HE13 connector	HE13 ; 1x6 points ; straight ; 2.54mm pitch ; trough hole
 HE_connectors-3	ZZ_connectors:QSH-040-01-F-D-DP-A	QSH-040-01-F-D-DP-A	ZZ_Connector_Samtec:Samtec_QSH-040-01-F-D-DP-A_2x40_P0.5mm_Vertical_SMD	\N	Samtec	QSH-040-01-F-D-DP-A	Samtec	QSH-040-01-F-D-DP-A	-	-	-	-	\N	0.5mm SMD 2x40	49.99	header connector	0.50 mm Q Pairs High Speed Ground Plane Socket Strip ; Differential Pair
-HE_connectors-4	ZZ_connectors:TSM-102-02-S-DV	TSM-102-02-S-DV	ZZ_Connector_Samtec:Samtec_TSM-102-DV_2x02_P2.54mm_Vertical_SMD	\N	Samtec	TSM-102-02-S-DV	Farnell	2055840	-	-	-	-	8.13	8.13mm SMD 2x2	1.24	header connector	Header ; 2x2 points ; straight ; 2.54mm pitch ; 8.13mm height  ; SMD
-HE_connectors-5	ZZ_connectors:TSM-104-02-S-DV	TSM-104-02-S-DV	ZZ_Connector_Samtec:Samtec_TSM-104-DV_2x04_P2.54mm_Vertical_SMD	\N	Samtec	TSM-104-02-S-DV	Farnell	2055849	-	-	-	-	8.13	2.54mm SMD 2x11	2.03	header connector	Header ; 2x4 points ; straight ; 2.54mm pitch ; 8.13mm height  ; SMD
-HE_connectors-6	ZZ_connectors:TSM-108-02-S-DV	TSM-108-02-S-DV	ZZ_Connector_Samtec:Samtec_TSM-108-DV_2x08_P2.54mm_Vertical_SMD	\N	Samtec	TSM-108-02-S-DV	Farnell	2055866	-	-	-	-	8.13	2.54mm SMD 2x11	4.06	header connector	Header ; 2x8 points ; straight ; 2.54mm pitch ; 8.13mm height  ; SMD
-HE_connectors-7	ZZ_connectors:TSM-111-02-S-DV	TSM-111-02-S-DV	ZZ_Connector_Samtec:Samtec_TSM-111-DV_.2x11_P2.54mm_Vertical_SMD	\N	Samtec	TSM-111-02-S-DV	Farnell	2055881	-	-	-	-	8.13	2.54mm SMD 2x11	6.10	header connector	Header ; 2x11 points ; straight ; 2.54mm pitch ; 8.13mm height  ; SMD
-HE_connectors-8	ZZ_connectors:TSM-123-02-S-DV	TSM-123-02-S-DV	ZZ_Connector_Samtec:Samtec_TSM-123-DV_2x23_P2.54mm_Vertical_SMD	\N	Samtec	TSM-123-02-S-DV	Farnell	2055931	-	-	-	-	8.13	2.54mm SMD 2x23	12.78	header connector	Header ; 2x23 points ; straight ; 2.54mm pitch ; 8.13mm height  ; SMD
-HE_connectors-9	ZZ_connectors:TSW-123-14-G-D	TSW-123-14-G-D	ZZ_Connector_Samtec:Samtec_TSW-123-14-G-D_2x23_P2.54mm_Vertical	\N	Samtec	TSW-123-14-G-D	Farnell	2027086	-	-	-	-	8.13	2.54mm 2x23	5.38	header connector	Header ; 2x23 points ; straight ; 2.54mm pitch ; 8.13mm height  ; trough hole
-HE_connectors-10	ZZ_connectors:JTAG_MOLEX_2x7_878321420	JTAG_MOLEX_2x7_878321420	ZZ_Connector_Molex:Molex_Milli-Gird_878321420_2x07_P2.00mm_Vertical_SMD	https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/878/87832/878321420_sd.pdf?inline	Molex	878321420	Mouser	538-87832-1420	-	-	-	-	7.6	SMD 2mm 2x7	2.03	JTAG connector	2.00mm Pitch ; Milli-Grid PCB Header ; Dual Row ; Vertical ; Surface Mount ; Shrouded ; Lead-Free ; 14 Circuits ; 0.38æm Gold (Au) Plating ; with Locking Windows and Center Polarization Slot
+HE_connectors-10	ZZ_connectors:JTAG_MOLEX_2x7_878321420	JTAG_MOLEX_2x7_878321420	ZZ_Connector_Molex:Molex_Milli-Gird_878321420_2x07_P2.00mm_Vertical_SMD	https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/878/87832/878321420_sd.pdf?inline	Molex	878321420	Mouser	538-87832-1420	-	-	-	-	7.6	SMD 2mm 2x7	2.03	JTAG connector	JTAG connector 2.00mm Pitch ; Milli-Grid PCB Header ; Dual Row ; Vertical ; Surface Mount ; Shrouded ; Lead-Free ; 14 Circuits ; 0.38æm Gold (Au) Plating ; with Locking Windows and Center Polarization Slot
+HE_connectors-11	ZZ_connectors:TSM-103-01-S-SV	TSM-103-01-S-SV	ZZ_Connector_Samtec:Samtec_TSM-103-SV_1x03_P2.54mm_Vertical_SMD	https://suddendocs.samtec.com/catalog_english/tsm.pdf	Samtec	TSM-103-01-S-SV	Mouser	200-TSM10301SSV	-	-	-	-	9.65	SMD 2.54mm 1x3	0.87	TSM connector 2.54mm	TSM Header ; 1x3 points ; straight ; 2.54mm pitch ; 5.84mm height  ; SMD
+HE_connectors-4	ZZ_connectors:TSM-102-02-S-DV	TSM-102-02-S-DV	ZZ_Connector_Samtec:Samtec_TSM-102-DV_2x02_P2.54mm_Vertical_SMD	\N	Samtec	TSM-102-02-S-DV	Farnell	2055840	-	-	-	-	8.13	8.13mm SMD 2x2	1.24	header connector	TSM Header ; 2x2 points ; straight ; 2.54mm pitch ; 8.13mm height  ; SMD
+HE_connectors-5	ZZ_connectors:TSM-104-02-S-DV	TSM-104-02-S-DV	ZZ_Connector_Samtec:Samtec_TSM-104-DV_2x04_P2.54mm_Vertical_SMD	\N	Samtec	TSM-104-02-S-DV	Farnell	2055849	-	-	-	-	8.13	2.54mm SMD 2x11	2.03	header connector	TSM Header ; 2x4 points ; straight ; 2.54mm pitch ; 8.13mm height  ; SMD
+HE_connectors-6	ZZ_connectors:TSM-108-02-S-DV	TSM-108-02-S-DV	ZZ_Connector_Samtec:Samtec_TSM-108-DV_2x08_P2.54mm_Vertical_SMD	\N	Samtec	TSM-108-02-S-DV	Farnell	2055866	-	-	-	-	8.13	2.54mm SMD 2x11	4.06	header connector	TSM Header ; 2x8 points ; straight ; 2.54mm pitch ; 8.13mm height  ; SMD
+HE_connectors-7	ZZ_connectors:TSM-111-02-S-DV	TSM-111-02-S-DV	ZZ_Connector_Samtec:Samtec_TSM-111-DV_.2x11_P2.54mm_Vertical_SMD	\N	Samtec	TSM-111-02-S-DV	Farnell	2055881	-	-	-	-	8.13	2.54mm SMD 2x11	6.10	header connector	TSM Header ; 2x11 points ; straight ; 2.54mm pitch ; 8.13mm height  ; SMD
+HE_connectors-8	ZZ_connectors:TSM-123-02-S-DV	TSM-123-02-S-DV	ZZ_Connector_Samtec:Samtec_TSM-123-DV_2x23_P2.54mm_Vertical_SMD	\N	Samtec	TSM-123-02-S-DV	Farnell	2055931	-	-	-	-	8.13	2.54mm SMD 2x23	12.78	header connector	TSM Header ; 2x23 points ; straight ; 2.54mm pitch ; 8.13mm height  ; SMD
+HE_connectors-9	ZZ_connectors:TSW-123-14-G-D	TSW-123-14-G-D	ZZ_Connector_Samtec:Samtec_TSW-123-14-G-D_2x23_P2.54mm_Vertical	\N	Samtec	TSW-123-14-G-D	Farnell	2027086	-	-	-	-	8.13	2.54mm 2x23	5.38	header connector	TSW Header ; 2x23 points ; straight ; 2.54mm pitch ; 8.13mm height  ; trough hole
 \.
 
 
 --
--- TOC entry 3507 (class 0 OID 16658)
+-- TOC entry 3511 (class 0 OID 16658)
 -- Dependencies: 224
 -- Data for Name: connectors_lemo; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1572,7 +1575,7 @@ Lemo_connectors-0	ZZ_connectors:XBG.00.302.NLN	XBG.00.302.NLN	ZZ_Connector_Lemo:
 
 
 --
--- TOC entry 3531 (class 0 OID 33092)
+-- TOC entry 3535 (class 0 OID 33092)
 -- Dependencies: 248
 -- Data for Name: connectors_memory_card; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1583,7 +1586,7 @@ card_connectors-0	ZZ_connectors:SD-Card_5025700893	SD-Card_5025700893	ZZ_Connect
 
 
 --
--- TOC entry 3508 (class 0 OID 16663)
+-- TOC entry 3512 (class 0 OID 16663)
 -- Dependencies: 225
 -- Data for Name: connectors_psu; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1598,7 +1601,7 @@ PSU_connectors-4	ZZ_connectors:Multicomp_24.243.5	Multicomp_24.243.5	ZZ_Connecto
 
 
 --
--- TOC entry 3509 (class 0 OID 16668)
+-- TOC entry 3513 (class 0 OID 16668)
 -- Dependencies: 226
 -- Data for Name: connectors_rj45; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1610,7 +1613,7 @@ RJ45_connectors-1	ZZ_connectors:RJ45_BEL_L829-1J1T-43	RJ45_BEL_L829-1J1T-43	ZZ_C
 
 
 --
--- TOC entry 3530 (class 0 OID 33087)
+-- TOC entry 3534 (class 0 OID 33087)
 -- Dependencies: 247
 -- Data for Name: connectors_sfp; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1622,7 +1625,7 @@ SFP_connectors-1	ZZ_connectors:SFP_Cage-1x2_1761014-3	1761014-3	ZZ_Connector_TE-
 
 
 --
--- TOC entry 3510 (class 0 OID 16673)
+-- TOC entry 3514 (class 0 OID 16673)
 -- Dependencies: 227
 -- Data for Name: connectors_sma; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1636,7 +1639,7 @@ SMA_connectors-3	ZZ_connectors:Coax_5_points	449.42.2522.201	ZZ_Connector_SMA:SO
 
 
 --
--- TOC entry 3535 (class 0 OID 41289)
+-- TOC entry 3539 (class 0 OID 41289)
 -- Dependencies: 252
 -- Data for Name: connectors_som; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1648,7 +1651,7 @@ connectors_SOM-1	ZZ_connectors:KRIA_K26_SOM240_2	KRIA_K26_SOM240_2	ZZ_Connector_
 
 
 --
--- TOC entry 3511 (class 0 OID 16678)
+-- TOC entry 3515 (class 0 OID 16678)
 -- Dependencies: 228
 -- Data for Name: connectors_terminal; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1660,7 +1663,7 @@ Terminal_connectors-1	ZZ_connectors:Phoenix_MKDS_1-5-2	Phoenix_MKDS_1-5-2	ZZ_Con
 
 
 --
--- TOC entry 3533 (class 0 OID 33102)
+-- TOC entry 3537 (class 0 OID 33102)
 -- Dependencies: 250
 -- Data for Name: connectors_usb; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1671,7 +1674,7 @@ connectors_USB-0	ZZ_connectors:USB_B_Micro_Molex_473460001	USB_B_Micro_Molex_473
 
 
 --
--- TOC entry 3502 (class 0 OID 16617)
+-- TOC entry 3506 (class 0 OID 16617)
 -- Dependencies: 219
 -- Data for Name: dac; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1682,7 +1685,7 @@ DAC-0	ZZ_ADC_DAC:LTC2758ACLX	LTC2758ACLX	ZZ_Package_QFP:LQFP-48_7x7mm_P0.5mm	\N	
 
 
 --
--- TOC entry 3512 (class 0 OID 16683)
+-- TOC entry 3516 (class 0 OID 16683)
 -- Dependencies: 229
 -- Data for Name: diodes; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1694,7 +1697,7 @@ diode-1	ZZ_diodes:D	MMSD4148T1G	ZZ_Diode_SMD:D_SOD-123	https://www.onsemi.com/do
 
 
 --
--- TOC entry 3522 (class 0 OID 24925)
+-- TOC entry 3526 (class 0 OID 24925)
 -- Dependencies: 239
 -- Data for Name: filters; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1708,7 +1711,7 @@ filters-3	ZZ_filters:NFM41	NFM41PC155B1H3L	ZZ_Filter:Murata_NFM41P	\N	Murata	NFM
 
 
 --
--- TOC entry 3514 (class 0 OID 16693)
+-- TOC entry 3518 (class 0 OID 16693)
 -- Dependencies: 231
 -- Data for Name: fpga; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1721,7 +1724,7 @@ Xilinx-Spartan-2	ZZ_FPGA:XC6SLX9-2FTG256C	XC6SLX9-2FTG256C	ZZ_Package_BGA:BGA-25
 
 
 --
--- TOC entry 3538 (class 0 OID 41304)
+-- TOC entry 3542 (class 0 OID 41304)
 -- Dependencies: 255
 -- Data for Name: inductors_smd; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1735,7 +1738,7 @@ inductors_SMD-3	ZZ_inductors:L	BLM18KG601SN1D	ZZ_Inductor_SMD:L_0603_1608Metric	
 
 
 --
--- TOC entry 3515 (class 0 OID 24890)
+-- TOC entry 3519 (class 0 OID 24890)
 -- Dependencies: 232
 -- Data for Name: interfaces; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1751,7 +1754,7 @@ interfaces-5	ZZ_interfaces:PCA9306	PCA9306DCTR	ZZ_Package_SO:SSOP-8_2.95x2.8mm_P
 
 
 --
--- TOC entry 3518 (class 0 OID 24905)
+-- TOC entry 3522 (class 0 OID 24905)
 -- Dependencies: 235
 -- Data for Name: led; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1766,7 +1769,7 @@ LED-4	ZZ_LED:LED_Red_Green	Wurth_150141SV73110	ZZ_LED_SMD:LED_RGB_Wurth-PLCC4_3.
 
 
 --
--- TOC entry 3527 (class 0 OID 24956)
+-- TOC entry 3531 (class 0 OID 24956)
 -- Dependencies: 244
 -- Data for Name: logic; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1787,7 +1790,7 @@ Logic-10	ZZ_logic:SN74AVC2T245RSWR	SN74AVC2T245RSWR	ZZ_Package_DFN_QFN:Texas_UQF
 
 
 --
--- TOC entry 3532 (class 0 OID 33097)
+-- TOC entry 3536 (class 0 OID 33097)
 -- Dependencies: 249
 -- Data for Name: memory; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1799,7 +1802,7 @@ memory-1	ZZ_memory:FM24C64B	M24C64-DRDW8	ZZ_Package_SO:TSSOP-8_4.4x3mm_P0.65mm	h
 
 
 --
--- TOC entry 3517 (class 0 OID 24900)
+-- TOC entry 3521 (class 0 OID 24900)
 -- Dependencies: 234
 -- Data for Name: mounting_holes; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1812,7 +1815,7 @@ mounting_holes-2	ZZ_mounting_holes:FIX	D_3mm7	MountingHole:MountingHole_3.7mm_Pa
 
 
 --
--- TOC entry 3519 (class 0 OID 24910)
+-- TOC entry 3523 (class 0 OID 24910)
 -- Dependencies: 236
 -- Data for Name: optical_devices; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1823,7 +1826,7 @@ OpticalDevice-0	ZZ_optical_devices:Light_pipe	SMFLP	ZZ_OptoDevice:Bivar_SMFLP	\N
 
 
 --
--- TOC entry 3520 (class 0 OID 24915)
+-- TOC entry 3524 (class 0 OID 24915)
 -- Dependencies: 237
 -- Data for Name: oscillators; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1841,7 +1844,7 @@ oscillators-7	ZZ_oscillators:ABM8G-12.000MHZ-8-B2X-T	ABM8G-12.000MHZ-8-B2X-T	ZZ_
 
 
 --
--- TOC entry 3534 (class 0 OID 33107)
+-- TOC entry 3538 (class 0 OID 33107)
 -- Dependencies: 251
 -- Data for Name: power_protection; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1852,7 +1855,7 @@ power_protection-0	ZZ_Power_Protection:TPD4S012DRYR	TPD4S012DRYR	ZZ_Package_SON:
 
 
 --
--- TOC entry 3536 (class 0 OID 41294)
+-- TOC entry 3540 (class 0 OID 41294)
 -- Dependencies: 253
 -- Data for Name: power_supply; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1871,7 +1874,7 @@ power-5	ZZ_Power_Supply:MP8904DD	MP8904DD	ZZ_Package_DFN_QFN:QFN-8-1EP_3x2mm_P0.
 
 
 --
--- TOC entry 3492 (class 0 OID 16561)
+-- TOC entry 3496 (class 0 OID 16561)
 -- Dependencies: 209
 -- Data for Name: resistors_0603; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1882,8 +1885,8 @@ resistors_0603-54	ZZ_resistors:R	68K-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metric
 resistors_0603-55	ZZ_resistors:R	34K-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/docs/28773/crcwce3.pdf	Vishay	CRCW060334K0FKEAC	Mouser	71-CRCW060334K0FKEAC	34K	0.1W	1%	Thick Film	0.45	0603	0.1	Resistor 34K	Resistor ; 34 KOhm ; 0.100W ; 1% ; 0603
 resistors_0603-56	ZZ_resistors:R	200K-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/docs/28773/crcwce3.pdf	Vishay	CRCW0603200KFKEA	Mouser	71-CRCW0603-200K-E3	200K	0.1W	1%	Thick Film	0.45	0603	0.1	Resistor 34K	Resistor ; 200 KOhm ; 0.100W ; 1% ; 0603
 resistors_0603-57	ZZ_resistors:R	44K2-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/docs/28773/crcwce3.pdf	Vishay	CRCW060344K2FKEA	Mouser	71-CRCW0603-44.2K-E3	44K2	0.1W	1%	Thick Film	0.45	0603	0.1	Resistor 44K2	Resistor ; 44.2 KOhm ; 0.100W ; 1% ; 0603
+resistors_0603-59	ZZ_resistors:R	100K-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/docs/28773/crcwce3.pdf	Vishay	CRCW0603100KFKEA	Mouser	71-CRCW0603-100K-E3	100K	0.1W	1%	Thick Film	0.45	0603	0.1	Resistor 100K	Resistor ; 100 KOhm ; 0.100W ; 1% ; 0603
 resistors_0603-0	ZZ_resistors:R	0R-0.100W-1P-0603	Resistor_SMD:R_0603_1608Metric	\N	Multicomp	MC0603SAF0000T5E	Farnell	2309111	0R	0.100W	1%	Thick Film	0.45	0603	0.011	Resistor 0R	Resistor ; 0 Ohm ; 0.100W ; 1% ; 0603
-resistors_0603-1	ZZ_resistors:R	102K-0.100W-1P-0603	Resistor_SMD:R_0603_1608Metric	\N	Vishay	CRCW0603102KFKEA	Farnell	2138497	102K	0.125W	1%	Thick Film	0.45	0603	0.016	Resistor 102K	R\nesistor ; 100 KOhm ; 0.100W ; 0.1% ; 0603
 resistors_0603-2	ZZ_resistors:R	105K-0.100W-1P-0603	Resistor_SMD:R_0603_1608Metric	\N	Vishay	CRCW0603105KFKEA	Farnell	2138498	105K	0.125W	1%	Thick Film	0.45	0603	0.016	Resistor 105K	Resistor ; 105 KOhm ; 0.100W ; 0.1% ; 0603
 resistors_0603-3	ZZ_resistors:R	10K-0.125W-1P-0603	Resistor_SMD:R_0603_1608Metric	\N	Vishay	CRCW060310K0FKEA	Farnell	1469748	10K	0.125W	1%	Thick Film	0.45	0603	0.019	Resistor 10K	Resistor ; 10 KOhm ; 0.125W ; 1% ; 0603
 resistors_0603-4	ZZ_resistors:R	10K-0.166W-0.1P-0603	Resistor_SMD:R_0603_1608Metric	\N	TE Connectivity	RP73PF1J10KBTDF	Farnell	2116784	10K	0.166W	0.1%	Thick Film	0.45	0603	0.535	Resistor 10K	Resistor ; 10 KOhm ; 0.166W ; 0.1% ; 0603
@@ -1936,11 +1939,12 @@ resistors_0603-49	ZZ_resistors:R	976R-0.166W-0.1P-0603	Resistor_SMD:R_0603_1608M
 resistors_0603-51	ZZ_resistors:R	20K-0.100W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/docs/28773/crcwce3.pdf	Vishay	CRCW060320K0FKEA	Mouser	71-CRCW0603-20K-E3	20K	0.1W	1%	Thick Film	0.45	0603	0.1	Resistor 20K	Resistor ; 20 KOhm ; 0.100W ; 1% ; 0603
 resistors_0603-52	ZZ_resistors:R	2K7-0.33W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/docs/20043/crcwhpe3.pdf	Vishay	CRCW06032K70FKEAHP	Mouser	71-CRCW06032K70FKEAH	2K7	0.33W	1%	Thick Film	0.45	0603	0.13	Resistor 2K7	Resistor ; 2.7 KOhm ; 0.330W ; 1% ; 0603
 resistors_0603-53	ZZ_resistors:R	56K2-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/docs/20035/dcrcwe3.pdf	Vishay	CRCW060356K2FKEA	Mouser	71-CRCW0603-56.2K-E3	56K2	0.1W	1%	Thick Film	0.45	0603	0.1	Resistor 56K2	Resistor ; 56.2 KOhm ; 0.100W ; 1% ; 0603
+resistors_0603-1	ZZ_resistors:R	102K-0.100W-1P-0603	Resistor_SMD:R_0603_1608Metric	\N	Vishay	CRCW0603102KFKEA	Farnell	2138497	102K	0.125W	1%	Thick Film	0.45	0603	0.016	Resistor 102K	Resistor ; 102 KOhm ; 0.100W ; 0.1% ; 0603
 \.
 
 
 --
--- TOC entry 3493 (class 0 OID 16566)
+-- TOC entry 3497 (class 0 OID 16566)
 -- Dependencies: 210
 -- Data for Name: resistors_0805; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1983,7 +1987,7 @@ resistors_0805-32	ZZ_resistors:R	8K06-0.125W-1P-0805	Resistor_SMD:R_0805_2012Met
 
 
 --
--- TOC entry 3494 (class 0 OID 16571)
+-- TOC entry 3498 (class 0 OID 16571)
 -- Dependencies: 211
 -- Data for Name: resistors_2512; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1994,7 +1998,7 @@ resistors_2512-0	ZZ_resistors:R	49R9-1W-1P-2512	Resistor_SMD:R_2512_6332Metric	\
 
 
 --
--- TOC entry 3495 (class 0 OID 16576)
+-- TOC entry 3499 (class 0 OID 16576)
 -- Dependencies: 212
 -- Data for Name: resistors_network; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -2007,7 +2011,7 @@ resistors_network-2	ZZ_resistors:Rx4	22Rx4-0.063W-1P-4x0603	Resistor_SMD:R_Array
 
 
 --
--- TOC entry 3526 (class 0 OID 24951)
+-- TOC entry 3530 (class 0 OID 24951)
 -- Dependencies: 243
 -- Data for Name: rf; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -2023,7 +2027,7 @@ RF-5	ZZ_RF:SIM-73L+	SIM-73L+	SO:SOLEIL-HV1195	\N	Mini-Circuits	SIM-73L+	Mini-Cir
 
 
 --
--- TOC entry 3537 (class 0 OID 41299)
+-- TOC entry 3541 (class 0 OID 41299)
 -- Dependencies: 254
 -- Data for Name: sensor; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -2034,7 +2038,7 @@ sensor-0	ZZ_sensors:INA260	INA260AIPW	ZZ_Package_SO:TSSOP-16_4.4x5mm_P0.65mm	htt
 
 
 --
--- TOC entry 3516 (class 0 OID 24895)
+-- TOC entry 3520 (class 0 OID 24895)
 -- Dependencies: 233
 -- Data for Name: shields; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -2047,7 +2051,7 @@ shields-2	ZZ_shields:CN-5700	CN-5700	ZZ_Boxes:Bud_Industries_CN-5700	\N	Bud Indu
 
 
 --
--- TOC entry 3523 (class 0 OID 24930)
+-- TOC entry 3527 (class 0 OID 24930)
 -- Dependencies: 240
 -- Data for Name: switch; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -2058,7 +2062,7 @@ switch-0	ZZ_switch:SW_DIP_x06	SW_DIP_x06	ZZ_Passives:SW_DIP_SPSTx06_Slide_Omron_
 
 
 --
--- TOC entry 3524 (class 0 OID 24935)
+-- TOC entry 3528 (class 0 OID 24935)
 -- Dependencies: 241
 -- Data for Name: test_points; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -2069,7 +2073,7 @@ test_point-0	ZZ_test_points:TP	TEST-22	ZZ_Passives:TEST-22	\N	Multicomp	TEST-22	
 
 
 --
--- TOC entry 3525 (class 0 OID 24940)
+-- TOC entry 3529 (class 0 OID 24940)
 -- Dependencies: 242
 -- Data for Name: transformer; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -2080,7 +2084,7 @@ transformer-0	ZZ_PSU:T_P1S1	VB-1-0-1-6	ZZ_Transformer:Block_VB_1_0_1_6-28x33	htt
 
 
 --
--- TOC entry 3513 (class 0 OID 16688)
+-- TOC entry 3517 (class 0 OID 16688)
 -- Dependencies: 230
 -- Data for Name: transistors; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -2089,13 +2093,13 @@ COPY public.transistors ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet
 transistors-0	ZZ_transistors:NMOS	BSH103	ZZ_Package_TO_SOT_SMD:SOT-23-3	\N	NXP	BSH103	Farnell	1081307	NRND	-	-	-	1.1	SOT-23-3	1.05	NMOS transistor	N-channel MOS transistor ; Vdsmax = 30 V ; Idmax = 0.85 A ; Rdson = 0.5 Ohm ; SOT-23-3
 transistors-1	ZZ_transistors:NMOS	BSN20	ZZ_Package_TO_SOT_SMD:SOT-23-3	\N	NXP	BSN20	Farnell	1081309	NRND	-	-	-	1.1	SOT-23-3	0.21	NMOS transistor	N-channel MOS transistor ; Vdsmax = 50 V ; Idmax = 0.1 A ; Rdson = 15 Ohm ; SOT-23-3
 transistors-2	ZZ_transistors:NMOS	BSN20BK	ZZ_Package_TO_SOT_SMD:SOT-23-3	\N	Nexperia	BSN20BK	Farnell	2575103	-	-	-	-	1.1	SOT-23-3	0.36	NMOS transistor	N-channel MOSFET transistor ; Vdsmax = 60 V ; Idmax = 0.265 A ; Rdson = 2.1 Ohm ; SOT-23-3
-transistors-3	ZZ_transistors:NMOS	DMN26D0UT-7	ZZ_Package_TO_SOT_SMD:SOT-523	https://www.diodes.com/assets/Datasheets/ds31854.pdf	Diodes Incorporated	DMN26D0UT-7	Mouser	621-DMN26D0UT-7	-	-	-	-	0.90	SOT-533	0.29	transistor NMOS N-MOS N-MOSFET	N-MOSFET transistor ; gate/source/drain
 transistors-4	ZZ_transistors:NMOS	NDS331N	ZZ_Package_TO_SOT_SMD:SOT-23-3	https://www.onsemi.com/download/data-sheet/pdf/nds331n-d.pdf	Onsemi	NDS331N	Mouser	512-NDS331N	-	-	-	-	0.95	SOT-23-3	0.40	transistor NMOS N-MOS N-MOSFET	N-MOSFET transistor ; 1.3A 20V ; Rds(on) = 0.21 Ohm ; gate/source/drain
+transistors-3	ZZ_transistors:NMOS	DMN26D0UT-7	ZZ_Package_TO_SOT_SMD:SOT-523	https://www.diodes.com/assets/Datasheets/ds31854.pdf	Diodes Incorporated	DMN26D0UT-7	Mouser	621-DMN26D0UT-7	-	-	-	-	0.90	SOT-533	0.29	transistor NMOS N-MOS N-MOSFET	N-MOSFET transistor ; Vdsmax = 20V ; Idsmax = 0.23 A ; Rdson = 3 Ohmm (4.5V) ; SOT-533 ; gate/source/drain
 \.
 
 
 --
--- TOC entry 3528 (class 0 OID 24961)
+-- TOC entry 3532 (class 0 OID 24961)
 -- Dependencies: 245
 -- Data for Name: voltage_monitor; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -2110,7 +2114,7 @@ Voltage_monitor-4	ZZ_voltage_monitor:TPS3430WDRCR	TPS3430WDRCR	ZZ_Package_SON:VS
 
 
 --
--- TOC entry 3529 (class 0 OID 24966)
+-- TOC entry 3533 (class 0 OID 24966)
 -- Dependencies: 246
 -- Data for Name: voltage_reference; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -2125,7 +2129,25 @@ voltage_reference-4	ZZ_voltage_reference:LTC6655BHMS8	LTC6655BHMS8-5	ZZ_Package_
 
 
 --
--- TOC entry 3350 (class 2606 OID 41314)
+-- TOC entry 3350 (class 2606 OID 41316)
+-- Name: capacitors_ceramic_0603 capacitors_ceramic_0603_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.capacitors_ceramic_0603
+    ADD CONSTRAINT capacitors_ceramic_0603_pkey PRIMARY KEY ("Part_ID");
+
+
+--
+-- TOC entry 3352 (class 2606 OID 41318)
+-- Name: connectors_he connectors_he_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.connectors_he
+    ADD CONSTRAINT connectors_he_pkey PRIMARY KEY ("Part_ID");
+
+
+--
+-- TOC entry 3354 (class 2606 OID 41314)
 -- Name: diodes diodes_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -2143,7 +2165,7 @@ ALTER TABLE ONLY public.resistors_0603
 
 
 --
--- TOC entry 3352 (class 2606 OID 41312)
+-- TOC entry 3356 (class 2606 OID 41312)
 -- Name: transistors transistors_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -2151,7 +2173,7 @@ ALTER TABLE ONLY public.transistors
     ADD CONSTRAINT transistors_pkey PRIMARY KEY ("Part_ID");
 
 
--- Completed on 2023-12-13 13:57:42
+-- Completed on 2024-01-08 11:33:59
 
 --
 -- PostgreSQL database dump complete

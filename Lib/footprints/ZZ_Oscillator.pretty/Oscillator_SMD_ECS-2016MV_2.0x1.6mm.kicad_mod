@@ -1,0 +1,186 @@
+(footprint "Oscillator_SMD_ECS-2016MV_2.0x1.6mm"
+	(version 20231231)
+	(generator "pcbnew")
+	(generator_version "7.99")
+	(layer "F.Cu")
+	(descr "Miniature Crystal Clock Oscillator ECS 2016MV series ; https://ecsxtal.com/store/pdf/ECS-2016MV.pdf")
+	(tags "SMD oscillator")
+	(property "Reference" "REF**"
+		(at 0 -1.65 0)
+		(layer "F.SilkS")
+		(uuid "0fb10ee9-ae3b-4d90-9ab3-3ab9891b0c54")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Oscillator_SMD_ECS-2016MV_2.0x1.6mm"
+		(at 0 1.95 0)
+		(layer "F.Fab")
+		(uuid "3c4329d0-5a44-4896-a14a-5bfad7ca3c3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b8b742b-97d6-452c-a181-0858a13efd2b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "61c234a3-962b-482b-9206-742028d9a91f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2e819be-c518-402e-956d-b38cf4d27a3f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.2 -1)
+		(end 1.2 1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "3988ea3e-57c9-421e-bb3f-966ee9ce6f04")
+	)
+	(fp_circle
+		(center -1.6 0.6)
+		(end -1.5 0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "91a46403-0ec6-41bb-81d4-b4db09c0681e")
+	)
+	(fp_rect
+		(start -1.25 -1.05)
+		(end 1.25 1.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "708f3d53-4bc4-4a44-95d1-4437a3aa8a10")
+	)
+	(fp_line
+		(start -1 -0.8)
+		(end 1 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "568fa690-7f68-4f3f-b495-5796e317b211")
+	)
+	(fp_line
+		(start -1 0.8)
+		(end -1 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eaaf0c6c-ea29-4181-9bd9-2e81fb7de7db")
+	)
+	(fp_line
+		(start 1 -0.8)
+		(end 1 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f507e030-ef56-4730-b022-0118174111a9")
+	)
+	(fp_line
+		(start 1 0.8)
+		(end -1 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9e217e63-0191-4dbc-a399-ca127dc30e4a")
+	)
+	(fp_circle
+		(center -1.6 0.6)
+		(end -1.5 0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "6a8ecded-7170-4e8b-82af-70c11231732b")
+	)
+	(pad "1" smd rect
+		(at -0.65 0.5 90)
+		(size 0.7 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f7abd3f3-98ff-4227-bb41-03be4e674633")
+	)
+	(pad "2" smd rect
+		(at 0.65 0.5 90)
+		(size 0.7 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7f555ce2-2803-448a-8642-488b3149699a")
+	)
+	(pad "3" smd rect
+		(at 0.65 -0.5 90)
+		(size 0.7 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "450b2655-d210-4d85-9a33-a1b68c6ea69d")
+	)
+	(pad "4" smd rect
+		(at -0.65 -0.5 90)
+		(size 0.7 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d794ebb9-ad65-4936-9fcf-15e7279465f6")
+	)
+	(model "${KICAD_USER_3DMODEL_DIR}/ZZ_Oscillator/Oscillator_SMD_ECS-2016MV_2.0x1.6mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

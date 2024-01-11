@@ -5,7 +5,7 @@
 -- Dumped from database version 14.5
 -- Dumped by pg_dump version 14.5
 
--- Started on 2024-01-11 16:32:03
+-- Started on 2024-01-11 17:38:08
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1736,6 +1736,7 @@ inductors_SMD-0	ZZ_inductors:L	10nH-1.4A-2p-4.3GHz-0603	ZZ_Inductor_SMD:L_0603_1
 inductors_SMD-1	ZZ_inductors:L	8.2nH-700mA-2p-4.2GHz-0603	ZZ_Inductor_SMD:L_0603_1608Metric	\N	Coilcraft	0603CS-8N2XGLU	Farnell	2285928	8.2nH	700mA	2%	4.2GHz	1.02	0603	8.89	inductor	Inductor ; 8.2 nH ; 2%; SMD 0603 ; 700 mA ; 0603
 inductors_SMD-2	ZZ_inductors:L	1.2uH-8.5A-20p-43MHz-1625	ZZ_Inductor_SMD:L_Bourns_SRP5030CA_5.5x5.3mm_P3.25mm	https://www.bourns.com/docs/Product-Datasheets/SRP5030CA.pdf	Bourns	SRP5030CA-1R2M	Mouser	652-SRP5030CA-1R2M	1.2uH	8.5A	20%	43MHz	2.9	1625	0.89	inductor	Inductor ; 1.2 uH ; 20%; SMD 1625 ; 8.5 A
 inductors_SMD-3	ZZ_inductors:L	BLM18KG601SN1D	ZZ_Inductor_SMD:L_0603_1608Metric	https://www.murata.com/products/productdata/8796738650142/ENFA0003.pdf?1681308024000	Murata	BLM18KG601SN1D	Mouser	81-BLM18KG601SN1D	600 Ohm @100Mhz	1.3A	25%	105MHz	0.8	0603	0.1	inductor ferrite	ferrite beads ; 600 Ohm @100MHz ; 25%; SMD 0603 ; 1.3 A
+inductors_SMD-4	ZZ_inductors:L	IHLP2020BZER4R7M11	ZZ_Inductor_SMD:L_Vishay_IHLP-2020	https://www.vishay.com/docs/34261/ihlp2020bz11.pdf	Vishay	IHLP2020BZER4R7M11	Mouser	70-IHLP2020BZER4R7M1	4.7uH	3A	20%	-	2.0	2020	1.1	inductor	inductor ; 4.7 uH ; 20%; SMD 2020 ; 3 A
 \.
 
 
@@ -2189,7 +2190,7 @@ ALTER TABLE ONLY public.transistors
     ADD CONSTRAINT transistors_pkey PRIMARY KEY ("Part_ID");
 
 
--- Completed on 2024-01-11 16:32:03
+-- Completed on 2024-01-11 17:38:08
 
 --
 -- PostgreSQL database dump complete

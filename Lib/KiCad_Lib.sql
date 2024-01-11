@@ -5,7 +5,7 @@
 -- Dumped from database version 14.5
 -- Dumped by pg_dump version 14.5
 
--- Started on 2024-01-09 15:25:47
+-- Started on 2024-01-11 16:32:03
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1460,6 +1460,8 @@ capacitors_ceramic_0603-19	ZZ_capacitors:C	56pF-200V-5p-Ceramic-0603	ZZ_Capacito
 capacitors_ceramic_0603-20	ZZ_capacitors:C	27pF-200V-5p-Ceramic-0603	ZZ_Capacitor_SMD:C_0603_1608Metric	https://search.kemet.com/component-documentation/download/datasheet/C0603C270J2GACTU.pdf	KEMET	C0603C270J2GACTU	Mouser	80-C0603C270J2G	27pF	200V	5%	C0G	0.85	0603	0.29	Capacitor 27pF 200V	Capacitor ; ceramic C0G ; 200 V ; 27 pF ; 5% ; 0603
 capacitors_ceramic_0603-21	ZZ_capacitors:C	39nF-50V-5p-Ceramic-0603	ZZ_Capacitor_SMD:C_0603_1608Metric	https://search.kemet.com/component-documentation/download/datasheet/C0603C393J5RACTU.pdf	KEMET	C0603C393J5RACTU	Mouser	80-C0603C393J5R	39nF	50V	5%	X7R	0.85	0603	0.27	Capacitor 39nF 50V	Capacitor ; ceramic X7R ; 50 V ; 39 nF ; 5% ; 0603
 capacitors_ceramic_0603-22	ZZ_capacitors:C	220nF-25V-10p-Ceramic-0603	ZZ_Capacitor_SMD:C_0603_1608Metric	https://search.kemet.com/component-documentation/download/datasheet/C0603C224K3RACTU.pdf	KEMET	C0603C224K3RACTU	Mouser	80-C0603C224K3R	220nF	25V	10%	X7R	0.85	0603	0.15	Capacitor 220nF 25V	Capacitor ; ceramic X7R ; 25 V ; 220 nF ; 10% ; 0603
+capacitors_ceramic_0603-23	ZZ_capacitors:C	2.2uF-25V-10p-Ceramic-0603	ZZ_Capacitor_SMD:C_0603_1608Metric	https://www.murata.com/en-eu/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GCJ188R70J225KE01%23	Murata	GCJ188R70J225KE01D	Mouser	81-GCJ188R70J225KE1D	2.2uF	6.3V	10%	X7R	0.85	0603	0.23	Capacitor 2.2uF 6.3V	Capacitor ; ceramic X7R ; 6.3 V ; 2.2 uF ; 10% ; 0603
+capacitors_ceramic_0603-24	ZZ_capacitors:C	470nF-16V-10p-Ceramic-0603	ZZ_Capacitor_SMD:C_0603_1608Metric	https://search.kemet.com/component-documentation/download/datasheet/C0603X474K4RACTU	KEMET	C0603X474K4RACTU	Mouser	80-C0603X474K4R	470nF	16V	10%	X7R	0.85	0603	0.46	Capacitor 470nF 16V	Capacitor ; ceramic X7R ; 16 V ; 470 nF ; 10% ; 0603
 \.
 
 
@@ -1881,15 +1883,12 @@ power-5	ZZ_Power_Supply:MP8904DD	MP8904DD	ZZ_Package_DFN_QFN:QFN-8-1EP_3x2mm_P0.
 --
 
 COPY public.resistors_0603 ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Impedance", "Power", "Precision", "Type", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
-resistors_0603-50	ZZ_resistors:R	100K-0.100W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/doc?20036	Vishay	CRCW0603100KFHEAP	Mouser	71-CRCW0603100KFHEAP	100K	0.1W	1%	Thick Film	0.45	0603	0.21	Resistor 100K	R\nesistor ; 100 KOhm ; 0.100W ; 1% ; 0603
 resistors_0603-54	ZZ_resistors:R	68K-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/docs/28773/crcwce3.pdf	Vishay	CRCW060368K0FKEAC	Mouser	71-CRCW060368K0FKEAC	68K	0.1W	1%	Thick Film	0.45	0603	0.1	Resistor 68K	Resistor ; 68 KOhm ; 0.100W ; 1% ; 0603
 resistors_0603-55	ZZ_resistors:R	34K-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/docs/28773/crcwce3.pdf	Vishay	CRCW060334K0FKEAC	Mouser	71-CRCW060334K0FKEAC	34K	0.1W	1%	Thick Film	0.45	0603	0.1	Resistor 34K	Resistor ; 34 KOhm ; 0.100W ; 1% ; 0603
 resistors_0603-56	ZZ_resistors:R	200K-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/docs/28773/crcwce3.pdf	Vishay	CRCW0603200KFKEA	Mouser	71-CRCW0603-200K-E3	200K	0.1W	1%	Thick Film	0.45	0603	0.1	Resistor 34K	Resistor ; 200 KOhm ; 0.100W ; 1% ; 0603
 resistors_0603-57	ZZ_resistors:R	44K2-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/docs/28773/crcwce3.pdf	Vishay	CRCW060344K2FKEA	Mouser	71-CRCW0603-44.2K-E3	44K2	0.1W	1%	Thick Film	0.45	0603	0.1	Resistor 44K2	Resistor ; 44.2 KOhm ; 0.100W ; 1% ; 0603
-resistors_0603-59	ZZ_resistors:R	100K-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/docs/28773/crcwce3.pdf	Vishay	CRCW0603100KFKEA	Mouser	71-CRCW0603-100K-E3	100K	0.1W	1%	Thick Film	0.45	0603	0.1	Resistor 100K	Resistor ; 100 KOhm ; 0.100W ; 1% ; 0603
 resistors_0603-0	ZZ_resistors:R	0R-0.100W-1P-0603	Resistor_SMD:R_0603_1608Metric	\N	Multicomp	MC0603SAF0000T5E	Farnell	2309111	0R	0.100W	1%	Thick Film	0.45	0603	0.011	Resistor 0R	Resistor ; 0 Ohm ; 0.100W ; 1% ; 0603
 resistors_0603-2	ZZ_resistors:R	105K-0.100W-1P-0603	Resistor_SMD:R_0603_1608Metric	\N	Vishay	CRCW0603105KFKEA	Farnell	2138498	105K	0.125W	1%	Thick Film	0.45	0603	0.016	Resistor 105K	Resistor ; 105 KOhm ; 0.100W ; 0.1% ; 0603
-resistors_0603-3	ZZ_resistors:R	10K-0.125W-1P-0603	Resistor_SMD:R_0603_1608Metric	\N	Vishay	CRCW060310K0FKEA	Farnell	1469748	10K	0.125W	1%	Thick Film	0.45	0603	0.019	Resistor 10K	Resistor ; 10 KOhm ; 0.125W ; 1% ; 0603
 resistors_0603-4	ZZ_resistors:R	10K-0.166W-0.1P-0603	Resistor_SMD:R_0603_1608Metric	\N	TE Connectivity	RP73PF1J10KBTDF	Farnell	2116784	10K	0.166W	0.1%	Thick Film	0.45	0603	0.535	Resistor 10K	Resistor ; 10 KOhm ; 0.166W ; 0.1% ; 0603
 resistors_0603-5	ZZ_resistors:R	10M-0.100W-1P-0603	Resistor_SMD:R_0603_1608Metric	\N	Vishay	CRCW060310M0FKEA	Farnell	1469750	10M	0.100W	1%	Thick Film	0.45	0603	0.017	Resistor 10M	Resistor ; 10 MOhm ; 0.100W ; 1% ; 0603
 resistors_0603-6	ZZ_resistors:R	10R-0.125W-1P-0603	Resistor_SMD:R_0603_1608Metric	\N	Vishay	CRCW060310R0FKEA	Farnell	1469751	10R	0.125W	1%	Thick Film	0.45	0603	0.019	Resistor 10R	Resistor ; 10 Ohm ; 0.125W ; 1% ; 0603
@@ -1917,11 +1916,11 @@ resistors_0603-27	ZZ_resistors:R	332K-0.100W-1P-0603	Resistor_SMD:R_0603_1608Met
 resistors_0603-28	ZZ_resistors:R	33R2-0.166W-0.1P-0603	Resistor_SMD:R_0603_1608Metric	\N	TE Connectivity	RP73PF1J33R2BTDF	Farnell	2116520	33R2	0.166W	0.1%	Thick Film	0.45	0603	0.280	Resistor 33R2	Resistor ; 33.2 Ohm ; 0.166W ; 0.1% ; 0603
 resistors_0603-29	ZZ_resistors:R	470R-0.125W-0.1P-0603	Resistor_SMD:R_0603_1608Metric	\N	Vishay	MCT0603MD4700BP100	Farnell	1713663	470R	0.125W	0.1%	Thick Film	0.45	0603	0.450	Resistor 470R	Resistor ; 470 Ohm ; 0.125W ; 0.1% ; 0603
 resistors_0603-30	ZZ_resistors:R	47R5-0.166W-0.1P-0603	Resistor_SMD:R_0603_1608Metric	\N	TE Connectivity	RP73PF1J47R5BTDF	Farnell	2116537	47R5	0.166W	0.1%	Thick Film	0.45	0603	0.536	Resistor 47R5	Resistor ; 47.5 Ohm ; 0.166W ; 0.1% ; 0603
+resistors_0603-3	ZZ_resistors:R	10K-0.125W-1P-0603	Resistor_SMD:R_0603_1608Metric	\N	Vishay	CRCW060310K0FKEA	Mouser	71-CRCW0603-10K-E3	10K	0.125W	1%	Thick Film	0.45	0603	0.019	Resistor 10K	Resistor ; 10 KOhm ; 0.125W ; 1% ; 0603
 resistors_0603-31	ZZ_resistors:R	48R7-0.166W-0.1P-0603	Resistor_SMD:R_0603_1608Metric	\N	TE Connectivity	RP73PF1J48R7BTDF	Farnell	2116538	48R7	0.166W	0.1%	Thick Film	0.45	0603	0.329	Resistor 48R7	Resistor ; 48.7 Ohm ; 0.166W ; 0.1% ; 0603
 resistors_0603-32	ZZ_resistors:R	499R-0.150W-0.1P-0603	Resistor_SMD:R_0603_1608Metric	\N	Vishay	PAT0603E4990BST5	Farnell	1858102	499R	0.150W	0.1%	Thick Film	0.45	0603	0.666	Resistor 499R	Resistor ; 499 Ohm ; 0.150W ; 0.1% ; 0603
 resistors_0603-33	ZZ_resistors:R	49R9-0.166W-0.1P-0603	Resistor_SMD:R_0603_1608Metric	\N	TE Connectivity	RP73PF1J49R9BTDF	Farnell	2116539	49R9	0.166W	0.1%	Thick Film	0.45	0603	0.539	Resistor 49R9	Resistor ; 49.9 Ohm ; 0.166W ; 0.1% ; 0603
 resistors_0603-34	ZZ_resistors:R	4K02-0.166W-0.1P-0603	Resistor_SMD:R_0603_1608Metric	\N	TE Connectivity	RP73PF1J4K02BTDF	Farnell	2116743RL	4K02	0.166W	0.1%	Thick Film	0.45	0603	0.270	Resistor 4K02	Resistor ; 4.02 KOhm ; 0.166W ; 0.1% ; 0603
-resistors_0603-35	ZZ_resistors:R	4K7-0.100W-0.1P-0603	Resistor_SMD:R_0603_1608Metric	\N	Panasonic	ERA3AEB472V	Farnell	1577615	4K7	0.100W	0.1%	Thick Film	0.45	0603	0.277	Resistor 4K7	Resistor ; 4.7 KOhm ; 0.100W ; 0.1% ; 0603
 resistors_0603-36	ZZ_resistors:R	4R7-0.100W-1P-0603	Resistor_SMD:R_0603_1608Metric	\N	Vishay	CRCW06034R70FKEA	Farnell	1862380	4R7	0.125W	1%	Thick Film	0.45	0603	0.010	Resistor 4R7	Resistor ; 4.7 Ohm ; 0.100W ; 1% ; 0603
 resistors_0603-37	ZZ_resistors:R	50R5-0.150W-0.1P-0603	Resistor_SMD:R_0603_1608Metric	\N	Vishay	PAT0603E50R5BST5	Farnell	1858097	50R5	0.150W	0.1%	Thick Film	0.45	0603	1.126	Resistor 50R5	Resistor ; 50.5 Ohm ; 0.150W ; 0.1% ; 0603
 resistors_0603-38	ZZ_resistors:R	576R-0.166W-0.1P-0603	Resistor_SMD:R_0603_1608Metric	\N	TE Connectivity	RP73PF1J576RBTDF	Farnell	2116653	576R	0.166W	0.1%	Thick Film	0.45	0603	0.553	Resistor 576	Resistor ; 576 Ohm ; 0.166W ; 0.1% ; 0603
@@ -1941,6 +1940,13 @@ resistors_0603-51	ZZ_resistors:R	20K-0.100W-1P-0603	Resistor_SMD:R_0603_1608Metr
 resistors_0603-52	ZZ_resistors:R	2K7-0.33W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/docs/20043/crcwhpe3.pdf	Vishay	CRCW06032K70FKEAHP	Mouser	71-CRCW06032K70FKEAH	2K7	0.33W	1%	Thick Film	0.45	0603	0.13	Resistor 2K7	Resistor ; 2.7 KOhm ; 0.330W ; 1% ; 0603
 resistors_0603-53	ZZ_resistors:R	56K2-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/docs/20035/dcrcwe3.pdf	Vishay	CRCW060356K2FKEA	Mouser	71-CRCW0603-56.2K-E3	56K2	0.1W	1%	Thick Film	0.45	0603	0.1	Resistor 56K2	Resistor ; 56.2 KOhm ; 0.100W ; 1% ; 0603
 resistors_0603-1	ZZ_resistors:R	102K-0.100W-1P-0603	Resistor_SMD:R_0603_1608Metric	\N	Vishay	CRCW0603102KFKEA	Farnell	2138497	102K	0.125W	1%	Thick Film	0.45	0603	0.016	Resistor 102K	Resistor ; 102 KOhm ; 0.100W ; 0.1% ; 0603
+resistors_0603-50	ZZ_resistors:R	100K-0.100W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/doc?20036	Vishay	CRCW0603100KFHEAP	Mouser	71-CRCW0603100KFHEAP	100K	0.1W	1%	Thick Film	0.45	0603	0.21	Resistor 100K	Resistor ; 100 KOhm ; 0.100W ; 0.1% ; 0603
+resistors_0603-59	ZZ_resistors:R	2K49-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/doc?28773	Vishay	CRCW06032K49FKEA	Mouser	71-CRCW0603-2.49K-E3	2K49	0.1W	1%	Thick Film	0.45	0603	0.1	Resistor 2K49	Resistor ; 2.49 KOhm ; 0.100W ; 1% ; 0603
+resistors_0603-60	ZZ_resistors:R	5K76-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/doc?28773	Vishay	CRCW06035K76FKEA	Mouser	71-CRCW0603-5.76K-E3	5K76	0.1W	1%	Thick Film	0.45	0603	0.1	Resistor 5K76	Resistor ; 5.76 KOhm ; 0.100W ; 1% ; 0603
+resistors_0603-61	ZZ_resistors:R	261R-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/doc?28773	Vishay	CRCW0603261RFKEA	Mouser	71-CRCW0603-261-E3	261R	0.1W	1%	Thick Film	0.45	0603	0.1	Resistor 261R	Resistor ; 261 Ohm ; 0.100W ; 1% ; 0603
+resistors_0603-62	ZZ_resistors:R	11K-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/doc?28773	Vishay	CRCW060311K0FKEA	Mouser	71-CRCW0603-11K-E3	11K	0.1W	1%	Thick Film	0.45	0603	0.1	Resistor 11K	Resistor ; 11 KOhm ; 0.100W ; 1% ; 0603
+resistors_0603-63	ZZ_resistors:R	4K7-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/doc?28773	Vishay	CRCW06034K70FKEA	Mouser	71-CRCW0603-4.7K-E3	4K7	0.1W	1%	Thick Film	0.45	0603	0.1	Resistor 4K7	Resistor ; 4.7 KOhm ; 0.100W ; 1% ; 0603
+resistors_0603-35	ZZ_resistors:R	30R-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/doc?28773	Vishay	CRCW060330R0FKEA	Mouser	71-CRCW0603-30-E3	30R	0.1W	1%	Thick Film	0.45	0603	0.1	Resistor 30R	Resistor ; 30 Ohm ; 0.100W ; 1% ; 0603
 \.
 
 
@@ -2183,7 +2189,7 @@ ALTER TABLE ONLY public.transistors
     ADD CONSTRAINT transistors_pkey PRIMARY KEY ("Part_ID");
 
 
--- Completed on 2024-01-09 15:25:48
+-- Completed on 2024-01-11 16:32:03
 
 --
 -- PostgreSQL database dump complete

@@ -5,7 +5,7 @@
 -- Dumped from database version 14.5
 -- Dumped by pg_dump version 14.5
 
--- Started on 2024-01-11 17:38:08
+-- Started on 2024-01-12 14:47:44
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -2103,6 +2103,7 @@ transistors-1	ZZ_transistors:NMOS	BSN20	ZZ_Package_TO_SOT_SMD:SOT-23-3	\N	NXP	BS
 transistors-2	ZZ_transistors:NMOS	BSN20BK	ZZ_Package_TO_SOT_SMD:SOT-23-3	\N	Nexperia	BSN20BK	Farnell	2575103	-	-	-	-	1.1	SOT-23-3	0.36	NMOS transistor	N-channel MOSFET transistor ; Vdsmax = 60 V ; Idmax = 0.265 A ; Rdson = 2.1 Ohm ; SOT-23-3
 transistors-4	ZZ_transistors:NMOS	NDS331N	ZZ_Package_TO_SOT_SMD:SOT-23-3	https://www.onsemi.com/download/data-sheet/pdf/nds331n-d.pdf	Onsemi	NDS331N	Mouser	512-NDS331N	-	-	-	-	0.95	SOT-23-3	0.40	transistor NMOS N-MOS N-MOSFET	N-MOSFET transistor ; 1.3A 20V ; Rds(on) = 0.21 Ohm ; gate/source/drain
 transistors-3	ZZ_transistors:NMOS	DMN26D0UT-7	ZZ_Package_TO_SOT_SMD:SOT-523	https://www.diodes.com/assets/Datasheets/ds31854.pdf	Diodes Incorporated	DMN26D0UT-7	Mouser	621-DMN26D0UT-7	-	-	-	-	0.90	SOT-533	0.29	transistor NMOS N-MOS N-MOSFET	N-MOSFET transistor ; Vdsmax = 20V ; Idsmax = 0.23 A ; Rdson = 3 Ohmm (4.5V) ; SOT-533 ; gate/source/drain
+transistors-5	ZZ_transistors:PMOS	FDN336P	ZZ_Package_TO_SOT_SMD:SOT-23-3	https://www.onsemi.com/download/data-sheet/pdf/fdn336p-d.pdf	Onsemi	FDN336P	DigiKey	FDN336PCT-ND	-	-	-	-	0.95	SOT-23-3	0.40	transistor PMOS P-MOS P-MOSFET	P-MOSFET transistor ; 1.3A 20V ; Rds(on) = 0.2 Ohm @Vgs = -4.5V
 \.
 
 
@@ -2190,7 +2191,7 @@ ALTER TABLE ONLY public.transistors
     ADD CONSTRAINT transistors_pkey PRIMARY KEY ("Part_ID");
 
 
--- Completed on 2024-01-11 17:38:08
+-- Completed on 2024-01-12 14:47:44
 
 --
 -- PostgreSQL database dump complete

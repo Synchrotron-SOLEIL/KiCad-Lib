@@ -16991,7 +16991,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.6629 -4.9875 0)
+				(at -12.7 -5.08 0)
 				(length 2.54)
 				(name "GND_10"
 					(effects
@@ -17045,7 +17045,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.6629 -12.6075 0)
+				(at -12.7 -12.7 0)
 				(length 2.54)
 				(name "GND_13"
 					(effects
@@ -17171,7 +17171,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.6241 15.078 0)
+				(at -12.7 15.24 0)
 				(length 2.54)
 				(name "GND_2"
 					(effects
@@ -17369,7 +17369,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.6629 12.7925 0)
+				(at -12.7 12.7 0)
 				(length 2.54)
 				(name "GND_3"
 					(effects
@@ -17495,7 +17495,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.6241 -2.702 0)
+				(at -12.7 -2.54 0)
 				(length 2.54)
 				(name "GND_9"
 					(effects

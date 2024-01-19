@@ -5,7 +5,7 @@
 -- Dumped from database version 16.1
 -- Dumped by pg_dump version 16.1
 
--- Started on 2024-01-18 17:31:20
+-- Started on 2024-01-19 15:22:51
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1790,6 +1790,7 @@ Logic-7	ZZ_logic:SN75LVDT388ADBT	SN75LVDT388ADBT	ZZ_Package_SO:TSSOP-38_4.4x9.7m
 Logic-8	ZZ_logic:NC7WZ07P6X	NC7WZ07P6X	ZZ_Package_TO_SOT_SMD:SOT-363_SC-70-6	https://www.onsemi.com/download/data-sheet/pdf/nc7wz07-d.pdf	Onsemi	NC7WZ07P6X 	Mouser	512-NC7WZ07P6X	-	-	-	-	1.10	SOT-363	0.28	buffer open drain	TinyLogic UHS Dual Buffer Open-Drain Outputs
 Logic-9	ZZ_logic:SN74HCS09PWR	SN74HCS09PWR	ZZ_Package_SO:TSSOP-14_4.4x5mm_P0.65mm	https://www.ti.com/lit/gpn/SN74HCS09	Texas Instruments	SN74HCS09PWR	Mouser	595-SN74HCS09PWR	-	-	-	-	1.20	TSSOP-14	0.33	AND gate open drain	4-ch 2-input 2-V to 6-V AND gate with open-drain outputs and Schmitt-trigger inputs ; TSSOP14
 Logic-10	ZZ_logic:SN74AVC2T245RSWR	SN74AVC2T245RSWR	ZZ_Package_DFN_QFN:Texas_UQFN-10_1.4x1.8mm_P0.4mm	https://www.ti.com/lit/gpn/sn74avc2t245	Texas Instruments	SN74AVC2T245RSWR	Mouser	595-SN74AVC2T245RSWR	-	-	-	-	0.50	UQFN-10	0.95	buffer dual-supply bi-dir	Dual-Bit ; 2-DIR pin Dual-Supply Bus Transceiver w/ Configurable Voltage Translation ; 3-State Output
+Logic-11	ZZ_logic:SN74AVC4T245RSVR	SN74AVC4T245RSVR	ZZ_Package_DFN_QFN:Texas_UQFN-16_1.8x2.6mm_P0.4mm	https://www.ti.com/lit/gpn/sn74avc4t245	Texas Instruments	SN74AVC4T245RSVR	Mouser	595-SN74AVC4T245RSVR	-	-	-	-	0.50	UQFN-16	1.28	buffer quad-supply bi-dir	Quad-Bit ; 2-DIR pin Dual-Supply Bus Transceiver w/ Configurable Voltage Translation ; 3-State Output
 \.
 
 
@@ -2206,7 +2207,7 @@ ALTER TABLE ONLY public.transistors
     ADD CONSTRAINT transistors_pkey PRIMARY KEY ("Part_ID");
 
 
--- Completed on 2024-01-18 17:31:20
+-- Completed on 2024-01-19 15:22:51
 
 --
 -- PostgreSQL database dump complete

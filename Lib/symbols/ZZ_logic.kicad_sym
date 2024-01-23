@@ -815,12 +815,12 @@
 			)
 		)
 	)
-	(symbol "NC7WZ07P6X"
+	(symbol "NB4L52MNG"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 5.08 12.7 0)
+			(at 3.556 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -828,8 +828,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "NC7WZ07P6X"
-			(at 2.54 10.16 0)
+		(property "Value" "NB4L52MNG"
+			(at 2.032 14.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -837,8 +837,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ZZ_Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 1.27 -11.43 0)
+		(property "Footprint" "ZZ_Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.9x1.9mm"
+			(at 1.524 -14.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -847,7 +847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/nc7wz07-d.pdf"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/nb4l52-d.pdf"
 			(at 0 -24.384 0)
 			(effects
 				(font
@@ -856,7 +856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TinyLogic UHS Dual Buffer Open-Drain Outputs"
+		(property "Description" "Differential Data and Clock D flip−flop with a differential asynchronous reset"
 			(at 0 -21.844 0)
 			(effects
 				(font
@@ -865,7 +865,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "buffer open drain"
+		(property "ki_keywords" "D flip-flop LVDS LVPECL"
 			(at 0 0 0)
 			(effects
 				(font
@@ -874,10 +874,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "NC7WZ07P6X_0_1"
+		(symbol "NB4L52MNG_0_1"
 			(rectangle
-				(start -10.16 7.62)
-				(end 10.16 -7.62)
+				(start -10.16 12.7)
+				(end 10.16 -12.7)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -887,23 +887,11 @@
 				)
 			)
 		)
-		(symbol "NC7WZ07P6X_1_1"
-			(polyline
-				(pts
-					(xy -2.54 2.54) (xy -2.54 -2.54) (xy 2.54 0) (xy -2.54 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -12.7 2.54 0)
+		(symbol "NB4L52MNG_1_1"
+			(pin passive line
+				(at -12.7 10.16 0)
 				(length 2.54)
-				(name "A1"
+				(name "Vtd"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -918,10 +906,154 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 -10.16 90)
+			(pin output line
+				(at 12.7 5.08 180)
 				(length 2.54)
-				(name "GND"
+				(name "~{Q}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 7.62 180)
+				(length 2.54)
+				(name "Q"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 15.24 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 -2.54 180)
+				(length 2.54)
+				(name "Vtr"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 -5.08 180)
+				(length 2.54)
+				(name "R"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 -7.62 180)
+				(length 2.54)
+				(name "~{R}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 -10.16 180)
+				(length 2.54)
+				(name "~{Vtr}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 1.27 -15.24 90)
+				(length 2.54)
+				(name "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 7.62 0)
+				(length 2.54)
+				(name "D"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -937,9 +1069,9 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -2.54 0)
+				(at -12.7 5.08 0)
 				(length 2.54)
-				(name "A2"
+				(name "~{D}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -954,10 +1086,10 @@
 					)
 				)
 			)
-			(pin open_collector line
-				(at 12.7 -2.54 180)
+			(pin passive line
+				(at -12.7 2.54 0)
 				(length 2.54)
-				(name "Y2"
+				(name "~{Vtd}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -972,10 +1104,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 10.16 270)
+			(pin passive line
+				(at -12.7 -2.54 0)
 				(length 2.54)
-				(name "VCC"
+				(name "Vtclk"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -990,10 +1122,10 @@
 					)
 				)
 			)
-			(pin open_collector line
-				(at 12.7 2.54 180)
+			(pin input clock
+				(at -12.7 -5.08 0)
 				(length 2.54)
-				(name "Y1"
+				(name "CLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1001,6 +1133,60 @@
 					)
 				)
 				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input clock
+				(at -12.7 -7.62 0)
+				(length 2.54)
+				(name "~{CLK}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -10.16 0)
+				(length 2.54)
+				(name "~{Vtclk}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 -15.24 90)
+				(length 2.54)
+				(name "VEE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)

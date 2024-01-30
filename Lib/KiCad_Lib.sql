@@ -5,7 +5,7 @@
 -- Dumped from database version 16.1
 -- Dumped by pg_dump version 16.1
 
--- Started on 2024-01-25 11:38:03
+-- Started on 2024-01-30 17:06:51
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1957,6 +1957,11 @@ resistors_0603-35	ZZ_resistors:R	30R-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metric
 resistors_0603-64	ZZ_resistors:R	100R-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/doc?28773	Vishay	CRCW0603100RFKEA	Mouser	71-CRCW0603-100-E3	100R	0.1W	1%	Thick Film	0.45	0603	0.1	Resistor 100R	Resistor ; 100 Ohm ; 0.100W ; 1% ; 0603
 resistors_0603-65	ZZ_resistors:R	2K-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/doc?28773	Vishay	CRCW06032K00FKEA	Mouser	71-CRCW0603-2.0K-E3	2K	0.1W	1%	Thick Film	0.45	0603	0.1	Resistor 2K	Resistor ; 2 KOhm ; 0.100W ; 1% ; 0603
 resistors_0603-66	ZZ_resistors:R	12K-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/doc?28773	Vishay	CRCW060312K0FKEAC	Mouser	71-CRCW060312K0FKEAC	12K	0.1W	1%	Thick Film	0.45	0603	0.1	Resistor 12K	Resistor ; 12 KOhm ; 0.100W ; 1% ; 0603
+resistors_0603-67	ZZ_resistors:R	1K1-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/doc?28773	Vishay	CRCW06031K10FKEA	Mouser	71-CRCW0603-1.1K-E3	1K1	0.1W	1%	Thick Film	0.45	0603	0.1	Resistor 1K1	Resistor ; 1.1 KOhm ; 0.100W ; 1% ; 0603
+resistors_0603-68	ZZ_resistors:R	1K21-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/doc?28773	Vishay	CRCW06031K21FKEAC	Mouser	71-CRCW06031K21FKEAC	1K21	0.1W	1%	Thick Film	0.45	0603	0.1	Resistor 1K21	Resistor ; 1.21 KOhm ; 0.100W ; 1% ; 0603
+resistors_0603-69	ZZ_resistors:R	3K16-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/doc?28773	Vishay	CRCW06033K16FKEAC	Mouser	71-CRCW06033K16FKEAC	3K16	0.1W	1%	Thick Film	0.45	0603	0.1	Resistor 3K16	Resistor ; 3.16 KOhm ; 0.100W ; 1% ; 0603
+resistors_0603-70	ZZ_resistors:R	1K82-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/doc?28773	Vishay	CRCW06031K82FKEA	Mouser	71-CRCW0603-1.82K-E3	1K82	0.1W	1%	Thick Film	0.45	0603	0.1	Resistor 1K82	Resistor ; 1.82 KOhm ; 0.100W ; 1% ; 0603
+resistors_0603-71	ZZ_resistors:R	43R2-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/doc?28773	Vishay	CRCW060343R2FKEA	Mouser	71-CRCW0603-43.2-E3	43R2	0.1W	1%	Thick Film	0.45	0603	0.1	Resistor 43R2	Resistor ; 43.2 Ohm ; 0.100W ; 1% ; 0603
 \.
 
 
@@ -2228,7 +2233,7 @@ ALTER TABLE ONLY public.transistors
     ADD CONSTRAINT transistors_pkey PRIMARY KEY ("Part_ID");
 
 
--- Completed on 2024-01-25 11:38:03
+-- Completed on 2024-01-30 17:06:51
 
 --
 -- PostgreSQL database dump complete

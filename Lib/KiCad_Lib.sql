@@ -5,7 +5,7 @@
 -- Dumped from database version 16.1
 -- Dumped by pg_dump version 16.1
 
--- Started on 2024-01-30 17:06:51
+-- Started on 2024-02-02 16:57:42
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1386,7 +1386,7 @@ CREATE TABLE public.voltage_reference (
 ALTER TABLE public.voltage_reference OWNER TO postgres;
 
 --
--- TOC entry 4978 (class 0 OID 16398)
+-- TOC entry 4980 (class 0 OID 16398)
 -- Dependencies: 215
 -- Data for Name: adc; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1397,7 +1397,7 @@ ADC-0	ZZ_ADC_DAC:ADS8694IDBT	ADS8694IDBT	ZZ_Package_SO:TSSOP-38_4.4x9.7mm_P0.5mm
 
 
 --
--- TOC entry 4979 (class 0 OID 16403)
+-- TOC entry 4981 (class 0 OID 16403)
 -- Dependencies: 216
 -- Data for Name: amplifier; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1414,7 +1414,7 @@ Amplifier-6	ZZ_analogs:PMA2-43LN+	PMA2-43LN+	ZZ_RF_Mini-Circuits:Mini-Circuits_M
 
 
 --
--- TOC entry 4980 (class 0 OID 16408)
+-- TOC entry 4982 (class 0 OID 16408)
 -- Dependencies: 217
 -- Data for Name: capacitors_aluminium; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1431,7 +1431,7 @@ capacitors_aluminium-6	ZZ_capacitors:C_Electrolytic	47uF-25V-20p-Al-TypeC	ZZ_Cap
 
 
 --
--- TOC entry 4981 (class 0 OID 16413)
+-- TOC entry 4983 (class 0 OID 16413)
 -- Dependencies: 218
 -- Data for Name: capacitors_ceramic_0603; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1466,7 +1466,7 @@ capacitors_ceramic_0603-17	ZZ_capacitors:C	4.7uF-6.3V-10p-Ceramic-0603	ZZ_Capaci
 
 
 --
--- TOC entry 4982 (class 0 OID 16418)
+-- TOC entry 4984 (class 0 OID 16418)
 -- Dependencies: 219
 -- Data for Name: capacitors_ceramic_0805; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1485,7 +1485,7 @@ capacitors_ceramic_0805-8	ZZ_capacitors:C	47uF-10V-20p-Ceramic-0805	ZZ_Capacitor
 
 
 --
--- TOC entry 4983 (class 0 OID 16423)
+-- TOC entry 4985 (class 0 OID 16423)
 -- Dependencies: 220
 -- Data for Name: capacitors_ceramic_1210; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1497,7 +1497,7 @@ capacitors_ceramic_1210-1	ZZ_capacitors:C	10uF-25V-10p-Ceramic-1210	ZZ_Capacitor
 
 
 --
--- TOC entry 4984 (class 0 OID 16428)
+-- TOC entry 4986 (class 0 OID 16428)
 -- Dependencies: 221
 -- Data for Name: capacitors_tantalum; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1511,7 +1511,7 @@ capacitors_tantalum-3	ZZ_capacitors:C_Electrolytic	68uF-10V-10p-Tantalum-1210	ZZ
 
 
 --
--- TOC entry 4985 (class 0 OID 16433)
+-- TOC entry 4987 (class 0 OID 16433)
 -- Dependencies: 222
 -- Data for Name: clock_buffers; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1522,7 +1522,7 @@ clock_buffers-0	ZZ_clock_buffers:CY2305CSXI-1H	CY2305CSXI-1H	SO:SOLEIL-SOIC8NB	\
 
 
 --
--- TOC entry 4986 (class 0 OID 16438)
+-- TOC entry 4988 (class 0 OID 16438)
 -- Dependencies: 223
 -- Data for Name: comparator; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1534,7 +1534,7 @@ Comparator-1	ZZ_analogs:LTC6752IS5	LTC6752IS5	ZZ_Package_TO_SOT_SMD:TSOT-23-5	ht
 
 
 --
--- TOC entry 4987 (class 0 OID 16443)
+-- TOC entry 4989 (class 0 OID 16443)
 -- Dependencies: 224
 -- Data for Name: connectors_cpci; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1545,7 +1545,7 @@ CPCI_connectors-0	ZZ_connectors:CPCI-J1	CPCI-J1	ZZ_Connector_Erni:Erni_ERmet_Fem
 
 
 --
--- TOC entry 4988 (class 0 OID 16448)
+-- TOC entry 4990 (class 0 OID 16448)
 -- Dependencies: 225
 -- Data for Name: connectors_he; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1566,7 +1566,7 @@ HE_connectors-9	ZZ_connectors:TSW-123-14-G-D	TSW-123-14-G-D	ZZ_Connector_Samtec:
 
 
 --
--- TOC entry 4989 (class 0 OID 16453)
+-- TOC entry 4991 (class 0 OID 16453)
 -- Dependencies: 226
 -- Data for Name: connectors_lemo; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1577,7 +1577,7 @@ Lemo_connectors-0	ZZ_connectors:XBG.00.302.NLN	XBG.00.302.NLN	ZZ_Connector_Lemo:
 
 
 --
--- TOC entry 4990 (class 0 OID 16458)
+-- TOC entry 4992 (class 0 OID 16458)
 -- Dependencies: 227
 -- Data for Name: connectors_memory_card; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1588,7 +1588,7 @@ card_connectors-0	ZZ_connectors:SD-Card_5025700893	SD-Card_5025700893	ZZ_Connect
 
 
 --
--- TOC entry 4991 (class 0 OID 16463)
+-- TOC entry 4993 (class 0 OID 16463)
 -- Dependencies: 228
 -- Data for Name: connectors_psu; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1603,7 +1603,7 @@ PSU_connectors-4	ZZ_connectors:Multicomp_24.243.5	Multicomp_24.243.5	ZZ_Connecto
 
 
 --
--- TOC entry 4992 (class 0 OID 16468)
+-- TOC entry 4994 (class 0 OID 16468)
 -- Dependencies: 229
 -- Data for Name: connectors_rj45; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1615,7 +1615,7 @@ RJ45_connectors-1	ZZ_connectors:RJ45_BEL_L829-1J1T-43	RJ45_BEL_L829-1J1T-43	ZZ_C
 
 
 --
--- TOC entry 4993 (class 0 OID 16473)
+-- TOC entry 4995 (class 0 OID 16473)
 -- Dependencies: 230
 -- Data for Name: connectors_sfp; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1627,7 +1627,7 @@ SFP_connectors-1	ZZ_connectors:SFP_Cage-1x2_1761014-3	1761014-3	ZZ_Connector_TE-
 
 
 --
--- TOC entry 4994 (class 0 OID 16478)
+-- TOC entry 4996 (class 0 OID 16478)
 -- Dependencies: 231
 -- Data for Name: connectors_sma; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1641,7 +1641,7 @@ SMA_connectors-3	ZZ_connectors:Coax_5_points	449.42.2522.201	ZZ_Connector_SMA:SO
 
 
 --
--- TOC entry 4995 (class 0 OID 16483)
+-- TOC entry 4997 (class 0 OID 16483)
 -- Dependencies: 232
 -- Data for Name: connectors_som; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1653,7 +1653,7 @@ connectors_SOM-1	ZZ_connectors:KRIA_K26_SOM240_2	KRIA_K26_SOM240_2	ZZ_Connector_
 
 
 --
--- TOC entry 4996 (class 0 OID 16488)
+-- TOC entry 4998 (class 0 OID 16488)
 -- Dependencies: 233
 -- Data for Name: connectors_terminal; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1665,7 +1665,7 @@ Terminal_connectors-1	ZZ_connectors:Phoenix_MKDS_1-5-2	Phoenix_MKDS_1-5-2	ZZ_Con
 
 
 --
--- TOC entry 4997 (class 0 OID 16493)
+-- TOC entry 4999 (class 0 OID 16493)
 -- Dependencies: 234
 -- Data for Name: connectors_usb; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1676,7 +1676,7 @@ connectors_USB-0	ZZ_connectors:USB_B_Micro_Molex_473460001	USB_B_Micro_Molex_473
 
 
 --
--- TOC entry 4998 (class 0 OID 16498)
+-- TOC entry 5000 (class 0 OID 16498)
 -- Dependencies: 235
 -- Data for Name: dac; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1687,7 +1687,7 @@ DAC-0	ZZ_ADC_DAC:LTC2758ACLX	LTC2758ACLX	ZZ_Package_QFP:LQFP-48_7x7mm_P0.5mm	\N	
 
 
 --
--- TOC entry 4999 (class 0 OID 16503)
+-- TOC entry 5001 (class 0 OID 16503)
 -- Dependencies: 236
 -- Data for Name: diodes; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1699,7 +1699,7 @@ diode-1	ZZ_diodes:D	MMSD4148T1G	ZZ_Diode_SMD:D_SOD-123	https://www.onsemi.com/do
 
 
 --
--- TOC entry 5000 (class 0 OID 16508)
+-- TOC entry 5002 (class 0 OID 16508)
 -- Dependencies: 237
 -- Data for Name: filters; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1713,7 +1713,7 @@ filters-3	ZZ_filters:NFM41	NFM41PC155B1H3L	ZZ_Filter:Murata_NFM41P	\N	Murata	NFM
 
 
 --
--- TOC entry 5001 (class 0 OID 16513)
+-- TOC entry 5003 (class 0 OID 16513)
 -- Dependencies: 238
 -- Data for Name: fpga; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1726,7 +1726,7 @@ Xilinx-Spartan-2	ZZ_FPGA:XC6SLX9-2FTG256C	XC6SLX9-2FTG256C	ZZ_Package_BGA:BGA-25
 
 
 --
--- TOC entry 5002 (class 0 OID 16518)
+-- TOC entry 5004 (class 0 OID 16518)
 -- Dependencies: 239
 -- Data for Name: inductors_smd; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1742,7 +1742,7 @@ inductors_SMD-5	ZZ_inductors:L	MPZ1608S221ATA00	ZZ_Inductor_SMD:L_0603_1608Metri
 
 
 --
--- TOC entry 5003 (class 0 OID 16523)
+-- TOC entry 5005 (class 0 OID 16523)
 -- Dependencies: 240
 -- Data for Name: interfaces; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1758,7 +1758,7 @@ interfaces-5	ZZ_interfaces:PCA9306	PCA9306DCTR	ZZ_Package_SO:SSOP-8_2.95x2.8mm_P
 
 
 --
--- TOC entry 5004 (class 0 OID 16528)
+-- TOC entry 5006 (class 0 OID 16528)
 -- Dependencies: 241
 -- Data for Name: led; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1769,11 +1769,12 @@ LED-1	ZZ_LED:LED	KP-3216SRC-PRV	LED_SMD:LED_1206_3216Metric	\N	Kingbright	KPC-32
 LED-2	ZZ_LED:LED	LG_M67K-G1J2-24	LED_SMD:LED_0805_2012Metric	\N	Osram	LG M67K-G1J2-24	RS	654-4411	Green	1.8V	2mA	-	1.4	0805	0.11	LED	LED ; SMD ; green ; If = 2 mA ; Vf = 1.8V ; SMD 0805
 LED-3	ZZ_LED:LED	LS_M67K-H2L1-1	LED_SMD:LED_0805_2012Metric	\N	Osram	LS M67K-H2L1-1	RS	654-5947	Red	1.8V	2mA	-	1.4	0805	0.099	LED	LED ; SMD ; red ; If = 2 mA ; Vf = 1.8V ; SMD 0805
 LED-4	ZZ_LED:LED_Red_Green	Wurth_150141SV73110	ZZ_LED_SMD:LED_RGB_Wurth-PLCC4_3.2x2.8mm_150141SV73110	\N	Wurth	150141SV73110	Mouser	710-150141SV73110	Red-Green	2.2V	20mA	-	1.9	SMD	0.593	LED	LED ; SMD ; red-green ; If = 20 mA ; Vf = 2.2V ; SMD
+LED-5	ZZ_LED:WS2812B	WS2812B	ZZ_LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm	https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf	Worldsemi	WS2812B	Digikey	1568-COM-16347CT-ND	RGB	5V	-	-	1.7	PLCC4	0.55	serial LED	serial LED RGB
 \.
 
 
 --
--- TOC entry 5005 (class 0 OID 16533)
+-- TOC entry 5007 (class 0 OID 16533)
 -- Dependencies: 242
 -- Data for Name: logic; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1797,7 +1798,7 @@ Logic-13	ZZ_logic:MC100EPT21	MC100EPT21MNR4G	ZZ_Package_SO:SOIC-8_3.9x4.9mm_P1.2
 
 
 --
--- TOC entry 5006 (class 0 OID 16538)
+-- TOC entry 5008 (class 0 OID 16538)
 -- Dependencies: 243
 -- Data for Name: memory; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1809,7 +1810,7 @@ memory-1	ZZ_memory:FM24C64B	M24C64-DRDW8	ZZ_Package_SO:TSSOP-8_4.4x3mm_P0.65mm	h
 
 
 --
--- TOC entry 5007 (class 0 OID 16543)
+-- TOC entry 5009 (class 0 OID 16543)
 -- Dependencies: 244
 -- Data for Name: mounting_holes; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1822,7 +1823,7 @@ mounting_holes-2	ZZ_mounting_holes:FIX	D_3mm7	MountingHole:MountingHole_3.7mm_Pa
 
 
 --
--- TOC entry 5008 (class 0 OID 16548)
+-- TOC entry 5010 (class 0 OID 16548)
 -- Dependencies: 245
 -- Data for Name: optical_devices; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1833,7 +1834,7 @@ OpticalDevice-0	ZZ_optical_devices:Light_pipe	SMFLP	ZZ_OptoDevice:Bivar_SMFLP	\N
 
 
 --
--- TOC entry 5009 (class 0 OID 16553)
+-- TOC entry 5011 (class 0 OID 16553)
 -- Dependencies: 246
 -- Data for Name: oscillators; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1848,12 +1849,13 @@ oscillators-6	ZZ_oscillators:FXO-HC73	FXO-HC736R-60MHZ	ZZ_Oscillator:Oscillator_
 oscillators-1	ZZ_oscillators:7B-25.000MEEQ-T	7B-25.000MEEQ-T	ZZ_Oscillator:Oscillator_SMD_TXC-7B_4Pin_5x3.2mm	\N	TXC	7B-25.000MEEQ-T	Farnell	1841996	25MHz	10 ppm	crystal	-	0.9	SMD 5x3.2	1.18	crystal	Obsolete ; Crystal ; 25 MHz ; 10 ppm ; SMD
 oscillators-8	ZZ_oscillators:ECS-2016MV-250-CN-TR3	ECS-2016MV-250-CN-TR3	ZZ_Oscillator:Oscillator_SMD_ECS-2016MV_2.0x1.6mm	https://ecsxtal.com/store/pdf/ECS-2016MV.pdf	ECS	ECS-2016MV-250-CN-TR3	Mouser	520-2016MV-250-CNTR3	25.000MHZ	+/- 25 ppm	HCMOS oscillator	-	0.85	SMD	1.5	oscillator	25MHz oscillator ; HCMOS ; +/- 25 ppm ; 1.6V to 3V3 ; SMD
 oscillators-7	ZZ_oscillators:ABM8G-12.000MHZ-8-B2X-T	ABM8G-12.000MHZ-8-B2X-T	ZZ_Oscillator:Crystal_SMD_3225-4Pin_3.2x2.5mm	https://www.abracon.com/Resonators/ABM8G.pdf	Abracon	ABM8G-12.000MHZ-8-B2X-T	Mouser	815-ABM8G-12-8-B2X-T	12.000MHZ	+/- 20 ppm	ceramic glass crystal	-	1.0	SMD	0.57	quartz ceramic resonator oscillator	12 MHz ceramic glass crystal ; stability +/- 20 ppm ; tolerance +/- 20 ppm, SMD
+oscillators-10	ZZ_oscillators:Si_oscillator_diff_OE	531BC125M000DG	ZZ_Oscillator:Oscillator_SMD_SI510_4Pin_7x5mm	https://www.skyworksinc.com/-/media/SkyWorks/SL/documents/public/data-sheets/Si530-31.pdf	Skywork	531BC125M000DG	DigiKey	336-2676-ND	125.000MHz	+/- 7 ppm	DSPLL	-	1.65	SMD	11.26	LVDS oscillator	125.000 Mz DSPLL XO ; stability +/- 7 ppm ; 3.3V ;  SMD
 oscillators-9	ZZ_oscillators:Si_oscillator_diff_OE	531BC156M250DGR	ZZ_Oscillator:Oscillator_SMD_SI510_4Pin_7x5mm	https://www.skyworksinc.com/-/media/SkyWorks/SL/documents/public/data-sheets/Si530-31.pdf	Skywork	531BC156M250DGR	DigiKey	336-4197-1-ND	156.25MHz	+/- 7 ppm	DSPLL	-	1.65	SMD	14.15	LVDS oscillator	156.25 Mz DSPLL XO ; stability +/- 7 ppm ; 3.3V ;  SMD
 \.
 
 
 --
--- TOC entry 5010 (class 0 OID 16558)
+-- TOC entry 5012 (class 0 OID 16558)
 -- Dependencies: 247
 -- Data for Name: power_protection; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1864,7 +1866,7 @@ power_protection-0	ZZ_Power_Protection:TPD4S012DRYR	TPD4S012DRYR	ZZ_Package_SON:
 
 
 --
--- TOC entry 5011 (class 0 OID 16563)
+-- TOC entry 5013 (class 0 OID 16563)
 -- Dependencies: 248
 -- Data for Name: power_supply; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1884,7 +1886,7 @@ power-9	ZZ_Power_Supply:LT3040EDD	LT3040EDD	ZZ_Package_DFN_QFN:DFN-10-1EP_3x3mm_
 
 
 --
--- TOC entry 5012 (class 0 OID 16568)
+-- TOC entry 5014 (class 0 OID 16568)
 -- Dependencies: 249
 -- Data for Name: resistors_0603; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1966,7 +1968,7 @@ resistors_0603-71	ZZ_resistors:R	43R2-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metri
 
 
 --
--- TOC entry 5013 (class 0 OID 16573)
+-- TOC entry 5015 (class 0 OID 16573)
 -- Dependencies: 250
 -- Data for Name: resistors_0805; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -2009,7 +2011,7 @@ resistors_0805-32	ZZ_resistors:R	8K06-0.125W-1P-0805	Resistor_SMD:R_0805_2012Met
 
 
 --
--- TOC entry 5014 (class 0 OID 16578)
+-- TOC entry 5016 (class 0 OID 16578)
 -- Dependencies: 251
 -- Data for Name: resistors_2512; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -2020,7 +2022,7 @@ resistors_2512-0	ZZ_resistors:R	49R9-1W-1P-2512	Resistor_SMD:R_2512_6332Metric	\
 
 
 --
--- TOC entry 5015 (class 0 OID 16583)
+-- TOC entry 5017 (class 0 OID 16583)
 -- Dependencies: 252
 -- Data for Name: resistors_network; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -2033,7 +2035,7 @@ resistors_network-2	ZZ_resistors:Rx4	22Rx4-0.063W-1P-4x0603	Resistor_SMD:R_Array
 
 
 --
--- TOC entry 5016 (class 0 OID 16588)
+-- TOC entry 5018 (class 0 OID 16588)
 -- Dependencies: 253
 -- Data for Name: rf; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -2049,7 +2051,7 @@ RF-5	ZZ_RF:SIM-73L+	SIM-73L+	SO:SOLEIL-HV1195	\N	Mini-Circuits	SIM-73L+	Mini-Cir
 
 
 --
--- TOC entry 5017 (class 0 OID 16593)
+-- TOC entry 5019 (class 0 OID 16593)
 -- Dependencies: 254
 -- Data for Name: sensor; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -2060,7 +2062,7 @@ sensor-0	ZZ_sensors:INA260	INA260AIPW	ZZ_Package_SO:TSSOP-16_4.4x5mm_P0.65mm	htt
 
 
 --
--- TOC entry 5018 (class 0 OID 16598)
+-- TOC entry 5020 (class 0 OID 16598)
 -- Dependencies: 255
 -- Data for Name: shields; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -2073,7 +2075,7 @@ shields-2	ZZ_shields:CN-5700	CN-5700	ZZ_Boxes:Bud_Industries_CN-5700	\N	Bud Indu
 
 
 --
--- TOC entry 5019 (class 0 OID 16603)
+-- TOC entry 5021 (class 0 OID 16603)
 -- Dependencies: 256
 -- Data for Name: switch; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -2081,11 +2083,12 @@ shields-2	ZZ_shields:CN-5700	CN-5700	ZZ_Boxes:Bud_Industries_CN-5700	\N	Bud Indu
 COPY public.switch ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Note 1", "Note 2", "Note 3", "Note 4", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
 switch-0	ZZ_switch:SW_DIP_x06	SW_DIP_x06	ZZ_Passives:SW_DIP_SPSTx06_Slide_Omron_A6S-610x_W8.9mm_P2.54mm	~	Omron	A6S-6104-H	RS	534-774	6 poles switch	-	-	-	3.7mm	A6S-6104	1.53	dip switch	6x DIP Switch ; Single Pole Single Throw (SPST) switch ; small symbol
 switch-1	ZZ_switch:MAX9152EUE	MAX9152EUE	ZZ_Package_SO:TSSOP-16_4.4x5mm_P0.65mm	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX9152.pdf	Analog Devices	MAX9152EUE+T	Mouser	700-MAX9152EUET	-	-	-	-	1.20	TSSOP-16	10.24	crosspoint switch	800Mbps LVDS/LVPECL-to-LVDS 2 x 2 Crosspoint Switch ; 3.3V ; TSSOP-16
+switch-2	ZZ_switch:SW_Push	KMR231NGLFS	ZZ_Passives:SW_Push_1P1T_NO_CK_KMR2	https://www.ckswitches.com/media/1479/kmr2.pdf	ckswitches	MKMR231NGLFS	Mouser	611-KMR231NGLFS	-	-	-	-	1.90	SMD	0.59	switch	Microminiature SMT top actuated switch ; NO
 \.
 
 
 --
--- TOC entry 5020 (class 0 OID 16608)
+-- TOC entry 5022 (class 0 OID 16608)
 -- Dependencies: 257
 -- Data for Name: test_points; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -2096,7 +2099,7 @@ test_point-0	ZZ_test_points:TP	TEST-22	ZZ_Passives:TEST-22	\N	Multicomp	TEST-22	
 
 
 --
--- TOC entry 5021 (class 0 OID 16613)
+-- TOC entry 5023 (class 0 OID 16613)
 -- Dependencies: 258
 -- Data for Name: transformer; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -2107,7 +2110,7 @@ transformer-0	ZZ_PSU:T_P1S1	VB-1-0-1-6	ZZ_Transformer:Block_VB_1_0_1_6-28x33	htt
 
 
 --
--- TOC entry 5022 (class 0 OID 16618)
+-- TOC entry 5024 (class 0 OID 16618)
 -- Dependencies: 259
 -- Data for Name: transistors; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -2123,7 +2126,7 @@ transistors-5	ZZ_transistors:PMOS	FDN336P	ZZ_Package_TO_SOT_SMD:SOT-23-3	https:/
 
 
 --
--- TOC entry 5023 (class 0 OID 16623)
+-- TOC entry 5025 (class 0 OID 16623)
 -- Dependencies: 260
 -- Data for Name: voltage_monitor; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -2138,7 +2141,7 @@ Voltage_monitor-4	ZZ_voltage_monitor:TPS3430WDRCR	TPS3430WDRCR	ZZ_Package_SON:VS
 
 
 --
--- TOC entry 5024 (class 0 OID 16628)
+-- TOC entry 5026 (class 0 OID 16628)
 -- Dependencies: 261
 -- Data for Name: voltage_reference; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -2225,7 +2228,16 @@ ALTER TABLE ONLY public.resistors_0603
 
 
 --
--- TOC entry 4834 (class 2606 OID 16644)
+-- TOC entry 4834 (class 2606 OID 24843)
+-- Name: switch switch_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.switch
+    ADD CONSTRAINT switch_pkey PRIMARY KEY ("Part_ID");
+
+
+--
+-- TOC entry 4836 (class 2606 OID 16644)
 -- Name: transistors transistors_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -2233,7 +2245,7 @@ ALTER TABLE ONLY public.transistors
     ADD CONSTRAINT transistors_pkey PRIMARY KEY ("Part_ID");
 
 
--- Completed on 2024-01-30 17:06:51
+-- Completed on 2024-02-02 16:57:42
 
 --
 -- PostgreSQL database dump complete

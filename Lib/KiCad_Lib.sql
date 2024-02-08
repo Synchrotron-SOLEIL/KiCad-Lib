@@ -5,7 +5,7 @@
 -- Dumped from database version 16.1
 -- Dumped by pg_dump version 16.1
 
--- Started on 2024-02-06 17:56:37
+-- Started on 2024-02-08 10:30:27
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1562,6 +1562,7 @@ HE_connectors-6	ZZ_connectors:TSM-108-02-S-DV	TSM-108-02-S-DV	ZZ_Connector_Samte
 HE_connectors-7	ZZ_connectors:TSM-111-02-S-DV	TSM-111-02-S-DV	ZZ_Connector_Samtec:Samtec_TSM-111-DV_.2x11_P2.54mm_Vertical_SMD	\N	Samtec	TSM-111-02-S-DV	Farnell	2055881	-	-	-	-	8.13	2.54mm SMD 2x11	6.10	header connector	TSM Header ; 2x11 points ; straight ; 2.54mm pitch ; 8.13mm height  ; SMD
 HE_connectors-8	ZZ_connectors:TSM-123-02-S-DV	TSM-123-02-S-DV	ZZ_Connector_Samtec:Samtec_TSM-123-DV_2x23_P2.54mm_Vertical_SMD	\N	Samtec	TSM-123-02-S-DV	Farnell	2055931	-	-	-	-	8.13	2.54mm SMD 2x23	12.78	header connector	TSM Header ; 2x23 points ; straight ; 2.54mm pitch ; 8.13mm height  ; SMD
 HE_connectors-9	ZZ_connectors:TSW-123-14-G-D	TSW-123-14-G-D	ZZ_Connector_Samtec:Samtec_TSW-123-14-G-D_2x23_P2.54mm_Vertical	\N	Samtec	TSW-123-14-G-D	Farnell	2027086	-	-	-	-	8.13	2.54mm 2x23	5.38	header connector	TSW Header ; 2x23 points ; straight ; 2.54mm pitch ; 8.13mm height  ; trough hole
+HE_connectors-12	ZZ_connectors:Conn_02x07_Odd_Even	MOLEX_2x7_878321420	ZZ_Connector_Molex:Molex_Milli-Gird_878321420_2x07_P2.00mm_Vertical_SMD	https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/878/87832/878321420_sd.pdf?inline	Molex	878321420	Mouser	538-87832-1420	-	-	-	-	7.6	SMD 2mm 2x7	2.03	2x7 connector	2.00mm Pitch ; Milli-Grid PCB Header ; Dual Row ; Vertical ; Surface Mount ; Shrouded ; Lead-Free ; 14 Circuits ; 0.38æm Gold (Au) Plating ; with Locking Windows and Center Polarization Slot
 \.
 
 
@@ -2264,7 +2265,7 @@ ALTER TABLE ONLY public.transistors
     ADD CONSTRAINT transistors_pkey PRIMARY KEY ("Part_ID");
 
 
--- Completed on 2024-02-06 17:56:37
+-- Completed on 2024-02-08 10:30:27
 
 --
 -- PostgreSQL database dump complete

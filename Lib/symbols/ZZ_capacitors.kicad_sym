@@ -70,7 +70,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "cap capacitor"
@@ -209,6 +208,14 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage" "Voltage"
+			(at 5.08 -8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "capacitor"
 			(at 0 0 0)
 			(effects
@@ -345,6 +352,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage" "Voltage"
+			(at 4.572 -4.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "ki_keywords" "cap capacitor"

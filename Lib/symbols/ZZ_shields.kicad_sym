@@ -353,7 +353,7 @@
 				(start -8.89 8.89)
 				(end 8.89 -7.62)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill

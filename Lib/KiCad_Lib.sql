@@ -5,7 +5,7 @@
 -- Dumped from database version 16.1
 -- Dumped by pg_dump version 16.1
 
--- Started on 2024-02-08 10:30:27
+-- Started on 2024-02-12 17:27:03
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1386,7 +1386,7 @@ CREATE TABLE public.voltage_reference (
 ALTER TABLE public.voltage_reference OWNER TO postgres;
 
 --
--- TOC entry 4984 (class 0 OID 16398)
+-- TOC entry 4988 (class 0 OID 16398)
 -- Dependencies: 215
 -- Data for Name: adc; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1397,7 +1397,7 @@ ADC-0	ZZ_ADC_DAC:ADS8694IDBT	ADS8694IDBT	ZZ_Package_SO:TSSOP-38_4.4x9.7mm_P0.5mm
 
 
 --
--- TOC entry 4985 (class 0 OID 16403)
+-- TOC entry 4989 (class 0 OID 16403)
 -- Dependencies: 216
 -- Data for Name: amplifier; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1414,7 +1414,7 @@ Amplifier-6	ZZ_analogs:PMA2-43LN+	PMA2-43LN+	ZZ_RF_Mini-Circuits:Mini-Circuits_M
 
 
 --
--- TOC entry 4986 (class 0 OID 16408)
+-- TOC entry 4990 (class 0 OID 16408)
 -- Dependencies: 217
 -- Data for Name: capacitors_aluminium; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1431,7 +1431,7 @@ capacitors_aluminium-6	ZZ_capacitors:C_Electrolytic	47uF-25V-20p-Al-TypeC	ZZ_Cap
 
 
 --
--- TOC entry 4987 (class 0 OID 16413)
+-- TOC entry 4991 (class 0 OID 16413)
 -- Dependencies: 218
 -- Data for Name: capacitors_ceramic_0603; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1466,7 +1466,7 @@ capacitors_ceramic_0603-17	ZZ_capacitors:C	4.7uF-6.3V-10p-Ceramic-0603	ZZ_Capaci
 
 
 --
--- TOC entry 4988 (class 0 OID 16418)
+-- TOC entry 4992 (class 0 OID 16418)
 -- Dependencies: 219
 -- Data for Name: capacitors_ceramic_0805; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1475,17 +1475,17 @@ COPY public.capacitors_ceramic_0805 ("Part_ID", "Symbols", "Value", "Footprints"
 capacitors_ceramic_0805-0	ZZ_capacitors:C	100nF-50V-10p-Ceramic-0805	ZZ_Capacitor_SMD:C_0805_2012Metric	\N	KEMET	C0805F104K5RACTU	Farnell	1288272	100nF	50V	10%	X7R	1.1	0805	0.28	Capacitor 100nF 50V	Capacitor ; ceramic X7R ; 50 V ; 100 nF ; 10% ; 0805
 capacitors_ceramic_0805-1	ZZ_capacitors:C	100pF-50V-5p-Ceramic-0805	ZZ_Capacitor_SMD:C_0805_2012Metric	\N	KEMET	C0805C101J5GACTU	Farnell	1414656RL	100pF	50V	5%	X7R	1.1	0805	0.041	Capacitor 100pF 50V	Capacitor ; ceramic C0G ; 50 V ; 100 pF ; 10% ; 0805
 capacitors_ceramic_0805-2	ZZ_capacitors:C	10nF-50V-10p-Ceramic-0805	ZZ_Capacitor_SMD:C_0805_2012Metric	\N	KEMET	C0805C103K5RACTU	Farnell	1414662	10nF	50V	10%	X7R	1.1	0805	0.032	Capacitor 10nF 50V	Capacitor ; ceramic X7R ; 50 V ; 10 nF ; 10% ; 0805
-capacitors_ceramic_0805-3	ZZ_capacitors:C	10uF-16V-10p-Ceramic-0805	ZZ_Capacitor_SMD:C_0805_2012Metric	\N	KEMET	C0805C106K4PACTU	Farnell	1288204	10uF	16V	10%	X5R	1.1	0805	0.174	Capacitor 5pF 50V	Capacitor ; ceramic X5R ; 16 V ; 10 uF ; 10% ; 0805
 capacitors_ceramic_0805-4	ZZ_capacitors:C	1nF-50V-10p-Ceramic-0805	ZZ_Capacitor_SMD:C_0805_2012Metric	\N	KEMET	C0805C102K5RACTU	Farnell	1414660	1nF	50V	10%	X7R	1.1	0805	0.032	Capacitor 1nF 50V	Capacitor ; ceramic X7R ; 50 V ; 1 nF ; 10% ; 0805
 capacitors_ceramic_0805-5	ZZ_capacitors:C	2.2nF-50V-5p-Ceramic-0805	ZZ_Capacitor_SMD:C_0805_2012Metric	\N	KEMET	C0805C222J5GACAUTO	Farnell	2070464	2.2nF	50V	5%	C0G	1.1	0805	0.10	Capacitor 2.2nF 50V	Capacitor ; ceramic C0G ; 50 V ; 2.2 nF ; 10% ; 0805
 capacitors_ceramic_0805-6	ZZ_capacitors:C	5pF-50V-10p-Ceramic-0805	ZZ_Capacitor_SMD:C_0805_2012Metric	\N	Multicomp	MC0805N5R0C500CT	Farnell	1759184	5pF	50V	10%	C0G	1.1	0805	0.041	Capacitor 5pF 50V	Capacitor ; ceramic C0G ; 50 V ; 5 pF ; 10% ; 0805
 capacitors_ceramic_0805-7	ZZ_capacitors:C	22uF-25V-20p-Ceramic-0805	ZZ_Capacitor_SMD:C_0805_2012Metric	https://product.samsungsem.com/mlcc/CL21A226MAYNNN.do	Samsung Electro-Mechanics	CL21A226MAYNNNE	Mouser	187-CL21A226MAYNNNE	22uF	25V	20%	X5R	1.25	0805	0.28	Capacitor 22uF 25V	Capacitor ; ceramic X5R ; 25 V ; 22 uF ; 20% ; 0805
 capacitors_ceramic_0805-8	ZZ_capacitors:C	47uF-10V-20p-Ceramic-0805	ZZ_Capacitor_SMD:C_0805_2012Metric	https://ds.yuden.co.jp/TYCOMPAS/ap/specSheet?pn=MSASL21GBB5476MTNA01	Taiyo Yuden	LMK212BBJ476MG-T	Mouser	963-LMK212BBJ476MG-T	47uF	10V	20%	X5R	1.25	0805	0.67	Capacitor 47uF 10V	Capacitor ; ceramic X5R ; 10 V ; 47 uF ; 20% ; 0805
+capacitors_ceramic_0805-3	ZZ_capacitors:C	10uF-16V-10p-Ceramic-0805	ZZ_Capacitor_SMD:C_0805_2012Metric	https://search.kemet.com/component-documentation/download/datasheet/C0805C106K4PACTU.pdf	KEMET	C0805C106K4PACTU	Mouser	80-C0805C106K4P	10uF	16V	10%	X5R	1.1	0805	0.174	Capacitor 5pF 50V	Capacitor ; ceramic X5R ; 16 V ; 10 uF ; 10% ; 0805
 \.
 
 
 --
--- TOC entry 4989 (class 0 OID 16423)
+-- TOC entry 4993 (class 0 OID 16423)
 -- Dependencies: 220
 -- Data for Name: capacitors_ceramic_1210; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1497,7 +1497,7 @@ capacitors_ceramic_1210-1	ZZ_capacitors:C	10uF-25V-10p-Ceramic-1210	ZZ_Capacitor
 
 
 --
--- TOC entry 4990 (class 0 OID 16428)
+-- TOC entry 4994 (class 0 OID 16428)
 -- Dependencies: 221
 -- Data for Name: capacitors_tantalum; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1511,7 +1511,7 @@ capacitors_tantalum-3	ZZ_capacitors:C_Electrolytic	68uF-10V-10p-Tantalum-1210	ZZ
 
 
 --
--- TOC entry 4991 (class 0 OID 16433)
+-- TOC entry 4995 (class 0 OID 16433)
 -- Dependencies: 222
 -- Data for Name: clock_buffers; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1522,7 +1522,7 @@ clock_buffers-0	ZZ_clock_buffers:CY2305CSXI-1H	CY2305CSXI-1H	SO:SOLEIL-SOIC8NB	\
 
 
 --
--- TOC entry 4992 (class 0 OID 16438)
+-- TOC entry 4996 (class 0 OID 16438)
 -- Dependencies: 223
 -- Data for Name: comparator; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1534,7 +1534,7 @@ Comparator-1	ZZ_analogs:LTC6752IS5	LTC6752IS5	ZZ_Package_TO_SOT_SMD:TSOT-23-5	ht
 
 
 --
--- TOC entry 4993 (class 0 OID 16443)
+-- TOC entry 4997 (class 0 OID 16443)
 -- Dependencies: 224
 -- Data for Name: connectors_cpci; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1545,7 +1545,7 @@ CPCI_connectors-0	ZZ_connectors:CPCI-J1	CPCI-J1	ZZ_Connector_Erni:Erni_ERmet_Fem
 
 
 --
--- TOC entry 4994 (class 0 OID 16448)
+-- TOC entry 4998 (class 0 OID 16448)
 -- Dependencies: 225
 -- Data for Name: connectors_he; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1567,7 +1567,7 @@ HE_connectors-12	ZZ_connectors:Conn_02x07_Odd_Even	MOLEX_2x7_878321420	ZZ_Connec
 
 
 --
--- TOC entry 4995 (class 0 OID 16453)
+-- TOC entry 4999 (class 0 OID 16453)
 -- Dependencies: 226
 -- Data for Name: connectors_lemo; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1578,7 +1578,7 @@ Lemo_connectors-0	ZZ_connectors:XBG.00.302.NLN	XBG.00.302.NLN	ZZ_Connector_Lemo:
 
 
 --
--- TOC entry 4996 (class 0 OID 16458)
+-- TOC entry 5000 (class 0 OID 16458)
 -- Dependencies: 227
 -- Data for Name: connectors_memory_card; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1589,7 +1589,7 @@ card_connectors-0	ZZ_connectors:SD-Card_5025700893	SD-Card_5025700893	ZZ_Connect
 
 
 --
--- TOC entry 4997 (class 0 OID 16463)
+-- TOC entry 5001 (class 0 OID 16463)
 -- Dependencies: 228
 -- Data for Name: connectors_psu; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1604,7 +1604,7 @@ PSU_connectors-4	ZZ_connectors:Multicomp_24.243.5	Multicomp_24.243.5	ZZ_Connecto
 
 
 --
--- TOC entry 4998 (class 0 OID 16468)
+-- TOC entry 5002 (class 0 OID 16468)
 -- Dependencies: 229
 -- Data for Name: connectors_rj45; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1616,7 +1616,7 @@ RJ45_connectors-1	ZZ_connectors:RJ45_BEL_L829-1J1T-43	RJ45_BEL_L829-1J1T-43	ZZ_C
 
 
 --
--- TOC entry 4999 (class 0 OID 16473)
+-- TOC entry 5003 (class 0 OID 16473)
 -- Dependencies: 230
 -- Data for Name: connectors_sfp; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1628,7 +1628,7 @@ SFP_connectors-1	ZZ_connectors:SFP_Cage-1x2_1761014-3	1761014-3	ZZ_Connector_TE-
 
 
 --
--- TOC entry 5000 (class 0 OID 16478)
+-- TOC entry 5004 (class 0 OID 16478)
 -- Dependencies: 231
 -- Data for Name: connectors_sma; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1642,7 +1642,7 @@ SMA_connectors-3	ZZ_connectors:Coax_5_points	449.42.2522.201	ZZ_Connector_SMA:SO
 
 
 --
--- TOC entry 5001 (class 0 OID 16483)
+-- TOC entry 5005 (class 0 OID 16483)
 -- Dependencies: 232
 -- Data for Name: connectors_som; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1654,7 +1654,7 @@ connectors_SOM-1	ZZ_connectors:KRIA_K26_SOM240_2	KRIA_K26_SOM240_2	ZZ_Connector_
 
 
 --
--- TOC entry 5002 (class 0 OID 16488)
+-- TOC entry 5006 (class 0 OID 16488)
 -- Dependencies: 233
 -- Data for Name: connectors_terminal; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1666,7 +1666,7 @@ Terminal_connectors-1	ZZ_connectors:Phoenix_MKDS_1-5-2	Phoenix_MKDS_1-5-2	ZZ_Con
 
 
 --
--- TOC entry 5003 (class 0 OID 16493)
+-- TOC entry 5007 (class 0 OID 16493)
 -- Dependencies: 234
 -- Data for Name: connectors_usb; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1677,7 +1677,7 @@ connectors_USB-0	ZZ_connectors:USB_B_Micro_Molex_473460001	USB_B_Micro_Molex_473
 
 
 --
--- TOC entry 5004 (class 0 OID 16498)
+-- TOC entry 5008 (class 0 OID 16498)
 -- Dependencies: 235
 -- Data for Name: dac; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1688,7 +1688,7 @@ DAC-0	ZZ_ADC_DAC:LTC2758ACLX	LTC2758ACLX	ZZ_Package_QFP:LQFP-48_7x7mm_P0.5mm	\N	
 
 
 --
--- TOC entry 5005 (class 0 OID 16503)
+-- TOC entry 5009 (class 0 OID 16503)
 -- Dependencies: 236
 -- Data for Name: diodes; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1700,7 +1700,7 @@ diode-1	ZZ_diodes:D	MMSD4148T1G	ZZ_Diode_SMD:D_SOD-123	https://www.onsemi.com/do
 
 
 --
--- TOC entry 5006 (class 0 OID 16508)
+-- TOC entry 5010 (class 0 OID 16508)
 -- Dependencies: 237
 -- Data for Name: filters; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1714,7 +1714,7 @@ filters-3	ZZ_filters:NFM41	NFM41PC155B1H3L	ZZ_Filter:Murata_NFM41P	\N	Murata	NFM
 
 
 --
--- TOC entry 5007 (class 0 OID 16513)
+-- TOC entry 5011 (class 0 OID 16513)
 -- Dependencies: 238
 -- Data for Name: fpga; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1727,7 +1727,7 @@ Xilinx-Spartan-2	ZZ_FPGA:XC6SLX9-2FTG256C	XC6SLX9-2FTG256C	ZZ_Package_BGA:BGA-25
 
 
 --
--- TOC entry 5008 (class 0 OID 16518)
+-- TOC entry 5012 (class 0 OID 16518)
 -- Dependencies: 239
 -- Data for Name: inductors_smd; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1743,7 +1743,7 @@ inductors_SMD-5	ZZ_inductors:L	MPZ1608S221ATA00	ZZ_Inductor_SMD:L_0603_1608Metri
 
 
 --
--- TOC entry 5009 (class 0 OID 16523)
+-- TOC entry 5013 (class 0 OID 16523)
 -- Dependencies: 240
 -- Data for Name: interfaces; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1759,7 +1759,7 @@ interfaces-5	ZZ_interfaces:PCA9306	PCA9306DCTR	ZZ_Package_SO:SSOP-8_2.95x2.8mm_P
 
 
 --
--- TOC entry 5010 (class 0 OID 16528)
+-- TOC entry 5014 (class 0 OID 16528)
 -- Dependencies: 241
 -- Data for Name: led; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1775,7 +1775,7 @@ LED-5	ZZ_LED:WS2812B	WS2812B	ZZ_LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm	https
 
 
 --
--- TOC entry 5011 (class 0 OID 16533)
+-- TOC entry 5015 (class 0 OID 16533)
 -- Dependencies: 242
 -- Data for Name: logic; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1799,7 +1799,7 @@ Logic-13	ZZ_logic:MC100EPT21	MC100EPT21MNR4G	ZZ_Package_SO:SOIC-8_3.9x4.9mm_P1.2
 
 
 --
--- TOC entry 5012 (class 0 OID 16538)
+-- TOC entry 5016 (class 0 OID 16538)
 -- Dependencies: 243
 -- Data for Name: memory; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1811,7 +1811,7 @@ memory-1	ZZ_memory:FM24C64B	M24C64-DRDW8	ZZ_Package_SO:TSSOP-8_4.4x3mm_P0.65mm	h
 
 
 --
--- TOC entry 5013 (class 0 OID 16543)
+-- TOC entry 5017 (class 0 OID 16543)
 -- Dependencies: 244
 -- Data for Name: mounting_holes; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1825,7 +1825,7 @@ mounting_holes-3	ZZ_mounting_holes:MH	D_4mm5	ZZ_MountingHole:MountingHole_4.5mm_
 
 
 --
--- TOC entry 5014 (class 0 OID 16548)
+-- TOC entry 5018 (class 0 OID 16548)
 -- Dependencies: 245
 -- Data for Name: optical_devices; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1836,28 +1836,28 @@ OpticalDevice-0	ZZ_optical_devices:Light_pipe	SMFLP	ZZ_OptoDevice:Bivar_SMFLP	\N
 
 
 --
--- TOC entry 5015 (class 0 OID 16553)
+-- TOC entry 5019 (class 0 OID 16553)
 -- Dependencies: 246
 -- Data for Name: oscillators; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
 COPY public.oscillators ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Frequency", "Stability", "Type", "Note 4", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
 oscillators-0	ZZ_oscillators:510ABA100M000AAG	510ABA100M000AAG	ZZ_Oscillator:Oscillator_SMD_SI510_4Pin_7x5mm	\N	Silicon Labs 	510ABA100M000AAG	Farnell	2393919	100MHz	-	XO	-	1.65	SMD 5x7	5.74	oscillator	Oscillator ; LVPECL ; 3V3 ; 100MHz ; SMD
-oscillators-2	ZZ_oscillators:9C-25.000MEEJ-T	9C-25.000MEEJ-T	ZZ_Oscillator:Oscillator_SMD_TXC-HC49S_2Pin_11.4x4.8mm	\N	TXC	9C-25.000MEEJ-T	Farnell	1842314	25MHz	10 ppm	crystal	-	\N	HC49S	0.58	crystal	Obsolete ; Crystal ; 25 MHz ; 10 ppm ; SMD ; HC-49S
 oscillators-3	ZZ_oscillators:CVHD-950M-108.3681	CVHD-950M-108.3681	ZZ_Oscillator:Oscillator_SMD_Crystek_CVHD-950_4Pin_14.2x9.14mm	\N	Crystek	CVHD-950M-108.3681	CVHD-950M-108.3681	CVHD-950M-108.3681	108.3681MHz	-	VCXO	-	5.3	SMD 9x14	28	VCXO	Oscillator ; HCMOS ; 3V3 ; 108.3681MHz ; SMD
-oscillators-4	ZZ_oscillators:FXO-HC73	FXO-HC736R-25MHZ	ZZ_Oscillator:Oscillator_SMD_FXO-HC73_4Pin_7.5x5.2mm	\N	FOX Electronics	FXO-HC736R-25	RS	672-0858	25MHz	-	XO	-	1.5	FXO-HC	3.27	oscillator	Obsolete ; Oscillator ; HCMOS ; 3V3 ; 25MHz ; SMD
-oscillators-5	ZZ_oscillators:FXO-HC73	FXO-HC736R-50MHZ	ZZ_Oscillator:Oscillator_SMD_FXO-HC73_4Pin_7.5x5.2mm	\N	FOX Electronics	FXO-HC736R-50	RS	672-0882P	50MHz	-	XO	-	1.5	FXO-HC	2.78	oscillator	Obsolete ; Oscillator ; HCMOS ; 3V3 ; 25MHz ; SMD
-oscillators-6	ZZ_oscillators:FXO-HC73	FXO-HC736R-60MHZ	ZZ_Oscillator:Oscillator_SMD_FXO-HC73_4Pin_7.5x5.2mm	\N	FOX Electronics	FXO-HC736R-60	Farnell	2058129	60MHz	-	XO	-	1.5	FXO-HC	2.21	oscillator	Obsolete ; Oscillator ; HCMOS ; 3V3 ; 60MHz ; SMD
-oscillators-1	ZZ_oscillators:7B-25.000MEEQ-T	7B-25.000MEEQ-T	ZZ_Oscillator:Oscillator_SMD_TXC-7B_4Pin_5x3.2mm	\N	TXC	7B-25.000MEEQ-T	Farnell	1841996	25MHz	10 ppm	crystal	-	0.9	SMD 5x3.2	1.18	crystal	Obsolete ; Crystal ; 25 MHz ; 10 ppm ; SMD
 oscillators-8	ZZ_oscillators:ECS-2016MV-250-CN-TR3	ECS-2016MV-250-CN-TR3	ZZ_Oscillator:Oscillator_SMD_ECS-2016MV_2.0x1.6mm	https://ecsxtal.com/store/pdf/ECS-2016MV.pdf	ECS	ECS-2016MV-250-CN-TR3	Mouser	520-2016MV-250-CNTR3	25.000MHZ	+/- 25 ppm	HCMOS oscillator	-	0.85	SMD	1.5	oscillator	25MHz oscillator ; HCMOS ; +/- 25 ppm ; 1.6V to 3V3 ; SMD
 oscillators-7	ZZ_oscillators:ABM8G-12.000MHZ-8-B2X-T	ABM8G-12.000MHZ-8-B2X-T	ZZ_Oscillator:Crystal_SMD_3225-4Pin_3.2x2.5mm	https://www.abracon.com/Resonators/ABM8G.pdf	Abracon	ABM8G-12.000MHZ-8-B2X-T	Mouser	815-ABM8G-12-8-B2X-T	12.000MHZ	+/- 20 ppm	ceramic glass crystal	-	1.0	SMD	0.57	quartz ceramic resonator oscillator	12 MHz ceramic glass crystal ; stability +/- 20 ppm ; tolerance +/- 20 ppm, SMD
 oscillators-10	ZZ_oscillators:Si_oscillator_diff_OE	531BC125M000DG	ZZ_Oscillator:Oscillator_SMD_SI510_4Pin_7x5mm	https://www.skyworksinc.com/-/media/SkyWorks/SL/documents/public/data-sheets/Si530-31.pdf	Skywork	531BC125M000DG	DigiKey	336-2676-ND	125.000MHz	+/- 7 ppm	DSPLL	-	1.65	SMD	11.26	LVDS oscillator	125.000 Mz DSPLL XO ; stability +/- 7 ppm ; 3.3V ;  SMD
 oscillators-9	ZZ_oscillators:Si_oscillator_diff_OE	531BC156M250DGR	ZZ_Oscillator:Oscillator_SMD_SI510_4Pin_7x5mm	https://www.skyworksinc.com/-/media/SkyWorks/SL/documents/public/data-sheets/Si530-31.pdf	Skywork	531BC156M250DGR	DigiKey	336-4197-1-ND	156.25MHz	+/- 7 ppm	DSPLL	-	1.65	SMD	14.15	LVDS oscillator	156.25 Mz DSPLL XO ; stability +/- 7 ppm ; 3.3V ;  SMD
+oscillators-1	ZZ_oscillators:7B-25.000MEEQ-T	7B-25.000MEEQ-T	ZZ_Oscillator:Oscillator_SMD_TXC-7B_4Pin_5x3.2mm	\N	TXC	7B-25.000MEEQ-T	Farnell	1841996	25MHz	10 ppm	crystal	-	0.9	SMD 5x3.2	1.18	crystal	[obsolete] ; Crystal ; 25 MHz ; 10 ppm ; SMD
+oscillators-2	ZZ_oscillators:9C-25.000MEEJ-T	9C-25.000MEEJ-T	ZZ_Oscillator:Oscillator_SMD_TXC-HC49S_2Pin_11.4x4.8mm	\N	TXC	9C-25.000MEEJ-T	Farnell	1842314	25MHz	10 ppm	crystal	-	\N	HC49S	0.58	crystal	[obsolete] ; Crystal ; 25 MHz ; 10 ppm ; SMD ; HC-49S
+oscillators-4	ZZ_oscillators:FXO-HC73	FXO-HC736R-25MHZ	ZZ_Oscillator:Oscillator_SMD_FXO-HC73_4Pin_7.5x5.2mm	\N	FOX Electronics	FXO-HC736R-25	RS	672-0858	25MHz	-	XO	-	1.5	FXO-HC	3.27	oscillator	[obsolete] ; Oscillator ; HCMOS ; 3V3 ; 25MHz ; SMD
+oscillators-5	ZZ_oscillators:FXO-HC73	FXO-HC736R-50MHZ	ZZ_Oscillator:Oscillator_SMD_FXO-HC73_4Pin_7.5x5.2mm	\N	FOX Electronics	FXO-HC736R-50	RS	672-0882P	50MHz	-	XO	-	1.5	FXO-HC	2.78	oscillator	[obsolete] ; Oscillator ; HCMOS ; 3V3 ; 25MHz ; SMD
+oscillators-6	ZZ_oscillators:FXO-HC73	FXO-HC736R-60MHZ	ZZ_Oscillator:Oscillator_SMD_FXO-HC73_4Pin_7.5x5.2mm	\N	FOX Electronics	FXO-HC736R-60	Farnell	2058129	60MHz	-	XO	-	1.5	FXO-HC	2.21	oscillator	[obsolete] ; Oscillator ; HCMOS ; 3V3 ; 60MHz ; SMD
 \.
 
 
 --
--- TOC entry 5016 (class 0 OID 16558)
+-- TOC entry 5020 (class 0 OID 16558)
 -- Dependencies: 247
 -- Data for Name: power_protection; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1868,7 +1868,7 @@ power_protection-0	ZZ_Power_Protection:TPD4S012DRYR	TPD4S012DRYR	ZZ_Package_SON:
 
 
 --
--- TOC entry 5017 (class 0 OID 16563)
+-- TOC entry 5021 (class 0 OID 16563)
 -- Dependencies: 248
 -- Data for Name: power_supply; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1888,7 +1888,7 @@ power-9	ZZ_Power_Supply:LT3040EDD	LT3040EDD	ZZ_Package_DFN_QFN:DFN-10-1EP_3x3mm_
 
 
 --
--- TOC entry 5018 (class 0 OID 16568)
+-- TOC entry 5022 (class 0 OID 16568)
 -- Dependencies: 249
 -- Data for Name: resistors_0603; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -1966,11 +1966,12 @@ resistors_0603-68	ZZ_resistors:R	1K21-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metri
 resistors_0603-69	ZZ_resistors:R	3K16-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/doc?28773	Vishay	CRCW06033K16FKEAC	Mouser	71-CRCW06033K16FKEAC	3K16	0.1W	1%	Thick Film	0.45	0603	0.1	Resistor 3K16	Resistor ; 3.16 KOhm ; 0.100W ; 1% ; 0603
 resistors_0603-70	ZZ_resistors:R	1K82-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/doc?28773	Vishay	CRCW06031K82FKEA	Mouser	71-CRCW0603-1.82K-E3	1K82	0.1W	1%	Thick Film	0.45	0603	0.1	Resistor 1K82	Resistor ; 1.82 KOhm ; 0.100W ; 1% ; 0603
 resistors_0603-71	ZZ_resistors:R	43R2-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/doc?28773	Vishay	CRCW060343R2FKEA	Mouser	71-CRCW0603-43.2-E3	43R2	0.1W	1%	Thick Film	0.45	0603	0.1	Resistor 43R2	Resistor ; 43.2 Ohm ; 0.100W ; 1% ; 0603
+RF-6	ZZ_RF:HMC705LP4E	HMC705LP4E	ZZ_Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.8x2.8mm_ThermalVias	https://www.analog.com/media/en/technical-documentation/data-sheets/hmc1097.pdf	Analog Devices	HMC705LP4E	Mouser	584-HMC705LP4E	-	-	-	-	0.9	QFN-24	78.43	frequency divider	Programmable frequency divider (1 - 17) ; 0.1 - 6.5 GHz ; -153 dBc/Hz @ 100 kHz
 \.
 
 
 --
--- TOC entry 5019 (class 0 OID 16573)
+-- TOC entry 5023 (class 0 OID 16573)
 -- Dependencies: 250
 -- Data for Name: resistors_0805; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -2013,7 +2014,7 @@ resistors_0805-32	ZZ_resistors:R	8K06-0.125W-1P-0805	Resistor_SMD:R_0805_2012Met
 
 
 --
--- TOC entry 5020 (class 0 OID 16578)
+-- TOC entry 5024 (class 0 OID 16578)
 -- Dependencies: 251
 -- Data for Name: resistors_2512; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -2024,7 +2025,7 @@ resistors_2512-0	ZZ_resistors:R	49R9-1W-1P-2512	Resistor_SMD:R_2512_6332Metric	\
 
 
 --
--- TOC entry 5021 (class 0 OID 16583)
+-- TOC entry 5025 (class 0 OID 16583)
 -- Dependencies: 252
 -- Data for Name: resistors_network; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -2037,23 +2038,23 @@ resistors_network-2	ZZ_resistors:Rx4	22Rx4-0.063W-1P-4x0603	Resistor_SMD:R_Array
 
 
 --
--- TOC entry 5022 (class 0 OID 16588)
+-- TOC entry 5026 (class 0 OID 16588)
 -- Dependencies: 253
 -- Data for Name: rf; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
 COPY public.rf ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Note 1", "Note 2", "Note 3", "Note 4", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
 RF-0	ZZ_RF:GP2Y+	GP2Y+	ZZ_QFP:DQ1225-12_3x3mm_P0.5mm	\N	Mini-Circuits	GP2Y+	Mini-Circuits	GP2Y+	-	-	-	-	0.89	DQ1225	29.80	splitter	RF splitter ; 1.6 GHz to 3.3 GHz ; 50 Ohm ; 2 way - 0 degree ; 3.65 dB loss at 3 GHz
-RF-1	ZZ_RF:HMC1097LP4E	HMC1097LP4E	ZZ_Package_QFP:WQFN-24_4x4mm_P0.5mm	\N	Hittite	HMC1097LP4E	Digi-Key	1127-1182-1-ND	-	-	-	-	0.90	WQFN24	19.42	IQ modulator	IQ modulator 100 - 6000 MHz
-RF-2	ZZ_RF:LMX2541SQ2690E	LMX2541SQ2690E	ZZ_Package_DFN_QFN:Texas_S-PVQFN-N36_EP4.6x4.6mm	\N	Texas Instruments	LMX2541SQ2690E/NOPB	Digi-Key	LMX2541SQ2690E/NOPBCT-ND	-	-	-	-	0.8	WQFN36	13.01	PLL	Fractional N PLL with intregated VCO ; RFout = 2490MHz to 2865MHz ; OSCin = 5MHz to 900MHz ; VCO_DIV = 1 to 63
 RF-3	ZZ_RF:QCN-34+	QCN-34+	ZZ_RCL_SMD:SOLEIL-FV1206-1	\N	Mini-Circuits	QCN-34+	Mini-Circuits	QCN-34+	-	-	-	-	\N	FV1206-1	3.95	splitter	RF splitter ; 2.5 GHz to 3.4 GHz ; 50 Ohm ; 2 way - 90 degree ; 3.65 dB loss at 3 GHz
 RF-4	ZZ_RF:SIM-43+	SIM-43+	SO:SOLEIL-HV1195	\N	Mini-Circuits	SIM-43+	Mini-Circuits	SIM-43+	-	-	-	-	2.21	HV1195	7.45	mixer	RF frequency mixer ; 750 MHz to 4.2 GHz ; +7 dBm LO power ; 5 dB loss at 3 GHz
 RF-5	ZZ_RF:SIM-73L+	SIM-73L+	SO:SOLEIL-HV1195	\N	Mini-Circuits	SIM-73L+	Mini-Circuits	SIM-73L+	-	-	-	-	2.21	HV1195	9.95	mixer	RF frequency mixer ; 2.4 GHz to 7 GHz ; +4 dBm LO power ; 6 dB loss at 3 GHz
+RF-2	ZZ_RF:LMX2541SQ2690E	LMX2541SQ2690E	ZZ_Package_DFN_QFN:Texas_S-PVQFN-N36_EP4.6x4.6mm	https://www.ti.com/lit/gpn/lmx2541	Texas Instruments	LMX2541SQ2690E/NOPB	Digi-Key	LMX2541SQ2690E/NOPBCT-ND	-	-	-	-	0.8	WQFN36	13.01	PLL	Fractional N PLL with intregated VCO ; RFout = 2490MHz to 2865MHz ; OSCin = 5MHz to 900MHz ; VCO_DIV = 1 to 63
+RF-1	ZZ_RF:HMC1097LP4E	HMC1097LP4E	ZZ_Package_QFP:WQFN-24_4x4mm_P0.5mm	https://www.analog.com/media/en/technical-documentation/data-sheets/hmc1097.pdf	Hittite	HMC1097LP4E	Digi-Key	1127-1182-1-ND	-	-	-	-	0.90	WQFN24	19.42	IQ modulator	[obsolete] ; IQ modulator 100 - 6000 MHz
 \.
 
 
 --
--- TOC entry 5023 (class 0 OID 16593)
+-- TOC entry 5027 (class 0 OID 16593)
 -- Dependencies: 254
 -- Data for Name: sensor; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -2064,7 +2065,7 @@ sensor-0	ZZ_sensors:INA260	INA260AIPW	ZZ_Package_SO:TSSOP-16_4.4x5mm_P0.65mm	htt
 
 
 --
--- TOC entry 5024 (class 0 OID 16598)
+-- TOC entry 5028 (class 0 OID 16598)
 -- Dependencies: 255
 -- Data for Name: shields; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -2077,7 +2078,7 @@ shields-1	ZZ_shields:BMI-S-204-F	BMI-S-204-F	ZZ_RF_shield:Laird_BMI-S-204-F_32x3
 
 
 --
--- TOC entry 5025 (class 0 OID 16603)
+-- TOC entry 5029 (class 0 OID 16603)
 -- Dependencies: 256
 -- Data for Name: switch; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -2090,7 +2091,7 @@ switch-2	ZZ_switch:SW_Push	KMR231NGLFS	ZZ_Passives:SW_Push_1P1T_NO_CK_KMR2	https
 
 
 --
--- TOC entry 5026 (class 0 OID 16608)
+-- TOC entry 5030 (class 0 OID 16608)
 -- Dependencies: 257
 -- Data for Name: test_points; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -2101,7 +2102,7 @@ test_point-0	ZZ_test_points:TP	TEST-22	ZZ_Passives:TEST-22	\N	Multicomp	TEST-22	
 
 
 --
--- TOC entry 5027 (class 0 OID 16613)
+-- TOC entry 5031 (class 0 OID 16613)
 -- Dependencies: 258
 -- Data for Name: transformer; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -2112,7 +2113,7 @@ transformer-0	ZZ_PSU:T_P1S1	VB-1-0-1-6	ZZ_Transformer:Block_VB_1_0_1_6-28x33	htt
 
 
 --
--- TOC entry 5028 (class 0 OID 16618)
+-- TOC entry 5032 (class 0 OID 16618)
 -- Dependencies: 259
 -- Data for Name: transistors; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -2128,7 +2129,7 @@ transistors-5	ZZ_transistors:PMOS	FDN336P	ZZ_Package_TO_SOT_SMD:SOT-23-3	https:/
 
 
 --
--- TOC entry 5029 (class 0 OID 16623)
+-- TOC entry 5033 (class 0 OID 16623)
 -- Dependencies: 260
 -- Data for Name: voltage_monitor; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -2143,7 +2144,7 @@ Voltage_monitor-4	ZZ_voltage_monitor:TPS3430WDRCR	TPS3430WDRCR	ZZ_Package_SON:VS
 
 
 --
--- TOC entry 5030 (class 0 OID 16628)
+-- TOC entry 5034 (class 0 OID 16628)
 -- Dependencies: 261
 -- Data for Name: voltage_reference; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -2167,7 +2168,16 @@ ALTER TABLE ONLY public.capacitors_ceramic_0603
 
 
 --
--- TOC entry 4820 (class 2606 OID 16636)
+-- TOC entry 4820 (class 2606 OID 24849)
+-- Name: capacitors_ceramic_0805 capacitors_ceramic_0805_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.capacitors_ceramic_0805
+    ADD CONSTRAINT capacitors_ceramic_0805_pkey PRIMARY KEY ("Part_ID");
+
+
+--
+-- TOC entry 4822 (class 2606 OID 16636)
 -- Name: connectors_he connectors_he_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -2176,7 +2186,7 @@ ALTER TABLE ONLY public.connectors_he
 
 
 --
--- TOC entry 4822 (class 2606 OID 16638)
+-- TOC entry 4824 (class 2606 OID 16638)
 -- Name: diodes diodes_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -2185,7 +2195,7 @@ ALTER TABLE ONLY public.diodes
 
 
 --
--- TOC entry 4824 (class 2606 OID 24839)
+-- TOC entry 4826 (class 2606 OID 24839)
 -- Name: logic logic_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -2194,7 +2204,7 @@ ALTER TABLE ONLY public.logic
 
 
 --
--- TOC entry 4826 (class 2606 OID 24847)
+-- TOC entry 4828 (class 2606 OID 24847)
 -- Name: mounting_holes mounting_holes_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -2203,7 +2213,7 @@ ALTER TABLE ONLY public.mounting_holes
 
 
 --
--- TOC entry 4828 (class 2606 OID 16640)
+-- TOC entry 4830 (class 2606 OID 16640)
 -- Name: oscillators oscillators_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -2212,7 +2222,7 @@ ALTER TABLE ONLY public.oscillators
 
 
 --
--- TOC entry 4830 (class 2606 OID 16647)
+-- TOC entry 4832 (class 2606 OID 16647)
 -- Name: power_protection power_protection_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -2221,7 +2231,7 @@ ALTER TABLE ONLY public.power_protection
 
 
 --
--- TOC entry 4832 (class 2606 OID 24841)
+-- TOC entry 4834 (class 2606 OID 24841)
 -- Name: power_supply power_supply_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -2230,7 +2240,7 @@ ALTER TABLE ONLY public.power_supply
 
 
 --
--- TOC entry 4834 (class 2606 OID 16642)
+-- TOC entry 4836 (class 2606 OID 16642)
 -- Name: resistors_0603 resistors_0603_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -2239,7 +2249,16 @@ ALTER TABLE ONLY public.resistors_0603
 
 
 --
--- TOC entry 4836 (class 2606 OID 24845)
+-- TOC entry 4838 (class 2606 OID 24851)
+-- Name: rf rf_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.rf
+    ADD CONSTRAINT rf_pkey PRIMARY KEY ("Part_ID");
+
+
+--
+-- TOC entry 4840 (class 2606 OID 24845)
 -- Name: shields shields_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -2248,7 +2267,7 @@ ALTER TABLE ONLY public.shields
 
 
 --
--- TOC entry 4838 (class 2606 OID 24843)
+-- TOC entry 4842 (class 2606 OID 24843)
 -- Name: switch switch_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -2257,7 +2276,7 @@ ALTER TABLE ONLY public.switch
 
 
 --
--- TOC entry 4840 (class 2606 OID 16644)
+-- TOC entry 4844 (class 2606 OID 16644)
 -- Name: transistors transistors_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -2265,7 +2284,7 @@ ALTER TABLE ONLY public.transistors
     ADD CONSTRAINT transistors_pkey PRIMARY KEY ("Part_ID");
 
 
--- Completed on 2024-02-08 10:30:27
+-- Completed on 2024-02-12 17:27:03
 
 --
 -- PostgreSQL database dump complete

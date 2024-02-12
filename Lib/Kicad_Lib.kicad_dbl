@@ -351,7 +351,7 @@
                 {
                     "column": "Voltage",
                     "name": "Voltage",
-                    "visible_on_add": false,
+                    "visible_on_add": true,
                     "visible_in_chooser": false,
                     "show_name": false,
                     "inherit_properties": false
@@ -487,7 +487,7 @@
                 {
                     "column": "Voltage",
                     "name": "Voltage",
-                    "visible_on_add": false,
+                    "visible_on_add": true,
                     "visible_in_chooser": false,
                     "show_name": false,
                     "inherit_properties": false
@@ -623,7 +623,7 @@
                 {
                     "column": "Voltage",
                     "name": "Voltage",
-                    "visible_on_add": false,
+                    "visible_on_add": true,
                     "visible_in_chooser": false,
                     "show_name": false,
                     "inherit_properties": false

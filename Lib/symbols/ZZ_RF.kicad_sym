@@ -1417,8 +1417,8 @@
 		)
 		(symbol "LMX2541SQ2690E_1_1"
 			(rectangle
-				(start -30.48 15.24)
-				(end 30.48 -15.24)
+				(start -33.02 15.24)
+				(end 33.02 -15.24)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1482,7 +1482,7 @@
 				)
 			)
 			(pin input line
-				(at -35.56 5.08 0)
+				(at -38.1 5.08 0)
 				(length 5.08)
 				(name "CE"
 					(effects
@@ -1500,7 +1500,7 @@
 				)
 			)
 			(pin input line
-				(at 35.56 -10.16 180)
+				(at 38.1 -10.16 180)
 				(length 5.08)
 				(name "ExtVCOin"
 					(effects
@@ -1536,7 +1536,7 @@
 				)
 			)
 			(pin power_in line
-				(at 6.35 20.32 270)
+				(at 5.08 20.32 270)
 				(length 5.08)
 				(name "VccCP1"
 					(effects
@@ -1554,7 +1554,7 @@
 				)
 			)
 			(pin input line
-				(at 35.56 -5.08 180)
+				(at 38.1 -5.08 180)
 				(length 5.08)
 				(name "Vtune"
 					(effects
@@ -1572,7 +1572,7 @@
 				)
 			)
 			(pin output line
-				(at 35.56 -2.54 180)
+				(at 38.1 -2.54 180)
 				(length 5.08)
 				(name "CPout"
 					(effects
@@ -1590,7 +1590,7 @@
 				)
 			)
 			(pin output line
-				(at 35.56 2.54 180)
+				(at 38.1 2.54 180)
 				(length 5.08)
 				(name "FLout"
 					(effects
@@ -1608,7 +1608,7 @@
 				)
 			)
 			(pin power_in line
-				(at 8.89 20.32 270)
+				(at 7.62 20.32 270)
 				(length 5.08)
 				(name "VccCP2"
 					(effects
@@ -1662,7 +1662,7 @@
 				)
 			)
 			(pin output line
-				(at -35.56 0 0)
+				(at -38.1 0 0)
 				(length 5.08)
 				(name "Ftest/LD"
 					(effects
@@ -1680,7 +1680,7 @@
 				)
 			)
 			(pin input line
-				(at -35.56 -7.62 0)
+				(at -38.1 -7.62 0)
 				(length 5.08)
 				(name "OSCin"
 					(effects
@@ -1698,7 +1698,7 @@
 				)
 			)
 			(pin input line
-				(at -35.56 -10.16 0)
+				(at -38.1 -10.16 0)
 				(length 5.08)
 				(name "~{OSCin}"
 					(effects
@@ -1716,7 +1716,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 20.32 270)
+				(at 0 20.32 270)
 				(length 5.08)
 				(name "VccOSCin"
 					(effects
@@ -1734,7 +1734,7 @@
 				)
 			)
 			(pin input line
-				(at -35.56 2.54 0)
+				(at -38.1 2.54 0)
 				(length 5.08)
 				(name "RFoutEN"
 					(effects
@@ -1752,7 +1752,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 20.32 270)
+				(at -5.08 20.32 270)
 				(length 5.08)
 				(name "VccFRAC"
 					(effects
@@ -1770,7 +1770,7 @@
 				)
 			)
 			(pin power_out line
-				(at -6.35 20.32 270)
+				(at -7.62 20.32 270)
 				(length 5.08)
 				(name "VregFRAC"
 					(effects
@@ -1806,7 +1806,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 20.32 270)
+				(at -17.78 20.32 270)
 				(length 5.08)
 				(name "VccDig"
 					(effects
@@ -1824,7 +1824,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 20.32 270)
+				(at -22.86 20.32 270)
 				(length 5.08)
 				(name "VccBias"
 					(effects
@@ -1860,7 +1860,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 20.32 270)
+				(at -25.4 20.32 270)
 				(length 5.08)
 				(name "Bypass"
 					(effects
@@ -1878,7 +1878,7 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 20.32 270)
+				(at -12.7 20.32 270)
 				(length 5.08)
 				(name "VccDiv"
 					(effects
@@ -1896,7 +1896,7 @@
 				)
 			)
 			(pin input line
-				(at -35.56 12.7 0)
+				(at -38.1 12.7 0)
 				(length 5.08)
 				(name "DATA"
 					(effects
@@ -1914,7 +1914,7 @@
 				)
 			)
 			(pin input clock
-				(at -35.56 10.16 0)
+				(at -38.1 10.16 0)
 				(length 5.08)
 				(name "CLK"
 					(effects
@@ -1932,7 +1932,7 @@
 				)
 			)
 			(pin input line
-				(at -35.56 7.62 0)
+				(at -38.1 7.62 0)
 				(length 5.08)
 				(name "LE"
 					(effects
@@ -1968,7 +1968,7 @@
 				)
 			)
 			(pin output line
-				(at 35.56 12.7 180)
+				(at 38.1 12.7 180)
 				(length 5.08)
 				(name "RFOUT"
 					(effects
@@ -2040,7 +2040,7 @@
 				)
 			)
 			(pin power_in line
-				(at 19.05 20.32 270)
+				(at 20.32 20.32 270)
 				(length 5.08)
 				(name "VccVCO"
 					(effects

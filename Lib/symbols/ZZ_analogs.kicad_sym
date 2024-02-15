@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 6.35 7.62 0)
+			(at 8.89 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16,7 +16,7 @@
 			)
 		)
 		(property "Value" "LT1012ACS8"
-			(at 1.27 -3.81 0)
+			(at 3.81 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25,7 +25,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.432 -7.366 0)
+			(at 29.972 -7.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33,8 +33,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at -1.27 5.08 0)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/LT1012.pdf"
+			(at -0.762 -2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,7 +43,7 @@
 			)
 		)
 		(property "Description" "OP Amp ; Picoamp Input Current ; Microvolt Offset ; Low Noise"
-			(at 0 0 0)
+			(at 2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60,28 +60,26 @@
 				(hide yes)
 			)
 		)
-		(symbol "LT1012ACS8_0_1"
+		(symbol "LT1012ACS8_1_1"
 			(polyline
 				(pts
-					(xy -7.62 6.35) (xy 5.08 0) (xy -7.62 -6.35) (xy -7.62 6.35)
+					(xy -5.08 6.35) (xy 7.62 0) (xy -5.08 -6.35) (xy -5.08 6.35)
 				)
 				(stroke
-					(width 0.1524)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "LT1012ACS8_1_1"
 			(pin input line
-				(at -12.7 3.81 0)
+				(at -10.16 5.08 0)
 				(length 5.08)
 				(name "Vos0"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 0.508 0.508)
 						)
 					)
 				)
@@ -94,7 +92,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -3.81 0)
+				(at -10.16 -5.08 0)
 				(length 5.08)
 				(name "-"
 					(effects
@@ -112,7 +110,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -1.27 0)
+				(at -10.16 -2.54 0)
 				(length 5.08)
 				(name "+"
 					(effects
@@ -130,12 +128,12 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -8.89 90)
-				(length 5.08)
+				(at 0 -7.62 90)
+				(length 3.81)
 				(name "V-"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 0.508 0.508)
 						)
 					)
 				)
@@ -148,12 +146,12 @@
 				)
 			)
 			(pin input line
-				(at 0 -7.62 90)
+				(at 2.54 -7.62 90)
 				(length 5.08)
 				(name "OC"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 0.508 0.508)
 						)
 					)
 				)
@@ -166,7 +164,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 0 180)
+				(at 12.7 0 180)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -184,12 +182,12 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 8.89 270)
-				(length 5.08)
+				(at 0 7.62 270)
+				(length 3.81)
 				(name "V+"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 0.508 0.508)
 						)
 					)
 				)
@@ -202,12 +200,12 @@
 				)
 			)
 			(pin input line
-				(at -12.7 1.27 0)
+				(at -10.16 2.54 0)
 				(length 5.08)
 				(name "Vos1"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 0.508 0.508)
 						)
 					)
 				)
@@ -252,7 +250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/1360fa.pdf"
 			(at -1.27 5.08 0)
 			(effects
 				(font
@@ -279,28 +277,26 @@
 				(hide yes)
 			)
 		)
-		(symbol "LT1360CS8_0_1"
+		(symbol "LT1360CS8_1_1"
 			(polyline
 				(pts
 					(xy -7.62 6.35) (xy 5.08 0) (xy -7.62 -6.35) (xy -7.62 6.35)
 				)
 				(stroke
-					(width 0.1524)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "LT1360CS8_1_1"
 			(pin input line
-				(at -12.7 3.81 0)
+				(at -12.7 5.08 0)
 				(length 5.08)
 				(name "Vos0"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 0.508 0.508)
 						)
 					)
 				)
@@ -313,7 +309,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -3.81 0)
+				(at -12.7 -5.08 0)
 				(length 5.08)
 				(name "-"
 					(effects
@@ -331,7 +327,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -1.27 0)
+				(at -12.7 -2.54 0)
 				(length 5.08)
 				(name "+"
 					(effects
@@ -349,12 +345,12 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -8.89 90)
-				(length 5.08)
+				(at -2.54 -7.62 90)
+				(length 3.81)
 				(name "V-"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 0.508 0.508)
 						)
 					)
 				)
@@ -367,12 +363,12 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -5.08 90)
-				(length 2.54)
+				(at 0 -2.54 90)
+				(length 2.54) hide
 				(name "NC"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 0.508 0.508)
 						)
 					)
 				)
@@ -403,12 +399,12 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 8.89 270)
-				(length 5.08)
+				(at -2.54 7.62 270)
+				(length 3.81)
 				(name "V+"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 0.508 0.508)
 						)
 					)
 				)
@@ -421,12 +417,12 @@
 				)
 			)
 			(pin input line
-				(at -12.7 1.27 0)
+				(at -12.7 2.54 0)
 				(length 5.08)
 				(name "Vos1"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 0.508 0.508)
 						)
 					)
 				)
@@ -679,7 +675,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 1.27 6.35 0)
+			(at 0.762 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -688,7 +684,7 @@
 			)
 		)
 		(property "Value" "LTC2054HVCS5"
-			(at 1.27 -3.81 0)
+			(at 0.762 4.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -705,7 +701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/20545fc.pdf"
 			(at -1.27 5.08 0)
 			(effects
 				(font
@@ -732,57 +728,19 @@
 				(hide yes)
 			)
 		)
-		(symbol "LTC2054HVCS5_0_1"
+		(symbol "LTC2054HVCS5_1_1"
 			(polyline
 				(pts
 					(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
 				)
 				(stroke
-					(width 0.1524)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-			(pin power_in line
-				(at -2.54 -8.89 90)
-				(length 5.08)
-				(name "V-"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -2.54 8.89 270)
-				(length 5.08)
-				(name "V+"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-		)
-		(symbol "LTC2054HVCS5_1_1"
 			(pin output line
 				(at 10.16 0 180)
 				(length 5.08)
@@ -794,6 +752,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 -7.62 90)
+				(length 3.81)
+				(name "V-"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -837,6 +813,24 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at -2.54 7.62 270)
+				(length 3.81)
+				(name "V+"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 		)
 	)
 	(symbol "LTC6241HVCS8"
@@ -853,7 +847,7 @@
 			)
 		)
 		(property "Value" "LTC6241HVCS8"
-			(at 1.27 -3.81 0)
+			(at 1.27 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -903,16 +897,16 @@
 					(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
 				)
 				(stroke
-					(width 0.1524)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin power_in line
-				(at -2.54 -8.89 90)
-				(length 5.08)
+				(at -2.54 -7.62 90)
+				(length 3.81)
 				(name "V-"
 					(effects
 						(font
@@ -929,8 +923,8 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 8.89 270)
-				(length 5.08)
+				(at -2.54 7.62 270)
+				(length 3.81)
 				(name "V+"
 					(effects
 						(font

@@ -203,7 +203,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.524 0)
+			(at 0 5.334 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -211,7 +211,7 @@
 			)
 		)
 		(property "Value" "GP2Y+"
-			(at 0.762 -1.016 0)
+			(at 0.762 2.286 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -255,8 +255,8 @@
 		)
 		(symbol "GP2Y+_1_1"
 			(rectangle
-				(start -17.78 10.16)
-				(end 17.78 -10.16)
+				(start -17.78 7.62)
+				(end 17.78 -7.62)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -266,7 +266,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 -15.24 90)
+				(at -12.7 -12.7 90)
 				(length 5.08)
 				(name "GND_DAP"
 					(effects
@@ -284,7 +284,7 @@
 				)
 			)
 			(pin power_in line
-				(at -7.62 -15.24 90)
+				(at -7.62 -12.7 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -302,7 +302,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 -15.24 90)
+				(at 7.62 -12.7 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -320,7 +320,7 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 -15.24 90)
+				(at 10.16 -12.7 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -338,7 +338,7 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 -15.24 90)
+				(at 12.7 -12.7 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -374,7 +374,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -15.24 90)
+				(at -5.08 -12.7 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -392,7 +392,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -15.24 90)
+				(at -2.54 -12.7 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -410,7 +410,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -15.24 90)
+				(at 0 -12.7 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -428,7 +428,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -15.24 90)
+				(at 2.54 -12.7 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -464,7 +464,7 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 -15.24 90)
+				(at 5.08 -12.7 90)
 				(length 5.08)
 				(name "GND"
 					(effects

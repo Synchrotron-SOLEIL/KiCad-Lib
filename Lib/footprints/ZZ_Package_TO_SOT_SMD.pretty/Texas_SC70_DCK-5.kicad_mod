@@ -1,0 +1,246 @@
+(footprint "Texas_SC70_DCK-5"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOT-SC70 DCK0005A")
+	(tags "SC70 DCK0005A")
+	(property "Reference" "REF**"
+		(at 0 -2.25 0)
+		(layer "F.SilkS")
+		(uuid "79b7b447-0e28-4c98-b659-0ec7d5f058b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Texas_SC70_DCK-5"
+		(at 0 2.1 0)
+		(layer "F.Fab")
+		(uuid "91d30185-1675-4630-8019-ab2236d913f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8504e7c3-8e15-41d4-8b64-acdc9b6552f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/pdf/mpds025h"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd4d930d-5407-49b9-a6c2-b05dd2ceef75")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "SOT-SC70 DCK0005A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8544a90c-6251-4784-a65e-d3c548d1f782")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(solder_paste_margin -0.025)
+	(attr smd)
+	(fp_line
+		(start -0.7 -1.11)
+		(end 0.7 -1.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fe6172f7-6d07-436b-99a5-c83082735f0b")
+	)
+	(fp_line
+		(start -0.7 1.11)
+		(end 0.7 1.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "da07a1df-eec1-4bd4-882c-8f6bf4dc7307")
+	)
+	(fp_circle
+		(center -1.5 -1.25)
+		(end -1.3 -1.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "97d7c0c6-85fe-427d-ab93-1162fbd5b30b")
+	)
+	(fp_line
+		(start -1.8 -1.25)
+		(end -1.8 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c855a061-bdd4-410f-962a-544484e7f744")
+	)
+	(fp_line
+		(start -1.8 -1.25)
+		(end 1.8 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d997bd87-ddbd-4e19-9291-5055aa27b925")
+	)
+	(fp_line
+		(start -1.8 1.25)
+		(end 1.8 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2fc5d5cc-b2b1-4943-a329-0f29055964f5")
+	)
+	(fp_line
+		(start 1.8 1.25)
+		(end 1.8 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c447b3a4-4809-46fb-8275-3e5dbdd3cd18")
+	)
+	(fp_line
+		(start -0.675 -0.5)
+		(end -0.675 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "38bab9c6-4bb3-4b88-b1c0-3b584e592f2a")
+	)
+	(fp_line
+		(start -0.175 -1)
+		(end -0.675 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "46411f41-378f-4f2d-8bad-3ddc7dfd7cd9")
+	)
+	(fp_line
+		(start 0.675 -1)
+		(end -0.175 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "14926c8b-f24b-4ec7-bd99-7adbf6003954")
+	)
+	(fp_line
+		(start 0.675 -1)
+		(end 0.675 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ac15706c-1ba1-4f66-ad6c-cfffefb1bba5")
+	)
+	(fp_line
+		(start 0.675 1)
+		(end -0.675 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f1ed821d-a09a-41ff-81a7-adda5470ceb8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "459efc8a-4979-4ed0-b81e-8bcac61baf59")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.1 -0.65)
+		(size 0.95 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "7bc14a15-fda1-4a03-9127-8391e18d79b7")
+	)
+	(pad "2" smd roundrect
+		(at -1.1 0)
+		(size 0.95 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "b1350a96-a376-4a05-b2b5-c83640dc5423")
+	)
+	(pad "3" smd roundrect
+		(at -1.1 0.65)
+		(size 0.95 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "c1c2f86c-e555-4fda-8a47-872fabb757e6")
+	)
+	(pad "4" smd roundrect
+		(at 1.1 0.65)
+		(size 0.95 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "39a7ffc5-c274-4ea9-a21d-78f5ddbc5dd4")
+	)
+	(pad "5" smd roundrect
+		(at 1.1 -0.65)
+		(size 0.95 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "222967f9-2584-408d-8411-9d0a3bcd6b5a")
+	)
+	(model "${KICAD_USER_3DMODEL_DIR}/ZZ_Package_TO_SOT_SMD.3dshapes/Texas_SC70_DCK-5.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

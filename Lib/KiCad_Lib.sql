@@ -5,7 +5,7 @@
 -- Dumped from database version 16.1
 -- Dumped by pg_dump version 16.1
 
--- Started on 2024-02-15 17:13:01
+-- Started on 2024-02-19 15:05:13
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1785,7 +1785,6 @@ Logic-0	ZZ_logic:SN74ABT541BDW	SN74ABT541BDW	ZZ_Package_SO:SOIC-20W_7.5x12.8mm_P
 Logic-1	ZZ_logic:74LVC14AD	74LVC14AD	ZZ_Package_SO:SOIC-14_3.9x8.7mm_P1.27mm	\N	TI	SN74LVC14AD	Avnet	SN74LVC14AD	-	-	-	-	2.65	SOIC14	0.47	buffer schmitt inverting	Hex inverting Schmitt trigger with 5 V tolerant input ; SOIC14MS
 Logic-2	ZZ_logic:74LVC1G17DBVR	74LVC1G17DBVR	ZZ_Package_TO_SOT_SMD:SOT-23-5	\N	TI	SN74LVC1G17DBVRG4	Avnet	SN74LVC1G17DBVRG4	-	-	-	-	1.10	SOT-23-5	2.71	buffer schmitt	Single schmitt trigger buffer ; SOT-23-5
 Logic-3	ZZ_logic:SN65HVD78D	SN65HVD78D	ZZ_Package_SO:SOIC-8_3.9x4.9mm_P1.27mm	\N	TI	SN65HVD78D	Digi-Key	296-30500-5-ND	-	-	-	-	2.65	SOIC8	2.58	RS-485	RS-485 driver and receiver with IEC ESD Protection ; SOIC8
-Logic-4	ZZ_logic:SN74LV4T125PWR	SN74LV4T125PWR	ZZ_Package_SO:TSSOP-14_4.4x5mm_P0.65mm	\N	TI	SN74LV4T125PWR	Digi-Key	296-40545-1-ND	-	-	-	-	1.2	TSSOP14	0.87	buffer	Single Power Supply Quadruple Buffer GATE w/ 3-State Output CMOS Logic Level Shifter ; TSSOP14
 Logic-5	ZZ_logic:SN74LV541APWR	SN74LV541APWR	ZZ_Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm	\N	TI	SN74LV541APWR	Digi-Key	296-13700-1-ND	-	-	-	-	1.2	TSSOP20	0.88	buffer 3State	8 bits Buffer/Line Driver 3 state Out ; TSSOP20
 Logic-6	ZZ_logic:SN75LVDS389DBT	SN75LVDS389DBT	ZZ_Package_SO:TSSOP-38_4.4x9.7mm_P0.5mm	\N	TI	SN75LVDS389DBT	Digi-Key	296-2369-5-ND	-	-	-	-	1.2	TSSOP38	4.89	buffer LVDS	Octal LVDS Transmitter ; TSSOP38
 Logic-7	ZZ_logic:SN75LVDT388ADBT	SN75LVDT388ADBT	ZZ_Package_SO:TSSOP-38_4.4x9.7mm_P0.5mm	\N	TI	SN75LVDT388ADBT	Digi-Key	296-26671-5-ND	-	-	-	-	1.2	TSSOP38	5.40	buffer LVDS	Octal LVDS Receiver with integrated 110R terminations ; TSSOP38
@@ -1795,6 +1794,8 @@ Logic-10	ZZ_logic:SN74AVC2T245RSWR	SN74AVC2T245RSWR	ZZ_Package_DFN_QFN:Texas_UQF
 Logic-11	ZZ_logic:SN74AVC4T245RSVR	SN74AVC4T245RSVR	ZZ_Package_DFN_QFN:Texas_UQFN-16_1.8x2.6mm_P0.4mm	https://www.ti.com/lit/gpn/sn74avc4t245	Texas Instruments	SN74AVC4T245RSVR	Mouser	595-SN74AVC4T245RSVR	-	-	-	-	0.50	UQFN-16	1.28	buffer quad-supply bi-dir	Quad-Bit ; 2-DIR pin Dual-Supply Bus Transceiver w/ Configurable Voltage Translation ; 3-State Output
 Logic-12	ZZ_logic:NB4L52MNG	NB4L52MNG	ZZ_Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.9x1.9mm	https://www.onsemi.com/download/data-sheet/pdf/nb4l52-d.pdf	Onsemi	NB4L52MNG	Mouser	863-NB4L52MNG	-	-	-	-	0.90	QFN-16	14.68	D flip-flop LVDS LVPECL	Differential Data and Clock D flip-flop with a differential asynchronous reset
 Logic-13	ZZ_logic:MC100EPT21	MC100EPT21MNR4G	ZZ_Package_SO:SOIC-8_3.9x4.9mm_P1.27mm	https://www.onsemi.com/download/data-sheet/pdf/mc100ept21-d.pdf	Onsemi	MC100EPT21MNR4G	Mouser	863-MC100EPT21MNR4G	-	-	-	-	1.55	SOIC-8	12.64	translator LVPECL	Differential LVPECL/LVDS/CML to LVTTL/LVCMOS translator
+Logic-14	ZZ_logic:SN74LV1T125	SN74LV1T125DCKR	ZZ_Package_TO_SOT_SMD:Texas_SC70_DCK-5	https://www.ti.com/lit/gpn/sn74lv1t125	Texas Instruments	SN74LV1T125DCKR	Mouser	595-SN74LV1T125DCKR	-	-	-	-	1.1	SC70-5	0.37	buffer single	Single Power Supply ; Single Buffer Gate with 3-State Output ; CMOS Logic Level Shifter Level Shifter ; SC70-5
+Logic-4	ZZ_logic:SN74LV4T125	SN74LV4T125PWR	ZZ_Package_SO:TSSOP-14_4.4x5mm_P0.65mm	https://www.ti.com/lit/gpn/sn74lv4t125	TI	SN74LV4T125PWR	Digi-Key	296-40545-1-ND	-	-	-	-	1.2	TSSOP14	0.87	buffer	Single Power Supply Quadruple Buffer GATE w/ 3-State Output CMOS Logic Level Shifter ; TSSOP14
 \.
 
 
@@ -2321,7 +2322,7 @@ ALTER TABLE ONLY public.transistors
     ADD CONSTRAINT transistors_pkey PRIMARY KEY ("Part_ID");
 
 
--- Completed on 2024-02-15 17:13:01
+-- Completed on 2024-02-19 15:05:13
 
 --
 -- PostgreSQL database dump complete

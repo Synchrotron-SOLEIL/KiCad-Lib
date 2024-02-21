@@ -1,12 +1,12 @@
-(footprint "Laird_BMI-S-204-F_32x32x6mm"
+(footprint "Laird_BMI-S-226-F_34.93x71.12x10.16mm"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Two-Piece Board Level Shield (https://www.laird.com/sites/default/files/bmi-s-204-sales.pdf)")
+	(descr "Two-Piece Board Level Shield (https://www.laird.com/sites/default/files/bmi-s-226-sales.pdf)")
 	(tags "Surface Mount Shields")
 	(property "Reference" "REF**"
-		(at 0 0.05 0)
+		(at -0.22 0 0)
 		(layer "F.SilkS")
 		(uuid "db0c225d-dc20-44f2-828e-e5abe221cbba")
 		(effects
@@ -16,8 +16,8 @@
 			)
 		)
 	)
-	(property "Value" "Laird_BMI-S-204-F_32x32x6mm"
-		(at 0 1.4 180)
+	(property "Value" "Laird_BMI-S-226-F_34.93x71.12x10.16mm"
+		(at 0 1.29 180)
 		(layer "F.Fab")
 		(uuid "812abbaa-46a4-4deb-9870-52cd8051feaf")
 		(effects
@@ -28,7 +28,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at -14.75 15.9 0)
+		(at -14.98 34.86 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -40,7 +40,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at -14.75 15.9 0)
+		(at -14.98 34.86 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -52,7 +52,7 @@
 		)
 	)
 	(property "Description" ""
-		(at -14.75 15.9 0)
+		(at -14.98 34.86 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -65,8 +65,8 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -17.15 -17.15)
-		(end 17.15 17.15)
+		(start -18.74 -36.835)
+		(end 18.74 36.835)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -76,8 +76,8 @@
 		(uuid "81ba711d-addf-4b6c-9dbc-b70268e86531")
 	)
 	(fp_rect
-		(start -17.4 -17.4)
-		(end 17.4 17.4)
+		(start -19.115 -37.21)
+		(end 19.115 37.21)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -87,8 +87,8 @@
 		(uuid "1d752df2-2113-4de3-9044-c2b027748790")
 	)
 	(fp_rect
-		(start -16 -16)
-		(end 16 16)
+		(start -17.465 -35.56)
+		(end 17.465 35.56)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -98,7 +98,7 @@
 		(uuid "3b245700-61f8-43b2-8a7e-e21b6b71a69f")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at -0.29 0 0)
 		(layer "F.Fab")
 		(uuid "fb4e804f-091a-4e10-aceb-5cedb381122a")
 		(effects
@@ -109,150 +109,222 @@
 		)
 	)
 	(pad "1" smd rect
-		(at -15.25 16.15)
-		(size 3.3 1.5)
+		(at -15.48 35.71)
+		(size 4.76 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "b34dfcb2-1128-42d3-ac98-4246620745ee")
 	)
 	(pad "2" smd rect
-		(at -9 16.15)
+		(at -9 35.71)
 		(size 3.8 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "0aba0fba-4a04-4af0-ae66-7700dac46845")
 	)
 	(pad "3" smd rect
-		(at -3 16.15)
+		(at -3 35.71)
 		(size 3.8 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "9b816ddd-b9f3-495c-a4a3-ead85ec5be6c")
 	)
 	(pad "4" smd rect
-		(at 3 16.15)
+		(at 3 35.71)
 		(size 3.8 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "d81ef4be-8f36-4cbe-a822-de1030c80e20")
 	)
 	(pad "5" smd rect
-		(at 9 16.15)
+		(at 9 35.71)
 		(size 3.8 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "0a45cd2a-fffc-4215-8c66-5c59e349caa9")
 	)
 	(pad "6" smd rect
-		(at 15.25 16.15)
-		(size 3.3 1.5)
+		(at 15.48 35.71)
+		(size 4.76 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "a6c7de8c-0a26-4063-aa1e-b7e6b9c0e13f")
 	)
 	(pad "7" smd rect
-		(at 16.15 15.25)
-		(size 1.5 3.3)
+		(at 17.615 33.78)
+		(size 1.5 5.36)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "5c2ecb29-ccc6-4a06-a8f6-938e360945b5")
 	)
 	(pad "8" smd rect
-		(at 16.15 9)
+		(at 17.615 27)
 		(size 1.5 3.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "13083744-627e-44b2-82ad-a30043c6860b")
 	)
 	(pad "9" smd rect
-		(at 16.15 3)
+		(at 17.615 21)
 		(size 1.5 3.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "2e4bbac6-daf5-47d7-b119-07782e91e543")
 	)
 	(pad "10" smd rect
-		(at 16.15 -3)
+		(at 17.615 15)
 		(size 1.5 3.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "a72c7597-55c9-4f4f-8b19-f473cf4b14af")
 	)
 	(pad "11" smd rect
-		(at 16.15 -9)
+		(at 17.615 9)
 		(size 1.5 3.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "1f149083-3b23-4935-9f42-7a067e38639d")
 	)
 	(pad "12" smd rect
-		(at 16.15 -15.25)
-		(size 1.5 3.3)
+		(at 17.615 3)
+		(size 1.5 3.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "44130c31-5b02-44ee-a33f-dcff0c756960")
+	)
+	(pad "13" smd rect
+		(at 17.615 -3)
+		(size 1.5 3.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b78a5a92-1fcc-4df7-98e2-4d26de845938")
+	)
+	(pad "14" smd rect
+		(at 17.615 -9)
+		(size 1.5 3.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "711e7e5c-497d-4696-9185-7c5887050a4f")
+	)
+	(pad "15" smd rect
+		(at 17.615 -15)
+		(size 1.5 3.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "74ee30b7-9cae-48ad-ac92-b0cf2ef51c4a")
+	)
+	(pad "16" smd rect
+		(at 17.615 -21)
+		(size 1.5 3.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d80c399b-0e4d-4dda-a418-5597c6d8d65b")
+	)
+	(pad "17" smd rect
+		(at 17.615 -27)
+		(size 1.5 3.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "dead7052-81e6-4d5b-8f0e-33cfee330b25")
+	)
+	(pad "18" smd rect
+		(at 17.615 -33.78)
+		(size 1.5 5.36)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "7b98296a-30a4-4dcc-8dbe-47fe52d77eef")
 	)
-	(pad "13" smd rect
-		(at 15.25 -16.15)
-		(size 3.3 1.5)
+	(pad "19" smd rect
+		(at 15.48 -35.71)
+		(size 4.76 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "d0f069f8-e5d5-4172-b6f9-6e876785061d")
 	)
-	(pad "14" smd rect
-		(at 9 -16.15)
+	(pad "20" smd rect
+		(at 9 -35.71)
 		(size 3.8 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "4a169fe9-977f-43ad-9f35-1b54c0e158ff")
 	)
-	(pad "15" smd rect
-		(at 3 -16.15)
+	(pad "21" smd rect
+		(at 3 -35.71)
 		(size 3.8 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "49c3169b-ed6f-4f12-8ba8-09dd238e8a4d")
 	)
-	(pad "16" smd rect
-		(at -3 -16.15)
+	(pad "22" smd rect
+		(at -3 -35.71)
 		(size 3.8 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "f9a7d5c1-06ef-4b0b-82d3-f4d1f25c884a")
 	)
-	(pad "17" smd rect
-		(at -9 -16.15)
+	(pad "23" smd rect
+		(at -9 -35.71)
 		(size 3.8 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "0d1e8ef8-4207-4df6-8227-b9bbe1afe652")
 	)
-	(pad "18" smd rect
-		(at -15.25 -16.15)
-		(size 3.3 1.5)
+	(pad "24" smd rect
+		(at -15.48 -35.71)
+		(size 4.76 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "2959763b-c84c-49cd-96ee-c69784f237ca")
 	)
-	(pad "19" smd rect
-		(at -16.15 -15.25)
-		(size 1.5 3.3)
+	(pad "25" smd rect
+		(at -17.615 -33.78)
+		(size 1.5 5.36)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c911cd96-f2b8-41f0-96f2-832be948e86c")
+	)
+	(pad "26" smd rect
+		(at -17.615 -27)
+		(size 1.5 3.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "66646d6a-0f21-4b4f-90d6-859a4950b591")
+	)
+	(pad "27" smd rect
+		(at -17.615 -21)
+		(size 1.5 3.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c1f03c5e-5f58-4bbc-9989-6de86976c8af")
+	)
+	(pad "28" smd rect
+		(at -17.615 -15)
+		(size 1.5 3.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6a0decc1-14cd-4ffa-9e15-6e0bdba28a71")
+	)
+	(pad "29" smd rect
+		(at -17.615 -9)
+		(size 1.5 3.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0c21b54a-66ab-4b35-bae1-911e7c7624ec")
+	)
+	(pad "30" smd rect
+		(at -17.615 -3)
+		(size 1.5 3.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7d7922ff-9e40-45f2-a05e-7211e0bb127b")
+	)
+	(pad "31" smd rect
+		(at -17.615 3)
+		(size 1.5 3.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "e7cf6b13-d42b-44a8-9f0d-086009c8f646")
 	)
-	(pad "20" smd rect
-		(at -16.15 -9)
+	(pad "32" smd rect
+		(at -17.615 9)
 		(size 1.5 3.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "cedfecbd-b806-4e97-aa70-f2931389eadc")
 	)
-	(pad "21" smd rect
-		(at -16.15 -3)
+	(pad "33" smd rect
+		(at -17.615 15)
 		(size 1.5 3.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "0172560d-9e93-445f-99f3-422a80495df9")
 	)
-	(pad "22" smd rect
-		(at -16.15 3)
+	(pad "34" smd rect
+		(at -17.615 21)
 		(size 1.5 3.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "9ba58566-199d-408a-b938-2ce48bb7b1a2")
 	)
-	(pad "23" smd rect
-		(at -16.15 9)
+	(pad "35" smd rect
+		(at -17.615 27)
 		(size 1.5 3.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "51fae8fc-3c9f-4465-b157-72667a9d53a6")
 	)
-	(pad "24" smd rect
-		(at -16.15 15.25)
-		(size 1.5 3.3)
+	(pad "36" smd rect
+		(at -17.615 33.78)
+		(size 1.5 5.36)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "9fd39708-929c-45e5-aeca-234bd9937bc9")
 	)
-	(model "${KICAD_USER_3DMODEL_DIR}/ZZ_Shields.3dshapes/Laird_BMI-S-204-F_32x32x6mm.step"
+	(model "${KICAD_USER_3DMODEL_DIR}/ZZ_Shields.3dshapes/Laird_BMI-S-226-F_34.93x71.12x10.16mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

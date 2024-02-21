@@ -436,20 +436,20 @@
 			)
 		)
 	)
-	(symbol "LT6600CS8-2.5"
+	(symbol "LT6600CS8"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 15.24 7.62 0)
+			(at 1.27 9.144 0)
 			(effects
 				(font
 					(size 1.778 1.778)
 				)
 			)
 		)
-		(property "Value" "LT6600CS8-2.5"
-			(at 24.13 5.08 0)
+		(property "Value" "LT6600CS8"
+			(at 7.874 6.096 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -457,7 +457,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 -8.89 0)
+			(at 30.48 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -465,16 +465,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 12.7 -3.81 0)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/660025fe.pdf"
+			(at 2.54 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Differential Amplifier and 2.5MHz Lowpass Filter ; Very Low Noise"
-			(at 0 0 0)
+		(property "Description" "Differential Amplifier and Lowpass Filter ; Very Low Noise"
+			(at -6.096 -9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -491,9 +491,9 @@
 				(hide yes)
 			)
 		)
-		(symbol "LT6600CS8-2.5_0_0"
+		(symbol "LT6600CS8_0_0"
 			(text "O+"
-				(at 13.97 -2.54 0)
+				(at 1.524 1.778 0)
 				(effects
 					(font
 						(size 1.016 1.016)
@@ -501,7 +501,7 @@
 				)
 			)
 			(text "O-"
-				(at 13.97 -5.08 0)
+				(at 1.524 -1.524 0)
 				(effects
 					(font
 						(size 1.016 1.016)
@@ -509,24 +509,24 @@
 				)
 			)
 		)
-		(symbol "LT6600CS8-2.5_0_1"
+		(symbol "LT6600CS8_0_1"
 			(polyline
 				(pts
-					(xy 17.78 -3.81) (xy 7.62 -10.16) (xy 7.62 2.54) (xy 17.78 -3.81)
+					(xy -7.62 7.62) (xy -7.62 -7.62) (xy 7.62 0) (xy -7.62 7.62)
 				)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
-		(symbol "LT6600CS8-2.5_1_1"
+		(symbol "LT6600CS8_1_1"
 			(pin input line
-				(at 0 0 0)
-				(length 7.62)
+				(at -12.7 5.08 0)
+				(length 5.08)
 				(name "-"
 					(effects
 						(font
@@ -543,8 +543,8 @@
 				)
 			)
 			(pin input line
-				(at 0 -2.54 0)
-				(length 7.62)
+				(at -12.7 2.54 0)
+				(length 5.08)
 				(name "~"
 					(effects
 						(font
@@ -561,8 +561,8 @@
 				)
 			)
 			(pin power_in line
-				(at 11.43 6.35 270)
-				(length 6.1976)
+				(at -2.54 10.16 270)
+				(length 5.08)
 				(name "V+"
 					(effects
 						(font
@@ -579,8 +579,8 @@
 				)
 			)
 			(pin output line
-				(at 21.59 -1.27 180)
-				(length 7.62)
+				(at 7.62 2.54 180)
+				(length 5.08)
 				(name "~"
 					(effects
 						(font
@@ -597,8 +597,8 @@
 				)
 			)
 			(pin output line
-				(at 21.59 -6.35 180)
-				(length 7.62)
+				(at 7.62 -2.54 180)
+				(length 5.08)
 				(name "~"
 					(effects
 						(font
@@ -615,8 +615,8 @@
 				)
 			)
 			(pin power_in line
-				(at 11.43 -13.97 90)
-				(length 6.1976)
+				(at -2.54 -10.16 90)
+				(length 5.08)
 				(name "V-"
 					(effects
 						(font
@@ -633,8 +633,8 @@
 				)
 			)
 			(pin input line
-				(at 0 -5.08 0)
-				(length 7.62)
+				(at -12.7 -2.54 0)
+				(length 5.08)
 				(name "~"
 					(effects
 						(font
@@ -651,8 +651,8 @@
 				)
 			)
 			(pin input line
-				(at 0 -7.62 0)
-				(length 7.62)
+				(at -12.7 -5.08 0)
+				(length 5.08)
 				(name "+"
 					(effects
 						(font

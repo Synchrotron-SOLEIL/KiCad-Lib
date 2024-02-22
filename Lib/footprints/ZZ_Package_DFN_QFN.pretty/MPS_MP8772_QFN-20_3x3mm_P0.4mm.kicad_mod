@@ -1,7 +1,7 @@
 (footprint "MPS_MP8772_QFN-20_3x3mm_P0.4mm"
-	(version 20231014)
+	(version 20240108)
 	(generator "pcbnew")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP8772GQ/document_id/3720/")
 	(tags "MP8772")
@@ -117,16 +117,17 @@
 		(layer "F.SilkS")
 		(uuid "25c0876f-44f7-44c9-9e0b-bc6e5a924115")
 	)
-	(fp_circle
-		(center -1.7 -2.51)
-		(end -1.5 -2.51)
+	(fp_poly
+		(pts
+			(xy -1.33 -1.84) (xy -1.57 -2.17) (xy -1.09 -2.17) (xy -1.33 -1.84)
+		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(fill solid)
 		(layer "F.SilkS")
-		(uuid "f24d3808-0f9a-45ef-8368-949745ed4d0e")
+		(uuid "617846d6-4bae-4c62-be0d-4a57f42e62db")
 	)
 	(fp_line
 		(start -2.05 -2.03)

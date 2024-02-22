@@ -1,12 +1,12 @@
 (footprint "D_SOD-123"
-	(version 20231014)
+	(version 20240108)
 	(generator "pcbnew")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "SOD-123")
 	(tags "SOD-123")
 	(property "Reference" "REF**"
-		(at 0 -2 0)
+		(at 0.68 -2.02 0)
 		(layer "F.SilkS")
 		(uuid "b059a41c-daf4-4942-a7c8-f41d88550d6f")
 		(effects
@@ -94,16 +94,17 @@
 		(layer "F.SilkS")
 		(uuid "19bd4daa-4d3a-4d45-9eb9-b04a28b928b1")
 	)
-	(fp_circle
-		(center -2.8 0.8)
-		(end -2.6 0.8)
+	(fp_poly
+		(pts
+			(xy -1.7 -1.17) (xy -1.94 -1.5) (xy -1.46 -1.5) (xy -1.7 -1.17)
+		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(fill solid)
 		(layer "F.SilkS")
-		(uuid "0c4399a4-a9b6-4f07-8380-4d562d80f033")
+		(uuid "68c5d168-c57d-476f-bae4-f31ca2d84ddd")
 	)
 	(fp_line
 		(start -2.35 -1.15)
@@ -254,6 +255,18 @@
 		)
 		(layer "F.Fab")
 		(uuid "73a86a7a-f8a5-4bb1-b5a3-f11712632afa")
+	)
+	(fp_poly
+		(pts
+			(xy -1.7 -1.17) (xy -1.94 -1.5) (xy -1.46 -1.5) (xy -1.7 -1.17)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "30be3cad-89da-498e-a91d-1c405e4e23fb")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -2 0)

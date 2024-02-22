@@ -1,7 +1,7 @@
 (footprint "TSSOP-16_4.4x5mm_P0.65mm"
-	(version 20231014)
+	(version 20240108)
 	(generator "pcbnew")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "TSSOP, 16 Pin (JEDEC MO-153 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 	(tags "TSSOP SO")
@@ -104,16 +104,17 @@
 		(layer "F.SilkS")
 		(uuid "e494d50a-5f93-4f36-9818-49bc2a55b666")
 	)
-	(fp_circle
-		(center -2.89 -3.29)
-		(end -2.69 -3.29)
+	(fp_poly
+		(pts
+			(xy -2.85 -3) (xy -3.09 -3.33) (xy -2.61 -3.33) (xy -2.85 -3)
+		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(fill solid)
 		(layer "F.SilkS")
-		(uuid "a926153a-d139-4456-b0f0-4cbb371899aa")
+		(uuid "acfc6325-ff60-4274-ab9a-3dd50b11b710")
 	)
 	(fp_line
 		(start -3.85 -2.75)

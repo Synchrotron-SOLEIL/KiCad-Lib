@@ -1,7 +1,7 @@
 (footprint "L_Bourns_SRP5030CA_5.5x5.3mm_P3.25mm"
-	(version 20231014)
+	(version 20240108)
 	(generator "pcbnew")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "Bourns SRP5030CA-1R2M (https://www.bourns.com/docs/Product-Datasheets/SRP5030CA.pdf)")
 	(tags "Inductor SRP5030CA")
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "SRP5030CA1R2M"
-		(at 0 0 0)
+		(at -0.02 3.79 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "484e0551-685d-4737-8ac8-7ce5d19dcbb4")

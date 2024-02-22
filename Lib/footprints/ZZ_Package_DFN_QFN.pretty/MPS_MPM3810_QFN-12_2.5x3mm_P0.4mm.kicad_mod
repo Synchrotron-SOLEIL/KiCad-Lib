@@ -1,7 +1,7 @@
 (footprint "MPS_MPM3810_QFN-12_2.5x3mm_P0.4mm"
-	(version 20231014)
+	(version 20240108)
 	(generator "pcbnew")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MPM3810AGQB-AEC1/document_id/4608/")
 	(tags "MPM3810A")
@@ -91,16 +91,6 @@
 		(uuid "7fa9b198-09ba-4624-9c9b-221bb8ac67f4")
 	)
 	(fp_line
-		(start -1.4 -1.1)
-		(end -0.9 -1.6)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "3004affa-3423-4f93-95e9-289f90d73a48")
-	)
-	(fp_line
 		(start -1.4 1.325)
 		(end -1.4 1.65)
 		(stroke
@@ -149,6 +139,18 @@
 		)
 		(layer "F.SilkS")
 		(uuid "0f458538-d244-44d5-811d-09fcb0321666")
+	)
+	(fp_poly
+		(pts
+			(xy -1.39 -1.11) (xy -1.63 -1.44) (xy -1.15 -1.44) (xy -1.39 -1.11)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "57612344-7736-4414-996e-176cb0b7e343")
 	)
 	(fp_line
 		(start -1.8 -2.05)
@@ -241,7 +243,7 @@
 		(uuid "cb1ff0ac-d3f0-426a-8355-78312a773b32")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0.025 0)
+		(at 0 -2.54 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "f129ee04-8471-443e-bb49-2ed30acd5d1c")

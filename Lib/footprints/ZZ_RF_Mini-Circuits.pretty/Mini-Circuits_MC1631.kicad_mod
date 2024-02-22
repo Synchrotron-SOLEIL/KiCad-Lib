@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Footprint for Mini-Circuits case Mini-Circuits MC1631-1")
+	(descr "Footprint for Mini-Circuits case Mini-Circuits MC1631-1 (https://www.minicircuits.com/case_style/MC1631-1.pdf)")
 	(tags "Mini-Circuits MC1631")
 	(property "Reference" "REF**"
 		(at 2.375 0.05 90)
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "Mini-Circuits_MC1631"
-		(at -2.225 -0.675 90)
+		(at 3.98 0.01 -90)
 		(layer "F.Fab")
 		(uuid "c49d23ab-146d-4089-864f-2d22b5b414b9")
 		(effects
@@ -39,7 +39,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://www.minicircuits.com/case_style/MC1631-1.pdf"
+	(property "Datasheet" ""
 		(at -0.75 0.95 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -84,16 +84,17 @@
 		(layer "F.SilkS")
 		(uuid "6f675e5f-8fe6-4148-baf1-da97afc770f8")
 	)
-	(fp_circle
-		(center -1.625 1.65)
-		(end -1.359246 1.65)
+	(fp_poly
+		(pts
+			(xy -1.435 0.995) (xy -1.765 1.235) (xy -1.765 0.755) (xy -1.435 0.995)
+		)
 		(stroke
-			(width 0.1)
+			(width 0.12)
 			(type solid)
 		)
 		(fill solid)
 		(layer "F.SilkS")
-		(uuid "6e435cd4-da2b-4602-a0aa-5dd988834dff")
+		(uuid "956e8a00-d519-4cd7-b3c9-3c002a9db58e")
 	)
 	(fp_rect
 		(start -1.25 -1.6)
@@ -157,7 +158,7 @@
 		(uuid "746ff2f4-decc-4fc2-a366-741c5e087d55")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0.8502 2.7534 0)
+		(at 2.42 0.75 90)
 		(layer "F.Fab")
 		(uuid "eae14f5f-515c-4a6f-ad0e-e8ef233d14bf")
 		(effects

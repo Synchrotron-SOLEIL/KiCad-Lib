@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "SOT-SC70 DCK0005A")
+	(descr "SOT-SC70 DCK0005A (https://www.ti.com/lit/pdf/mpds025h)")
 	(tags "SC70 DCK0005A")
 	(property "Reference" "REF**"
 		(at 0 -2.25 0)
@@ -39,7 +39,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://www.ti.com/lit/pdf/mpds025h"
+	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -51,7 +51,7 @@
 			)
 		)
 	)
-	(property "Description" "SOT-SC70 DCK0005A"
+	(property "Description" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -85,16 +85,17 @@
 		(layer "F.SilkS")
 		(uuid "da07a1df-eec1-4bd4-882c-8f6bf4dc7307")
 	)
-	(fp_circle
-		(center -1.5 -1.25)
-		(end -1.3 -1.25)
+	(fp_poly
+		(pts
+			(xy -1.09 -1.13) (xy -1.33 -1.46) (xy -0.85 -1.46) (xy -1.09 -1.13)
+		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(fill solid)
 		(layer "F.SilkS")
-		(uuid "97d7c0c6-85fe-427d-ab93-1162fbd5b30b")
+		(uuid "bcd0ab64-1702-4a0e-a639-d4c79a37fc98")
 	)
 	(fp_line
 		(start -1.8 -1.25)
@@ -187,7 +188,7 @@
 		(uuid "f1ed821d-a09a-41ff-81a7-adda5470ceb8")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 90)
+		(at 0.01 -1.56 180)
 		(layer "F.Fab")
 		(uuid "459efc8a-4979-4ed0-b81e-8bcac61baf59")
 		(effects

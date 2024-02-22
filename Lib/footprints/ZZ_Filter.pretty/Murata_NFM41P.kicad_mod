@@ -1,7 +1,7 @@
 (footprint "Murata_NFM41P"
-	(version 20231014)
+	(version 20240108)
 	(generator "pcbnew")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 3.25 0)
@@ -102,16 +102,17 @@
 		(layer "F.SilkS")
 		(uuid "67c3e318-66db-45c7-b865-15a362aecdd6")
 	)
-	(fp_circle
-		(center -3.75046 1.89776)
-		(end -3.55046 1.89776)
+	(fp_poly
+		(pts
+			(xy -2.2 -1.84) (xy -2.44 -2.17) (xy -1.96 -2.17) (xy -2.2 -1.84)
+		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(fill solid)
 		(layer "F.SilkS")
-		(uuid "035ca6bc-c67e-458b-8741-2d75c5007b1f")
+		(uuid "0850a45e-79ec-4fd7-a3b5-f643ceade86d")
 	)
 	(fp_rect
 		(start -3.2004 -1.7272)
@@ -135,16 +136,17 @@
 		(layer "F.Fab")
 		(uuid "66ec854a-ca68-4ad2-9b77-3633db48320e")
 	)
-	(fp_circle
-		(center -3.75046 1.89776)
-		(end -3.55046 1.89776)
+	(fp_poly
+		(pts
+			(xy -2.2 -1.84) (xy -2.44 -2.17) (xy -1.96 -2.17) (xy -2.2 -1.84)
+		)
 		(stroke
-			(width 0.1)
+			(width 0.12)
 			(type solid)
 		)
 		(fill solid)
 		(layer "F.Fab")
-		(uuid "35b94e46-e7f1-4a3a-8fe2-c631e8a069b5")
+		(uuid "47a10661-3465-4e83-ac56-cc780238c158")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -2.6162 0)

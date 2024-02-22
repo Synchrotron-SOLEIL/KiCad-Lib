@@ -1,7 +1,7 @@
 (footprint "PhoenixContact_MKDS_1x02_P5mm_Vertical"
-	(version 20231014)
+	(version 20240108)
 	(generator "pcbnew")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "5 mm pitch low profile screw terminal blocks")
 	(tags "connector Phoenix")
@@ -74,6 +74,18 @@
 		(fill none)
 		(layer "F.SilkS")
 		(uuid "dbe23a18-da5d-44d4-82fe-c9c1a56f2342")
+	)
+	(fp_poly
+		(pts
+			(xy -3.998865 4.927189) (xy -3.758865 5.257189) (xy -4.238865 5.257189) (xy -3.998865 4.927189)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "8b992cbb-ab7c-4000-ad7c-34909ae486db")
 	)
 	(fp_rect
 		(start -5.58 -5.7)

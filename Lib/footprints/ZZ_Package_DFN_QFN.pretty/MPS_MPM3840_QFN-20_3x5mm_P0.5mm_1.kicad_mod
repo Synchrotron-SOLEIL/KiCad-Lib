@@ -1,7 +1,7 @@
 (footprint "MPS_MPM3840_QFN-20_3x5mm_P0.5mm_1"
-	(version 20231014)
+	(version 20240108)
 	(generator "pcbnew")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MPM3840GQV/document_id/2124/")
 	(tags "MPM3840GQV-Z")
@@ -106,16 +106,17 @@
 		(layer "F.SilkS")
 		(uuid "f6b673ee-25a9-4674-af1f-2edb168a20f2")
 	)
-	(fp_circle
-		(center -1.75 -3.725)
-		(end -1.55 -3.725)
+	(fp_poly
+		(pts
+			(xy -1.9 -1.85) (xy -2.14 -2.18) (xy -1.66 -2.18) (xy -1.9 -1.85)
+		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(fill solid)
 		(layer "F.SilkS")
-		(uuid "996b7087-0ff4-4567-9aff-5f5f1cd0f237")
+		(uuid "cb907ade-5aaf-458a-a9fa-eec65aa77484")
 	)
 	(fp_line
 		(start -2.05 -3.05)

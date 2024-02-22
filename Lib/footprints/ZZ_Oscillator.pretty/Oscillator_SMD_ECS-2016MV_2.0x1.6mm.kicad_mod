@@ -1,7 +1,7 @@
 (footprint "Oscillator_SMD_ECS-2016MV_2.0x1.6mm"
-	(version 20231231)
+	(version 20240108)
 	(generator "pcbnew")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "Miniature Crystal Clock Oscillator ECS 2016MV series ; https://ecsxtal.com/store/pdf/ECS-2016MV.pdf")
 	(tags "SMD oscillator")
@@ -75,16 +75,17 @@
 		(layer "F.SilkS")
 		(uuid "3988ea3e-57c9-421e-bb3f-966ee9ce6f04")
 	)
-	(fp_circle
-		(center -1.6 0.6)
-		(end -1.5 0.6)
+	(fp_poly
+		(pts
+			(xy -1.465 0.565) (xy -1.795 0.805) (xy -1.795 0.325) (xy -1.465 0.565)
+		)
 		(stroke
-			(width 0.2)
+			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill solid)
 		(layer "F.SilkS")
-		(uuid "91a46403-0ec6-41bb-81d4-b4db09c0681e")
+		(uuid "9f8d7877-5c90-4391-b717-ad680d5564ac")
 	)
 	(fp_rect
 		(start -1.25 -1.05)
@@ -137,16 +138,17 @@
 		(layer "F.Fab")
 		(uuid "9e217e63-0191-4dbc-a399-ca127dc30e4a")
 	)
-	(fp_circle
-		(center -1.6 0.6)
-		(end -1.5 0.6)
+	(fp_poly
+		(pts
+			(xy -1.465 0.565) (xy -1.795 0.805) (xy -1.795 0.325) (xy -1.465 0.565)
+		)
 		(stroke
-			(width 0.2)
+			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill solid)
 		(layer "F.Fab")
-		(uuid "6a8ecded-7170-4e8b-82af-70c11231732b")
+		(uuid "a3d47f74-1cef-472c-80f6-9e388e44db3c")
 	)
 	(pad "1" smd rect
 		(at -0.65 0.5 90)

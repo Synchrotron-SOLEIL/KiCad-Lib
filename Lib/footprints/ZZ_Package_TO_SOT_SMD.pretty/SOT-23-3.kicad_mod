@@ -1,7 +1,7 @@
 (footprint "SOT-23-3"
-	(version 20231014)
+	(version 20240108)
 	(generator "pcbnew")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 	(tags "SOT TO_SOT_SMD")
@@ -104,16 +104,17 @@
 		(layer "F.SilkS")
 		(uuid "4a583b03-7ba0-42d6-ac20-d9bd4ec5453d")
 	)
-	(fp_circle
-		(center -1.4865 -2.2868)
-		(end -1.208651 -2.2868)
+	(fp_poly
+		(pts
+			(xy -1.228865 -1.682811) (xy -1.468865 -2.012811) (xy -0.988865 -2.012811) (xy -1.228865 -1.682811)
+		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(fill solid)
 		(layer "F.SilkS")
-		(uuid "015d285e-557b-478f-90bf-b7185099873d")
+		(uuid "d9ccab9e-3e1e-4b3b-abfb-9c1805dced30")
 	)
 	(fp_line
 		(start -1.8825 -1.65)

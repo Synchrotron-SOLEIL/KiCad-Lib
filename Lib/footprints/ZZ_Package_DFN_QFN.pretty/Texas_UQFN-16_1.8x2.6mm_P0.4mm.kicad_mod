@@ -126,16 +126,17 @@
 		(layer "F.SilkS")
 		(uuid "a043cd0c-a80e-4380-a862-951273248004")
 	)
-	(fp_circle
-		(center -1.2 -1.3)
-		(end -1 -1.3)
+	(fp_poly
+		(pts
+			(xy -1.27 -0.84) (xy -1.51 -1.17) (xy -1.03 -1.17) (xy -1.27 -0.84)
+		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(fill solid)
 		(layer "F.SilkS")
-		(uuid "b7f4baa0-4a88-4de4-a615-fd3bb229217b")
+		(uuid "d4b7940b-b9e8-40eb-884e-cbbcc94535af")
 	)
 	(fp_rect
 		(start -1.35 -1.75)
@@ -209,7 +210,7 @@
 		(uuid "c142e03c-1c3b-405b-ba59-ad77c22f8154")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 4.35 0)
+		(at 0.01 -2.34 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "61f6d250-ecdb-4c99-ba80-4a85245c3d7a")

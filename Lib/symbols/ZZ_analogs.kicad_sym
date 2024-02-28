@@ -1887,7 +1887,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 5.08 -12.7 90)
 				(length 5.08)
 				(name "GND3"

@@ -290,7 +290,7 @@
 			)
 		)
 		(symbol "INA260_1_1"
-			(pin passive line
+			(pin power_in line
 				(at -12.7 12.7 0)
 				(length 2.54)
 				(name "IN+_1"
@@ -416,7 +416,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 12.7 12.7 180)
 				(length 2.54)
 				(name "IN-_1"
@@ -434,7 +434,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -12.7 10.16 0)
 				(length 2.54)
 				(name "IN+_2"
@@ -452,7 +452,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -12.7 7.62 0)
 				(length 2.54)
 				(name "IN+_3"

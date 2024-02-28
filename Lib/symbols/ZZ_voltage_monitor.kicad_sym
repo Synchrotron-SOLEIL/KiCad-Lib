@@ -1,7 +1,7 @@
 (kicad_symbol_lib
 	(version 20231120)
 	(generator "kicad_symbol_editor")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(symbol "LTC2908CTS8-A1"
 		(pin_names
 			(offset 1.27)
@@ -835,7 +835,7 @@
 					)
 				)
 			)
-			(pin open_collector line
+			(pin power_in line
 				(at 0 -12.7 90)
 				(length 5.08)
 				(name "GND"

@@ -847,7 +847,7 @@
 			(pin power_in line
 				(at 0 -20.32 90)
 				(length 5.08)
-				(name "PGND3"
+				(name "PGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -865,7 +865,7 @@
 			(pin power_in line
 				(at 2.54 -20.32 90)
 				(length 5.08)
-				(name "PGND4"
+				(name "PGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -883,7 +883,7 @@
 			(pin power_in line
 				(at 5.08 -20.32 90)
 				(length 5.08)
-				(name "PGND5"
+				(name "PGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -993,7 +993,7 @@
 			(pin power_in line
 				(at -2.54 -20.32 90)
 				(length 5.08)
-				(name "PGND2"
+				(name "PGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1119,7 +1119,7 @@
 			(pin power_in line
 				(at -5.08 -20.32 90)
 				(length 5.08)
-				(name "PGND1"
+				(name "PGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1517,7 +1517,7 @@
 			(pin power_in line
 				(at -2.54 -17.78 90)
 				(length 5.08)
-				(name "PGND1"
+				(name "PGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1535,7 +1535,7 @@
 			(pin power_in line
 				(at 0 -17.78 90)
 				(length 5.08)
-				(name "PGND2"
+				(name "PGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1814,7 +1814,7 @@
 			(pin power_in line
 				(at 2.54 -20.32 90)
 				(length 5.08)
-				(name "GND4"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1832,7 +1832,7 @@
 			(pin power_in line
 				(at 5.08 -20.32 90)
 				(length 5.08)
-				(name "GND5"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1850,7 +1850,7 @@
 			(pin power_in line
 				(at 0 -20.32 90)
 				(length 5.08)
-				(name "GND3"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1924,7 +1924,7 @@
 			(pin power_in line
 				(at -5.08 -20.32 90)
 				(length 5.08)
-				(name "GND1"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2032,7 +2032,7 @@
 			(pin power_in line
 				(at -2.54 -20.32 90)
 				(length 5.08)
-				(name "GND2"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)

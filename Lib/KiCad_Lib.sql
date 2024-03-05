@@ -5,7 +5,7 @@
 -- Dumped from database version 16.1
 -- Dumped by pg_dump version 16.1
 
--- Started on 2024-02-26 15:35:08
+-- Started on 2024-03-05 17:34:58
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1969,6 +1969,7 @@ resistors_0603-69	ZZ_resistors:R	3K16-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metri
 resistors_0603-70	ZZ_resistors:R	1K82-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/doc?28773	Vishay	CRCW06031K82FKEA	Mouser	71-CRCW0603-1.82K-E3	1K82	0.1W	1%	Thick Film	0.45	0603	0.1	Resistor 1K82	Resistor ; 1.82 KOhm ; 0.100W ; 1% ; 0603
 resistors_0603-71	ZZ_resistors:R	43R2-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/doc?28773	Vishay	CRCW060343R2FKEA	Mouser	71-CRCW0603-43.2-E3	43R2	0.1W	1%	Thick Film	0.45	0603	0.1	Resistor 43R2	Resistor ; 43.2 Ohm ; 0.100W ; 1% ; 0603
 resistors_0603-72	ZZ_resistors:R	10R-0.1W-0.1P-0603	Resistor_SMD:R_0603_1608Metric		Bourns	CRT0603-BY-10R0ELF	Mouser	652-CRT0603BY10R0ELF	10R	0.1W	0.1%	Thick Film	0.45	0603	0.33	Resistor 10R	Resistor ; 10 Ohm ; 0.100W ; 0.1% ; 0603
+resistors_0603-73	ZZ_resistors:R	887R-0.1W-1P-0603	Resistor_SMD:R_0603_1608Metric	https://www.vishay.com/doc?28773	Vishay	CRCW0603887RFKEA	Mouser	71-CRCW0603-887-E3	887R	0.1W	1%	Thick Film	0.45	0603	0.1	Resistor 887R	Resistor ; 887 Ohm ; 0.100W ; 1% ; 0603
 \.
 
 
@@ -2336,7 +2337,7 @@ ALTER TABLE ONLY public.voltage_reference
     ADD CONSTRAINT voltage_reference_pkey PRIMARY KEY ("Part_ID");
 
 
--- Completed on 2024-02-26 15:35:08
+-- Completed on 2024-03-05 17:34:58
 
 --
 -- PostgreSQL database dump complete

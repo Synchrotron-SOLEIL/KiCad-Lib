@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "LED_1206_3216Metric"
-		(at 0 1.82 0)
+		(at 0.04 3.03 0)
 		(layer "F.Fab")
 		(uuid "69276fb7-17a6-48a1-91f2-9454b4c53b9a")
 		(effects
@@ -76,7 +76,7 @@
 	)
 	(fp_line
 		(start -2.285 1.135)
-		(end 1.6 1.135)
+		(end 2.385 1.135)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -115,7 +115,7 @@
 		(uuid "3460571e-3fd0-4e24-9a84-67748f555478")
 	)
 	(fp_line
-		(start 1.6 -1.135)
+		(start 2.39 -1.135)
 		(end -2.285 -1.135)
 		(stroke
 			(width 0.12)
@@ -123,6 +123,16 @@
 		)
 		(layer "F.SilkS")
 		(uuid "ebcea1fc-2c57-43c3-8447-a2db55b136b7")
+	)
+	(fp_line
+		(start 2.39 1.1125)
+		(end 2.39 -1.1325)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "db2db0ff-5d17-4841-8bf8-aff030a49057")
 	)
 	(fp_poly
 		(pts
@@ -138,7 +148,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy -1.5 -1.34) (xy -1.74 -1.67) (xy -1.26 -1.67) (xy -1.5 -1.34)
+			(xy 2.385 1.135) (xy 1.885 1.135) (xy 2.385 0.635)
 		)
 		(stroke
 			(width 0.12)
@@ -146,7 +156,7 @@
 		)
 		(fill solid)
 		(layer "F.SilkS")
-		(uuid "d2448056-f124-4422-8de7-3220ce124706")
+		(uuid "1b18d7e6-d1e8-42b1-a5fc-6ce59cbcb0e1")
 	)
 	(fp_line
 		(start -2.28 -1.12)
@@ -189,7 +199,17 @@
 		(uuid "3d85e288-750a-41a1-8c3c-e9eb8aa5a42f")
 	)
 	(fp_line
-		(start -1.6 -0.4)
+		(start -1.6225 1.75)
+		(end -0.8775 1.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "05be9d82-7833-42ee-a9a1-bb12e3680c8e")
+	)
+	(fp_line
+		(start -1.6 -0.8)
 		(end -1.6 0.8)
 		(stroke
 			(width 0.1)
@@ -209,8 +229,28 @@
 		(uuid "fb98322a-1a87-4ac9-9a6b-ee5bc2f1100d")
 	)
 	(fp_line
-		(start -1.2 -0.8)
-		(end -1.6 -0.4)
+		(start 0.2 1.14)
+		(end 0.2 2.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "604d1d5a-ed51-4886-9e87-4b4b3c609ac6")
+	)
+	(fp_line
+		(start 0.265 1.75)
+		(end 1.01 1.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4cf47ca3-e314-4875-a6ac-5e14bd654b79")
+	)
+	(fp_line
+		(start 1.59 0.4)
+		(end 1.19 0.8)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -220,7 +260,7 @@
 	)
 	(fp_line
 		(start 1.6 -0.8)
-		(end -1.2 -0.8)
+		(end -1.6 -0.8)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -240,15 +280,15 @@
 	)
 	(fp_poly
 		(pts
-			(xy -1.5 -1.34) (xy -1.74 -1.67) (xy -1.26 -1.67) (xy -1.5 -1.34)
+			(xy 0.24 1.75) (xy -0.83 2.36) (xy -0.83 1.14)
 		)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
 		(fill solid)
 		(layer "F.Fab")
-		(uuid "a91fbdf5-2eea-4e8e-8c3f-81bf88826d96")
+		(uuid "b4624a39-e6e8-4a80-a9bc-323afea70161")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)

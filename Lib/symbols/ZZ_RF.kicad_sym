@@ -2141,24 +2141,6 @@
 				)
 			)
 			(pin power_in line
-				(at -20.32 -20.32 90)
-				(length 5.08)
-				(name "GND_DAP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at -15.24 -20.32 90)
 				(length 5.08)
 				(name "GND"
@@ -2691,6 +2673,24 @@
 					)
 				)
 				(number "36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -20.32 -20.32 90)
+				(length 5.08)
+				(name "GND_DAP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "37"
 					(effects
 						(font
 							(size 1.27 1.27)

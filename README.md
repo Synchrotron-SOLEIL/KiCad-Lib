@@ -8,8 +8,9 @@ They were created from scratch or modified from KiCad's libraries.
 
 Projects includes:
 
-* TimEX3 ; multipurpose FPGA (Xilinx Spartan 6) compact PCI board ; http://www.ohwr.org/projects/timex3/wiki
-* TimIQ  ; sub picosecond laser / beam delay adjust ; https://ohwr.org/project/timiq
+- TimEX3 ; multipurpose FPGA (Xilinx Spartan 6) compact PCI board ; http://www.ohwr.org/projects/timex3/wiki
+- TimIQ  ; sub picosecond laser / beam delay adjust ; https://ohwr.org/project/timiq
+- Macbeth ; accelerator / beamlines synchronization system ; https://ohwr.org/project/macbeth
 
 Please refer to KiCad libraries license terms (http://kicad-pcb.org/libraries/license).
 

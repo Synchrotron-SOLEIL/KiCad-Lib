@@ -1,24 +1,139 @@
-(footprint "Oscillator_SMD_TXC-HC49S_2Pin_11.4x4.8mm_SMD" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 57583117)
-  (attr through_hole)
-  (fp_text reference "REF**" (at 5.5372 3.75) (layer "F.SilkS")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 7e5b01eb-94e4-49f9-8d43-d8e8417cb0a1)
-  )
-  (fp_text value "Oscillator_SMD_TXC-HC49S_2Pin_11.4x4.8mm_SMD" (at 4.6736 -3.6576 180) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 73caca07-3713-4f99-8fc1-9cac3826c758)
-  )
-  (fp_text user "${REFERENCE}" (at 0.762 3.7592) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 521d5bf9-9ce8-40c2-a38d-7759cd6e233d)
-  )
-  (fp_line (start 12.5 2.5) (end 12.5 -2.5) (layer "F.SilkS") (width 0.1) (tstamp 2351c182-1f82-4247-857a-e70f937133e5))
-  (fp_line (start -3 2.5) (end -3 -2.5) (layer "F.SilkS") (width 0.1) (tstamp 27bcb2d1-3d53-4b14-8988-c75db876ad44))
-  (fp_line (start -3 -2.5) (end 12.5 -2.5) (layer "F.SilkS") (width 0.1) (tstamp 39e0e897-cd32-4b50-a1da-55705faa0c84))
-  (fp_line (start -3 2.5) (end 12.5 2.5) (layer "F.SilkS") (width 0.1) (tstamp 85eed324-72ec-41a8-abfe-c211aa28cb73))
-  (fp_rect (start -2.9972 -2.4892) (end 12.4968 2.4892) (layer "F.CrtYd") (width 0.12) (fill none) (tstamp f4fb0c83-3428-4e6a-9afc-715b2ef34c66))
-  (pad "1" smd rect (at 0 0) (size 5.5 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 93736a12-4ec4-4120-a49f-db14aba007f2))
-  (pad "2" smd rect (at 9.5 0) (size 5.5 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7f42f856-6374-4cec-9890-cf2c9e0bf83c))
+(footprint "Oscillator_SMD_TXC-HC49S_2Pin_11.4x4.8mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 5.5372 3.75 0)
+		(layer "F.SilkS")
+		(uuid "7e5b01eb-94e4-49f9-8d43-d8e8417cb0a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Oscillator_SMD_TXC-HC49S_2Pin_11.4x4.8mm_SMD"
+		(at 4.6736 -3.6576 180)
+		(layer "F.Fab")
+		(uuid "73caca07-3713-4f99-8fc1-9cac3826c758")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8511104-c3d6-4b6c-86b9-33ebd6f67cd7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5df42a93-f19a-4f5b-9686-b51ca0670d12")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "385985e2-3d8a-4950-aff6-a6dec23e6572")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3 -2.5)
+		(end 12.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39e0e897-cd32-4b50-a1da-55705faa0c84")
+	)
+	(fp_line
+		(start -3 2.5)
+		(end -3 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "27bcb2d1-3d53-4b14-8988-c75db876ad44")
+	)
+	(fp_line
+		(start -3 2.5)
+		(end 12.5 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "85eed324-72ec-41a8-abfe-c211aa28cb73")
+	)
+	(fp_line
+		(start 12.5 2.5)
+		(end 12.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2351c182-1f82-4247-857a-e70f937133e5")
+	)
+	(fp_rect
+		(start -2.9972 -2.4892)
+		(end 12.4968 2.4892)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "f4fb0c83-3428-4e6a-9afc-715b2ef34c66")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 4.75 0 0)
+		(layer "F.Fab")
+		(uuid "521d5bf9-9ce8-40c2-a38d-7759cd6e233d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 5.5 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "93736a12-4ec4-4120-a49f-db14aba007f2")
+	)
+	(pad "2" smd rect
+		(at 9.5 0)
+		(size 5.5 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7f42f856-6374-4cec-9890-cf2c9e0bf83c")
+	)
 )

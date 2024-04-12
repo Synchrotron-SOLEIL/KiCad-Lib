@@ -6,7 +6,7 @@
 	(descr "UQFN 10pin (https://www.ti.com/lit/gpn/sn74avc2t245)")
 	(tags "UQFN-10_1.4x1.8mm_P0.4mm")
 	(property "Reference" "REF**"
-		(at 0 -2 0)
+		(at -0.01 -1.94 0)
 		(layer "F.SilkS")
 		(uuid "ce5957dc-8b9c-4d16-b381-2b5a9146a809")
 		(effects
@@ -227,7 +227,7 @@
 		(uuid "735cae03-ebb1-474c-9bdb-dc83d3c48ed6")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -0.02 -1.67 0)
+		(at -0.01 -0.02 0)
 		(layer "F.Fab")
 		(uuid "8e4b32ef-eaae-4052-8ee5-9e9db1a1d42a")
 		(effects

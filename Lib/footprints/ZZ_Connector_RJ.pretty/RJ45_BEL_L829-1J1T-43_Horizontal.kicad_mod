@@ -317,6 +317,17 @@
 			(justify left bottom)
 		)
 	)
+	(fp_text user "${REFERENCE}"
+		(at 4.25 -10.21 0)
+		(layer "F.Fab")
+		(uuid "c9604a03-2ab8-42b8-aee1-585ecc0103ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(pad "" np_thru_hole circle
 		(at 0.254 -6.604)
 		(size 3.2512 3.2512)

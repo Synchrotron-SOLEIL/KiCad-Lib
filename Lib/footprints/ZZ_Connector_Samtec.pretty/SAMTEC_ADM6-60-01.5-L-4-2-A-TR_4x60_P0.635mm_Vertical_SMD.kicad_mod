@@ -276,6 +276,17 @@
 		(layer "F.Fab")
 		(uuid "66d77466-47b6-4baf-acee-f5bbd0bbc3db")
 	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "41e9c41f-4f8a-47e0-9d00-fcf4b76d1e57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(pad "" np_thru_hole circle
 		(at -20.135 -1.27)
 		(size 0.95 0.95)

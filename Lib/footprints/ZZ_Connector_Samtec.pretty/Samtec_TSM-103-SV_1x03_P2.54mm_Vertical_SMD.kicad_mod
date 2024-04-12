@@ -1,7 +1,7 @@
 (footprint "Samtec_TSM-103-SV_1x03_P2.54mm_Vertical_SMD"
-	(version 20231231)
+	(version 20240108)
 	(generator "pcbnew")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "SAMTEC TSM 1x3 ; 2.54mm pitch")
 	(tags "SAMTEC TSM")
@@ -188,7 +188,7 @@
 		(uuid "24c3cb5f-d5b9-4665-858a-95fd0c32f6a7")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 3.65 3.25 0)
+		(at 2.41 -1.42 0)
 		(layer "F.Fab")
 		(uuid "e0542866-c2f2-4f74-b7b5-8bc56a2196b7")
 		(effects

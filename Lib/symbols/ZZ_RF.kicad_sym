@@ -1727,7 +1727,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 12.7 180)
+				(at 25.4 10.16 180)
 				(length 5.08)
 				(name "NFOUT"
 					(effects
@@ -1745,7 +1745,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 10.16 180)
+				(at 25.4 12.7 180)
 				(length 5.08)
 				(name "FOUT"
 					(effects

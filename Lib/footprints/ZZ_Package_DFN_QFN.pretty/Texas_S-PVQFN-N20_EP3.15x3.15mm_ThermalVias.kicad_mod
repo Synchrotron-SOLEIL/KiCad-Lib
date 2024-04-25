@@ -126,7 +126,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy -2.59 -1.73) (xy -2.83 -2.06) (xy -2.35 -2.06) (xy -2.59 -1.73)
+			(xy -2.59 -2.53) (xy -2.83 -2.86) (xy -2.35 -2.86) (xy -2.59 -2.53)
 		)
 		(stroke
 			(width 0.12)
@@ -741,7 +741,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "6e9c71c7-cd88-4d7c-a7c2-dbca2ea286ce")
 	)
-	(model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_S-PVQFN-N20_EP3.15x3.15mm.wrl"
+	(model "${KICAD_USER_3DMODEL_DIR}/ZZ_Package_DFN_QFN.3dshapes/Texas_S-PVQFN-N20_EP3.15x3.15mm_ThermalVias.step"
 		(offset
 			(xyz 0 0 0)
 		)

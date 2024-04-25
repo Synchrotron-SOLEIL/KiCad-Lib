@@ -550,7 +550,7 @@
 		(remove_unused_layers no)
 		(uuid "c12cdf22-6a00-419e-93f0-95f1a8f93fc5")
 	)
-	(model "${KICAD7_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/WQFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm.wrl"
+	(model "${KICAD_USER_3DMODEL_DIR}/ZZ_Package_DFN_QFN.3dshapes/WQFN-24_4x4mm_P0.5mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

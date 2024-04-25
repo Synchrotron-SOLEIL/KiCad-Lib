@@ -558,7 +558,7 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "e20e8832-23f4-4977-8030-1a905b6421dc")
 	)
-	(model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_S-PVQFN-N36_EP4.4x4.4mm.wrl"
+	(model "${KICAD_USER_3DMODEL_DIR}/ZZ_Package_DFN_QFN.3dshapes/Texas_S-PVQFN-N36.step"
 		(offset
 			(xyz 0 0 0)
 		)

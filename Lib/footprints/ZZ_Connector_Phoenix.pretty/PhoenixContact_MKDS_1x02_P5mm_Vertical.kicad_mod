@@ -183,4 +183,15 @@
 		(remove_unused_layers no)
 		(uuid "d2e03241-1f06-488d-873f-5b434257a3e8")
 	)
+	(model "${KICAD_USER_3DMODEL_DIR}/ZZ_Connector_Phoenix.3dshapes/PhoenixContact_MKDS_1x02_P5mm_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

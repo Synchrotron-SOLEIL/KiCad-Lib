@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Bivar_SMFLP"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -152,5 +152,16 @@
 		(drill 2.56)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "535c279e-be47-4000-bc9a-f56169602e0f")
+	)
+	(model "${KICAD_USER_3DMODEL_DIR}/ZZ_OptoDevice.3dshapes/Bivar_SMFLP.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )

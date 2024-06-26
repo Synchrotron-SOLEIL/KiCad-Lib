@@ -1,0 +1,113 @@
+(footprint "Symbol_HighVoltage_NoTriangle_2x5mm_Copper"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "High voltage symbol, no triangle, 2x5mm, copper layer")
+	(tags "warning graphic")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "51b236a7-e6ee-449b-8f4d-62643275030d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Symbol_HighVoltage_NoTriangle_2x5mm_Copper"
+		(at 0.508 3 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea49503f-9891-4060-ab51-89f431bb9fee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Symbol_HighVoltage_NoTriangle_2x5mm_Copper"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2cb4dbc4-3a4e-4def-ab23-751b27968404")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d30cd78d-b977-40a8-923e-475889d2310b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "815cc19b-d6d5-4416-83b1-2fef832de51f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_line
+		(start -0.49 -0.65)
+		(end -0.29 -0.4)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "b4c63236-511a-4a01-9afd-e19c8c6cf400")
+	)
+	(fp_line
+		(start -0.38 1.23)
+		(end 0.13 1.32)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "b4fbd7dc-f154-4252-8fe2-18ff981b5212")
+	)
+	(fp_line
+		(start -0.17 -0.405)
+		(end 0.03 -0.155)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "7951a933-d938-4814-b5fd-a64ddd91d39a")
+	)
+	(fp_poly
+		(pts
+			(xy -0.538427 -0.37426) (xy 0.62574 -1) (xy -0.029104 1.386542) (xy 0.305594 1.182813) (xy -0.291042 2.07049)
+			(xy -0.509323 1.02274) (xy -0.276489 1.342886) (xy 0 -0.388812) (xy -1.12051 0.207823) (xy -0.392906 -2.367896)
+			(xy 0.320146 -2.367896)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "8ae7c127-b56a-44c3-86c2-c211626fc69b")
+	)
+)

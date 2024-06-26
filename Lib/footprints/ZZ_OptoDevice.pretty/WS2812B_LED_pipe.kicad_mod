@@ -1,12 +1,12 @@
-(footprint "Bivar_SMFLP"
+(footprint "WS2812B_LED_pipe"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Bivar SMFLP Series Flexible LED Light Pipes ; Compatible LED dimensions: 6 x 4 x 2 (max) mm")
+	(descr "3D printed support for WS2812B LED")
 	(tags "LED light pipe")
 	(property "Reference" "REF**"
-		(at 0 6.52 0)
+		(at 0 7.05 0)
 		(layer "F.SilkS")
 		(uuid "321cd23e-bff1-4de1-ad68-2a6406ecf396")
 		(effects
@@ -16,8 +16,8 @@
 			)
 		)
 	)
-	(property "Value" "Bivar_SMFLP"
-		(at 0.889 7.493 0)
+	(property "Value" "WS2812B_LED_pipe"
+		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "5c0c3e77-baf6-4693-9b1e-5a5a896a67b6")
 		(effects
@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" "Bivar_SMFLP"
+	(property "Footprint" "WS2812B_LED_pipe"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -68,8 +68,8 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -3.7 -5.65)
-		(end 3.7 5.65)
+		(start -5.7 -5.7)
+		(end 5.7 5.7)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -79,8 +79,8 @@
 		(uuid "e9a8bc75-6448-44c2-afbe-304d5d843b6a")
 	)
 	(fp_rect
-		(start -4.6068 -6.5372)
-		(end 4.6068 6.5372)
+		(start -6.5 -6.5)
+		(end 6.5 6.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -110,8 +110,8 @@
 		(uuid "2203bcb0-33e5-4b70-8882-9680f6313a08")
 	)
 	(fp_rect
-		(start -3.5 -5.45)
-		(end 3.5 5.45)
+		(start -5.5 -5.5)
+		(end 5.5 5.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -143,20 +143,34 @@
 		)
 	)
 	(pad "" np_thru_hole circle
-		(at 0 -3.7)
-		(size 2.56 2.56)
-		(drill 2.56)
+		(at -4 -4)
+		(size 2 2)
+		(drill 2)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "41097502-e0ec-47fa-920f-439145deb3f1")
 	)
 	(pad "" np_thru_hole circle
-		(at 0 3.7)
-		(size 2.56 2.56)
-		(drill 2.56)
+		(at -4 4)
+		(size 2 2)
+		(drill 2)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "535c279e-be47-4000-bc9a-f56169602e0f")
 	)
-	(model "${KICAD_USER_3DMODEL_DIR}/ZZ_OptoDevice.3dshapes/Bivar_SMFLP.step"
+	(pad "" np_thru_hole circle
+		(at 4 -4)
+		(size 2 2)
+		(drill 2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "ac6852c9-9320-4a7c-bd98-5559a896f74d")
+	)
+	(pad "" np_thru_hole circle
+		(at 4 4)
+		(size 2 2)
+		(drill 2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "c264bb3d-c502-45aa-95ad-776a472dbba0")
+	)
+	(model "${KICAD_USER_3DMODEL_DIR}/ZZ_OptoDevice.3dshapes/WS2812B_LED_pipe.step"
 		(offset
 			(xyz 0 0 0)
 		)

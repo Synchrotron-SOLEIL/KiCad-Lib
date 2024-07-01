@@ -5,7 +5,7 @@
 -- Dumped from database version 16.1
 -- Dumped by pg_dump version 16.1
 
--- Started on 2024-06-06 14:32:48
+-- Started on 2024-07-01 13:13:13
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1708,8 +1708,9 @@ diode-1	ZZ_diodes:D	MMSD4148T1G	ZZ_Diode_SMD:D_SOD-123	https://www.onsemi.com/do
 COPY public.filters ("Part_ID", "Symbols", "Value", "Footprints", "Datasheet", "Manufacturer", "Manufacturer ref", "Supplier", "Supplier ref", "Impedance", "Current", "Note 3", "Note 4", "Height", "Package", "Price", ki_keywords, ki_description) FROM stdin;
 filters-0	ZZ_filters:L	742792116	Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder	\N	Wuerth Elektronik	742792116	Farnell	1635757	500 Ohm at 100 MHz	2.5 A	-	-	1.1	1206	0.23	ferrite	Ferrite ; SMD 1206 ; 500 Ohm at 100 MHz ; 2.5 A ; 1206
 filters-1	ZZ_filters:L	74792093	Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder	\N	Wuerth Elektronik	742792093	Farnell	1635726	2k2 Ohm at 100 MHz	200 mA	-	-	0.9	0805	0.15	ferrite	Ferrite ; SMD 0805 ; 2k2 Ohm at 100 MHz ; 200 mA ; 0805
-filters-3	ZZ_filters:NFM41	NFM41PC155B1H3L	ZZ_Filter:Murata_NFM41P	\N	Murata	NFM41PC155B1H3L	Digi-Key	490-12576-1-ND	-80dB at 10MHz	6A	-	-	1.0	NFM41P	3.91	filter	Capacitor filter ; SMD 1806 ; 6A ; 50 Vdc ; -80dB at 10MHz ; SMD NFM41P
 filters-2	ZZ_filters:L	BLM18AG102SN1D	ZZ_Inductor_SMD:L_0603_1608Metric	https://www.murata.com/en-eu/api/pdfdownloadapi?cate=cgsubChipFerriBead&partno=BLM18AG102SN1%23	Murata	BLM18AG102SN1D	Mouser	81-BLM11A102S	1 KOhm at 100 MHz	400 mA	-	-	0.8	0603	0.39	ferrite	Ferrite ; SMD 0603 ; 1 KOhm at 100 MHz ; 400 mA ; 0603
+filters-3	ZZ_filters:NFM41	NFM41PC155B1H3L	ZZ_Filter:Murata_NFM41P	https://www.murata.com/en-eu/products/productdetail?partno=NFM41PC155B1H3%23	Murata	NFM41PC155B1H3L	Digi-Key	490-12576-1-ND	-80dB at 10MHz	6A	-	-	1.0	NFM41P	3.91	filter	Capacitor 3-terminal filters ; SMD 1806 ; 6A ; 50 Vdc ; -80dB at 10MHz ; SMD NFM41P
+filters-4	ZZ_filters:NFM41	YFF31HC2A104MT000N	ZZ_Filter:TDK_YFF31HC	https://product.tdk.com/en/search/emc/emc/3tf/info?part_no=YFF31HC2A104MT000N&utm_source=3tf_commercial_power_yff-hc_en.pdf.pdf&utm_medium=catalog	TDK	YFF31HC2A104MT000N	Mouser	810-YFF31HC2A104MTHN	-45dB at 10MHz	10A	-	-	1.3	YFF31HC	0.6	filter	Capacitor 3-terminal filter ; SMD 1206 ; 10A ; 100 Vdc ; -45dB at 10MHz ; SMD
 \.
 
 
@@ -2358,7 +2359,7 @@ ALTER TABLE ONLY public.voltage_reference
     ADD CONSTRAINT voltage_reference_pkey PRIMARY KEY ("Part_ID");
 
 
--- Completed on 2024-06-06 14:32:49
+-- Completed on 2024-07-01 13:13:13
 
 --
 -- PostgreSQL database dump complete

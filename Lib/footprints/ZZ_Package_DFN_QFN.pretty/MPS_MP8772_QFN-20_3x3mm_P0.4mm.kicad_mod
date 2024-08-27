@@ -69,17 +69,6 @@
 		)
 	)
 	(attr smd)
-	(fp_rect
-		(start 0.9 -0.5)
-		(end 1.35 1.3)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill solid)
-		(layer "F.Cu")
-		(uuid "a2cd9e8e-7de4-4a82-82fc-b04aed8b3799")
-	)
 	(fp_line
 		(start -1.61 1.61)
 		(end -0.65 1.61)
@@ -307,8 +296,8 @@
 		(uuid "c5a19228-af26-4e45-82e9-eada796c6b20")
 	)
 	(pad "13" smd custom
-		(at 1.575 -0.4)
-		(size 0.45 0.2)
+		(at 1.35 -0.4)
+		(size 0.9 0.2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(options
 			(clearance outline)
@@ -316,9 +305,15 @@
 		)
 		(primitives
 			(gr_bbox
-				(start -0.675 -0.1)
-				(end -0.225 0.1)
+				(start -0.225 -0.1)
+				(end 0.225 0.1)
 				(fill no)
+			)
+			(gr_rect
+				(start -0.45 -0.1)
+				(end 0 1.7)
+				(width 0.000001)
+				(fill yes)
 			)
 		)
 		(uuid "fb8bc7fe-91e2-4042-b5ee-1aa9b5cadec6")

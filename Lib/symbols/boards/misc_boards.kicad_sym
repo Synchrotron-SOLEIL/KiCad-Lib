@@ -2601,16 +2601,15 @@
 			)
 		)
 		(property "Description" "Dual channel LVPECL to TTL translator"
-			(at 0.254 0 0)
+			(at 1.016 -9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Pulse Research Lab"
-			(at 1.27 -8.89 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2618,7 +2617,7 @@
 			)
 		)
 		(property "Manufacturer Ref" "-"
-			(at 1.27 -10.16 0)
+			(at 0 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2651,6 +2650,22 @@
 			)
 		)
 		(symbol "PRL-450LP_1_1"
+			(text "LVPECL"
+				(at -4.064 0 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "TTL"
+				(at 5.08 0.254 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(pin input line
 				(at -10.16 5.08 0)
 				(length 2.54)
@@ -2672,7 +2687,7 @@
 			(pin input line
 				(at -10.16 2.54 0)
 				(length 2.54)
-				(name "IN"
+				(name "~{IN}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2708,7 +2723,7 @@
 			(pin input line
 				(at -10.16 -5.08 0)
 				(length 2.54)
-				(name "IN"
+				(name "~{IN}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2744,7 +2759,7 @@
 			(pin output line
 				(at 11.43 2.54 180)
 				(length 2.54)
-				(name "OUT"
+				(name "~{OUT}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2780,7 +2795,7 @@
 			(pin output line
 				(at 11.43 -5.08 180)
 				(length 2.54)
-				(name "OUT"
+				(name "~{OUT}"
 					(effects
 						(font
 							(size 1.27 1.27)
